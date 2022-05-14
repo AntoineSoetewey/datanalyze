@@ -1,0 +1,10 @@
+theme: congo
+defaultContentLanguage: en
+enableRobotsTXT: yes
+paginate: 15
+summaryLength: 0
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
