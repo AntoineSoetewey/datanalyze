@@ -7,7 +7,11 @@ description: "Business website of Antoine Soetewey, PhD candidate in statistics 
 Hello, I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain
 {{< /lead >}}
 
-I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company. I also offer training in various topics related to data analysis and data visualization.
+I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
+
+I also offer training in various topics related to data analysis and data visualization.
+
+<br>
 
 {{< button href="#contact" target="_self" >}}
 Hire me
@@ -30,14 +34,14 @@ I have built my expertise through a unique combination of academic and industry 
 
 ## Data science
 
-- Data analysis
-- Data visualization
+- Data manipulation and data analysis
+- Data visualization (ggplot2)
 - Dynamic dashboard
 - Automated analysis report
 
 ## Programming & web
 
-- R programming
+- R programming (RStudio, R Markdown & R Shiny)
 - Website creation and maintenance
 - Online presence
 - Hosting and deployment
@@ -63,6 +67,8 @@ My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidat
 In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.
 
 Given my experience, I also support professionals in their research, data analysis and informed decision-making by bringing a statistical dimension to their projects, regardless of the sector, core business or size of their company.
+
+<br>
 
 {{< button href="https://antoinesoetewey.com/" target="_self" >}}
 More about me
