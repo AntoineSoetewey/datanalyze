@@ -5,9 +5,9 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "datanalyze"
+title = "datanalyze :bar_chart:"
 # logo = "img/logo.jpg"
-description = "Hello, I'm Antoine Soetewey, PhD in statistics"
+description = "Business website of Antoine Soetewey. PhD candidate and teaching assistant in statistics at UCLouvain"
 # copyright = "&copy; 2022"
 
 dateFormat = "2 January 2006"

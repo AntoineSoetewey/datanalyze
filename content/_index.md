@@ -1,5 +1,5 @@
 ---
-title: "Hello :bar_chart:"
+title: "Hello"
 description: "Business website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
