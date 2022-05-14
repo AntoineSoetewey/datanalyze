@@ -1,6 +1,6 @@
 ---
 title: "Get help to analyze your data"
-description: "Business website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
+description: "Professional website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
 {{< lead >}}
