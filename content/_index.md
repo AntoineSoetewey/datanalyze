@@ -1,10 +1,10 @@
 ---
-title: "Hello"
+title: "Get help to analyze your data"
 description: "Business website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
 {{< lead >}}
-I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain
+Hello, I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain
 {{< /lead >}}
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company. I also offer training in various topics related to data analysis and data visualization.
