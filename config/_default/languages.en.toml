@@ -13,7 +13,7 @@ description = "Hello, I'm Antoine Soetewey, PhD in statistics"
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Antoine Soetewey"
+  name = "datanalyze by Antoine Soetewey"
   image = "img/author.jpg"
   author.headline = "datanalyze: get help to analyze your data"
   bio = "Business website of Antoine Soetewey. PhD candidate and teaching assistant in statistics at UCLouvain"
