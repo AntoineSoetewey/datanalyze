@@ -1,29 +1,77 @@
 ---
-title: "Welcome to Congo! :tada:"
-description: "This is a demo of the Congo theme for Hugo."
+title: "Hello :bar_chart:"
+description: "Business website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
 {{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
+I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain
 {{< /lead >}}
 
-This is a demo site built entirely using Congo. It also contains a complete set of [theme documentation]({{< ref "docs" >}}). Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company. I also offer training in various topics related to data analysis and data visualization.
 
-<div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
-  <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
-    {{< icon "triangle-exclamation" >}}
-  </span>
-  <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">This is a demo of the <code id="layout">page</code> layout.</span>
-    <button
-      id="switch-layout-button"
-      class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-    >
-      Switch layout &orarr;
-    </button>
-  </span>
-</div>
+{{< button href="contact" target="_self" >}}
+Hire me
+{{< /button >}}
 
-Explore the [sample pages]({{< ref "samples" >}}) to get a feel for what Congo can do. If you like what you see, check out the project on [Github](https://github.com/jpanther/congo) or read the [Installation guide]({{< ref "docs/installation" >}}) to get started.
+# Expertise
 
-![A stylised photograph of a purple squid on a pink backdrop.](squid.jpg "Photo by [Jippe Joosten](https://unsplash.com/@jippe_joosten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/vibrant-purple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).")
+I have built my expertise through a unique combination of academic and industry experience.
+
+## Statistics & probability
+
+- Descriptive and inferential statistics
+- Modeling
+- Probability
+- Survival analysis
+
+## Data science
+
+- Data analysis
+- Data visualization
+- Dynamic dashboard
+- Automated analysis report
+
+## Programming & web
+
+- R programming
+- Website creation and maintenance
+- Online presence
+- Hosting and deployment
+
+# Services
+
+My services are centered around 3 poles: (for students, please visit [easystat.be](https://easystat.be/))
+
+- **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
+- **Training & workshops**: I offer training in R, including data manipulation, analysis, visualization and practice of statistics. I also help in website creation and online presence for individuals and small companies.
+- **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
+
+# Who am I?
+
+My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium) within the Institute of Statistics, Biostatistics and Actuarial Sciences.
+
+In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.
+
+Given my experience, I also support professionals in their research, data analysis and informed decision-making by bringing a statistical dimension to their projects, regardless of the sector, core business or size of their company.
+
+{{< button href="https://antoinesoetewey.com/" target="_self" >}}
+More about me
+{{< /button >}}
+
+# Why choose me?
+
+- **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
+- **Qualification**: I continuously trained myself in new techniques to provide you and your business with the latest and most innovative approaches.
+- **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience or to non-experts.
+- **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
+
+# Contact
+
+You can contact me by filling this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) or by [email](mailto:ant.soetewey@gmail.com).
+
+If you choose to contact me by email, please be as precise as possible by mentioning at least:
+
+- your name
+- the company you work for
+- your request
+- your deadline (if appropriate)
