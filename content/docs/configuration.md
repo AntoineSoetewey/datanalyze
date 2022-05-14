@@ -1,12 +1,10 @@
 ---
-date: "2020-08-14"
-description: All the configuration variables available in Congo.
+title: "Configuration"
+date: 2020-08-14
 draft: false
-slug: configuration
-tags:
-- config
-- docs
-title: Configuration
+description: "All the configuration variables available in Congo."
+slug: "configuration"
+tags: ["config", "docs"]
 ---
 
 Congo is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.

@@ -1,16 +1,10 @@
 ---
-date: "2020-08-07"
-description: Learn how to deploy a Congo site.
+title: "Hosting & Deployment"
+date: 2020-08-07
 draft: false
-slug: hosting-deployment
-tags:
-- hosting
-- deployment
-- docs
-- github
-- netlify
-- render
-title: Hosting & Deployment
+description: "Learn how to deploy a Congo site."
+slug: "hosting-deployment"
+tags: ["hosting", "deployment", "docs", "github", "netlify", "render"]
 ---
 
 There are many ways to deploy your Hugo website built with Congo. The theme is designed to be flexible in almost any deployment scenario.

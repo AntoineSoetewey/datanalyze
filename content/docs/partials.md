@@ -1,17 +1,10 @@
 ---
-date: "2020-08-10"
-description: All the partials available in Congo.
+title: "Partials"
+date: 2020-08-10
 draft: false
-slug: partials
-tags:
-- partials
-- analytics
-- privacy
-- comments
-- favicons
-- icon
-- docs
-title: Partials
+description: "All the partials available in Congo."
+slug: "partials"
+tags: ["partials", "analytics", "privacy", "comments", "favicons", "icon", "docs"]
 ---
 
 ## Analytics

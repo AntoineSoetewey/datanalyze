@@ -1,13 +1,10 @@
 ---
-date: "2020-08-13"
-description: Configuring the homepage layout in the Congo theme.
+title: "Homepage Layout"
+date: 2020-08-13
 draft: false
-slug: homepage-layout
-tags:
-- homepage
-- layouts
-- docs
-title: Homepage Layout
+description: "Configuring the homepage layout in the Congo theme."
+slug: "homepage-layout"
+tags: ["homepage", "layouts", "docs"]
 ---
 
 Congo provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.

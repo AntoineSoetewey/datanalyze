@@ -1,25 +1,49 @@
-languageCode = "en-au"
-languageName = "English (Australia)"
-displayName = ":flag-au:"
-isoCode = "en-AU"
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
 weight = 1
 rtl = false
 
-title = "Congo"
+title = "datanalyze"
 # logo = "img/logo.jpg"
-description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
-copyright = "&copy; 2022 Congo contributors"
+description = "Hello, I'm Antoine Soetewey, PhD in statistics"
+# copyright = "&copy; 2022"
 
 dateFormat = "2 January 2006"
 
 [author]
-  name = "Congo"
+  name = "Antoine Soetewey"
   image = "img/author.jpg"
-  headline = "Not your ordinary theme!"
-  bio = "This is an example author bio, and although there's a stock photo of a dog here, this article was actually created by a human. :dog:"
+  author.headline = "datanalyze: get help to analyze your data"
+  bio = "Business website of Antoine Soetewey. PhD candidate and teaching assistant in statistics at UCLouvain"
   links = [
-    { twitter = "https://twitter.com/" },
-    { facebook = "https://facebook.com/" },
-    { linkedin = "https://linkedin.com/" },
-    { youtube = "https://youtube.com/" },
+    { github = "https://github.com/AntoineSoetewey" },
+    { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
+    { twitter = "https://twitter.com/statsandr" },
+    { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" }
+  #   { email = "/contact/" },
+  #   { link = "https://link-to-some-website.com/" },
+  #   { codepen = "https://codepen.io/username" },
+  #   { dev = "https://dev.to/username" },
+  #   { discord = "https://discord.gg/invitecode" },
+  #   { dribbble = "https://dribbble.com/username" },
+  #   { facebook = "https://facebook.com/username" },
+  #   { foursquare = "https://foursquare.com/username" },
+  #   { gitlab = "https://gitlab.com/username" },
+  #   { instagram = "https://instagram.com/username" },
+  #   { keybase = "https://keybase.io/username" },
+  #   { lastfm = "https://lastfm.com/user/username" },
+  #   { mastodon = "https://mastodon.instance/@username" },
+  #   { medium = "https://medium.com/username" },
+  #   { pinterest = "https://pinterest.com/username" },
+  #   { reddit = "https://reddit.com/user/username" },
+  #   { slack = "https://workspace.url/team/userid" },
+  #   { snapchat = "https://snapchat.com/add/username" },
+  #   { soundcloud = "https://soundcloud.com/username" },
+  #   { stackoverflow = "https://stackoverflow.com/users/6digit/username" },
+  #   { steam = "https://steamcommunity.com/profiles/userid" },
+  #   { tiktok = "https://tiktok.com/@username" },
+  #   { twitch = "https://twitch.tv/username" },
+  #   { youtube = "https://youtube.com/username" },
   ]

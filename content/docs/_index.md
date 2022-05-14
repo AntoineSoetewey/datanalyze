@@ -1,10 +1,11 @@
 ---
+title: "Documentation"
+description: "Learn how to use Congo and its features."
+
 cascade:
-  invertPagination: true
-  showAuthor: false
   showDate: false
-description: Learn how to use Congo and its features.
-title: Documentation
+  showAuthor: false
+  invertPagination: true
 ---
 
 {{< lead >}}

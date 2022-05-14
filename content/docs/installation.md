@@ -1,12 +1,10 @@
 ---
-date: "2020-08-16"
-description: How to install the Congo theme.
+title: "Installation"
+date: 2020-08-16
 draft: false
-slug: installation
-tags:
-- installation
-- docs
-title: Installation
+description: "How to install the Congo theme."
+slug: "installation"
+tags: ["installation", "docs"]
 ---
 
 Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/quick-start/) procedure to get up and running quickly.

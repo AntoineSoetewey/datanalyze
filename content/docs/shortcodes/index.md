@@ -1,15 +1,10 @@
 ---
-date: "2020-08-11"
-description: All the shortcodes available in Congo.
+title: "Shortcodes"
+date: 2020-08-11
 draft: false
-slug: shortcodes
-tags:
-- shortcodes
-- mermaid
-- icon
-- lead
-- docs
-title: Shortcodes
+description: "All the shortcodes available in Congo."
+slug: "shortcodes"
+tags: ["shortcodes", "mermaid", "icon", "lead", "docs"]
 ---
 
 In addition to all the [default Hugo shortcodes](https://gohugo.io/content-management/shortcodes/), Congo adds a few extras for additional functionality.

@@ -1,16 +1,14 @@
 ---
-date: "2020-08-14"
-description: Some real-life Congo examples.
+title: "Users"
+date: 2020-08-14
 draft: false
-showAuthor: false
+description: "Some real-life Congo examples."
+slug: "users"
+tags: ["users", "sample"]
 showDate: false
-showEdit: false
+showAuthor: false
 showReadingTime: false
-slug: users
-tags:
-- users
-- sample
-title: Users
+showEdit: false
 ---
 
 {{< lead >}}

@@ -1,13 +1,10 @@
 ---
-date: "2020-08-12"
-description: All the front matter variables available in Congo.
+title: "Front Matter"
+date: 2020-08-12
 draft: false
-slug: front-matter
-tags:
-- front matter
-- config
-- docs
-title: Front Matter
+description: "All the front matter variables available in Congo."
+slug: "front-matter"
+tags: ["front matter", "config", "docs"]
 ---
 
 In addition to the [default Hugo front matter parameters](https://gohugo.io/content-management/front-matter/#front-matter-variables), Congo adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.

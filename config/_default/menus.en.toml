@@ -11,23 +11,23 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Docs"
-  pageRef = "docs"
+  name = "expertise"
+  url = "#expertise"
   weight = 10
 
 [[main]]
-  name = "Samples"
-  pageRef = "samples"
+  name = "services"
+  url = "#services"
   weight = 20
 
 [[main]]
-  name = "Users"
-  pageRef = "users"
+  name = "about"
+  url = "#who-am-i"
   weight = 30
   
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/jpanther/congo"
+  name = "contact"
+  url = "#contact"
   weight = 40
 
 
@@ -36,6 +36,26 @@
 # the copyright notice. Configure as per the main menu above.
 
 # [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
+#   name = "Blog"
+#   url = "https://statsandr.com/"
 #   weight = 10
+
+[[footer]]
+  name = "Blog"
+  url = "https://statsandr.com/"
+  weight = 10
+
+[[footer]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/antoinesoetewey/"
+  weight = 20
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/AntoineSoetewey"
+  weight = 30
+
+[[footer]]
+  name = "Twitter"
+  url = "https://twitter.com/statsandr"
+  weight = 40

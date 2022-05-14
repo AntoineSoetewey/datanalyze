@@ -1,12 +1,10 @@
 ---
-date: "2020-08-15"
-description: All the front matter variables available in Congo.
+title: "Getting Started"
+date: 2020-08-15
 draft: false
-slug: getting-started
-tags:
-- installation
-- docs
-title: Getting Started
+description: "All the front matter variables available in Congo."
+slug: "getting-started"
+tags: ["installation", "docs"]
 ---
 
 {{< alert >}}

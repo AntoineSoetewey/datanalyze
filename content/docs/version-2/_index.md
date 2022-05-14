@@ -1,11 +1,9 @@
 ---
-date: "2022-01-19"
-description: Discover what's new in Congo version 2.0.
+title: "What's New in 2.0 ✨"
+date: 2022-01-19
 draft: false
-tags:
-- new
-- docs
-title: What's New in 2.0 ✨
+description: "Discover what's new in Congo version 2.0."
+tags: ["new", "docs"]
 ---
 
 {{< lead >}}

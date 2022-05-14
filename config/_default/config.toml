@@ -1,0 +1,16 @@
+baseURL = "https://datanalyze.be/"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+
+googleAnalytics = "G-0FTNWH4KFK"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

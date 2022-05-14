@@ -1,11 +1,9 @@
 ---
-date: "2022-01-20"
-description: Discover what's new in Congo version 2.0.
+title: "Upgrading from Congo 1.x"
+date: 2022-01-20
 draft: false
-tags:
-- new
-- docs
-title: Upgrading from Congo 1.x
+description: "Discover what's new in Congo version 2.0."
+tags: ["new", "docs"]
 ---
 
 Although Congo 2.0 contains a large number of changes, the theme has been designed to minimise the effort required to upgrade to the latest release.
