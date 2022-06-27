@@ -8,11 +8,12 @@
 colorScheme = "ocean"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
-showAppearanceSwitcher = false
 enableSearch = false
 enableCodeCopy = true
-showScrollToTop = false
-attribution = false
+footer.showScrollToTop = false
+footer.showThemeAttribution = false
+footer.showAppearanceSwitcher = true
+header.layout = "hamburger"
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
