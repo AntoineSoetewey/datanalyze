@@ -27,8 +27,9 @@ I have built my expertise through a unique combination of academic and industry 
 
 ## Statistics & probability
 
-- Descriptive and inferential statistics
-- Modeling
+- Descriptive statistics
+- Inferential statistics (hypothesis testing and confidence interval)
+- Modeling and regression
 - Probability
 - Survival analysis
 
@@ -41,7 +42,7 @@ I have built my expertise through a unique combination of academic and industry 
 
 ## Programming & web
 
-- R programming (RStudio, R Markdown & R Shiny)
+- R programming (RStudio, R Markdown, Quarto & R Shiny)
 - Website creation and maintenance
 - Online presence
 - Hosting and deployment
@@ -51,11 +52,13 @@ I have built my expertise through a unique combination of academic and industry 
 
 # Services
 
-My services are centered around 3 poles: (for students, please visit [easystat.be](https://easystat.be/))
+My services are centered around 3 poles:
 
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
 - **Training & workshops**: I offer training in R, including data manipulation, analysis, visualization and practice of statistics. I also help in website creation and online presence for individuals and small companies.
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
+
+*(For students, please visit [easystat.be](https://easystat.be/).)*
 
 <br>
 <br>
@@ -82,7 +85,7 @@ More about me
 
 - **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
 - **Qualification**: I continuously trained myself in new techniques to provide you and your business with the latest and most innovative approaches.
-- **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience or to non-experts.
+- **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience and to non-experts.
 - **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
 
 <br>
