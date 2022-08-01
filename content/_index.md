@@ -1,5 +1,5 @@
 ---
-title: "Get help to analyze your data"
+title: "Need help to analyze your data?"
 description: "Professional website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
