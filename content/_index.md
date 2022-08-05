@@ -4,12 +4,14 @@ description: "Professional website of Antoine Soetewey, PhD candidate in statist
 ---
 
 {{< lead >}}
-Hello, I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain
+Do you have data, some questions, and are you stuck? Let's find a solution together!
 {{< /lead >}}
+
+I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain.
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
 
-I also offer training in various topics related to data analysis and data visualization.
+I also offer training in various topics related to data analysis and data visualization in R.
 
 <br>
 
@@ -23,7 +25,7 @@ Hire me
 
 # Expertise
 
-I have built my expertise through a unique combination of academic and industry experience.
+I have built my expertise through a unique combination of academic and industry experience, allowing me to get the most out of your data.
 
 ## Statistics & probability
 
@@ -35,37 +37,48 @@ I have built my expertise through a unique combination of academic and industry 
 
 ## Data science
 
-- Data manipulation and data analysis
-- Data visualization (ggplot2)
+- Data manipulation, cleaning and preparation
+- Data exploration and analysis
+- Data visualization with ggplot2
 - Dynamic dashboard
-- Automated analysis report
+- Automated analysis report with R Markdown or Quarto
 
-## Programming & web
+## Programming
 
-- R programming (RStudio, R Markdown, Quarto & R Shiny)
-- Website creation and maintenance
-- Online presence
-- Hosting and deployment
+- R programming:
+    + RStudio
+    + R Markdown
+    + Quarto
+    + R Shiny
+- Creation, improvement and debugging of R scripts
+
+Do you have another need? [Contact me](#contact) to discuss it further!
 
 <br>
 <br>
 
 # Services
 
-My services are centered around 3 poles:
+My services are centered around 4 poles:
 
+- **Personalized support in statistics**: Advice and assistance to researchers and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
-- **Training & workshops**: I offer training in R, including data manipulation, analysis, visualization and practice of statistics. I also help in website creation and online presence for individuals and small companies.
+- **Training & workshops**: I offer training, including:
+    + introduction to R and RStudio
+    + data manipulation and data analysis with R
+    + data visualization with ggplot2
+    + practice of statistics
+    + automatic reporting with R Markdown
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
 
-*(For students, please visit [easystat.be](https://easystat.be/).)*
+*(For students who need help in statistics for their class or Master's thesis, please visit [easystat.be](https://easystat.be/).)*
 
 <br>
 <br>
 
 # Who am I?
 
-My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium) within the Institute of Statistics, Biostatistics and Actuarial Sciences.
+My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software.
 
 In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.
 
@@ -92,6 +105,8 @@ More about me
 <br>
 
 # Contact
+
+I will be glad to put my expertise at your service.
 
 You can contact me by filling this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) or by [email](mailto:ant.soetewey@gmail.com).
 
