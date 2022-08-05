@@ -72,7 +72,7 @@ Whether you need one-time help or full support, my services are centered around 
     + data manipulation and data analysis with R
     + data visualization with ggplot2
     + practice of statistics
-    + automatic reporting with R Markdown
+    + automatic reporting with R Markdown and Quarto
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
 
 *(For students who need help in statistics for their class or Master's thesis, please visit [easystat.be](https://easystat.be/).)*
@@ -82,7 +82,7 @@ Whether you need one-time help or full support, my services are centered around 
 
 # Who am I?
 
-My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software.
+My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions).
 
 In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.
 
