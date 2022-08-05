@@ -4,7 +4,7 @@ description: "Professional website of Antoine Soetewey, PhD candidate in statist
 ---
 
 {{< lead >}}
-Do you have data, some questions, and are you stuck? Let's find a solution together!
+Do you have data, some questions, and you are stuck? Let's find a solution together!
 {{< /lead >}}
 
 I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain.
@@ -27,11 +27,14 @@ Hire me
 
 I have built my expertise through a unique combination of academic and industry experience, allowing me to get the most out of your data.
 
+Here is what I can help you with:
+
 ## Statistics & probability
 
-- Descriptive statistics
+- Descriptive statistics (summary statistics, correlation, etc.)
 - Inferential statistics (hypothesis testing and confidence interval)
-- Modeling and regression
+- Modeling and regression (linear & logistic)
+- Clustering
 - Probability
 - Survival analysis
 
@@ -40,7 +43,7 @@ I have built my expertise through a unique combination of academic and industry 
 - Data manipulation, cleaning and preparation
 - Data exploration and analysis
 - Data visualization with ggplot2
-- Dynamic dashboard
+- Dynamic dashboard with R Shiny
 - Automated analysis report with R Markdown or Quarto
 
 ## Programming
@@ -51,6 +54,7 @@ I have built my expertise through a unique combination of academic and industry 
     + Quarto
     + R Shiny
 - Creation, improvement and debugging of R scripts
+- Creation and publication of R packages
 
 Do you have another need? [Contact me](#contact) to discuss it further!
 
@@ -59,7 +63,7 @@ Do you have another need? [Contact me](#contact) to discuss it further!
 
 # Services
 
-My services are centered around 4 poles:
+Whether you need one-time help or full support, my services are centered around 4 poles:
 
 - **Personalized support in statistics**: Advice and assistance to researchers and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
