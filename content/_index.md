@@ -56,6 +56,8 @@ Here is what I can help you with:
 - Creation, improvement and debugging of R scripts
 - Creation and publication of R packages
 
+<br>
+
 Do you have another need? [Contact me](#contact) to discuss it further!
 
 <br>
