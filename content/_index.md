@@ -119,6 +119,6 @@ You can contact me by filling this [form](https://docs.google.com/forms/d/e/1FAI
 If you choose to contact me by email, please be as precise as possible by mentioning at least:
 
 - your name
-- the company you work for
+- your company or university
 - your request
 - your deadline (if appropriate)
