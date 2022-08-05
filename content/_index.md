@@ -67,7 +67,7 @@ Whether you need one-time help or full support, my services are centered around 
 
 - **Personalized support in statistics**: Advice and assistance to researchers and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
-- **Training & workshops**: I offer training, including:
+- **Training & workshops**: I offer training, including but not limited to:
     + introduction to R and RStudio
     + data manipulation and data analysis with R
     + data visualization with ggplot2
