@@ -34,7 +34,6 @@ Here is what I can help you with:
 - Descriptive statistics (summary statistics, correlation, etc.)
 - Inferential statistics (hypothesis testing & confidence interval)
 - Modeling and regression (linear & logistic)
-- Clustering
 - Probability
 - Survival analysis
 
@@ -43,6 +42,7 @@ Here is what I can help you with:
 - Data manipulation, cleaning and preparation
 - Data exploration and analysis
 - Data visualization with ggplot2
+- Clustering for market or customer segmentation
 - Dynamic dashboard with R Shiny
 - Automated analysis report with R Markdown or Quarto
 
