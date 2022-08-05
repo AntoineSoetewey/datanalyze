@@ -32,7 +32,7 @@ Here is what I can help you with:
 ## Statistics & probability
 
 - Descriptive statistics (summary statistics, correlation, etc.)
-- Inferential statistics (hypothesis testing and confidence interval)
+- Inferential statistics (hypothesis testing & confidence interval)
 - Modeling and regression (linear & logistic)
 - Clustering
 - Probability
