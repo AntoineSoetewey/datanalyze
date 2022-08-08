@@ -7,12 +7,12 @@
 
 colorScheme = "ocean"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 enableSearch = false
 enableCodeCopy = true
 footer.showScrollToTop = false
 footer.showThemeAttribution = false
-footer.showAppearanceSwitcher = true
+footer.showAppearanceSwitcher = false
 header.layout = "basic"
 
 [homepage]
