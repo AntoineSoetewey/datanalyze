@@ -112,7 +112,9 @@ More about me
 
 # Trusted by
 
-<img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="100%"/>
+<p align="center">
+<img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="75%"/>
+</p>
 
 # Contact
 
