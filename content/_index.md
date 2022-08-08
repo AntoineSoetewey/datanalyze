@@ -110,6 +110,10 @@ More about me
 <br>
 <br>
 
+# Trusted by
+
+<img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="100%"/>
+
 # Contact
 
 I will be glad to put my expertise at your service.
