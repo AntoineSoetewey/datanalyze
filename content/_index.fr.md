@@ -103,7 +103,7 @@ En savoir plus
 # Pourquoi me choisir ?
 
 - **Expertise** : Je combine connaissance du marché et expertise académique pour fournir des informations de pointe sur vos projets.
-- **Qualification** : Je me suis continuellement formé aux nouvelles techniques pour vous fournir, à vous et à votre entreprise ou recherche, les approches les plus récentes et les plus innovantes.
+- **Qualification** : Je me forme continuellement aux nouvelles techniques pour vous fournir, à vous et à votre entreprise ou recherche, les approches les plus récentes et les plus innovantes.
 - **Accessibilité** : Grâce à mon expérience dans l'enseignement, je suis capable de présenter des méthodologies et des solutions sophistiquées à un large public et à des non-experts.
 - **Confidentialité & transparence** : Tous les codes, programmes, documents, résultats, etc. développés au cours de notre collaboration vous sont intégralement transférés, et uniquement à vous.
 
