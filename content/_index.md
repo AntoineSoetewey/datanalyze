@@ -115,6 +115,7 @@ More about me
 <p align="center">
 <img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="80%"/>
 </p>
+<br>
 
 # Contact
 
