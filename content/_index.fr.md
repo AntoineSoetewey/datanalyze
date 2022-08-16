@@ -25,7 +25,7 @@ Engagez-moi
 
 # Expertise
 
-J'ai construit mon expertise grâce à une combinaison unique d'expérience dans l'académique et dans le secteur privé, ce qui me permet de tirer le meilleur parti de vos données.
+J'ai construit mon expertise grâce à une combinaison unique d'expérience dans le secteur académique et dans le secteur privé, ce qui me permet de tirer le meilleur parti de vos données.
 
 Voici en quoi je peux vous aider :
 
