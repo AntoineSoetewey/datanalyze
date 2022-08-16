@@ -103,7 +103,7 @@ More about me
 # Why choose me?
 
 - **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
-- **Qualification**: I continuously trained myself in new techniques to provide you and your business or research with the latest and most innovative approaches.
+- **Qualification**: I continuously train myself in new techniques to provide you and your business or research with the latest and most innovative approaches.
 - **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience and to non-experts.
 - **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
 
