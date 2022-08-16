@@ -1,0 +1,61 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "expertise"
+  url = "#expertise"
+  weight = 10
+
+[[main]]
+  name = "services"
+  url = "#services"
+  weight = 20
+
+[[main]]
+  name = "à propos"
+  url = "#qui-suis-je"
+  weight = 30
+  
+[[main]]
+  name = "contact"
+  url = "#contact"
+  weight = 40
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+# [[footer]]
+#   name = "Blog"
+#   url = "https://statsandr.com/"
+#   weight = 10
+
+[[footer]]
+  name = "Blog"
+  url = "https://statsandr.com/"
+  weight = 10
+
+[[footer]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/antoinesoetewey/"
+  weight = 20
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/AntoineSoetewey"
+  weight = 30
+
+[[footer]]
+  name = "Twitter"
+  url = "https://twitter.com/statsandr"
+  weight = 40

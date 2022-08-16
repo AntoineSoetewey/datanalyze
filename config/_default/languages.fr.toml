@@ -1,13 +1,13 @@
-languageCode = "en"
-languageName = "English"
-displayName = ":gb:"
-isoCode = "en"
-weight = 1
+languageCode = "fr"
+languageName = "French"
+displayName = ":fr:"
+isoCode = "fr"
+weight = 2
 rtl = false
 
 title = "datanalyze"
 # logo = "img/logo.jpg"
-description = "Need help to analyze your data? Contact me! I am a PhD candidate in statistics at UCLouvain and I will help you in analyzing your data"
+description = "Besoin d'aide pour analyser vos données ? Contactez moi ! Je suis doctorant en statistique à l'UCLouvain et je vous aide dans l'analyse de vos données"
 # copyright = "&copy; 2022"
 
 dateFormat = "2 January 2006"
@@ -15,8 +15,8 @@ dateFormat = "2 January 2006"
 [author]
   name = "datanalyze"
   image = "img/author.jpg"
-  author.headline = "datanalyze: get help to analyze your data"
-  bio = "Professional website of Antoine Soetewey. PhD candidate and teaching assistant in statistics at UCLouvain"
+  author.headline = "datanalyze : obtenez de l'aide pour analyser vos données"
+  bio = "Site professionnel d'Antoine Soetewey. Doctorant et assistant en statistiques à l'UCLouvain"
   links = [
     { github = "https://github.com/AntoineSoetewey" },
     { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
