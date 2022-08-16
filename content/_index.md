@@ -31,7 +31,7 @@ Here is what I can help you with:
 
 ## Statistics & probability
 
-- Descriptive statistics (summary statistics, correlation, etc.)
+- Descriptive statistics (uni & bivariate summary statistics, correlation, etc.)
 - Inferential statistics (hypothesis testing & confidence interval)
 - Modeling and regression (linear & logistic)
 - Probability
@@ -67,7 +67,7 @@ Do you have another need? [Contact me](#contact) to discuss it further!
 
 Whether you need one-time help or full support, my services are centered around 4 poles:
 
-- **Personalized support in statistics**: Advice and assistance to researchers and project managers for the statistical analysis of your data, with or without R.
+- **Personalized support in statistics**: Advice and assistance to researchers (PhD student, postdoc, etc.) and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
 - **Training & workshops**: I offer training, including but not limited to:
@@ -103,7 +103,7 @@ More about me
 # Why choose me?
 
 - **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
-- **Qualification**: I continuously trained myself in new techniques to provide you and your business with the latest and most innovative approaches.
+- **Qualification**: I continuously trained myself in new techniques to provide you and your business or research with the latest and most innovative approaches.
 - **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience and to non-experts.
 - **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
 
