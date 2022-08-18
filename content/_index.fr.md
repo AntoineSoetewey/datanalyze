@@ -1,10 +1,10 @@
 ---
-title: "Besoin d'aide pour analyser vos données ? :bar_chart:"
+title: "Besoin d'aide pour analyser vos données ?"
 description: "Site professionnel d'Antoine Soetewey, doctorant en statistiques à l'UCLouvain"
 ---
 
 {{< lead >}}
-Vous avez des données, des questions et vous êtes bloqué ? Trouvons ensemble une solution !
+Vous avez des données, des questions et vous êtes bloqué ? Trouvons ensemble une solution ! :bar_chart:
 {{< /lead >}}
 
 Je m'appelle Antoine Soetewey, je suis doctorant en statistiques à l'UCLouvain.

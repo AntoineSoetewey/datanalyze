@@ -1,10 +1,10 @@
 ---
-title: "Need help to analyze your data? :bar_chart:"
+title: "Need help to analyze your data?"
 description: "Professional website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
 ---
 
 {{< lead >}}
-Do you have data, some questions, and you are stuck? Let's find a solution together!
+Do you have data, some questions, and you are stuck? Let's find a solution together! :bar_chart:
 {{< /lead >}}
 
 I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain.
