@@ -84,6 +84,10 @@ Whether you need one-time help or full support, my services are centered around 
 
 # Who am I?
 
+<p align="center">
+<img src="/./_index.fr_files/datanalyze-antoine-soetewey.jpeg" alt="Antoine Soetewey - datanalyze" width="40%" class="my-0 rounded-md"/>
+</p>
+
 My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions).
 
 In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.

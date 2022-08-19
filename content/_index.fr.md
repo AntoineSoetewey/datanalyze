@@ -84,6 +84,10 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
 
 # Qui suis-je ?
 
+<p align="center">
+<img src="/./_index.fr_files/datanalyze-antoine-soetewey.jpeg" alt="Antoine Soetewey - datanalyze" width="40%" class="my-0 rounded-md"/>
+</p>
+
 Je m'appelle [Antoine Soetewey](https://antoinesoetewey.com/). Je suis doctorant en statistiques à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions).
 
 En parallèle de mes recherches, je suis assistant pour plusieurs cours de statistiques, probabilités et science des données, et je donne des cours particuliers à des étudiants et des chercheurs.
