@@ -46,7 +46,7 @@ Here is what I can help you with:
 - Dynamic dashboard with R Shiny
 - Automated analysis report with R Markdown or Quarto
 
-## Programming
+## Software
 
 - R programming:
     + RStudio
@@ -55,6 +55,7 @@ Here is what I can help you with:
     + R Shiny
 - Creation, improvement and debugging of R scripts
 - Creation and publication of R packages
+- Jamovi
 
 <br>
 

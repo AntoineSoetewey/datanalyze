@@ -46,7 +46,7 @@ Voici en quoi je peux vous aider :
 - Tableau de bord dynamique avec R Shiny
 - Rapport d'analyse automatisé avec R Markdown ou Quarto
 
-## Programmation
+## Logiciels
 
 - Programmation R :
      + RStudio
@@ -55,6 +55,7 @@ Voici en quoi je peux vous aider :
      + R Shiny
 - Création, amélioration et débogage de scripts R
 - Création et publication de packages R
+- Jamovi
 
 <br>
 
