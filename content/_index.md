@@ -11,7 +11,7 @@ I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain and passionate ab
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
 
-I also offer training in various topics related to data analysis and data visualization in R.
+Enjoying sharing my skills with others, I also offer training in various topics related to data analysis and data visualization in R.
 
 <br>
 

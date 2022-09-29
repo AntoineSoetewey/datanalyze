@@ -11,7 +11,7 @@ Je m'appelle Antoine Soetewey, je suis doctorant en statistiques à l'UCLouvain 
 
 Je vous aide à **analyser vos données** et **prendre des décisions éclairées** en apportant une dimension statistique à vos projets, quel que soit le secteur d'activité ou la taille de votre entreprise.
 
-Je propose également des formations sur divers sujets liés à l'analyse de données et à la visualisation de données en R.
+Appréciant partager mes compétences avec d'autres personnes, je propose également des formations sur divers sujets liés à l'analyse de données et à la visualisation de données en R.
 
 <br>
 
