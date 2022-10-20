@@ -7,7 +7,7 @@ description: "Site professionnel d'Antoine Soetewey, doctorant en statistiques �
 Vous avez des données, des questions et vous êtes bloqué ? Trouvons ensemble une solution ! :bar_chart:
 {{< /lead >}}
 
-Je m'appelle Antoine Soetewey, je suis doctorant en statistiques à l'UCLouvain et passionné par ce que les statistiques et l'analyse des données peuvent faire lorsqu'elles sont appliquées à des situations de la vie réelle.
+Je m'appelle [Antoine Soetewey](https://antoinesoetewey.com/), je suis doctorant en statistiques à l'UCLouvain et passionné par ce que les statistiques et l'analyse des données peuvent faire lorsqu'elles sont appliquées à des situations de la vie réelle.
 
 Je vous aide à **analyser vos données** et **prendre des décisions éclairées** en apportant une dimension statistique à vos projets, quel que soit le secteur d'activité ou la taille de votre entreprise.
 
@@ -86,10 +86,6 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
 <br>
 
 # Qui suis-je ?
-
-<p align="center">
-<img src="/./_index.fr_files/datanalyze-antoine-soetewey.jpeg" alt="Antoine Soetewey - datanalyze" width="40%" class="my-0 rounded-md"/>
-</p>
 
 Je m'appelle [Antoine Soetewey](https://antoinesoetewey.com/). Je suis doctorant en statistiques à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions) pour des applications pratiques.
 

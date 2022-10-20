@@ -7,7 +7,7 @@ description: "Professional website of Antoine Soetewey, PhD candidate in statist
 Do you have data, some questions, and you are stuck? Let's find a solution together! :bar_chart:
 {{< /lead >}}
 
-I'm Antoine Soetewey, PhD candidate in statistics at UCLouvain and passionate about what statistics and data analysis can do when applied to real life situations.
+I'm [Antoine Soetewey](https://antoinesoetewey.com/), PhD candidate in statistics at UCLouvain and passionate about what statistics and data analysis can do when applied to real life situations.
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
 
@@ -86,10 +86,6 @@ Whether you need one-time help or full support, my services are centered around 
 <br>
 
 # Who am I?
-
-<p align="center">
-<img src="/./_index.fr_files/datanalyze-antoine-soetewey.jpeg" alt="Antoine Soetewey - datanalyze" width="40%" class="my-0 rounded-md"/>
-</p>
 
 My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
 
