@@ -15,9 +15,11 @@ Enjoying sharing my skills with others, I also offer training in various topics 
 
 <br>
 
+<center>
 {{< button href="#contact" target="_self" >}}
 Hire me
 {{< /button >}}
+</center>
 
 <br>
 <br>
@@ -97,9 +99,11 @@ Given my experience, I also support professionals in their research, data analys
 
 <br>
 
+<center>
 {{< button href="https://antoinesoetewey.com/" target="_self" >}}
 More about me
 {{< /button >}}
+</center>
 
 <br>
 <br>

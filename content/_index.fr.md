@@ -15,9 +15,11 @@ Appréciant partager mes compétences avec d'autres personnes, je propose égale
 
 <br>
 
+<center>
 {{< button href="#contact" target="_self" >}}
 Engagez-moi
 {{< /button >}}
+</center>
 
 <br>
 <br>
@@ -97,9 +99,11 @@ De par mon expérience, j'accompagne également les professionnels dans leurs re
 
 <br>
 
+<center>
 {{< button href="https://antoinesoetewey.com/" target="_self" >}}
 En savoir plus
 {{< /button >}}
+</center>
 
 <br>
 <br>
