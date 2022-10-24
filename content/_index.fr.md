@@ -17,7 +17,7 @@ Appréciant partager mes compétences avec d'autres personnes, je propose égale
 
 <center>
 {{< button href="#contact" target="_self" >}}
-Engagez-moi
+Contactez-moi
 {{< /button >}}
 </center>
 
@@ -61,11 +61,6 @@ Voici en quoi je peux vous aider :
 
 <br>
 
-Vous avez un autre besoin ? [Contactez-moi](#contact) pour en discuter davantage !
-
-<br>
-<br>
-
 # Services
 
 Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes services s'articulent autour de 4 pôles :
@@ -79,17 +74,20 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
     + visualisation de données avec ggplot2
     + pratique des statistiques
     + reporting automatique avec R Markdown et Quarto
+    + *voir toutes les [formations](/fr/trainings/)*
 
-*(Pour les étudiants qui ont besoin d'aide en statistiques pour leur cours ou leur mémoire, veuillez visiter [easystat.be](https://easystat.be/).)*
+{{< alert "circle-info" >}}
+Vous avez un autre besoin ? [Contactez-moi](#contact) pour en discuter davantage !
+{{< /alert >}}
 
 <br>
 <br>
 
-# Qui suis-je ?
+# Qui suis-je?
 
-Je m'appelle [Antoine Soetewey](https://antoinesoetewey.com/fr/). Je suis doctorant en statistiques à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions) pour des applications pratiques.
+Je m'appelle Antoine Soetewey. Je suis doctorant en statistiques à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions) pour des applications pratiques.
 
-En parallèle de mes recherches, je suis assistant pour plusieurs cours de statistiques, probabilités et science des données, et je donne des cours particuliers à des étudiants et des chercheurs.
+En parallèle de mes recherches, je suis [assistant](https://antoinesoetewey.com/fr/teaching/) pour plusieurs cours de statistiques, probabilités et science des données, et je donne des [cours particuliers](https://easystat.be/) à des étudiants et des chercheurs.
 
 De par mon expérience, j'accompagne également les professionnels dans leurs recherches, analyses de données et prises de décision éclairées en apportant une dimension statistique à leurs projets, quel que soit le secteur, le coeur de métier ou la taille de leur entreprise.
 

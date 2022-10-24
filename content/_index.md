@@ -17,7 +17,7 @@ Enjoying sharing my skills with others, I also offer training in various topics 
 
 <center>
 {{< button href="#contact" target="_self" >}}
-Hire me
+Contact me
 {{< /button >}}
 </center>
 
@@ -61,11 +61,6 @@ Here is what I can help you with:
 
 <br>
 
-Do you have another need? [Contact me](#contact) to discuss it further!
-
-<br>
-<br>
-
 # Services
 
 Whether you need one-time help or full support, my services are centered around 4 poles:
@@ -79,17 +74,20 @@ Whether you need one-time help or full support, my services are centered around 
     + data visualization with ggplot2
     + practice of statistics
     + automatic reporting with R Markdown and Quarto
-
-*(For students who need help in statistics for their class or Master's thesis, please visit [easystat.be](https://easystat.be/).)*
+    + *see all [trainings](/trainings/)*
+    
+{{< alert "circle-info" >}}
+Do you have another need? [Contact me](#contact) to discuss it further!
+{{< /alert >}}
 
 <br>
 <br>
 
 # Who am I?
 
-My name is [Antoine Soetewey](https://antoinesoetewey.com/). I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
+My name is Antoine Soetewey. I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
 
-In parallel with my research, I am teaching assistant for several courses in statistics, probability and data science, and I give private lessons to students and academics.
+In parallel with my research, I am [teaching assistant](https://antoinesoetewey.com/teaching/) for several courses in statistics, probability and data science, and I give [private lessons](https://easystat.be/) to students and academics.
 
 Given my experience, I also support professionals in their research, data analysis and informed decision-making by bringing a statistical dimension to their projects, regardless of the sector, core business or size of their company.
 

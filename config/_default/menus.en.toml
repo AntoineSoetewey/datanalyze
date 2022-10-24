@@ -12,22 +12,22 @@
 
 [[main]]
   name = "expertise"
-  url = "#expertise"
+  url = "/#expertise"
   weight = 10
 
 [[main]]
   name = "services"
-  url = "#services"
+  url = "/#services"
   weight = 20
 
 [[main]]
   name = "about"
-  url = "#who-am-i"
+  url = "/#who-am-i"
   weight = 30
   
 [[main]]
   name = "contact"
-  url = "#contact"
+  url = "/#contact"
   weight = 40
 
 
