@@ -68,13 +68,7 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
 - **Accompagnement personnalisé en statistique** : Conseil et assistance aux chercheurs (doctorants, post-docs, etc.) et chefs de projet pour l'analyse statistique de vos données, avec ou sans R.
 - **Conseil** : J'apporte des solutions sur mesure et créatives à vos problèmes. J'apporte également une dimension statistique à vos projets et données afin que vous puissiez prendre des décisions plus éclairées.
 - **Recherche & développement** : Je me consacre à trouver des méthodes et des outils de pointe pour répondre à vos besoins de manière efficace et innovante.
-- **Formations et ateliers** : Je donne des formations, telles que (entre autres) :
-    + introduction à R et RStudio
-    + manipulation de données et analyse de données avec R
-    + visualisation de données avec ggplot2
-    + pratique des statistiques
-    + reporting automatique avec R Markdown et Quarto
-    + *voir toutes les [formations](/fr/trainings/)*
+- **Formations et ateliers** : Je donne des formations en analyse de données et visualisation des données sur R. Voir le [catalogue des formations](/fr/trainings/).
 
 {{< alert "circle-info" >}}
 Vous avez un autre besoin ? [Contactez-moi](#contact) pour en discuter davantage !
