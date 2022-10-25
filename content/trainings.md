@@ -108,4 +108,6 @@ The training takes place over 1 day.
 
 ## Personalized training
 
-[Contact me](/#contact) if you want to create your training. It could be a mix of all other trainings, or anything around statistics and/or data analysis with R.
+[Contact me](/#contact) if you want to create a personalized training.
+
+It could be a mix of trainings mentioned on this page, or anything around statistics and/or data analysis with R.
