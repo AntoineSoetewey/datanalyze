@@ -52,16 +52,17 @@ The training takes place over 3 days.
 
 In this training, we will cover the main data visualization tools in R.
 
-At the end of the training, you will be able to create good-looking graphs, whether for exploration or communication purposes.
+At the end of the training, you will be able to create good-looking graphs, both for exploration and communication purposes.
 
 ### Content
 
 More specifically, we will cover the following topics:
 
-- R base graphics
-- ggplot2 package: principles, most common plots, personalization
-- ggstatsplot package: plots with statistical details
-- esquisse package: ggplot2 charts through a drag and drop interface
+- How to draw the most common plots: scatter plot, boxplot, histogram, barplot, density plot, line plots, mean plot, time series, etc.
+- Plots with R base graphics
+- Plots with the ggplot2 package: principles and personalization
+- Plots with statistical details (ggstatsplot package)
+- ggplot2 charts through a drag and drop interface (esquisse package)
 
 The course alternates between theory and exercises.
 
@@ -69,7 +70,7 @@ The course alternates between theory and exercises.
 
 The training is intended for anyone who wants to learn how to create impactful and elegant visual representations in R, either for reports or publications.
 
-A basic knowledge of R is required: we expect participants to know how to import and manipulate data in R.
+A basic knowledge of R is required: we expect participants to know how to import and manipulate data in R. Ideally, the participant followed the first day of this [training](/trainings/#introduction-to-data-analysis-with-r), or has an equivalent level through practice.
 
 ### Length
 
@@ -107,11 +108,4 @@ The training takes place over 1 day.
 
 ## Personalized training
 
-### Objective
-
-### Content
-
-### Target audience
-
-### Length
-
+[Contact me](/#contact) if you want to create your training. It could be a mix of all other trainings, or anything around statistics and/or data analysis with R.

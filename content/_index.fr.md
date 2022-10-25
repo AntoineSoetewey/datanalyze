@@ -71,7 +71,7 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
 - **Formations et ateliers** : Je donne des formations en analyse de données et visualisation des données sur R. Voir le [catalogue des formations](/fr/trainings/).
 
 {{< alert "circle-info" >}}
-Vous avez un autre besoin ? [Contactez-moi](#contact) pour en discuter davantage !
+Vous avez un autre besoin ? [Contactez-moi](/fr/#contact) pour en discuter davantage !
 {{< /alert >}}
 
 <br>

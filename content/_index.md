@@ -71,7 +71,7 @@ Whether you need one-time help or full support, my services are centered around 
 - **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/trainings/).
     
 {{< alert "circle-info" >}}
-Do you have another need? [Contact me](#contact) to discuss it further!
+Do you have another need? [Contact me](/#contact) to discuss it further!
 {{< /alert >}}
 
 <br>
