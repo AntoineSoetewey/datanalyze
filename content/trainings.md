@@ -133,6 +133,7 @@ At the end of the training, you will be able to build and publish your website, 
 More specifically, we will cover the following topics:
 
 - blogdown and distill packages
+- Quarto for websites
 - How to use GitHub for version control?
 - How to deploy with Netlify?
 - Hugo
