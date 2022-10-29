@@ -13,7 +13,7 @@ Note that:
 - **All trainings take place in person**. Remote trainings have the advantage that it is usually easier to organize. However, I like to make my trainings as interactive as possible. Moreover, based on my personal experience, I find it much easier for participants to ask questions and for me to answer them when trainings are face-to-face. For these two reasons, at the moment I do not accept to be instructor for a remote training when it is possible to do it in person.
 - You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
 - Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them whenever you want after the training.
-- Although slides and exercises are written in English, I can give the training in both **French and English**.
+- Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
 
 {{< alert "circle-info">}}
 Please [contact me](/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
