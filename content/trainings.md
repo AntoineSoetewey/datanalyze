@@ -4,8 +4,6 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-***This page is under construction. Come back later to see the final version.***
-
 Below a brief description of all trainings I can give.
 
 Note that:
@@ -152,22 +150,8 @@ No computer skills are required. However, familiarity with RStudio and R Markdow
 
 The training takes place over 1 day or 2 half days.
 
-## Build interactive web applications in R Shiny
-
-### Objective
-
-In this training, we will learn how to build interactive web applications with the R Shiny package.
-
-At the end of the training, you will be able to create, customize and publish interactive web applications.
-
-### Content
-
-### Target audience
-
-### Length
-
 ## Personalized training
 
-Feel free to [contact me](/#contact) if you want to create a personalized training.
+Feel free to [contact me](/#contact) if you would like to have a personalized training.
 
 It could be a mix of trainings mentioned on this page, or anything involving statistics and/or data analysis with R.
