@@ -4,4 +4,4 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-*Page under construction. See the [english version](/trainings/) in the meantime.*
+*Page en cours de construction. Voir la [version anglaise](/trainings/) entre-temps.*
