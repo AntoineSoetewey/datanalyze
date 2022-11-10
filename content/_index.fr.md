@@ -23,7 +23,6 @@ Contactez-moi
 
 <br>
 <br>
-<br>
 
 # Expertise
 
@@ -95,9 +94,8 @@ En savoir plus
 
 <br>
 <br>
-<br>
 
-# Pourquoi me choisir ?
+# Pourquoi moi ?
 
 - **Expertise** : Je combine connaissance du marché et expertise académique pour fournir des informations de pointe sur vos projets.
 - **Qualification** : Je me forme continuellement aux nouvelles techniques pour vous fournir, à vous et à votre entreprise ou recherche, les approches les plus récentes et les plus innovantes.
