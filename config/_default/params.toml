@@ -13,7 +13,9 @@ enableCodeCopy = true
 footer.showScrollToTop = false
 footer.showThemeAttribution = false
 footer.showAppearanceSwitcher = false
-header.layout = "basic"
+
+[header]
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
