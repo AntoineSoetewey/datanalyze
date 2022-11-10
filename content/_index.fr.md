@@ -118,11 +118,4 @@ En savoir plus
 
 Je serai heureux de mettre mon expertise à votre service.
 
-Vous pouvez me contacter en remplissant ce [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) ou par [email](mailto:ant.soetewey@gmail.com).
-
-Si vous choisissez de me contacter par email, merci d'être le plus précis possible en mentionnant au moins :
-
-- votre nom
-- votre entreprise ou université
-- votre demande
-- votre délai (le cas échéant)
+Afin que je puisse vous répondre le plus rapidement possible, veuillez remplir ce [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
