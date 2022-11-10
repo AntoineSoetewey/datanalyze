@@ -107,7 +107,7 @@ More about me
 <br>
 <br>
 
-# Trusted by
+# Clients
 
 <p align="center">
 <img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="80%"/>
