@@ -118,4 +118,4 @@ More about me
 
 I will be glad to put my expertise at your service.
 
-In order for me to answer in a timely manner, please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
+In order for me to answer you in a timely manner, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
