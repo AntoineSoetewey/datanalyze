@@ -23,7 +23,6 @@ Contact me
 
 <br>
 <br>
-<br>
 
 # Expertise
 
@@ -95,9 +94,8 @@ More about me
 
 <br>
 <br>
-<br>
 
-# Why choose me?
+# Why me?
 
 - **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
 - **Qualification**: I continuously train myself in new techniques to provide you and your business or research with the latest and most innovative approaches.
