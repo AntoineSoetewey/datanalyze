@@ -118,11 +118,4 @@ More about me
 
 I will be glad to put my expertise at your service.
 
-You can contact me by filling this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) or by [email](mailto:ant.soetewey@gmail.com).
-
-If you choose to contact me by email, please be as precise as possible by mentioning at least:
-
-- your name
-- your company or university
-- your request
-- your deadline (if appropriate)
+In order for me to answer in a timely manner, please fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
