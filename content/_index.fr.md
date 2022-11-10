@@ -114,6 +114,4 @@ En savoir plus
 
 # Contact
 
-Je serai heureux de mettre mon expertise à votre service.
-
 Afin que je puisse vous répondre le plus rapidement possible, veuillez remplir ce [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
