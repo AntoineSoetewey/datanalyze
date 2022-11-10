@@ -114,6 +114,4 @@ More about me
 
 # Contact
 
-I will be glad to put my expertise at your service.
-
 In order for me to answer you as soon as possible, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
