@@ -114,4 +114,4 @@ More about me
 
 # Contact
 
-In order for me to answer you as soon as possible, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
+Fill out this [contact form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) and I will respond as soon as possible.
