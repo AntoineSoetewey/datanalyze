@@ -118,7 +118,7 @@ This course assumes a basic knowledge of R programming. Ideally, participants ar
 
 The training takes place over 1 day or 2 half days.
 
-## Build and publish your website with R
+## Build and publish your website or portfolio with R
 
 ### Objective
 
