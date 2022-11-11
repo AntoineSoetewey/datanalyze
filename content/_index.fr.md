@@ -114,4 +114,4 @@ En savoir plus
 
 # Contact
 
-Afin que je puisse vous répondre le plus rapidement possible, veuillez remplir ce [formulaire](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link).
+Remplissez ce [formulaire de contact](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) et je reviendrai vers vous dans les plus brefs délais.
