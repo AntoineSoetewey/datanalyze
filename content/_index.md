@@ -114,4 +114,6 @@ More about me
 
 # Contact
 
-Fill out this [contact form](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) and I will respond as soon as possible.
+Fill out this [contact form](https://airtable.com/shrbfh58Qab0xD4X8) and I will respond as soon as possible.
+
+If you need to explain your problem in more details, you can also [book an introductory call](https://calendly.com/antoinesoetewey/30min).

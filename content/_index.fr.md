@@ -114,4 +114,6 @@ En savoir plus
 
 # Contact
 
-Remplissez ce [formulaire de contact](https://docs.google.com/forms/d/e/1FAIpQLScIXKNPvQWCG3by3_LYBfP_M8w5e5oV7CDIAyAC1IslTRnBoA/viewform?usp=sf_link) et je reviendrai vers vous dans les plus brefs délais.
+Remplissez ce [formulaire de contact](https://airtable.com/shrbfh58Qab0xD4X8) et je reviendrai vers vous dans les plus brefs délais.
+
+Si vous souhaitez expliquer votre problème plus en détail, vous pouvez aussi prendre rendez-vous pour un [entretien préliminaire](https://calendly.com/antoinesoetewey/30min).
