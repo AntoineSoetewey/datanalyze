@@ -103,6 +103,7 @@ En savoir plus
 - **Confidentialité & transparence** : Tous les codes, programmes, documents, résultats, etc. développés au cours de notre collaboration vous sont intégralement transférés, et uniquement à vous.
 
 <br>
+<!---
 <br>
 
 # Clients
@@ -111,6 +112,7 @@ En savoir plus
 <img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="80%"/>
 </p>
 <br>
+-->
 
 # Contact
 

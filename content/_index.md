@@ -103,6 +103,7 @@ More about me
 - **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
 
 <br>
+<!---
 <br>
 
 # Clients
@@ -111,6 +112,7 @@ More about me
 <img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="80%"/>
 </p>
 <br>
+-->
 
 # Contact
 
