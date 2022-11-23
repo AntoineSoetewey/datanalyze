@@ -64,7 +64,7 @@ Here is what I can help you with:
 
 Whether you need one-time help or full support, my services are centered around 4 poles:
 
-- **Personalized support in statistics**: Advice and assistance to researchers (PhD students, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
+- **Personalized support in statistics**: Advice and assistance to students, researchers (PhD candidates, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
 - **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/trainings/).
