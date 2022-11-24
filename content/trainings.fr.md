@@ -4,8 +4,6 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-*Page en cours de construction. Voir la [version anglaise](/trainings/) entre-temps.*
-
 Ci-dessous une description de toutes les formations que je donne.
 
 Notez que :
