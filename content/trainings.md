@@ -4,13 +4,13 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-Below a brief description of all trainings I can give.
+Below a description of all the trainings I give.
 
 Note that:
 
 - **All trainings take place in person**. Remote trainings have the advantage that it is usually easier to organize. However, I like to make my trainings as interactive as possible. Moreover, based on my personal experience, I find it much easier for participants to ask questions and for me to answer them when trainings are face-to-face. For these two reasons, at the moment I do not accept to be instructor for a remote training when it is possible to do it in person.
 - You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
-- Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them whenever you want after the training.
+- Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them as much as you want after the training.
 - Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
 
 {{< alert "circle-info">}}
@@ -50,7 +50,7 @@ No prior knowledge is required.
 
 ### Length
 
-The training takes place over 3 days or 6 half days.
+The training takes place over 3 full days or 6 half days.
 
 ## Data visualization with R
 
@@ -58,7 +58,7 @@ The training takes place over 3 days or 6 half days.
 
 In this training, we will cover the main data visualization tools in R.
 
-At the end of the training, you will be able to create good-looking graphs, both for exploration and communication purposes.
+At the end of the training, you will be able to create and personalize graphs, both for exploration and communication purposes.
 
 ### Content
 
@@ -81,7 +81,7 @@ A basic knowledge of R is required: we expect participants to know how to import
 
 ### Length
 
-The training takes place over 1 day or 2 half days.
+The training takes place over 1 full day or 2 half days.
 
 ## Automated reporting using Quarto
 
@@ -116,7 +116,7 @@ This course assumes a basic knowledge of R programming. Ideally, participants ar
 
 ### Length
 
-The training takes place over 1 day or 2 half days.
+The training takes place over 1 full day or 2 half days.
 
 ## Build and publish your website or portfolio with R
 
@@ -124,7 +124,7 @@ The training takes place over 1 day or 2 half days.
 
 In this training, we will learn how to build and customize a website from the comfort of the RStudio IDE with R Markdown.
 
-At the end of the training, you will be able to build and publish your website, whether it is your personal website, for your company or your lab.
+At the end of the training, you will be able to build and publish your website, whether it is your personal website or for your company, lab or association.
 
 ### Content
 
@@ -148,10 +148,10 @@ No computer skills are required. However, familiarity with RStudio and R Markdow
 
 ### Length
 
-The training takes place over 1 day or 2 half days.
+The training takes place over 1 full day or 2 half days.
 
 ## Personalized training
 
-Feel free to [contact me](/#contact) if you would like to have a personalized training.
+Feel free to [contact me](/#contact) if you wish to follow or organize a personalized training.
 
 It could be a mix of trainings mentioned on this page, or anything involving statistics and/or data analysis with R.
