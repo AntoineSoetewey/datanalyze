@@ -56,4 +56,4 @@ Les tarifs des formations dépendent :
 - de la complexité, et
 - du degré d'adaptation aux besoins des participants.
 
-Pour connaitre le prix d'une formation, veuillez me [contacter](/fr/#contact) afin d'en discuter plus en détails.
+Pour connaitre le prix d'une formation, veuillez me [contacter](/fr/#contact) afin d'en discuter plus en détail.
