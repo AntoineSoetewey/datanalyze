@@ -1,10 +1,16 @@
 ---
-title: Formation
+title: Formations
 description: See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey.
 showTableOfContents: true
 ---
 
-Ci-dessous une description de toutes les formations que je donne.
+Ci-dessous un aperçu des formations que je donne :
+
+1. [Introduction à l’analyse de données avec R](/fr/trainings/#introduction-à-lanalyse-de-données-avec-r)
+1. [Visualisation de données avec R](/fr/trainings/#visualisation-de-données-avec-r)
+1. [Rapports automatisés avec Quarto](/fr/trainings/#rapports-automatisés-avec-quarto)
+1. [Créez et publiez votre site web ou votre portfolio avec R](/fr/trainings/#créez-et-publiez-votre-site-web-ou-votre-portfolio-avec-r)
+1. [Formation personnalisée](/fr/trainings/#formation-personnalisée)
 
 Notez que :
 

@@ -4,7 +4,13 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-Below a description of all the trainings I give.
+Below an overview of the trainings I give:
+
+1. [Introduction to data analysis with R](/trainings/#introduction-to-data-analysis-with-r)
+1. [Data visualization with R](/trainings/#data-visualization-with-r)
+1. [Automated reporting using Quarto](/trainings/#automated-reporting-using-quarto)
+1. [Build and publish your website or portfolio with R](/trainings/#build-and-publish-your-website-or-portfolio-with-r)
+1. [Personalized training](/trainings/#personalized-training)
 
 Note that:
 
