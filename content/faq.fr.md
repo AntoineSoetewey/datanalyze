@@ -50,6 +50,8 @@ Des connaissances de base en programmation et en statistiques peuvent aider, mai
 
 Notez que comme tout language de programmation, il est important de continuer à pratiquer après la formation pour ne pas perdre ses acquis.
 
+## Quelle est la vision du ou des formateurs ?
+
 ## Combien coûte une formation ?
 
 Les tarifs des formations dépendent :
