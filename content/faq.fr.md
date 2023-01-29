@@ -13,7 +13,8 @@ R est gratuit et open source, ce qui contribue à :
 - son amélioration continue (de nouvelles fonctions sont mises à disposition tous les jours par les utilisateurs), et
 - la richesse/réactivité de la communauté d'utilisateurs.
 
-Contrairement à certains programmes qui n'evoluent que lorsque la societé qui l'a créé sort une mise à jour, R évolue tous les jours. De plus, grâceà sa grande communauté et la réactivité des utilisateurs, il est fort probable que vous trouvez la réponse à votre problème en ligne sur les forums d'aide en ligne.
+Contrairement à certains programmes qui n'evoluent que lorsque la societé qui l'a créé sort une mise à jour, R évolue tous les jours. De plus, grâce à sa grande communauté et la réactivité des utilisateurs, il est fort probable que vous trouvez la réponse à votre problème sur les forums d'aide en ligne.
+
 ## Pourquoi utiliser R pour l'analyse de données ?
 
 Les données sont partout, et la plupart des entreprises (petites ou grandes) génèrent une grande quantité de données.
