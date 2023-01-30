@@ -5,7 +5,7 @@ description: "Description of the work for Clinique Saint-Jean"
 
 ## Context
 
-A doctor working for the Clinique Saint-Jean asked datanalyze to analyze data collected from hospitals in Brussels.
+A doctor working for the *Clinique Saint-Jean* asked datanalyze to analyze data collected from hospitals in Brussels.
 
 The objective was to study the possibility of a certain number of SMUR missions being taken over by a PIT in the framework of the AMU reform.
 
