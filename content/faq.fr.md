@@ -52,9 +52,9 @@ Notez que comme tout langage de programmation, il est important de continuer à 
 
 ## Quelle est la vision concernant les formations ?
 
-Une formation :
+Une formation permet :
 
-- permet aux participants d'acquérir des compétences (de bases ou avancées en fonction du niveau de la formation), et
+- aux participants d'acquérir des compétences (de bases ou avancées en fonction du niveau de la formation), et
 - de donner les outils nécessaires pour que les participants puissent continuer à apprendre de manière autonome après la formation.
 
 Pour qu'une formation soit réussie, j'ai la vision qu'elle doit être donnée par une personne **expérimentée, pédagogue et passionnée**.
