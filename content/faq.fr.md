@@ -1,6 +1,6 @@
 ---
-title: FAQ
-description: Réponses aux questions les plus fréquemment posées
+title: "FAQ"
+description: "Réponses aux questions les plus fréquemment posées"
 showTableOfContents: true
 ---
 

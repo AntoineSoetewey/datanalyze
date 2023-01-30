@@ -1,6 +1,6 @@
 ---
-title: FAQ
-description: Answers to the most frequently asked questions
+title: "FAQ"
+description: "Answers to the most frequently asked questions"
 showTableOfContents: true
 ---
 

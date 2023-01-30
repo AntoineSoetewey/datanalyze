@@ -1,6 +1,6 @@
 ---
-title: Formations
-description: See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey.
+title: "Formations"
+description: "See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey."
 showTableOfContents: true
 ---
 
