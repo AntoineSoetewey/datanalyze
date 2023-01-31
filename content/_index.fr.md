@@ -102,8 +102,8 @@ En savoir plus
 - **Accessibilité** : Grâce à mon expérience dans l'enseignement, je suis capable de présenter des méthodologies et des solutions sophistiquées à un large public et à des non-experts.
 - **Confidentialité & transparence** : Tous les codes, programmes, documents, résultats, etc. développés au cours de notre collaboration vous sont intégralement transférés, et uniquement à vous.
 
-<br>
 <!---
+<br>
 <br>
 
 # Clients
