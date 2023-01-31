@@ -114,6 +114,8 @@ More about me
 <br>
 -->
 
+---
+
 # Contact
 
 Please fill out this [contact form](https://airtable.com/shrbfh58Qab0xD4X8) and I will respond as soon as possible.

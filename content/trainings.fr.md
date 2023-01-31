@@ -4,27 +4,7 @@ description: "See all trainings in data analysis, data science, R and statistics
 showTableOfContents: true
 ---
 
-Ci-dessous un aperçu des formations que je donne :
-
-1. [Introduction à l’analyse de données avec R](/fr/trainings/#introduction-à-lanalyse-de-données-avec-r)
-1. [Visualisation de données avec R](/fr/trainings/#visualisation-de-données-avec-r)
-1. [Rapports automatisés avec Quarto](/fr/trainings/#rapports-automatisés-avec-quarto)
-1. [Créez et publiez votre site web ou votre portfolio avec R](/fr/trainings/#créez-et-publiez-votre-site-web-ou-votre-portfolio-avec-r)
-1. [Formation personnalisée](/fr/trainings/#formation-personnalisée)
-
-<br>
-
-Notez que :
-
-- **Toutes les formations ont lieu en personne**. Les formations à distance ont l'avantage d'être généralement plus faciles à organiser. Cependant, j'aime rendre mes formations aussi interactives que possible. De plus, d'après mon expérience personnelle, je trouve qu'il est beaucoup plus facile pour les participants de poser des questions et pour moi d'y répondre lorsque les formations ont lieu en face à face. Pour ces deux raisons, je n'accepte pas pour l'instant d'être instructeur pour une formation à distance lorsqu'il est possible de le faire en personne.
-- Vous êtes les bienvenus pour proposer un lieu (vos bureaux par exemple), pour autant que le matériel nécessaire (ordinateurs, projecteur, internet) soit présent.
-- Les diapositives, codes, exercices et documents présentés et développés pendant la formation vous seront envoyés afin que vous puissiez y accéder autant que vous le souhaitez après la formation.
-- Bien que les diapositives et les exercices soient rédigés en anglais, je peux donner la formation en **français ou en anglais** en fonction du public.
-- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/fr/faq/#quelle-est-la-vision-concernant-les-formations-).
-
-{{< alert "circle-info">}}
-Veuillez me [contacter](/fr/#contact) si vous souhaitez obtenir plus d'informations sur le prix, le lieu, le matériel requis, les dates et les inscriptions.
-{{< /alert >}}
+Ci-dessous un aperçu des formations que je donne.
 
 ## Introduction à l'analyse de données avec R
 
@@ -164,3 +144,17 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 N'hésitez pas à me [contacter](/fr/#contact) si vous souhaitez suivre ou organiser une formation personnalisée.
 
 Il peut s'agir d'un mélange des formations mentionnées sur cette page, ou de tout ce qui concerne les statistiques et/ou l'analyse de données avec R.
+
+---
+
+## Note
+
+- **Toutes les formations ont lieu en personne**. Les formations à distance ont l'avantage d'être généralement plus faciles à organiser. Cependant, j'aime rendre mes formations aussi interactives que possible. De plus, d'après mon expérience personnelle, je trouve qu'il est beaucoup plus facile pour les participants de poser des questions et pour moi d'y répondre lorsque les formations ont lieu en face à face. Pour ces deux raisons, je n'accepte pas pour l'instant d'être instructeur pour une formation à distance lorsqu'il est possible de le faire en personne.
+- Vous êtes les bienvenus pour proposer un lieu (vos bureaux par exemple), pour autant que le matériel nécessaire (ordinateurs, projecteur, internet) soit présent.
+- Les diapositives, codes, exercices et documents présentés et développés pendant la formation vous seront envoyés afin que vous puissiez y accéder autant que vous le souhaitez après la formation.
+- Bien que les diapositives et les exercices soient rédigés en anglais, je peux donner la formation en **français ou en anglais** en fonction du public.
+- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/fr/faq/#quelle-est-la-vision-concernant-les-formations-).
+
+{{< alert "circle-info">}}
+Veuillez me [contacter](/fr/#contact) si vous souhaitez obtenir plus d'informations sur le prix, le lieu, le matériel requis, les dates et les inscriptions.
+{{< /alert >}}

@@ -114,6 +114,8 @@ En savoir plus
 <br>
 -->
 
+---
+
 # Contact
 
 Veuillez remplir ce [formulaire de contact](https://airtable.com/shrbfh58Qab0xD4X8) et je reviendrai vers vous dans les plus brefs délais.

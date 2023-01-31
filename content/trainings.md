@@ -4,27 +4,7 @@ description: See all trainings in data analysis, data science, R and statistics,
 showTableOfContents: true
 ---
 
-Below an overview of the trainings I give:
-
-1. [Introduction to data analysis with R](/trainings/#introduction-to-data-analysis-with-r)
-1. [Data visualization with R](/trainings/#data-visualization-with-r)
-1. [Automated reporting using Quarto](/trainings/#automated-reporting-using-quarto)
-1. [Build and publish your website or portfolio with R](/trainings/#build-and-publish-your-website-or-portfolio-with-r)
-1. [Personalized training](/trainings/#personalized-training)
-
-<br>
-
-Note that:
-
-- **All trainings take place in person**. Remote trainings have the advantage that it is usually easier to organize. However, I like to make my trainings as interactive as possible. Moreover, based on my personal experience, I find it much easier for participants to ask questions and for me to answer them when trainings are face-to-face. For these two reasons, at the moment I do not accept to be instructor for a remote training when it is possible to do it in person.
-- You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
-- Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them as much as you want after the training.
-- Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
-- Learn more about my vision regarding trainings via the [FAQ](/faq/#what-is-the-vision-concerning-trainings).
-
-{{< alert "circle-info">}}
-Please [contact me](/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
-{{< /alert >}}
+Below an overview of the trainings I give.
 
 ## Introduction to data analysis with R
 
@@ -164,3 +144,17 @@ The training takes place over 1 full day or 2 half days.
 Feel free to [contact me](/#contact) if you wish to follow or organize a personalized training.
 
 It could be a mix of trainings mentioned on this page, or anything involving statistics and/or data analysis with R.
+
+---
+
+## Sidenote
+
+- **All trainings take place in person**. Remote trainings have the advantage that it is usually easier to organize. However, I like to make my trainings as interactive as possible. Moreover, based on my personal experience, I find it much easier for participants to ask questions and for me to answer them when trainings are face-to-face. For these two reasons, at the moment I do not accept to be instructor for a remote training when it is possible to do it in person.
+- You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
+- Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them as much as you want after the training.
+- Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
+- Learn more about my vision regarding trainings via the [FAQ](/faq/#what-is-the-vision-concerning-trainings).
+
+{{< alert "circle-info">}}
+Please [contact me](/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
+{{< /alert >}}
