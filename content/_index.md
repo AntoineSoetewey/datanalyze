@@ -118,7 +118,7 @@ More about me
 
 # Contact
 
-Please fill out this [contact form](https://airtable.com/shrbfh58Qab0xD4X8) and I will respond as soon as possible.
+If you want me to help you make better use of your data, please fill out this [contact form](https://airtable.com/shrbfh58Qab0xD4X8). I will respond as soon as possible.
 
 If you need to explain your problem in more details, you can also [book an introductory call](https://calendly.com/antoinesoetewey/30min).
 
