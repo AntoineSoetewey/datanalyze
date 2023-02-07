@@ -45,7 +45,7 @@ Voici en quoi je peux vous aider :
 - Classification pour la segmentation de marché ou de clientèle
 - Visualisation des données avec ggplot2
 - Tableau de bord dynamique avec R Shiny
-- Rapport d'analyse automatisé avec R Markdown ou Quarto
+- Développement de flux de travail automatisés et rapport d'analyse automatisé avec R Markdown ou Quarto
 
 ## Logiciels
 
