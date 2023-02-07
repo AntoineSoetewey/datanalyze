@@ -45,7 +45,7 @@ Here is what I can help you with:
 - Clustering for market or customer segmentation
 - Data visualization with ggplot2
 - Dynamic dashboard with R Shiny
-- Automated analysis report with R Markdown or Quarto
+- Development of automated workflows and automated analysis report with R Markdown or Quarto
 
 ## Software
 
