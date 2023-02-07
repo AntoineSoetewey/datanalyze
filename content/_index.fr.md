@@ -64,7 +64,7 @@ Voici en quoi je peux vous aider :
 
 Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes services s'articulent autour de 4 pôles :
 
-- **Accompagnement personnalisé en statistique** : Conseil et assistance aux étudiants, chercheurs (doctorants, post-docs, etc.) et chefs de projet pour l'analyse statistique de vos données, avec ou sans R.
+- **Accompagnement personnalisé en statistique** : Conseil et assistance aux chercheurs (doctorants, post-docs, etc.) et chefs de projet pour l'analyse statistique de vos données, avec ou sans R.
 - **Conseil** : J'apporte des solutions sur mesure et créatives à vos problèmes. J'apporte également une dimension statistique à vos projets et données afin que vous puissiez prendre des décisions plus éclairées.
 - **Recherche & développement** : Je me consacre à trouver des méthodes et des outils de pointe pour répondre à vos besoins de manière efficace et innovante.
 - **Formations et ateliers** : Je donne des formations en analyse de données et visualisation des données sur R. Voir le [catalogue des formations](/fr/trainings/).
