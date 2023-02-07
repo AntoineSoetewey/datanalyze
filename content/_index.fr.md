@@ -40,7 +40,7 @@ Voici en quoi je peux vous aider :
 
 ## Science des données
 
-- Manipulation, nettoyage et préparation des données
+- Gestion, manipulation, nettoyage et préparation des données
 - Exploration et analyse de données
 - Classification pour la segmentation de marché ou de clientèle
 - Visualisation des données avec ggplot2
