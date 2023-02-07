@@ -51,8 +51,7 @@ Here is what I can help you with:
 
 - R programming:
     + RStudio
-    + R Markdown
-    + Quarto
+    + R Markdown & Quarto
     + R Shiny
     + Creation, improvement and debugging of R scripts
     + Creation and publication of R packages
