@@ -54,8 +54,8 @@ Here is what I can help you with:
     + R Markdown
     + Quarto
     + R Shiny
-- Creation, improvement and debugging of R scripts
-- Creation and publication of R packages
+    + Creation, improvement and debugging of R scripts
+    + Creation and publication of R packages
 - Jamovi
 
 <br>
