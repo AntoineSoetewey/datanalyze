@@ -118,7 +118,7 @@ En savoir plus
 
 # Contact
 
-Veuillez remplir ce [formulaire de contact](https://airtable.com/shrbfh58Qab0xD4X8) et je reviendrai vers vous dans les plus brefs délais.
+Si vous souhaitez que je vous aide à faire un meilleur usage de vos données, veuillez remplir ce [formulaire de contact](https://airtable.com/shrbfh58Qab0xD4X8). Je reviendrai vers vous dans les plus brefs délais.
 
 Si vous souhaitez expliquer votre problème plus en détail, vous pouvez aussi prendre rendez-vous pour un [entretien préliminaire](https://calendly.com/antoinesoetewey/30min).
 
