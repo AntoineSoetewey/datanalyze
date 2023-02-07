@@ -54,8 +54,8 @@ Voici en quoi je peux vous aider :
      + R Markdown
      + Quarto
      + R Shiny
-- Création, amélioration et débogage de scripts R
-- Création et publication de packages R
+     + Création, amélioration et débogage de scripts R
+     + Création et publication de packages R
 - Jamovi
 
 <br>
