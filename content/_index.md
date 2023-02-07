@@ -40,7 +40,7 @@ Here is what I can help you with:
 
 ## Data science
 
-- Data manipulation, cleaning and preparation
+- Data management, manipulation, cleaning and preparation
 - Data exploration and analysis
 - Clustering for market or customer segmentation
 - Data visualization with ggplot2
