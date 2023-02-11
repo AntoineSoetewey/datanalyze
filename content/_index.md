@@ -36,7 +36,7 @@ Here is what I can help you with:
 - Inferential statistics (hypothesis testing & confidence interval)
 - Modeling and regression (linear & logistic)
 - Probability
-- Survival analysis
+- Survival analysis (time-to-event analysis)
 
 ## Data science
 
