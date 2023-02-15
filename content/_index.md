@@ -38,6 +38,14 @@ Here is what I can help you with:
 - Probability
 - Survival analysis (time-to-event analysis)
 
+## R programming
+
+- RStudio
+- R Markdown & Quarto
+- R Shiny
+- Creation, improvement and debugging of R scripts
+- Creation and publication of R packages
+
 ## Data science
 
 - Data management, manipulation, cleaning and preparation
@@ -46,16 +54,6 @@ Here is what I can help you with:
 - Data visualization with ggplot2
 - Dynamic dashboard with R Shiny
 - Development of automated workflows and analysis reports with R Markdown or Quarto
-
-## Software
-
-- R programming:
-    + RStudio
-    + R Markdown & Quarto
-    + R Shiny
-    + Creation, improvement and debugging of R scripts
-    + Creation and publication of R packages
-- Jamovi
 
 <br>
 

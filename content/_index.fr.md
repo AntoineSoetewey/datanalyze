@@ -38,6 +38,14 @@ Voici en quoi je peux vous aider :
 - Probabilité
 - Analyse de survie
 
+## Programmation R
+
+- RStudio
+- R Markdown & Quarto
+- R Shiny
+- Création, amélioration et débogage de scripts R
+- Création et publication de packages R
+
 ## Science des données
 
 - Gestion, manipulation, nettoyage et préparation des données
@@ -46,16 +54,6 @@ Voici en quoi je peux vous aider :
 - Visualisation des données avec ggplot2
 - Tableau de bord dynamique avec R Shiny
 - Développement de flux de travail et rapports d'analyse automatisés avec R Markdown ou Quarto
-
-## Logiciels
-
-- Programmation R :
-     + RStudio
-     + R Markdown & Quarto
-     + R Shiny
-     + Création, amélioration et débogage de scripts R
-     + Création et publication de packages R
-- Jamovi
 
 <br>
 
