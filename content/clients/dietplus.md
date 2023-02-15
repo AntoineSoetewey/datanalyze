@@ -7,7 +7,7 @@ description: "Description of the work for Dietplus"
 
 [Dietplus](https://www.dietplus.be/) is a company specializing in dietary rebalancing, present in several European countries.
 
-The company has access to a lot of data about their customers and their stores, yet little information or decisions were derived from the analysis of this data.
+The company has access to a lot of data about their customers and their stores, yet little information or decisions were derived from the analysis of these data.
 
 ## Intervention
 
