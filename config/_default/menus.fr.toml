@@ -25,10 +25,10 @@
   url = "/fr/#qui-suis-je"
   weight = 30
   
-[[main]]
-  name = "clients"
-  url = "/fr/clients/"
-  weight = 40
+# [[main]]
+#   name = "clients"
+#   url = "/fr/clients/"
+#   weight = 40
   
 [[main]]
   name = "contact"
