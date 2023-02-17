@@ -1,17 +1,15 @@
 ---
-title: "Dietplus"
-description: "Description du projet pour Dietplus"
+title: "Une entreprise du secteur de la santé"
+description: "Description du projet pour une société spécialisée dans le rééquilibrage alimentaire"
 ---
 
 ## Contexte
 
-[Dietplus](https://www.dietplus.be/) est une société spécialisée dans le rééquilibrage alimentaire, présente dans plusieurs pays d'Europe.
-
-La société a accès à énormément de données à propos de leurs clients et leurs boutiques de vente, et pourtant peu d'informations ou décisions étaient tirées de l'analyse de ces données.
+Une société (présente dans le domaine de la santé et spécialisée dans le rééquilibrage alimentaire) a accès à énormément de données à propos de leurs clients et leurs boutiques de vente, et pourtant peu d'informations ou décisions étaient tirées de l'analyse de ces données.
 
 ## Intervention
 
-Dietplus a sollicité datanalyze pour les tâches suivantes :
+La société a sollicité datanalyze pour les tâches suivantes :
 
 - Analyse descriptive des boutiques, clients, habitudes d'achat et satisfaction (sur base d'un questionnaire)
 - Analyse descriptive des produits vendus : évolution et ranking pour mettre en évidence les best-sellers

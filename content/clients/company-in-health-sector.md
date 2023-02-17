@@ -1,17 +1,15 @@
 ---
-title: "Dietplus"
-description: "Description of the work for Dietplus"
+title: "A company in the health sector"
+description: "Description of the work for a company specializing in dietary rebalancing"
 ---
 
 ## Context
 
-[Dietplus](https://www.dietplus.be/) is a company specializing in dietary rebalancing, present in several European countries.
-
-The company has access to a lot of data about their customers and their stores, yet little information or decisions were derived from the analysis of these data.
+A company (present in the health sector and specializing in dietary rebalancing) has access to a lot of data about their customers and their stores, yet little information or decisions were derived from the analysis of these data.
 
 ## Intervention
 
-Dietplus asked datanalyze to perform the following tasks:
+The company asked datanalyze to perform the following tasks:
 
 - Descriptive analysis of stores, customers, buying habits and satisfaction (based on a questionnaire)
 - Descriptive analysis of the products sold: evolution and ranking to highlight the best-sellers
