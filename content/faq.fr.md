@@ -61,7 +61,7 @@ Pour qu'une formation soit réussie, j'ai la vision qu'elle doit être donnée p
 
 Cela va de soi que pour garantir la qualité des formations, il est important que le formateur soit **compétent** dans la matière et qu'il connaisse les moindres subtilités.
 
-Il va également de soi que le formateur doit être un bon **pédagogue**. Etre expert dans le domaine ne suffit pas ; il faut également :
+Il est également essentiel que le formateur soit un bon **pédagogue**. Etre expert dans le domaine ne suffit pas ; il faut également :
 
 - être capable de transmettre ses connaissances,
 - être à l'aise avec la prise de parole en public,
