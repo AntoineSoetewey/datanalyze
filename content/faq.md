@@ -61,7 +61,7 @@ In order for a training to be successful, I believe that it must be given by som
 
 It goes without saying that in order to guarantee the quality of the training, it is important that the trainer is **competent** in the subject matter and that he/she knows the finer points.
 
-It also goes without saying that the trainer must be a good **teacher**. Being an expert in the field is not enough; you must also:
+It is also essential that the trainer is a good **teacher**. Being an expert in the field is not enough; you must also:
 
 - be able to pass on your knowledge,
 - be at ease with public speaking,
