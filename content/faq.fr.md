@@ -72,7 +72,7 @@ Enfin, un formateur doit être **passionné**, et ce pour deux raisons. Premièr
 
 Mon doctorat en statistique et l'utilisation quotidienne de R pour divers projets m'ont permis d'acquérir les compétences nécessaires pour garantir la qualité des formations. De plus, du fait de mon poste d'assistant à l'université, j'ai appris à donner cours tant à des grands que des petits groupes d'étudiants. J'ai également la chance de donner cours à des étudiants et des professionnels de milieux et d'âges différents, ce qui m'a appris à m'adapter à toutes les audiences et tous les besoins.
 
-Enfin, je suis passionné par l'application des statistiques (avec et sans R), ce qui se fait ressentir lors de mes formations car je fais tout ce qui est en ma possession pour transmettre cette passion aux participants. Il en ressort que les formations sont plus intéressantes, plus instructives et permettent d'atteindre plus rapidement les objectifs pédagogiques et professionnels des participants.
+Enfin, je suis passionné par l'application des statistiques (avec et sans R), ce qui se fait ressentir lors de mes formations car je fais tout ce qui est en ma possession pour transmettre cette passion aux participants. Je mets également tout en oeuvre pour rendre les statistiques et R accessibles à tout le monde, peu importe votre niveau. Il en ressort que les formations sont plus intéressantes, plus instructives et permettent d'atteindre plus rapidement les objectifs pédagogiques et professionnels des participants.
 
 {{< alert "circle-info">}}
 Pour garantir que cette vision soit respectée, je donne moi-même toutes les formations et aucune n'est sous-traitée.
