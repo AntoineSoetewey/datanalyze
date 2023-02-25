@@ -68,11 +68,11 @@ Il est également essentiel que le formateur soit un bon **pédagogue**. Etre ex
 - être capable de s'adapter au niveau des participants,
 - être capable de prendre du recul et faire preuve d'humilité.
 
-Enfin, un formateur doit être **passionné**, et ce pour deux raisons. Premièrement, une personne passionnée sera plus encline à être compétente car elle n'arrêtera jamais d'apprendre sur le sujet. Deuxièmement, elle saura plus à même de rendre la formation engageante, interactive, dynamique, et donc facile à suivre pour les participants.
+Dernièrement, un formateur doit être **passionné**, et ce pour deux raisons. Premièrement, une personne passionnée sera plus encline à être compétente car elle n'arrêtera jamais d'apprendre sur le sujet. Deuxièmement, elle saura plus à même de rendre la formation engageante, interactive, dynamique, et donc facile à suivre pour les participants.
 
 Mon doctorat en statistique et l'utilisation quotidienne de R pour divers projets m'ont permis d'acquérir les compétences nécessaires pour garantir la qualité des formations. De plus, du fait de mon poste d'assistant à l'université, j'ai appris à donner cours tant à des grands que des petits groupes d'étudiants. J'ai également la chance de donner cours à des étudiants et des professionnels de milieux et d'âges différents, ce qui m'a appris à m'adapter à toutes les audiences et tous les besoins.
 
-Enfin, je suis passionné par l'application des statistiques (avec et sans R), ce qui se fait ressentir lors de mes formations car je fais tout ce qui est en ma possession pour transmettre cette passion aux participants. Je mets également tout en oeuvre pour rendre les statistiques et R accessibles à tout le monde, peu importe votre niveau. Il en ressort que les formations sont plus intéressantes, plus instructives et permettent d'atteindre plus rapidement les objectifs pédagogiques et professionnels des participants.
+Enfin, et surtout, je suis passionné par l'application des statistiques (avec et sans R), ce qui se fait ressentir lors de mes formations car je fais tout ce qui est en ma possession pour transmettre cette passion aux participants. Je mets également tout en oeuvre pour rendre les statistiques et R accessibles à tout le monde, peu importe votre niveau. Il en ressort que les formations sont plus intéressantes, plus instructives et permettent d'atteindre plus rapidement les objectifs pédagogiques et professionnels des participants.
 
 {{< alert "circle-info">}}
 Pour garantir que cette vision soit respectée, je donne moi-même toutes les formations et aucune n'est sous-traitée.
