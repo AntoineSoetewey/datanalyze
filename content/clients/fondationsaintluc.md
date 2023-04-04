@@ -18,4 +18,4 @@ The dermatologist requested datanalyze for the following tasks:
 
 ## Results
 
-The work led to a publication (under review).
+The work led to a [publication](https://link.springer.com/article/10.1007/s40261-023-01258-7).

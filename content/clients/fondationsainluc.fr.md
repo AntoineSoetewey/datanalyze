@@ -18,4 +18,4 @@ Le dermatologue a sollicité datanalyze pour les tâches suivantes :
 
 ## Résultats
 
-Le travail a mené à une publication (en cours de révision).
+Le travail a mené à une [publication](https://link.springer.com/article/10.1007/s40261-023-01258-7).
