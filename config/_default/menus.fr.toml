@@ -27,7 +27,7 @@
   
 [[main]]
   name = "portfolio"
-  url = "/portfolio/"
+  url = "/fr/portfolio/"
   weight = 40
   
 [[main]]
