@@ -1,5 +1,5 @@
 ---
-title: "Clients"
+title: "Portfolio"
 description: "Voir une description des projets passés et en cours."
 cascade:
   showPagination: true
