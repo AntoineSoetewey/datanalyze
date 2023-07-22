@@ -1,16 +1,20 @@
 languageCode = "fr"
 languageName = "French"
-displayName = ":fr:"
-isoCode = "fr"
 weight = 2
-rtl = false
 
 title = "datanalyze"
 # logo = "img/logo.jpg"
-description = "Besoin d'aide pour analyser vos données ? Contactez moi ! Je suis doctorant en statistique à l'UCLouvain et je vous aide dans l'analyse de vos données"
 # copyright = "&copy; 2022"
 
-dateFormat = "2 January 2006"
+[params]
+  isoCode = "fr"
+  displayName = ":fr:"
+  rtl = false
+  
+  dateFormat = "2 January 2006"
+  
+  # mainSections = ["samples"]
+  description = "Besoin d'aide pour analyser vos données ? Contactez moi ! Je suis doctorant en statistique à l'UCLouvain et je vous aide dans l'analyse de vos données"
 
 [author]
   name = "datanalyze"

@@ -1,16 +1,20 @@
 languageCode = "en"
 languageName = "English"
-displayName = ":gb:"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "datanalyze"
 # logo = "img/logo.jpg"
-description = "Need help to analyze your data? Contact me! I am a PhD candidate in statistics at UCLouvain and I will help you in analyzing your data"
 # copyright = "&copy; 2022"
 
-dateFormat = "2 January 2006"
+[params]
+  isoCode = "en"
+  displayName = ":gb:"
+  rtl = false
+  
+  dateFormat = "2 January 2006"
+  
+  # mainSections = ["samples"]
+  description = "Need help to analyze your data? Contact me! I am a PhD candidate in statistics at UCLouvain and I will help you in analyzing your data"
 
 [author]
   name = "datanalyze"
