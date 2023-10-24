@@ -15,7 +15,7 @@ title = "datanalyze"
 
 [author]
   name = "datanalyze"
-  image = "img/author.jpg"
+  image = "img/Antoine-Soetewey.jpeg"
   author.headline = "datanalyze : obtenez de l'aide pour analyser vos données"
   bio = "Site professionnel d'Antoine Soetewey. Doctorant et assistant en statistiques à l'UCLouvain"
   links = [
