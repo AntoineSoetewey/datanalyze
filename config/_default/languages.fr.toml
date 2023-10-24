@@ -1,5 +1,6 @@
-languageCode = "fr"
+languageCode = "fr-BE"
 languageName = "French"
+languageDirection = "ltr"
 weight = 2
 
 title = "datanalyze"
@@ -7,10 +8,6 @@ title = "datanalyze"
 # copyright = "&copy; 2022"
 
 [params]
-  isoCode = "fr"
-  displayName = ":fr:"
-  rtl = false
-  
   dateFormat = "2 January 2006"
   
   # mainSections = ["samples"]
