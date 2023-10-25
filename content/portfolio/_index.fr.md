@@ -7,7 +7,7 @@ cascade:
   showBreadcrumbs: false
 ---
 
-Cette page contient tous les projets passés et en cours (par ordre alphabétique).
+Cette page contient tous les projets passés et en cours.
 
 N'hésitez pas à cliquer sur l'un d'entre eux pour voir le contexte, la description de la tâche et les résultats.
 
