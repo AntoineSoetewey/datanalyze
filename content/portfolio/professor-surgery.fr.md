@@ -19,4 +19,4 @@ Le Professeur a sollicité datanalyze pour les tâches suivantes :
 
 ## Résultats
 
-Le travail a mené à une publication (en cours de révision).
+Le travail a mené à une [publication](https://www.mdpi.com/2559926).

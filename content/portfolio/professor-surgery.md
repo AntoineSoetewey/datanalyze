@@ -19,4 +19,4 @@ The Professor requested datanalyze for the following tasks:
 
 ## Results
 
-The work led to a publication (under review).
+The work led to a [publication](https://www.mdpi.com/2559926).
