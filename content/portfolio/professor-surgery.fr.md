@@ -1,6 +1,7 @@
 ---
 title: "Professeur en chirurgie digestive"
 description: "Description du travail pour un Professeur en chirurgie digestive"
+layout: "simple"
 ---
 
 ## Contexte

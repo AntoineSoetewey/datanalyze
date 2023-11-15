@@ -1,6 +1,7 @@
 ---
 title: "Une entreprise du secteur de la santé"
 description: "Description du projet pour une société spécialisée dans le rééquilibrage alimentaire"
+layout: "simple"
 ---
 
 ## Contexte

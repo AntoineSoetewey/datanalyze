@@ -1,6 +1,7 @@
 ---
 title: "Clinique Saint-Jean"
 description: "Description of the work for Clinique Saint-Jean"
+layout: "simple"
 ---
 
 ## Context

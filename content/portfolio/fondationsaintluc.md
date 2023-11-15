@@ -1,6 +1,7 @@
 ---
 title: "Fondation Saint-Luc"
 description: "Description of the work for the Fondation Saint-Luc (Cliniques universitaires Saint-Luc)"
+layout: "simple"
 ---
 
 ## Context

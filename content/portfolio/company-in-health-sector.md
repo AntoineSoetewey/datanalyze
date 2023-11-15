@@ -1,6 +1,7 @@
 ---
 title: "A company in the health sector"
 description: "Description of the work for a company specializing in dietary rebalancing"
+layout: "simple"
 ---
 
 ## Context

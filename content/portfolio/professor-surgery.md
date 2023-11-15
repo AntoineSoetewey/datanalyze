@@ -1,6 +1,7 @@
 ---
 title: "Professor in digestive surgery"
 description: "Description of the work for a Professor in digestive surgery"
+layout: "simple"
 ---
 
 ## Context
