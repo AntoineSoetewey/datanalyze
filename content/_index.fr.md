@@ -75,7 +75,7 @@ Vous avez un autre besoin ? [Contactez-moi](/fr/#contact) pour en discuter davan
 
 # Qui suis-je?
 
-Je m'appelle Antoine Soetewey. Je suis doctorant en statistiques à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions) pour des applications pratiques.
+Je m'appelle Antoine Soetewey. Je suis doctorant en statistique à l'UCLouvain (Belgique), passionné par l'analyse de données et l'utilisation du logiciel R (ainsi que ses multiples extensions) pour des applications pratiques.
 
 En parallèle de mes recherches, je suis [assistant](https://antoinesoetewey.com/fr/teaching/) pour plusieurs cours de statistiques, probabilités et science des données. Je donne également des [cours particuliers](https://easystat.be/) et des formations à des étudiants et des chercheurs.
 
