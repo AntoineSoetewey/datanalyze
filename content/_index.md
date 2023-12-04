@@ -77,7 +77,7 @@ Do you have another need? [Contact me](/#contact) to discuss it further!
 
 My name is Antoine Soetewey. I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
 
-In parallel with my research, I am [teaching assistant](https://antoinesoetewey.com/teaching/) for several courses in statistics, probability and data science. I also give [private lessons](https://easystat.be/) and trainings to students and academics.
+In parallel with my research, I am [teaching](https://antoinesoetewey.com/teaching/) several courses in statistics, probability and data science at UCLouvain and UNamur. I also give [private lessons](https://easystat.be/) and trainings to students and academics.
 
 Given my experience, I also support professionals in their research, data analysis and informed decision-making by bringing a statistical dimension to their projects, regardless of the sector, core business or size of their company.
 
