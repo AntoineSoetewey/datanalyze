@@ -6,7 +6,7 @@ layout: "simple"
 
 ## Context
 
-A dermatologist working for the *Fondation Saint-Luc (Cliniques universitaires Saint-Luc)* requested datanalyze for the analysis of data collected from patients in the hospital.
+A dermatologist working for the Fondation Saint-Luc (Cliniques universitaires Saint-Luc) requested datanalyze for the analysis of data collected from patients in the hospital.
 
 The objective was to study the effectiveness of a treatment at different moments in time.
 

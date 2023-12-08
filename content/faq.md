@@ -86,5 +86,5 @@ The cost of a training depends on:
 - the complexity, and
 - the degree of adaptation to the needs of the participants.
 
-To know the price of a training, please [contact me](/#contact/) to discuss it in more details.
+To know the price of a training, please [contact me](/#contact) to discuss it in more details.
 
