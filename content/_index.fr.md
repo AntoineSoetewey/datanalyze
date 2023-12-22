@@ -115,7 +115,7 @@ En savoir plus
 
 # Contact
 
-Si vous souhaitez que je vous aide à faire un meilleur usage de vos données, veuillez remplir ce [formulaire de contact](https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form). Je reviendrai vers vous dans les plus brefs délais.
+Si vous souhaitez que je vous aide à faire un meilleur usage de vos données, veuillez remplir ce [formulaire de contact](https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form).
 
 Si vous souhaitez expliquer votre problème plus en détail, vous pouvez aussi prendre rendez-vous pour un [entretien préliminaire](https://calendly.com/antoinesoetewey/30min).
 
