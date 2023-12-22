@@ -115,7 +115,7 @@ More about me
 
 # Contact
 
-If you want me to help you make better use of your data, please fill out this [contact form](https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form). I will respond as soon as possible.
+If you want me to help you make better use of your data, please fill out this [contact form](https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form).
 
 If you need to explain your problem in more details, you can also [book an introductory call](https://calendly.com/antoinesoetewey/30min).
 
