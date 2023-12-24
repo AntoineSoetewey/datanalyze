@@ -1,13 +1,13 @@
 ---
 title: "Need help to analyze your data?"
-description: "Professional website of Antoine Soetewey, PhD candidate in statistics at UCLouvain"
+description: "Professional website of Antoine Soetewey, PhD researcher in statistics at UCLouvain"
 ---
 
 {{< lead >}}
 Do you have data, some questions, and you are stuck? Let's find a solution together! :bar_chart:
 {{< /lead >}}
 
-I'm [Antoine Soetewey](https://antoinesoetewey.com/), PhD candidate in statistics at UCLouvain and passionate about what statistics and data analysis can do when applied to real life situations.
+I'm [Antoine Soetewey](https://antoinesoetewey.com/), PhD researcher in statistics at UCLouvain and passionate about what statistics and data analysis can do when applied to real life situations.
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
 
@@ -61,7 +61,7 @@ Here is what I can help you with:
 
 Whether you need one-time help or full support, my services are centered around 4 poles:
 
-- **Personalized support in statistics**: Advice and assistance to researchers (PhD candidates, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
+- **Personalized support in statistics**: Advice and assistance to researchers (PhD, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
 - **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/trainings/).
@@ -75,7 +75,7 @@ Do you have another need? [Contact me](/#contact) to discuss it further!
 
 # Who am I?
 
-My name is Antoine Soetewey. I am a PhD candidate in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
+My name is Antoine Soetewey. I am a PhD researcher in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
 
 In parallel with my research, I am [teaching](https://antoinesoetewey.com/teaching/) several courses in statistics, probability and data science at UCLouvain and UNamur. I also give [private lessons](https://easystat.be/) and trainings to students and academics.
 
