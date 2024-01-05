@@ -75,7 +75,7 @@ My PhD in statistics and the daily use of R for various projects have given me t
 Last but not least, I am passionate about the application of statistics (with and without R), which can be seen in my training sessions as I do everything to pass on this passion to the participants. I also make every effort to make statistics and R accessible to everyone, regardless of your level. The result is that the trainings are more interesting, more informative, and allow the participants to achieve their educational and professional goals more quickly.
 
 {{< alert "circle-info">}}
-To ensure that this vision is met, I conduct all trainings myself and none are outsourced. 
+To ensure that this vision is met, I conduct all trainings myself and none are outsourced.
 {{< /alert >}}
 
 ## How much does a training cost?
