@@ -13,14 +13,14 @@ title = "datanalyze"
   # mainSections = ["samples"]
   description = "Besoin d'aide pour analyser vos données ? Contactez moi ! Je suis doctorant en statistique à l'UCLouvain et je vous aide dans l'analyse de vos données"
 
-[author]
+[params.author]
   name = "datanalyze"
   image = "img/Antoine-Soetewey.jpeg"
   author.headline = "datanalyze : obtenez de l'aide pour analyser vos données"
   bio = "Site professionnel d'Antoine Soetewey. Doctorant et assistant en statistiques à l'UCLouvain"
   links = [
     { github = "https://github.com/AntoineSoetewey" },
-    { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
+    { linkedin = "https://www.linkedin.com/in/antoinesoetewey/" },
     { twitter = "https://twitter.com/statsandr" },
     { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" },
     { medium = "https://medium.com/@antoinesoetewey" }

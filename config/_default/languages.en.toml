@@ -13,14 +13,14 @@ title = "datanalyze"
   # mainSections = ["samples"]
   description = "Need help to analyze your data? Contact me! I am a PhD researcher in statistics at UCLouvain and I will help you in analyzing your data"
 
-[author]
+[params.author]
   name = "datanalyze"
   image = "img/Antoine-Soetewey.jpeg"
   author.headline = "datanalyze: get help to analyze your data"
   bio = "Professional website of Antoine Soetewey. PhD researcher and teaching assistant in statistics at UCLouvain"
   links = [
     { github = "https://github.com/AntoineSoetewey" },
-    { linkedin2 = "https://www.linkedin.com/in/antoinesoetewey/" },
+    { linkedin = "https://www.linkedin.com/in/antoinesoetewey/" },
     { twitter = "https://twitter.com/statsandr" },
     { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" },
     { medium = "https://medium.com/@antoinesoetewey" }
