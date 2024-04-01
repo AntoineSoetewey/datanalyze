@@ -50,7 +50,7 @@ Here is what I can help you with:
 
 - Data management, manipulation, cleaning and preparation
 - Data exploration and analysis
-- Clustering for market or customer segmentation
+- Predictive analytics
 - Data visualization with ggplot2
 - Dynamic dashboard with R Shiny
 - Development of automated workflows and analysis reports with R Markdown or Quarto

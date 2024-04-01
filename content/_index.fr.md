@@ -50,7 +50,7 @@ Voici en quoi je peux vous aider :
 
 - Gestion, manipulation, nettoyage et préparation des données
 - Exploration et analyse de données
-- Classification pour la segmentation de marché ou de clientèle
+- Analyse prédictive
 - Visualisation des données avec ggplot2
 - Tableau de bord dynamique avec R Shiny
 - Développement de flux de travail et rapports d'analyse automatisés avec R Markdown ou Quarto
