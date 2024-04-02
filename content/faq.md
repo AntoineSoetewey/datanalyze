@@ -70,7 +70,7 @@ It is also essential that the trainer is a good **teacher**. Being an expert in 
 
 Finally, a trainer must be **passionate** for two reasons. First, a passionate person is more likely to be competent because he or she will never stop learning about the subject. Secondly, he/she is more likely to make the training engaging, interactive, dynamic, and therefore easy to follow for the participants.
 
-My PhD in statistics and the daily use of R for various projects have given me the necessary skills to ensure the quality of the training. In addition, as a teaching assistant at the university, I have learned to teach both large and small groups of students. I have also had the opportunity to teach students and professionals of different backgrounds and ages, which has taught me to adapt to all audiences and needs.
+My PhD in statistics and the daily use of R for various projects have given me the necessary skills to ensure the quality of the training. In addition, as a teacher at university level, I have learned to teach both large and small groups of students. I have also had the opportunity to teach students and professionals of different backgrounds and ages, which has taught me to adapt to all audiences and needs.
 
 Last but not least, I am passionate about the application of statistics (with and without R), which can be seen in my training sessions as I do everything to pass on this passion to the participants. I also make every effort to make statistics and R accessible to everyone, regardless of your level. The result is that the trainings are more interesting, more informative, and allow the participants to achieve their educational and professional goals more quickly.
 
