@@ -1,10 +1,4 @@
-# datanalyze
 
-Contact me if:
-
-- you are a **professional** or a **company** who needs help in **data analysis**
-
-See more information at [datanalyze.be](https://datanalyze.be/)
 
 # Status
 
