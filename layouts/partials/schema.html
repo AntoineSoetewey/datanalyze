@@ -62,8 +62,8 @@
       "addressLocality" $legal.address.city
       "addressCountry" $legal.address.countryCode)) -}}
 {{- end -}}
-{{- with resources.Get "img/Antoine-Soetewey.jpeg" -}}
-  {{- with .Fill "1200x630 Center q85" -}}
+{{- with resources.Get "img/antoine-soetewey.jpeg" -}}
+  {{- with .Fill "1200x630 Smart q85" -}}
     {{- $org = merge $org (dict "image" .Permalink) -}}
   {{- end -}}
 {{- end -}}

@@ -27,8 +27,8 @@
 
 {{- /* Share image: an explicit page image, else a 1200x630 crop of the portrait. */ -}}
 {{- $ogImage := "" -}}
-{{- with resources.Get (.Params.image | default "img/Antoine-Soetewey.jpeg") -}}
-  {{- with .Fill "1200x630 Center q85" -}}
+{{- with resources.Get (.Params.image | default "img/antoine-soetewey.jpeg") -}}
+  {{- with .Fill "1200x630 Smart q85" -}}
     {{- $ogImage = .Permalink -}}
   {{- end -}}
 {{- end -}}
