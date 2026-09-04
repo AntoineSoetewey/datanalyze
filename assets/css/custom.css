@@ -734,6 +734,10 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
   letter-spacing: 0.08em;
   color: var(--line-strong);
 }
+/* Breathing room between a section heading and the block that follows it. */
+.dz-detail > .dz-h2 + .dz-split,
+.dz-detail > .dz-h2 + .dz-body { margin-top: 2rem; }
+.dz-detail > .dz-body + .dz-grid { margin-top: 2rem; }
 
 /* --------------------------------------------------------------------------
    11. CTA panel

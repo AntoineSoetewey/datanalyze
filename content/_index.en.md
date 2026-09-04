@@ -1,122 +1,89 @@
 ---
-title: "Need help to analyze your data?"
-description: "Professional website of Antoine Soetewey, PhD researcher in statistics at UCLouvain"
+title: "datanalyze"
+seoTitle: "Statistics & data science consultant in Belgium | datanalyze"
+description: "Statistics and data science consultant in Belgium. I analyse your data, validate your methods and train your teams — for researchers, hospitals and companies."
+
+hero:
+  badge: "Statistical consulting and training"
+  title: "Your data deserves "
+  titleAccent: "a solid analysis"
+  titleEnd: "."
+  lead: "I hold a PhD in statistics and support researchers, healthcare professionals and companies in analysing their data — from choosing the method through to results you can defend."
+  ctaPrimary: "Discuss your project"
+  ctaSecondary: "See the services"
+
+trust:
+  - "PhD in statistics (UCLouvain)"
+  - "Postdoctoral researcher, HEC Liège & UCLouvain Saint-Louis Brussels"
+  - "Invited lecturer at UCLouvain and UNamur"
+  - "Analyses delivered in French or English"
+
+services:
+  eyebrow: "Services"
+  title: "Four ways to work together"
+  lead: "One-off help on an analysis that is stuck, or end-to-end support. Either way, you leave with results you understand and can justify."
+  more: "See what each service covers"
+
+expertise:
+  eyebrow: "Expertise"
+  title: "What I actually do"
+  lead: "A dual academic and industry background: the methodological rigour of research, applied to questions that have to be settled."
+  columns:
+    - title: "Statistics & probability"
+      items:
+        - "Descriptive statistics: univariate and bivariate summaries, correlation"
+        - "Hypothesis testing and confidence intervals"
+        - "Linear and logistic regression, mixed models"
+        - "Survival analysis and multi-state models"
+        - "Sample size and statistical power"
+        - "Study design and protocols"
+    - title: "R programming"
+      items:
+        - "R scripts: writing, taking over, debugging, optimising"
+        - "R Markdown and Quarto for reproducible reports"
+        - "R Shiny applications and dashboards"
+        - "Building and publishing R packages"
+        - "Setting up reproducible projects"
+        - "Code review and skills transfer"
+    - title: "Data science"
+      items:
+        - "Cleaning, merging and preparing data"
+        - "In-depth exploration and descriptive analysis"
+        - "Predictive models and scoring"
+        - "Segmentation and persona building"
+        - "Visualisation with ggplot2"
+        - "Automating recurring reports"
+
+about:
+  eyebrow: "About"
+  title: "Antoine Soetewey"
+  imageAlt: "Portrait of Antoine Soetewey, statistics and data science consultant"
+  paragraphs:
+    - "I hold a **PhD in statistics** (UCLouvain) and I am a **postdoctoral researcher in data science and statistics** at HEC Liège and UCLouvain Saint-Louis Brussels. I also teach statistics and probability as an **invited lecturer** at UCLouvain and UNamur."
+    - "That combination is what makes the difference on an assignment: I know these methods closely, because I develop and publish them; and I am used to explaining them to people who are not statisticians, because I teach them every week."
+    - "Under the name **datanalyze**, I put that expertise to work for researchers, doctors and companies across Belgium."
+  cta: "More about my background"
+
+why:
+  eyebrow: "Why me"
+  title: "What you can expect from working together"
+  items:
+    - icon: "microscope"
+      title: "A defensible method"
+      text: "The test fits your data, its assumptions are checked, and you can justify the choice to a committee, a reviewer or a client."
+    - icon: "teach"
+      title: "Explanations you can follow"
+      text: "Teaching is half my job. You do not get raw software output, but results explained in your own language."
+    - icon: "code"
+      title: "Reproducible work"
+      text: "Commented scripts, analyses that rerun identically. If your data changes or a reviewer asks for a variant, updating takes minutes, not weeks."
+    - icon: "shield"
+      title: "Confidentiality and full handover"
+      text: "Code, documents and results produced during the assignment are transferred to you in full, and to you only. Your data is used for nothing else."
+
+references:
+  eyebrow: "References"
+  title: "Assignments already delivered"
+  lead: "Hospitals, clinical researchers and companies: a few representative assignments, with the context, the work carried out and what came out of it."
+  more: "See all references"
 ---
-
-{{< lead >}}
-Do you have data, some questions, and you are stuck? Let's find a solution together! :bar_chart:
-{{< /lead >}}
-
-I'm [Antoine Soetewey](https://antoinesoetewey.com/), PhD researcher in statistics at UCLouvain and passionate about what statistics and data analysis can do when applied to real life situations.
-
-I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
-
-As I enjoy sharing my skills with others, I also offer [training](/en/trainings/) in various topics related to data analysis and data visualization in R.
-
-<br>
-
-<center>
-{{< button href="#contact" target="_self" >}}
-Contact me
-{{< /button >}}
-</center>
-
-<br>
-<br>
-
-# Expertise
-
-I have built my expertise through a unique combination of academic and industry experience, allowing me to get the most out of your data.
-
-Here is what I can help you with:
-
-## Statistics & probability
-
-- Descriptive statistics (uni & bivariate summary statistics, correlation, etc.)
-- Inferential statistics (hypothesis testing & confidence interval)
-- Modeling and regression (linear & logistic)
-- Probability
-- Survival analysis (time-to-event analysis)
-
-## R programming
-
-- RStudio
-- R Markdown & Quarto
-- R Shiny
-- Creation, improvement and debugging of R scripts
-- Creation and publication of R packages
-
-## Data science
-
-- Data management, manipulation, cleaning and preparation
-- Data exploration and analysis
-- Predictive analytics
-- Data visualization with ggplot2
-- Dynamic dashboard with R Shiny
-- Development of automated workflows and analysis reports with R Markdown or Quarto
-
-<br>
-
-# Services
-
-Whether you need one-time help or full support, my services are centered around 4 poles:
-
-- **Personalized support in statistics**: Advice and assistance to researchers (PhD, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
-- **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
-- **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
-- **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/en/trainings/).
-    
-{{< alert "circle-info" >}}
-Do you have another need? [Contact me](/en/#contact) to discuss it further!
-{{< /alert >}}
-
-<br>
-<br>
-
-# Who am I?
-
-My name is Antoine Soetewey. I am a PhD researcher in statistics at UCLouvain (Belgium), passionate about data analysis and the use of R software (together with its multiple extensions) for practical applications.
-
-In parallel with my research, I am [teaching](https://antoinesoetewey.com/teaching/) several courses in statistics, probability and data science at UCLouvain and UNamur. I also give [private lessons](https://easystat.be/) and trainings to students and academics.
-
-Given my experience, I also support professionals in their research, data analysis and informed decision-making by bringing a statistical dimension to their projects, regardless of the sector, core business or size of their company.
-
-<br>
-
-<center>
-{{< button href="https://antoinesoetewey.com/" target="_self" >}}
-More about me
-{{< /button >}}
-</center>
-
-<br>
-<br>
-
-# Why me?
-
-- **Expertise**: I combine market knowledge with academic expertise to provide cutting-edge insights into your projects.
-- **Qualification**: I continuously train myself in new techniques to provide you and your business or research with the latest and most innovative approaches.
-- **Accessibility**: Thanks to my teaching experience, I am able to present sophisticated methodologies and solutions to a broad audience and to non-experts.
-- **Confidentiality & transparency**: All codes, programs, documents, results, etc. developed during our collaboration are fully transferred to you, and only you.
-
-<!---
-<br>
-<br>
-
-# Clients
-
-<p align="center">
-<img src="/./_index_files/logos-clients-datanalyze.jpeg" alt="logos-clients-datanalyze" width="80%"/>
-</p>
-<br>
--->
-
----
-
-# Contact
-
-If you want me to help you make better use of your data, please fill out this [contact form](https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form).
-
-If you need to explain your problem in more details, you can also [book an introductory call](https://calendly.com/antoinesoetewey/30min).
-
-You will also find answers to the most frequently asked questions in the [FAQ](/en/faq/).
