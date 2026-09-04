@@ -45,10 +45,6 @@
   "description" site.Params.description
   "founder" (dict "@id" $personId)
   "provider" (dict "@id" $personId)
-  "areaServed" (slice
-    (dict "@type" "Country" "name" "Belgique")
-    (dict "@type" "Country" "name" "France")
-    (dict "@type" "Place" "name" "Europe"))
   "availableLanguage" (slice
     (dict "@type" "Language" "name" "French" "alternateName" "fr")
     (dict "@type" "Language" "name" "English" "alternateName" "en"))
@@ -112,10 +108,6 @@
       "description" .Description
       "serviceType" (.Params.serviceType | default .Title)
       "provider" (dict "@id" $orgId)
-      "areaServed" (slice
-        (dict "@type" "Country" "name" "Belgique")
-        (dict "@type" "Country" "name" "France")
-        (dict "@type" "Place" "name" "Europe"))
       "availableChannel" (dict
         "@type" "ServiceChannel"
         "serviceUrl" .Permalink
