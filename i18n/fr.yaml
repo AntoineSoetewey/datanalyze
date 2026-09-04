@@ -1,0 +1,55 @@
+# Project strings (merged over themes/congo/i18n/fr.yaml).
+
+brand:
+  suffix: "Statistique & data science"
+
+nav:
+  main: "Navigation principale"
+  menu: "Menu"
+  language: "Langue"
+  skip_to_main: "Aller au contenu"
+
+footer:
+  site: "Le site"
+  elsewhere: "Ailleurs"
+  blurb: "Consultance et formation en statistique et science des données, pour les chercheurs et les entreprises, en Belgique."
+  builtWith: "Site sans cookie, sans traceur et sans mesure d'audience."
+
+page:
+  breadcrumb: "Fil d'Ariane"
+  home: "Accueil"
+
+cta:
+  title: "Un jeu de données à analyser, une méthode à valider ?"
+  body: "Décrivez votre besoin en quelques lignes, ou réservez un premier échange sans engagement. Je vous dis franchement si je suis la bonne personne."
+  form: "Décrire mon besoin"
+  call: "Réserver un échange"
+
+error:
+  title: "Page introuvable"
+  body: "Cette page n'existe pas ou plus. Le site a été restructuré : le contenu que vous cherchiez a peut-être changé d'adresse."
+  home: "Retour à l'accueil"
+  services: "Voir les services"
+
+services:
+  eyebrow: "Service"
+  more: "En savoir plus"
+  audience: "À qui cela s'adresse"
+  problem: "Le problème que cela résout"
+  deliverables: "Ce qui vous est livré"
+  process: "Comment cela se passe"
+  examples: "Exemples concrets"
+  related: "Les autres services"
+  cta: "Discuter de votre projet"
+
+faq:
+  title: "Questions fréquentes"
+
+testimonials:
+  title: "Ce qu'en disent mes clients"
+
+clients:
+  title: "Ils m'ont fait confiance"
+
+pricing:
+  title: "Tarifs"

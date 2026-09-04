@@ -1,0 +1,38 @@
+{{- /* ====================================================================
+     TESTIMONIALS — BUILT BUT DELIBERATELY NOT DISPLAYED.
+
+     There are no client testimonials yet, and inventing one is out of the
+     question. The markup and styling are ready so the section can go live the
+     day real quotes exist.
+
+     To switch it on:
+       1. create data/testimonials.yaml:
+            - quote: "…"
+              author: "Prénom Nom"
+              role: "Fonction, Organisation"
+              lang: "fr"            # one entry per language
+       2. set  showTestimonials = true  in config/_default/params.toml
+       3. call {{ partial "dz-testimonials.html" . }} from layouts/index.html
+
+     Nothing is emitted while either the flag or the data file is missing.
+     ==================================================================== */ -}}
+{{- if site.Params.showTestimonials }}
+  {{- $items := where (site.Data.testimonials | default slice) "lang" .Page.Lang }}
+  {{- with $items }}
+    <section class="dz-section dz-section--sunken">
+      <div class="dz-wrap dz-wrap--page">
+        <div class="dz-section-head dz-section-head--center">
+          <h2 class="dz-h2">{{ i18n "testimonials.title" }}</h2>
+        </div>
+        <div class="dz-grid dz-grid--3">
+          {{- range . }}
+            <figure class="dz-card">
+              <blockquote class="dz-card__text">{{ .quote }}</blockquote>
+              <figcaption class="dz-card__more">{{ .author }} — {{ .role }}</figcaption>
+            </figure>
+          {{- end }}
+        </div>
+      </div>
+    </section>
+  {{- end }}
+{{- end }}

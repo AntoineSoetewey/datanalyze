@@ -1,0 +1,25 @@
+{{- /*
+  Language switcher.
+
+  It must link to the TRANSLATION OF THE CURRENT PAGE, never to the home page.
+  .AllTranslations includes the current page, so every entry resolves to the
+  matching URL in the other language. Pages are ordered by the language weights
+  set in config/_default/languages.*.toml (French first).
+*/ -}}
+{{- with .AllTranslations }}
+  {{- if gt (len .) 1 }}
+    <div class="dz-lang">
+      <span class="dz-sr">{{ i18n "nav.language" }}</span>
+      {{- range $i, $t := . }}
+        {{- if $i }}<span class="dz-lang__sep" aria-hidden="true">/</span>{{ end }}
+        <a
+          href="{{ $t.Permalink }}"
+          hreflang="{{ $t.Language.LanguageCode }}"
+          lang="{{ $t.Language.LanguageCode }}"
+          {{ if eq $t.Language.Lang $.Page.Lang }}aria-current="true"{{ end }}
+          >{{ $t.Language.Lang | upper }}</a
+        >
+      {{- end }}
+    </div>
+  {{- end }}
+{{- end }}

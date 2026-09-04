@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <div class="dz-wrap dz-wrap--page dz-pagehead">
+    {{ partial "breadcrumbs.html" . }}
+    {{ with .Params.eyebrow }}<p class="dz-eyebrow">{{ . }}</p>{{ end }}
+    <h1 class="dz-h1">{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="dz-lead">{{ . | markdownify }}</p>{{ end }}
+  </div>
+
+  <div class="dz-wrap dz-wrap--page dz-section dz-section--tight">
+    {{ with .Content }}<div class="dz-prose">{{ . }}</div>{{ end }}
+
+    {{ $pages := .RegularPages }}
+    {{ if .Params.orderByWeight }}{{ $pages = sort $pages "Params.order" }}{{ end }}
+    {{ with $pages }}
+      <div class="dz-grid dz-grid--2">
+        {{ range . }}
+          <a class="dz-card" href="{{ .RelPermalink }}">
+            {{ with .Params.icon }}
+              <span class="dz-card__icon">{{ partial "dz-icon.html" . }}</span>
+            {{ end }}
+            <h2 class="dz-card__title">{{ .Title }}</h2>
+            <p class="dz-card__text">{{ .Params.tagline | default .Description }}</p>
+            <span class="dz-card__more">{{ i18n "services.more" }}</span>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  {{ partial "dz-cta.html" . }}
+{{ end }}

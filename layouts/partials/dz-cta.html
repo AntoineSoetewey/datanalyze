@@ -1,0 +1,24 @@
+{{- /* Closing call to action. Airtable and Calendly stay OUTBOUND LINKS: an
+       embed would drop third-party cookies and bring the consent banner back. */ -}}
+{{- $legal := site.Data.legal -}}
+{{- $form := "" -}}{{- $call := "" -}}
+{{- range $legal.processors -}}
+  {{- if eq .purpose "contactForm" }}{{ $form = .url }}{{ end -}}
+  {{- if eq .purpose "booking" }}{{ $call = .url }}{{ end -}}
+{{- end -}}
+<section class="dz-section" id="contact">
+  <div class="dz-wrap dz-wrap--page">
+    <div class="dz-cta">
+      <h2>{{ i18n "cta.title" }}</h2>
+      <p>{{ i18n "cta.body" }}</p>
+      <div class="dz-btn-row">
+        <a class="dz-btn dz-btn--onDark" href="{{ $form }}" rel="noopener" target="_blank">
+          {{ i18n "cta.form" }}
+        </a>
+        <a class="dz-btn dz-btn--ghostOnDark" href="{{ $call }}" rel="noopener" target="_blank">
+          {{ i18n "cta.call" }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

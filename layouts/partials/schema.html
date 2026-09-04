@@ -1,0 +1,149 @@
+{{- /*
+  Project override of themes/congo/layouts/partials/schema.html (Congo 2.9.0).
+
+  Reason for shadowing: Congo emits WebSite + Article + its own BreadcrumbList.
+  Replacing the partial rather than adding a second one is what guarantees there
+  is never a duplicate JSON-LD block on a page.
+
+  Every value comes from data/legal.yaml or the front matter. Fields that cannot
+  be filled truthfully yet (postal address, enterprise/VAT number, prices,
+  ratings) are OMITTED, never stubbed.
+*/ -}}
+{{- $legal := site.Data.legal -}}
+{{- $home := site.Home -}}
+{{- $orgId := printf "%s#datanalyze" $home.Permalink -}}
+{{- $personId := printf "%s#antoine-soetewey" $home.Permalink -}}
+
+{{- /* ---- Person ---- */ -}}
+{{- $person := dict
+  "@type" "Person"
+  "@id" $personId
+  "name" $legal.name
+  "jobTitle" site.Params.tagline
+  "url" $home.Permalink
+  "sameAs" (slice
+    "https://antoinesoetewey.com/"
+    "https://www.linkedin.com/in/antoinesoetewey/"
+    "https://github.com/AntoineSoetewey"
+    "https://scholar.google.com/citations?user=1P7ThwUAAAAJ"
+    "https://statsandr.com/")
+  "alumniOf" (dict "@type" "CollegeOrUniversity" "name" "UCLouvain")
+  "knowsAbout" (slice "Statistics" "Biostatistics" "Data science" "R" "Survival analysis" "Data visualization")
+  "knowsLanguage" (slice "fr" "en" "nl")
+-}}
+{{- with $legal.email }}{{ $person = merge $person (dict "email" .) }}{{ end -}}
+
+{{- /* ---- ProfessionalService ---- */ -}}
+{{- $org := dict
+  "@type" "ProfessionalService"
+  "@id" $orgId
+  "name" "datanalyze"
+  "url" $home.Permalink
+  "description" site.Params.description
+  "founder" (dict "@id" $personId)
+  "provider" (dict "@id" $personId)
+  "areaServed" (slice
+    (dict "@type" "Country" "name" "Belgique")
+    (dict "@type" "AdministrativeArea" "name" "Bruxelles")
+    (dict "@type" "AdministrativeArea" "name" "Wallonie"))
+  "availableLanguage" (slice
+    (dict "@type" "Language" "name" "French" "alternateName" "fr")
+    (dict "@type" "Language" "name" "English" "alternateName" "en"))
+  "knowsAbout" (slice "Statistical consulting" "Data analysis" "R programming" "Statistical training")
+-}}
+{{- with $legal.email }}{{ $org = merge $org (dict "email" .) }}{{ end -}}
+{{- with $legal.enterpriseNumber }}{{ $org = merge $org (dict "identifier" .) }}{{ end -}}
+{{- with $legal.vatNumber }}{{ $org = merge $org (dict "vatID" .) }}{{ end -}}
+{{- if and $legal.address.street $legal.address.city -}}
+  {{- $org = merge $org (dict "address" (dict
+      "@type" "PostalAddress"
+      "streetAddress" $legal.address.street
+      "postalCode" $legal.address.postalCode
+      "addressLocality" $legal.address.city
+      "addressCountry" $legal.address.countryCode)) -}}
+{{- end -}}
+{{- with resources.Get "img/Antoine-Soetewey.jpeg" -}}
+  {{- with .Fill "1200x630 Center q85" -}}
+    {{- $org = merge $org (dict "image" .Permalink) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $graph := slice -}}
+
+{{- if .IsHome -}}
+  {{- $graph = $graph | append (dict
+      "@type" "WebSite"
+      "@id" (printf "%s#website" $home.Permalink)
+      "url" $home.Permalink
+      "name" "datanalyze"
+      "description" site.Params.description
+      "inLanguage" site.Language.LanguageCode
+      "publisher" (dict "@id" $orgId)) -}}
+  {{- $graph = $graph | append $org $person -}}
+{{- else -}}
+  {{- /* Breadcrumbs, kept in step with partials/breadcrumbs.html */ -}}
+  {{- $items := slice (dict "@type" "ListItem" "position" 1 "name" (i18n "page.home") "item" $home.Permalink) -}}
+  {{- $pos := 1 -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- if not .IsHome -}}
+      {{- $pos = add $pos 1 -}}
+      {{- $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .LinkTitle "item" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $pos = add $pos 1 -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .LinkTitle "item" .Permalink) -}}
+  {{- $graph = $graph | append (dict
+      "@type" "BreadcrumbList"
+      "@id" (printf "%s#breadcrumb" .Permalink)
+      "itemListElement" $items) -}}
+
+  {{- /* Service pages */ -}}
+  {{- if eq .Section "services" -}}
+    {{- $svc := dict
+      "@type" "Service"
+      "@id" (printf "%s#service" .Permalink)
+      "name" .Title
+      "url" .Permalink
+      "description" .Description
+      "serviceType" (.Params.serviceType | default .Title)
+      "provider" (dict "@id" $orgId)
+      "areaServed" (dict "@type" "Country" "name" "Belgique")
+      "availableChannel" (dict
+        "@type" "ServiceChannel"
+        "serviceUrl" .Permalink
+        "availableLanguage" (slice "fr" "en"))
+    -}}
+    {{- /* "offers" is deliberately absent: there is no rate card yet and a
+           made-up price would be worse than no price. See dz-pricing.html. */ -}}
+    {{- $graph = $graph | append $svc -}}
+  {{- end -}}
+
+  {{- /* FAQ page */ -}}
+  {{- with .Params.faq -}}
+    {{- $qs := slice -}}
+    {{- range . -}}
+      {{- $qs = $qs | append (dict
+          "@type" "Question"
+          "name" .q
+          "acceptedAnswer" (dict "@type" "Answer" "text" (.a | markdownify | plainify))) -}}
+    {{- end -}}
+    {{- $graph = $graph | append (dict
+        "@type" "FAQPage"
+        "@id" (printf "%s#faq" $.Permalink)
+        "mainEntity" $qs) -}}
+  {{- end -}}
+
+  {{- $graph = $graph | append (dict
+      "@type" "WebPage"
+      "@id" .Permalink
+      "url" .Permalink
+      "name" .Title
+      "description" .Description
+      "inLanguage" site.Language.LanguageCode
+      "isPartOf" (dict "@id" (printf "%s#website" $home.Permalink))
+      "about" (dict "@id" $orgId)) -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+</script>

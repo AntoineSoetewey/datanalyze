@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="dz-wrap dz-wrap--page dz-404">
+    <p class="dz-eyebrow">404</p>
+    <h1 class="dz-h1">{{ i18n "error.title" }}</h1>
+    <p class="dz-lead dz-lead--center">{{ i18n "error.body" }}</p>
+    <div class="dz-btn-row">
+      <a class="dz-btn dz-btn--primary" href="{{ "" | relLangURL }}">{{ i18n "error.home" }}</a>
+      <a class="dz-btn dz-btn--secondary" href="{{ "services/" | relLangURL }}">{{ i18n "error.services" }}</a>
+    </div>
+  </div>
+{{ end }}

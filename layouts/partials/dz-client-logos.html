@@ -1,0 +1,30 @@
+{{- /* ====================================================================
+     CLIENT LOGO STRIP — BUILT BUT DELIBERATELY NOT DISPLAYED.
+
+     Publishing client logos needs each client's agreement, which is not in
+     hand. static/_index_files/logos-clients-datanalyze.jpeg stays unused on
+     purpose.
+
+     To switch it on:
+       1. drop individual logo files in assets/img/clients/
+       2. set  showClientLogos = true  in config/_default/params.toml
+       3. call {{ partial "dz-client-logos.html" . }} from layouts/index.html
+
+     Prefer individual files over the single composite JPEG: they stay sharp,
+     can carry real alt text, and can be dropped one by one.
+     ==================================================================== */ -}}
+{{- if site.Params.showClientLogos }}
+  {{- $logos := resources.Match "img/clients/*" }}
+  {{- with $logos }}
+    <section class="dz-section dz-section--tight dz-section--bordered">
+      <div class="dz-wrap dz-wrap--page">
+        <p class="dz-eyebrow" style="text-align:center">{{ i18n "clients.title" }}</p>
+        <div class="dz-trust__list">
+          {{- range . }}
+            <img src="{{ .RelPermalink }}" alt="" width="120" height="40" loading="lazy" />
+          {{- end }}
+        </div>
+      </div>
+    </section>
+  {{- end }}
+{{- end }}

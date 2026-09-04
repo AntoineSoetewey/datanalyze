@@ -1,0 +1,22 @@
+{{- /* Grid of service cards, driven by the real service pages so the home page
+       can never drift out of sync with them. */ -}}
+{{- $services := where site.RegularPages "Section" "services" -}}
+{{- $training := site.GetPage "/trainings" -}}
+<div class="dz-grid dz-grid--3">
+  {{- range sort $services "Params.order" }}
+    <a class="dz-card" href="{{ .RelPermalink }}">
+      <span class="dz-card__icon">{{ partial "dz-icon.html" (.Params.icon | default "chart") }}</span>
+      <h3 class="dz-card__title">{{ .Title }}</h3>
+      <p class="dz-card__text">{{ .Params.tagline }}</p>
+      <span class="dz-card__more">{{ i18n "services.more" }}</span>
+    </a>
+  {{- end }}
+  {{- with $training }}
+    <a class="dz-card" href="{{ .RelPermalink }}">
+      <span class="dz-card__icon">{{ partial "dz-icon.html" "teach" }}</span>
+      <h3 class="dz-card__title">{{ .Title }}</h3>
+      <p class="dz-card__text">{{ .Params.tagline }}</p>
+      <span class="dz-card__more">{{ i18n "services.more" }}</span>
+    </a>
+  {{- end }}
+</div>

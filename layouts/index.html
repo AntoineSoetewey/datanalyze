@@ -1,0 +1,151 @@
+{{ define "main" }}
+  {{- $p := .Params -}}
+
+  {{/* ---------- Hero ---------- */}}
+  <section class="dz-hero dz-hero--center">
+    <div class="dz-hero__grid" aria-hidden="true"></div>
+    <div class="dz-wrap dz-hero__inner dz-fade">
+      {{ with $p.hero.badge }}
+        <span class="dz-badge"><span class="dz-badge__dot" aria-hidden="true"></span>{{ . }}</span>
+      {{ end }}
+      <h1 class="dz-h1">
+        {{ $p.hero.title }}<span class="dz-accent">{{ $p.hero.titleAccent }}</span>{{ $p.hero.titleEnd }}
+      </h1>
+      <p class="dz-lead">{{ $p.hero.lead | markdownify }}</p>
+      <div class="dz-btn-row dz-btn-row--center">
+        <a class="dz-btn dz-btn--primary" href="{{ "contact/" | relLangURL }}">{{ $p.hero.ctaPrimary }}</a>
+        <a class="dz-btn dz-btn--secondary" href="{{ "services/" | relLangURL }}">{{ $p.hero.ctaSecondary }}</a>
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- Trust strip: verifiable facts only ---------- */}}
+  {{ with $p.trust }}
+    <div class="dz-trust">
+      <div class="dz-wrap">
+        <ul class="dz-trust__list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+    </div>
+  {{ end }}
+
+  {{/* ---------- Services ---------- */}}
+  <section class="dz-section" id="services">
+    <div class="dz-wrap dz-wrap--page">
+      <div class="dz-section-head dz-section-head--center">
+        <p class="dz-eyebrow">{{ $p.services.eyebrow }}</p>
+        <h2 class="dz-h2">{{ $p.services.title }}</h2>
+        <p class="dz-lead dz-lead--center">{{ $p.services.lead }}</p>
+      </div>
+      {{ partial "dz-service-cards.html" . }}
+      <p style="margin-top:2.5rem;text-align:center">
+        <a class="dz-arrow" href="{{ "services/" | relLangURL }}">{{ $p.services.more }}</a>
+      </p>
+    </div>
+  </section>
+
+  {{/* ---------- Expertise ---------- */}}
+  <section class="dz-section dz-section--sunken" id="expertise">
+    <div class="dz-wrap dz-wrap--page">
+      <div class="dz-section-head">
+        <p class="dz-eyebrow">{{ $p.expertise.eyebrow }}</p>
+        <h2 class="dz-h2">{{ $p.expertise.title }}</h2>
+        <p class="dz-lead">{{ $p.expertise.lead }}</p>
+      </div>
+      <div class="dz-cols">
+        {{ range $p.expertise.columns }}
+          <div>
+            <h3>{{ .title }}</h3>
+            <ul>{{ range .items }}<li>{{ . }}</li>{{ end }}</ul>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- About. Carries both old home anchors so pre-refonte
+         deep links (/#who-am-i and /fr/#qui-suis-je) still land here. ---------- */}}
+  <section class="dz-section" id="qui-suis-je">
+    <span id="who-am-i" class="dz-sr"></span>
+    <div class="dz-wrap dz-wrap--page">
+      <div class="dz-split dz-split--narrowFirst">
+        <div>
+          {{ with resources.Get "img/Antoine-Soetewey.jpeg" }}
+            {{ with .Fill "560x560 Center q82 webp" }}
+              <img
+                class="dz-portrait"
+                src="{{ .RelPermalink }}"
+                width="{{ .Width }}"
+                height="{{ .Height }}"
+                loading="lazy"
+                decoding="async"
+                alt="{{ $p.about.imageAlt }}"
+              />
+            {{ end }}
+          {{ end }}
+        </div>
+        <div>
+          <p class="dz-eyebrow">{{ $p.about.eyebrow }}</p>
+          <h2 class="dz-h2">{{ $p.about.title }}</h2>
+          {{ range $p.about.paragraphs }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}
+          <div class="dz-btn-row">
+            <a class="dz-btn dz-btn--secondary" href="{{ "about/" | relLangURL }}">{{ $p.about.cta }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- Why me ---------- */}}
+  <section class="dz-section dz-section--sunken">
+    <div class="dz-wrap dz-wrap--page">
+      <div class="dz-section-head">
+        <p class="dz-eyebrow">{{ $p.why.eyebrow }}</p>
+        <h2 class="dz-h2">{{ $p.why.title }}</h2>
+      </div>
+      <div class="dz-grid dz-grid--2">
+        {{ range $p.why.items }}
+          <div class="dz-feature">
+            <h3 class="dz-feature__title">
+              {{ partial "dz-icon.html" (.icon | default "check") }}{{ .title }}
+            </h3>
+            <p>{{ .text }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{/* ---------- References ---------- */}}
+  {{ with site.GetPage "/references" }}
+    <section class="dz-section">
+      <div class="dz-wrap dz-wrap--page">
+        <div class="dz-section-head">
+          <p class="dz-eyebrow">{{ $p.references.eyebrow }}</p>
+          <h2 class="dz-h2">{{ $p.references.title }}</h2>
+          <p class="dz-lead">{{ $p.references.lead }}</p>
+        </div>
+        <div class="dz-grid dz-grid--2">
+          {{ range first 4 .RegularPages }}
+            <a class="dz-card" href="{{ .RelPermalink }}">
+              <h3 class="dz-card__title">{{ .Title }}</h3>
+              <p class="dz-card__text">{{ .Params.tagline | default .Description }}</p>
+              <span class="dz-card__more">{{ i18n "services.more" }}</span>
+            </a>
+          {{ end }}
+        </div>
+        <p style="margin-top:2rem">
+          <a class="dz-arrow" href="{{ .RelPermalink }}">{{ $p.references.more }}</a>
+        </p>
+      </div>
+    </section>
+  {{ end }}
+
+  {{/* Deferred sections — see each partial's header comment. They render
+       nothing until their flag and their data file both exist. */}}
+  {{ partial "dz-client-logos.html" . }}
+  {{ partial "dz-testimonials.html" . }}
+
+  {{ partial "dz-cta.html" . }}
+{{ end }}

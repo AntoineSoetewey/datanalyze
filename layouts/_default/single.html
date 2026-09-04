@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="dz-wrap dz-wrap--page dz-pagehead">
+    {{ partial "breadcrumbs.html" . }}
+    {{ with .Params.eyebrow }}<p class="dz-eyebrow">{{ . }}</p>{{ end }}
+    <h1 class="dz-h1">{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="dz-lead">{{ . | markdownify }}</p>{{ end }}
+  </div>
+
+  <div class="dz-wrap dz-wrap--page dz-section dz-section--tight">
+    <div class="dz-prose">
+      {{ .Content }}
+    </div>
+    {{ partial "dz-faq-block.html" . }}
+  </div>
+
+  {{ partial "dz-cta.html" . }}
+{{ end }}

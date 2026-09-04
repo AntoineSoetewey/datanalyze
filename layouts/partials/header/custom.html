@@ -1,0 +1,74 @@
+{{- /*
+  Site header. This is NOT a shadowed theme file: Congo loads
+  partials/header/<params.header.layout>.html, so setting header.layout =
+  "custom" is the sanctioned extension point.
+
+  The mobile menu is a checkbox + CSS sibling selector — no JavaScript.
+*/ -}}
+{{- $ctaItem := "" -}}
+{{- with site.Menus.cta }}{{ $ctaItem = index . 0 }}{{ end -}}
+<header class="dz-header">
+  <input
+    type="checkbox"
+    id="dz-menu"
+    class="dz-burger"
+    hidden
+    aria-hidden="true"
+  />
+  <div class="dz-wrap dz-header__bar">
+    <a class="dz-brand" href="{{ "" | relLangURL }}">
+      <span class="dz-brand__mark" aria-hidden="true">d</span>
+      datanalyze
+      <span class="dz-brand__suffix">{{ i18n "brand.suffix" }}</span>
+    </a>
+
+    <div class="dz-header__right">
+      <nav class="dz-nav" aria-label="{{ i18n "nav.main" }}">
+        {{- range site.Menus.main }}
+          {{- /* Skip the locale pseudo-entry (the switcher is rendered
+                 separately) and any entry whose target page does not resolve. */ -}}
+          {{- if and (ne .Identifier "locale") .URL }}
+            <a
+              href="{{ .URL }}"
+              {{- if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+                aria-current="page"
+              {{- end }}
+              >{{ .Name }}</a
+            >
+          {{- end }}
+        {{- end }}
+      </nav>
+
+      {{- partial "language-switch.html" . -}}
+
+      {{- with $ctaItem }}
+        <a class="dz-btn dz-btn--primary dz-btn--sm" href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+
+      <label class="dz-burger__box" for="dz-menu" aria-label="{{ i18n "nav.menu" }}">
+        <svg class="dz-burger__open" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+        <svg class="dz-burger__close" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
+      </label>
+    </div>
+  </div>
+
+  <div class="dz-mobile">
+    <div class="dz-wrap">
+      {{- range site.Menus.main }}
+        {{- if and (ne .Identifier "locale") .URL }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+      {{- end }}
+      {{- with $ctaItem }}
+        <a class="dz-btn dz-btn--primary" href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+      {{- partial "language-switch.html" . -}}
+    </div>
+  </div>
+</header>

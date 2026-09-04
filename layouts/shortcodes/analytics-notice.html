@@ -1,0 +1,14 @@
+{{- /*
+  Renders its inner content ONLY when Cloudflare Web Analytics is switched on.
+
+  The privacy policy therefore describes audience measurement the day the tool is
+  enabled, and says nothing about it while it is off. The paragraph and the
+  script are driven by the exact same config value, so the two can never
+  contradict each other.
+
+  Usage in content: wrap the paragraph in an "analytics-notice" percent
+  shortcode, which markdownifies the inner text.
+*/ -}}
+{{- with site.Params.cloudflareAnalyticsToken -}}
+  {{- $.Inner | markdownify -}}
+{{- end -}}

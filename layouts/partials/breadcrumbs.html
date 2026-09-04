@@ -1,0 +1,15 @@
+{{- /* Project override of themes/congo/layouts/partials/breadcrumbs.html.
+       Kept in sync with the BreadcrumbList emitted by schema.html. */ -}}
+{{- if not .IsHome }}
+  <nav aria-label="{{ i18n "page.breadcrumb" }}">
+    <ol class="dz-crumbs">
+      <li><a href="{{ "" | relLangURL }}">{{ i18n "page.home" }}</a></li>
+      {{- range .Ancestors.Reverse }}
+        {{- if not .IsHome }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+      {{- end }}
+      <li aria-current="page">{{ .LinkTitle }}</li>
+    </ol>
+  </nav>
+{{- end }}

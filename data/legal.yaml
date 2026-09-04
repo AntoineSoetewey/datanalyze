@@ -1,0 +1,51 @@
+# Identification data for datanalyze — SINGLE SOURCE OF TRUTH.
+#
+# The legal notice, the privacy policy, the footer and the JSON-LD structured
+# data all read from this file. Fill a value in here and it appears everywhere
+# at once.
+#
+# Rules the templates follow:
+#   - an EMPTY value is OMITTED from the JSON-LD (never emitted as a placeholder),
+#     and rendered as a visible "to be completed" marker in the legal pages.
+#   - never invent a company or VAT number, not even as an example.
+#
+# See TODO-CONTENU.md for what is blocking before going live.
+
+# Trader — a Belgian sole trader (personne physique), not a company.
+name: "Antoine Soetewey"
+tradingName: "datanalyze"
+legalForm: "personne physique"
+
+# BLOCKING before going live: Belgian law requires a geographic address and a
+# contact email in the legal notice of a professional website.
+address:
+  street: ""        # e.g. "Rue Exemple 1"
+  postalCode: ""    # e.g. "1000"
+  city: ""          # e.g. "Bruxelles"
+  country: "Belgique"
+  countryCode: "BE"
+
+email: ""           # professional address to publish
+
+# Registration — steps start on 1 October 2026. Leave empty until then.
+enterpriseNumber: ""  # numéro BCE / KBO
+vatNumber: ""         # numéro de TVA
+
+# Web
+website: "https://datanalyze.be"
+
+# Third-party processors the site actually sends data to. Used verbatim by the
+# privacy policy. Both are outbound links only — never an iframe or a widget.
+processors:
+  - name: "Airtable"
+    purpose: "contactForm"
+    url: "https://airtable.com/appB9dF1RZeEgOXM2/paggfTvbWXErQKlKb/form"
+    privacy: "https://www.airtable.com/company/privacy"
+  - name: "Calendly"
+    purpose: "booking"
+    url: "https://calendly.com/antoinesoetewey/30min"
+    privacy: "https://calendly.com/legal/privacy-notice"
+  - name: "Netlify"
+    purpose: "hosting"
+    url: "https://www.netlify.com/"
+    privacy: "https://www.netlify.com/privacy/"
