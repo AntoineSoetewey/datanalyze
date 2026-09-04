@@ -816,8 +816,17 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
 .dz-faq__body > :first-child { margin-top: 0; }
 .dz-faq__body > :last-child { margin-bottom: 0; }
 .dz-faq__body p { margin: 0 0 0.75rem; color: var(--ink-body); font-size: 0.9375rem; line-height: 1.7; }
-.dz-faq__body ul { margin: 0 0 0.75rem; padding-left: 1.25rem; font-size: 0.9375rem; color: var(--ink-body); }
+/* Same preflight caveat as .dz-prose below: the marker must be restored. */
+.dz-faq__body ul, .dz-faq__body ol {
+  margin: 0 0 0.75rem;
+  padding-left: 1.25rem;
+  font-size: 0.9375rem;
+  color: var(--ink-body);
+}
+.dz-faq__body ul { list-style: disc; }
+.dz-faq__body ol { list-style: decimal; }
 .dz-faq__body li { margin-bottom: 0.35rem; }
+.dz-faq__body li::marker { color: var(--ink-faint); }
 /* Same guard as .dz-prose a below: a button in an FAQ answer must keep its own style. */
 .dz-faq__body a:not(.dz-btn) { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
@@ -881,9 +890,20 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
   margin: 1.5rem 0 0.4rem;
 }
 .dz-prose p { margin: 0 0 1.1rem; }
+/* Tailwind's preflight (loaded from Congo) sets "ol, ul, menu { list-style: none }"
+   globally. Markdown lists therefore lose their bullets and numbers unless the
+   marker is restored explicitly — restoring margin and padding alone is not
+   enough. This applies to every markdown body on the site. */
 .dz-prose ul, .dz-prose ol { margin: 0 0 1.1rem; padding-left: 1.4rem; }
+.dz-prose ul { list-style: disc; }
+.dz-prose ol { list-style: decimal; }
+.dz-prose ul ul { list-style: circle; }
+.dz-prose ul ul ul { list-style: square; }
+.dz-prose ol ol { list-style: lower-alpha; }
 .dz-prose li { margin-bottom: 0.4rem; }
-.dz-prose li::marker { color: var(--line-strong); }
+.dz-prose li > ul, .dz-prose li > ol { margin: 0.4rem 0 0; }
+.dz-prose li::marker { color: var(--ink-faint); }
+.dz-prose ol > li::marker { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
 /* :not(.dz-btn) matters. Content pages (contact, legal) place real buttons in
    markdown, and this rule is more specific than .dz-btn--primary — without the
    guard it repaints the label accent-blue on the blue pill, making it invisible,
