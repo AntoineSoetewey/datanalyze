@@ -70,7 +70,9 @@
 
 {{- $graph := slice -}}
 
-{{- if .IsHome -}}
+{{- /* The 404 page is not a page of the site: no breadcrumb, no WebPage node. */ -}}
+{{- if eq .Kind "404" -}}
+{{- else if .IsHome -}}
   {{- $graph = $graph | append (dict
       "@type" "WebSite"
       "@id" (printf "%s#website" $home.Permalink)
@@ -144,6 +146,8 @@
       "about" (dict "@id" $orgId)) -}}
 {{- end -}}
 
+{{- with $graph }}
 <script type="application/ld+json">
-{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+{{ dict "@context" "https://schema.org" "@graph" . | jsonify (dict "indent" "  ") | safeJS }}
 </script>
+{{- end }}

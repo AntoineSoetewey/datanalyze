@@ -1,49 +1,20 @@
 {{- /*
   Project override of themes/congo/layouts/_default/sitemap.xml (Congo 2.9.0).
 
-  Two fixes over the theme version:
-    1. Congo emits the self-referencing xhtml:link TWICE for every translated
-       page (once inside the range, once after it).
-    2. Congo emits no x-default at all. With French now at the site root and
-       English moved under /en/, x-default pointing at the French version is
-       what tells Google which version to serve when no language matches.
+  Hugo emits one sitemap per language at /fr/sitemap.xml and /en/sitemap.xml.
+  Neither is used here:
 
-  Note also config.toml: sitemap entries are emitted per language, and
-  robots.txt advertises the sitemap index at the domain root, which is what
-  keeps a per-language sitemap allowed to list URLs outside its own directory.
+    - the authoritative sitemap is the single flat bilingual one at
+      /sitemap.xml (see layouts/sitemapindex.xml), which is the only sitemap
+      advertised in robots.txt and the only one to submit to Search Console;
+    - /fr/sitemap.xml would otherwise list URLs served from the site root, which
+      a sitemap at that path is not allowed to cover, and /fr/ is the path being
+      301-redirected after the language switch.
+
+  Hugo gives no way to disable the per-language sitemaps in 0.119, so they are
+  rendered as an empty, valid urlset. Nothing links to them.
 */ -}}
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{- range .Data.Pages }}
-    {{- if and
-          (not (in (site.Params.sitemap.excludedKinds | default slice) .Kind))
-          (.Param "xml" | default true)
-          (not (isset .Params "externalUrl"))
-          .Permalink }}
-      <url>
-        <loc>{{ .Permalink }}</loc>
-        {{- if not .Lastmod.IsZero }}
-        <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
-        {{- end }}
-        {{- with .Sitemap.ChangeFreq }}
-        <changefreq>{{ . }}</changefreq>
-        {{- end }}
-        {{- if ge .Sitemap.Priority 0.0 }}
-        <priority>{{ .Sitemap.Priority }}</priority>
-        {{- end }}
-        {{- with .AllTranslations }}
-          {{- range . }}
-        <xhtml:link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}" />
-          {{- end }}
-          {{- range . }}
-            {{- if eq .Language.Lang "fr" }}
-        <xhtml:link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
-            {{- end }}
-          {{- end }}
-        {{- end }}
-      </url>
-    {{- end }}
-  {{- end }}
+<!-- Not used. The authoritative sitemap for this site is https://datanalyze.be/sitemap.xml -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </urlset>

@@ -1,0 +1,50 @@
+{{- /*
+  Project override of Hugo's built-in sitemapindex template.
+
+  By default a multilingual site gets a sitemap INDEX at /sitemap.xml pointing to
+  /fr/sitemap.xml and /en/sitemap.xml. That is a problem here for two reasons:
+
+    1. /fr/sitemap.xml would list URLs served from the site ROOT (French is the
+       default language and is not in a subdirectory). A sitemap may only list
+       URLs at or below its own path, so those entries are out of scope.
+    2. /fr/ is precisely the path being 301-redirected after the language switch;
+       keeping live files under it invites confusion.
+
+  So instead of an index, /sitemap.xml is emitted as ONE flat urlset covering
+  both languages, with reciprocal hreflang annotations and x-default pointing at
+  the French version. For a site of this size a single file is simpler to submit
+  to Search Console and leaves nothing under /fr/.
+
+  The context here is the slice of sites (one per language).
+*/ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- range $site := . }}
+    {{- range $site.Pages }}
+      {{- if and
+            (not (in (site.Params.sitemap.excludedKinds | default slice) .Kind))
+            (.Param "xml" | default true)
+            (not (isset .Params "externalUrl"))
+            .Permalink }}
+      <url>
+        <loc>{{ .Permalink }}</loc>
+        {{- if not .Lastmod.IsZero }}
+        <lastmod>{{ safeHTML (.Lastmod.Format "2006-01-02T15:04:05-07:00") }}</lastmod>
+        {{- end }}
+        {{- with .AllTranslations }}
+          {{- range . }}
+        <xhtml:link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}" />
+          {{- end }}
+          {{- range . }}
+            {{- if eq .Language.Lang "fr" }}
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      </url>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+</urlset>

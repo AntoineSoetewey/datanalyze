@@ -41,7 +41,9 @@
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $description }}" />
   <link rel="canonical" href="{{ .Permalink }}" />
-  {{ with .Params.robots }}<meta name="robots" content="{{ . }}" />{{ end }}
+  {{- /* The 404 page must never be indexed; other pages opt in via front matter. */ -}}
+  {{ if eq .Kind "404" }}<meta name="robots" content="noindex, follow" />
+  {{ else }}{{ with .Params.robots }}<meta name="robots" content="{{ . }}" />{{ end }}{{ end }}
 
   {{- /* Reciprocal hreflang + x-default pointing at the French version.
          This is what lets Google understand that "/" changed language and that
