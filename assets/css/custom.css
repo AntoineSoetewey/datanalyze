@@ -818,7 +818,8 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
 .dz-faq__body p { margin: 0 0 0.75rem; color: var(--ink-body); font-size: 0.9375rem; line-height: 1.7; }
 .dz-faq__body ul { margin: 0 0 0.75rem; padding-left: 1.25rem; font-size: 0.9375rem; color: var(--ink-body); }
 .dz-faq__body li { margin-bottom: 0.35rem; }
-.dz-faq__body a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+/* Same guard as .dz-prose a below: a button in an FAQ answer must keep its own style. */
+.dz-faq__body a:not(.dz-btn) { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
 /* --------------------------------------------------------------------------
    13. Breadcrumbs & page header
@@ -883,8 +884,18 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
 .dz-prose ul, .dz-prose ol { margin: 0 0 1.1rem; padding-left: 1.4rem; }
 .dz-prose li { margin-bottom: 0.4rem; }
 .dz-prose li::marker { color: var(--line-strong); }
-.dz-prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
-.dz-prose a:hover { color: var(--accent-hover); }
+/* :not(.dz-btn) matters. Content pages (contact, legal) place real buttons in
+   markdown, and this rule is more specific than .dz-btn--primary — without the
+   guard it repaints the label accent-blue on the blue pill, making it invisible,
+   and underlines the secondary button. */
+.dz-prose a:not(.dz-btn) { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.dz-prose a:not(.dz-btn):hover { color: var(--accent-hover); }
+/* Buttons written inside markdown keep their own look and spacing. */
+.dz-prose .dz-btn { text-decoration: none; margin: 1.75rem 0 0.5rem; }
+.dz-prose .dz-btn--primary { color: #fff; }
+.dz-prose .dz-btn--primary:hover { color: #fff; }
+.dz-prose .dz-btn--secondary { color: var(--ink); }
+.dz-prose .dz-btn--secondary:hover { color: var(--ink); }
 .dz-prose strong { color: var(--ink); font-weight: 600; }
 .dz-prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 .dz-prose blockquote {
