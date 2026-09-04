@@ -66,17 +66,19 @@ fingerprintAlgorithm = "sha256"
 [taxonomy]
   showTermCount = true
 
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-  
-[plausibleAnalytics]
-  # domain = "blog.yoursite.com"
-  # event = ""
-  # script = ""
+# -- Audience measurement --
+# The site ships with zero measurement script and zero cookie. See README.md and
+# layouts/partials/analytics.html.
+#
+# Cloudflare Web Analytics is prepared but NOT active: it is free, cookieless and
+# needs no consent banner. Paste the token here to switch it on; while this is an
+# empty string, no script whatsoever is emitted, and the "audience measurement"
+# paragraph of the privacy policy stays hidden.
+cloudflareAnalyticsToken = ""
 
+# -- Search engine verification --
+# Leave empty until the property is claimed, then paste the meta-tag value.
+# Both are free. See TODO-CONTENU.md for the step-by-step.
 [verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+  google = ""  # Google Search Console — the main source of traffic data
+  bing = ""    # Bing Webmaster Tools

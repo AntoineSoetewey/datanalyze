@@ -11,8 +11,6 @@ baseURL = "https://datanalyze.be/"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 
-googleAnalytics = "G-0FTNWH4KFK"
-
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0

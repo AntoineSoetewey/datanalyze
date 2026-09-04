@@ -1,0 +1,27 @@
+{{/*
+  Audience measurement — project override of themes/congo/layouts/partials/analytics.html
+
+  The site ships with ZERO measurement script and ZERO cookie, on purpose: no
+  consent banner is wanted, and every hosted analytics product that would justify
+  one is paid. Shadowing Congo's partial makes its Google Analytics, Fathom,
+  Plausible and Umami blocks unreachable, so no config key can switch a tracker
+  back on by accident.
+
+  Traffic data comes from Google Search Console, Bing Webmaster Tools, the
+  Airtable form and Calendly bookings — see README.md.
+
+  The block below is the one prepared opt-in: Cloudflare Web Analytics, which is
+  free, cookieless and stores nothing on the visitor's device, so it needs no
+  consent banner. It stays INERT while params.cloudflareAnalyticsToken is empty —
+  and it is empty. Setting that one value in config/_default/params.toml is all
+  it takes to turn it on. See TODO-CONTENU.md.
+*/}}
+{{ if hugo.IsProduction }}
+  {{ with site.Params.cloudflareAnalyticsToken }}
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{{ printf `{"token": "%s"}` . | safeHTMLAttr }}'
+    ></script>
+  {{ end }}
+{{ end }}
