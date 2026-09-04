@@ -411,7 +411,10 @@ body.dz :focus-visible {
     border-top: 1px solid var(--line-soft);
     padding-block: 1rem 1.5rem;
   }
-  .dz-mobile a {
+  /* Nav entries only. The :not() guards matter: this rule is more specific than
+     .dz-btn, so without them it would flatten the call-to-action pill's
+     horizontal padding and underline the language links. */
+  .dz-mobile a:not(.dz-btn):not(.dz-lang a) {
     display: block;
     padding: 0.7rem 0;
     color: var(--ink);
@@ -419,7 +422,18 @@ body.dz :focus-visible {
     font-size: 1.0625rem;
     border-bottom: 1px solid var(--line-soft);
   }
-  .dz-mobile .dz-btn { display: inline-flex; margin-top: 1.25rem; }
+  .dz-mobile .dz-lang a {
+    display: inline;
+    padding: 0;
+    border-bottom: 0;
+    font-size: 1rem;
+  }
+  .dz-mobile .dz-btn {
+    display: inline-flex;
+    margin-top: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-bottom: 0;
+  }
   .dz-mobile .dz-lang { margin-top: 1.25rem; font-size: 1rem; }
 
   .dz-burger:checked ~ .dz-mobile { display: block; }
@@ -507,11 +521,14 @@ body.dz :focus-visible {
   font-size: 0.875rem;
   color: var(--ink-muted);
 }
-.dz-trust__list li { display: flex; align-items: center; gap: 0.5rem; }
+.dz-trust__list li { display: flex; align-items: flex-start; gap: 0.5rem; }
+/* Pin the dot to the first line: these items wrap to two lines on narrow
+   screens, and a vertically centred dot then floats away from the text. */
 .dz-trust__list li::before {
   content: "";
   width: 0.3125rem;
   height: 0.3125rem;
+  margin-top: 0.6em;
   border-radius: 50%;
   background: var(--accent);
   flex: none;

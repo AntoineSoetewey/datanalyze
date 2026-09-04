@@ -265,10 +265,17 @@ Le site est vérifié par deux scripts (hors dépôt, à recréer si besoin) et 
 quelques commandes :
 
 ```sh
-hugo --gc --minify                      # ni ERROR ni WARNING
-grep -ri "doctorant\|PhD researcher" content/ config/   # doit être vide
+hugo --gc --minify                                        # ni ERROR ni WARNING
 grep -ri "gtag\|googletagmanager\|plausible\|umami" public/   # doit être vide
-grep -roh 'https\?://[^"'"'"' ]*' public/ | sort -u     # liens de navigation seulement
+grep -roh 'https\?://[^"'"'"' ]*' public/ | sort -u           # liens de navigation seulement
+
+# Antoine ne doit jamais être décrit comme doctorant (il est docteur depuis 2024).
+# Les exclusions sont nécessaires : « doctorants » et « PhD students » décrivent
+# légitimement la CLIENTÈLE de la page « Accompagnement des chercheurs », et
+# « post-doctorant » est son statut actuel.
+grep -rn "doctorant\|PhD researcher\|PhD student" content/ config/ \
+  | grep -viE "post-?doctora" \
+  | grep -viE "doctorants|PhD students|chercheurs et doctorants|researchers and"   # doit être vide
 ```
 
 ---
