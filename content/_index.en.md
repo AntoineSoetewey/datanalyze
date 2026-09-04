@@ -11,7 +11,7 @@ I'm [Antoine Soetewey](https://antoinesoetewey.com/), PhD researcher in statisti
 
 I help you to **analyze your data** and **make informed decisions** by bringing a statistical dimension to your projects, whatever the sector of activity or the size of your company.
 
-As I enjoy sharing my skills with others, I also offer [training](/trainings/) in various topics related to data analysis and data visualization in R.
+As I enjoy sharing my skills with others, I also offer [training](/en/trainings/) in various topics related to data analysis and data visualization in R.
 
 <br>
 
@@ -64,10 +64,10 @@ Whether you need one-time help or full support, my services are centered around 
 - **Personalized support in statistics**: Advice and assistance to researchers (PhD, postdocs, etc.) and project managers for the statistical analysis of your data, with or without R.
 - **Consulting**: I provide tailor-made and creative solutions to your challenges. I also bring a statistical dimension to your projects and data so that you can make better-informed decisions.
 - **Research & development**: I am dedicated to find state-of-the-art methods and tools to answer your needs in an efficient and innovative manner.
-- **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/trainings/).
+- **Training & workshops**: I give trainings in data analysis and data visualization in R. See all [trainings](/en/trainings/).
     
 {{< alert "circle-info" >}}
-Do you have another need? [Contact me](/#contact) to discuss it further!
+Do you have another need? [Contact me](/en/#contact) to discuss it further!
 {{< /alert >}}
 
 <br>
@@ -119,4 +119,4 @@ If you want me to help you make better use of your data, please fill out this [c
 
 If you need to explain your problem in more details, you can also [book an introductory call](https://calendly.com/antoinesoetewey/30min).
 
-You will also find answers to the most frequently asked questions in the [FAQ](/faq/).
+You will also find answers to the most frequently asked questions in the [FAQ](/en/faq/).

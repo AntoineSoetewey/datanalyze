@@ -1,5 +1,6 @@
 ---
 title: "A company in the health sector"
+slug: "company-in-health-sector"
 description: "Description of the work for a company specializing in dietary rebalancing"
 layout: "simple"
 ---

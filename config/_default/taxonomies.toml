@@ -1,1 +1,2 @@
-tag = "tags"
+# No taxonomies: this is a services site, not a blog.
+# An empty table disables Hugo's default "tags" and "categories" taxonomies.

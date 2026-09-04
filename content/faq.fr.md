@@ -46,7 +46,7 @@ Une formation donne la garantie de :
 
 Les formations en R sont destinées à **toute personne qui a accès à des données et qui voudrait les analyser**.
 
-Des connaissances de base en programmation et en statistiques peuvent aider, mais la plupart des formations sont conçues pour les débutants et peuvent être suivies sans expérience préalable. Vérifiez les prérequis sur le [catalogue des formations](/fr/trainings/) pour plus de détails.
+Des connaissances de base en programmation et en statistiques peuvent aider, mais la plupart des formations sont conçues pour les débutants et peuvent être suivies sans expérience préalable. Vérifiez les prérequis sur le [catalogue des formations](/formations/) pour plus de détails.
 
 Notez que comme tout langage de programmation, il est important de continuer à pratiquer après la formation pour ne pas perdre ses acquis.
 
@@ -86,4 +86,4 @@ Les tarifs des formations dépendent :
 - de la complexité, et
 - du degré d'adaptation aux besoins des participants.
 
-Pour connaitre le prix d'une formation, veuillez me [contacter](/fr/#contact) afin d'en discuter plus en détail.
+Pour connaitre le prix d'une formation, veuillez me [contacter](/#contact) afin d'en discuter plus en détail.

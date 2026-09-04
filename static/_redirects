@@ -1,1 +1,69 @@
+# Netlify redirects for datanalyze.be
+#
+# IMPORTANT — none of the rules below is forced (no trailing "!") except the
+# netlify.app rule at the bottom. On Netlify, an unforced rule only fires when no
+# file matches the request path. That is exactly the behaviour needed here: the
+# new French pages are served from real files and are never intercepted.
+#
+# There is deliberately NO rule on "/". The root used to serve the English home
+# page and now serves the French one. It stays a valid 200; hreflang and the
+# sitemap tell search engines where the English version moved.
+
+
+# ---------------------------------------------------------------------------
+# Case A — old English URL whose path is NOT reused by a French page
+# ---------------------------------------------------------------------------
+
+/trainings/                             /en/trainings/                              301
+/portfolio/                             /en/references/                             301
+/portfolio/cliniquesaintjean/           /en/references/cliniquesaintjean/           301
+/portfolio/fondationsaintluc/           /en/references/fondationsaintluc/           301
+/portfolio/professor-surgery/           /en/references/professor-surgery/           301
+/portfolio/company-in-health-sector/    /en/references/company-in-health-sector/    301
+
+# Tag taxonomy removed (it was never used by any content).
+/tags/                                  /                                           301
+
+
+# ---------------------------------------------------------------------------
+# Case B — old English URL whose path IS reused by a French page
+# ---------------------------------------------------------------------------
+#
+# No redirect is possible: the path now serves the French page. Listed here for
+# the record only.
+#
+#   /faq/   -> now the French FAQ. The English FAQ moved to /en/faq/.
+#
+# This is the only URL in this case; hreflang and the sitemap let Google find
+# the English version.
+
+
+# ---------------------------------------------------------------------------
+# Case C — old /fr/… URL, now served from the site root
+# ---------------------------------------------------------------------------
+
+# "/fr/" is the ONE forced rule besides netlify.app below, and it has to be.
+# Hugo writes an HTML meta-refresh stub at public/fr/index.html for the default
+# language root and gives no option to suppress it (disableAliases does not cover
+# it). Without the "!", Netlify would serve that stub instead of redirecting, and
+# a meta refresh passes a weaker signal than a 301 for what is today the
+# best-ranking French URL. Forcing it is safe: this matches the exact path "/fr/"
+# and nothing else, and no real page of the new site lives there.
+/fr/                                    /                                           301!
+
+/fr/trainings/                          /formations/                                301
+/fr/faq/                                /faq/                                       301
+/fr/portfolio/                          /references/                                301
+/fr/portfolio/cliniquesaintjean/        /references/clinique-saint-jean/            301
+/fr/portfolio/fondationsaintluc/        /references/fondation-saint-luc/            301
+/fr/portfolio/professor-surgery/        /references/professeur-chirurgie-digestive/ 301
+/fr/portfolio/company-in-health-sector/ /references/entreprise-secteur-sante/       301
+/fr/tags/                               /                                           301
+/fr/index.xml                           /index.xml                                  301
+
+
+# ---------------------------------------------------------------------------
+# Pre-existing rule — the only forced one
+# ---------------------------------------------------------------------------
+
 https://datanalyze.netlify.app/*  https://datanalyze.be/:splat  301!

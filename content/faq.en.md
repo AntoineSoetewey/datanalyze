@@ -46,7 +46,7 @@ A training has the advantages that:
 
 Trainings in R are intended for **anyone who has access to data and would like to analyze it**.
 
-Basic programming and statistical knowledge can help, but most trainings are designed for beginners and can be taken without prior experience. Check the prerequisites on the [training catalog](/trainings/) for more details.
+Basic programming and statistical knowledge can help, but most trainings are designed for beginners and can be taken without prior experience. Check the prerequisites on the [training catalog](/en/trainings/) for more details.
 
 Note that like any programming language, it is important to continue practicing after the training to not lose your skills.
 
@@ -86,5 +86,5 @@ The cost of a training depends on:
 - the complexity, and
 - the degree of adaptation to the needs of the participants.
 
-To know the price of a training, please [contact me](/#contact) to discuss it in more details.
+To know the price of a training, please [contact me](/en/#contact) to discuss it in more details.
 

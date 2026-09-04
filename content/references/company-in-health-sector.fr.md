@@ -1,5 +1,6 @@
 ---
 title: "Une entreprise du secteur de la santé"
+slug: "entreprise-secteur-sante"
 description: "Description du projet pour une société spécialisée dans le rééquilibrage alimentaire"
 layout: "simple"
 ---

@@ -1,5 +1,6 @@
 ---
 title: Trainings
+slug: "trainings"
 description: See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey.
 showTableOfContents: true
 ---
@@ -66,7 +67,7 @@ The course alternates between theory and exercises.
 
 The training is intended for anyone who wants to learn how to create impactful and elegant visual representations in R, either for reports or publications.
 
-A basic knowledge of R is required: we expect participants to know how to import and manipulate data in R. Ideally, the participant followed the first day of this [training](/trainings/#introduction-to-data-analysis-with-r), or has an equivalent level through practice.
+A basic knowledge of R is required: we expect participants to know how to import and manipulate data in R. Ideally, the participant followed the first day of this [training](/en/trainings/#introduction-to-data-analysis-with-r), or has an equivalent level through practice.
 
 ### Length
 
@@ -141,7 +142,7 @@ The training takes place over 1 full day or 2 half days.
 
 ## Personalized training
 
-Feel free to [contact me](/#contact) if you wish to follow or organize a personalized training.
+Feel free to [contact me](/en/#contact) if you wish to follow or organize a personalized training.
 
 It could be a mix of trainings mentioned on this page, or anything involving statistics and/or data analysis with R.
 
@@ -153,8 +154,8 @@ It could be a mix of trainings mentioned on this page, or anything involving sta
 - You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
 - Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them as much as you want after the training.
 - Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
-- Learn more about my vision regarding trainings via the [FAQ](/faq/#what-is-the-vision-concerning-trainings).
+- Learn more about my vision regarding trainings via the [FAQ](/en/faq/#what-is-the-vision-concerning-trainings).
 
 {{< alert "circle-info">}}
-Please [contact me](/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
+Please [contact me](/en/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
 {{< /alert >}}

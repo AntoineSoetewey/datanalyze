@@ -1,5 +1,6 @@
 ---
 title: "Professor in digestive surgery"
+slug: "professor-surgery"
 description: "Description of the work for a Professor in digestive surgery"
 layout: "simple"
 ---

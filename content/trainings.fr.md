@@ -1,5 +1,6 @@
 ---
 title: "Formations"
+slug: "formations"
 description: "See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey."
 showTableOfContents: true
 ---
@@ -66,7 +67,7 @@ Le cours alterne entre théorie et exercices.
 
 La formation s'adresse à toute personne qui souhaite apprendre à créer des représentations visuelles impactantes et élégantes en R, que ce soit pour des rapports ou des publications.
 
-Une connaissance de base de R est requise : nous attendons des participants qu'ils sachent importer et manipuler des données dans R. Idéalement, le participant a suivi la première journée de cette [formation](/fr/trainings/#introduction-à-lanalyse-de-données-avec-r), ou a un niveau équivalent par la pratique.
+Une connaissance de base de R est requise : nous attendons des participants qu'ils sachent importer et manipuler des données dans R. Idéalement, le participant a suivi la première journée de cette [formation](/formations/#introduction-à-lanalyse-de-données-avec-r), ou a un niveau équivalent par la pratique.
 
 ### Durée
 
@@ -141,7 +142,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 ## Formation personnalisée
 
-N'hésitez pas à me [contacter](/fr/#contact) si vous souhaitez suivre ou organiser une formation personnalisée.
+N'hésitez pas à me [contacter](/#contact) si vous souhaitez suivre ou organiser une formation personnalisée.
 
 Il peut s'agir d'un mélange des formations mentionnées sur cette page, ou de tout ce qui concerne les statistiques et/ou l'analyse de données avec R.
 
@@ -153,8 +154,8 @@ Il peut s'agir d'un mélange des formations mentionnées sur cette page, ou de t
 - Vous êtes les bienvenus pour proposer un lieu (vos bureaux par exemple), pour autant que le matériel nécessaire (ordinateurs, projecteur, internet) soit présent.
 - Les diapositives, codes, exercices et documents présentés et développés pendant la formation vous seront envoyés afin que vous puissiez y accéder autant que vous le souhaitez après la formation.
 - Bien que les diapositives et les exercices soient rédigés en anglais, je peux donner la formation en **français ou en anglais** en fonction du public.
-- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/fr/faq/#quelle-est-la-vision-concernant-les-formations-).
+- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/faq/#quelle-est-la-vision-concernant-les-formations-).
 
 {{< alert "circle-info">}}
-Veuillez me [contacter](/fr/#contact) si vous souhaitez obtenir plus d'informations sur le prix, le lieu, le matériel requis, les dates et les inscriptions.
+Veuillez me [contacter](/#contact) si vous souhaitez obtenir plus d'informations sur le prix, le lieu, le matériel requis, les dates et les inscriptions.
 {{< /alert >}}

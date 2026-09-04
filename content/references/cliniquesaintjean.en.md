@@ -1,5 +1,6 @@
 ---
 title: "Clinique Saint-Jean"
+slug: "cliniquesaintjean"
 description: "Description of the work for Clinique Saint-Jean"
 layout: "simple"
 ---

@@ -1,50 +1,27 @@
-languageCode = "en-US"
+# -- English (secondary language, served under /en/) --
+
+languageCode = "en"
 languageName = "English"
 languageDirection = "ltr"
-weight = 1
+weight = 2
 
 title = "datanalyze"
-# logo = "img/logo.jpg"
-# copyright = "&copy; 2022"
 
 [params]
   dateFormat = "2 January 2006"
-  
-  # mainSections = ["samples"]
-  description = "Need help to analyze your data? Contact me! I am a PhD researcher in statistics at UCLouvain and I will help you in analyzing your data"
+
+  description = "Statistics and data science consultant based in Belgium. I analyse your data, train your teams and help you decide on solid results."
+
+  # Commercial tagline, shown in the header and used across templates.
+  tagline = "Statistics & data science consultant"
 
 [params.author]
-  name = "datanalyze"
+  name = "Antoine Soetewey"
   image = "img/Antoine-Soetewey.jpeg"
-  author.headline = "datanalyze: get help to analyze your data"
-  bio = "Professional website of Antoine Soetewey. PhD researcher and teaching assistant in statistics at UCLouvain"
+  headline = "Statistics & data science consultant"
+  bio = "PhD in statistics (UCLouvain) and postdoctoral researcher. I support researchers and companies in analysing their data."
   links = [
-    { github = "https://github.com/AntoineSoetewey" },
     { linkedin = "https://www.linkedin.com/in/antoinesoetewey/" },
-    { twitter = "https://twitter.com/statsandr" },
+    { github = "https://github.com/AntoineSoetewey" },
     { google-scholar = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ" },
-    { medium = "https://medium.com/@antoinesoetewey" }
-  #   { email = "/contact/" },
-  #   { link = "https://link-to-some-website.com/" },
-  #   { codepen = "https://codepen.io/username" },
-  #   { dev = "https://dev.to/username" },
-  #   { discord = "https://discord.gg/invitecode" },
-  #   { dribbble = "https://dribbble.com/username" },
-  #   { facebook = "https://facebook.com/username" },
-  #   { foursquare = "https://foursquare.com/username" },
-  #   { gitlab = "https://gitlab.com/username" },
-  #   { instagram = "https://instagram.com/username" },
-  #   { keybase = "https://keybase.io/username" },
-  #   { lastfm = "https://lastfm.com/user/username" },
-  #   { mastodon = "https://mastodon.instance/@username" },
-  #   { pinterest = "https://pinterest.com/username" },
-  #   { reddit = "https://reddit.com/user/username" },
-  #   { slack = "https://workspace.url/team/userid" },
-  #   { snapchat = "https://snapchat.com/add/username" },
-  #   { soundcloud = "https://soundcloud.com/username" },
-  #   { stackoverflow = "https://stackoverflow.com/users/6digit/username" },
-  #   { steam = "https://steamcommunity.com/profiles/userid" },
-  #   { tiktok = "https://tiktok.com/@username" },
-  #   { twitch = "https://twitch.tv/username" },
-  #   { youtube = "https://youtube.com/username" },
   ]

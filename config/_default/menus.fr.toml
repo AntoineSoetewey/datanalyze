@@ -1,66 +1,81 @@
-# -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
-#
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
+# -- Main menu (French) --
+# pageRef takes the *content path* of the page, not its slug. Hugo resolves it to
+# the translated URL of that page, so these entries stay correct in both languages.
 
 [[main]]
-  name = "expertise"
-  url = "/fr/#expertise"
+  name = "Services"
+  pageRef = "/services"
   weight = 10
 
 [[main]]
-  name = "services"
-  url = "/fr/#services"
+  name = "Formations"
+  pageRef = "/trainings"
   weight = 20
 
 [[main]]
-  name = "à propos"
-  url = "/fr/#qui-suis-je"
+  name = "Références"
+  pageRef = "/references"
   weight = 30
-  
+
 [[main]]
-  name = "portfolio"
-  url = "/fr/portfolio/"
+  name = "À propos"
+  pageRef = "/about"
   weight = 40
-  
+
 [[main]]
-  name = "contact"
-  url = "/fr/#contact"
+  name = "FAQ"
+  pageRef = "/faq"
   weight = 50
-  
+
 [[main]]
   identifier = "locale"
   weight = 100
   [main.params]
     action = "locale"
 
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
+# -- Header call to action --
+# Rendered as the button at the right of the header.
+
+[[cta]]
+  name = "Me contacter"
+  pageRef = "/contact"
+  weight = 10
+
+# -- Footer menu --
 
 [[footer]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 10
+
+[[footer]]
+  name = "Mentions légales"
+  pageRef = "/legal-notice"
+  weight = 20
+
+[[footer]]
+  name = "Politique de confidentialité"
+  pageRef = "/privacy-policy"
+  weight = 30
+
+# -- Elsewhere on the web --
+
+[[social]]
   name = "Blog"
   url = "https://statsandr.com/"
   weight = 10
 
-[[footer]]
+[[social]]
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/antoinesoetewey/"
   weight = 20
 
-[[footer]]
+[[social]]
   name = "GitHub"
   url = "https://github.com/AntoineSoetewey"
   weight = 30
 
-[[footer]]
-  name = "Twitter"
-  url = "https://twitter.com/statsandr"
+[[social]]
+  name = "Google Scholar"
+  url = "https://scholar.google.com/citations?user=1P7ThwUAAAAJ"
   weight = 40

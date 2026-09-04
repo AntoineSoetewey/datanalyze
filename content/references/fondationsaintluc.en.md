@@ -1,5 +1,6 @@
 ---
 title: "Fondation Saint-Luc"
+slug: "fondationsaintluc"
 description: "Description of the work for the Fondation Saint-Luc (Cliniques universitaires Saint-Luc)"
 layout: "simple"
 ---

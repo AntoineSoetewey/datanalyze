@@ -11,7 +11,7 @@ Je m'appelle [Antoine Soetewey](https://antoinesoetewey.com/fr/), je suis doctor
 
 Je vous aide à **analyser vos données** et **prendre des décisions éclairées** en apportant une dimension statistique à vos projets, quel que soit le secteur d'activité ou la taille de votre entreprise.
 
-Comme j'aime partager mes compétences avec d'autres personnes, je propose également des [formations](/fr/trainings/) sur divers sujets liés à l'analyse de données et à la visualisation de données en R.
+Comme j'aime partager mes compétences avec d'autres personnes, je propose également des [formations](/formations/) sur divers sujets liés à l'analyse de données et à la visualisation de données en R.
 
 <br>
 
@@ -64,10 +64,10 @@ Que vous ayez besoin d'une aide ponctuelle ou d'un accompagnement complet, mes s
 - **Accompagnement personnalisé en statistique** : Conseil et assistance aux chercheurs (doctorants, post-docs, etc.) et chefs de projet pour l'analyse statistique de vos données, avec ou sans R.
 - **Conseil** : J'apporte des solutions sur mesure et créatives à vos problèmes. J'apporte également une dimension statistique à vos projets et données afin que vous puissiez prendre des décisions plus éclairées.
 - **Recherche & développement** : Je me consacre à trouver des méthodes et des outils de pointe pour répondre à vos besoins de manière efficace et innovante.
-- **Formations et ateliers** : Je donne des formations en analyse de données et visualisation des données sur R. Voir le [catalogue des formations](/fr/trainings/).
+- **Formations et ateliers** : Je donne des formations en analyse de données et visualisation des données sur R. Voir le [catalogue des formations](/formations/).
 
 {{< alert "circle-info" >}}
-Vous avez un autre besoin ? [Contactez-moi](/fr/#contact) pour en discuter davantage !
+Vous avez un autre besoin ? [Contactez-moi](/#contact) pour en discuter davantage !
 {{< /alert >}}
 
 <br>
@@ -119,4 +119,4 @@ Si vous souhaitez que je vous aide à faire un meilleur usage de vos données, v
 
 Si vous souhaitez expliquer votre problème plus en détail, vous pouvez aussi prendre rendez-vous pour un [entretien préliminaire](https://calendly.com/antoinesoetewey/30min).
 
-Vous trouverez également les réponses aux questions les plus fréquemment posées via la [FAQ](/fr/faq/).
+Vous trouverez également les réponses aux questions les plus fréquemment posées via la [FAQ](/faq/).
