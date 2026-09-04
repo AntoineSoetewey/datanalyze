@@ -6,56 +6,52 @@ inventé : chaque champ manquant apparaît soit comme un marqueur jaune
 
 ---
 
-## 🔴 Bloquant avant la mise en ligne
+## ✅ Plus rien ne bloque la mise en ligne
 
-### 1. Adresse professionnelle
+**Adresse professionnelle et adresse e-mail sont renseignées** dans
+`data/legal.yaml`. Elles apparaissent désormais partout automatiquement :
+mentions légales, politique de confidentialité et données structurées JSON-LD.
+Les marqueurs jaunes « À COMPLÉTER » correspondants ont disparu du site.
 
-**Où :** `data/legal.yaml` → `address.street`, `address.postalCode`, `address.city`
+Le site est donc **publiable en l'état**, sous réserve du point 9 (relecture
+juridique), qui est recommandé mais pas bloquant.
 
-Le droit belge (livre VI du Code de droit économique, transposant la directive
-e-commerce) impose la mention d'une **adresse géographique** sur le site d'un
-professionnel. Elle apparaît aujourd'hui comme `À COMPLÉTER` sur les
-[mentions légales](https://datanalyze.be/mentions-legales/) et la
-[politique de confidentialité](https://datanalyze.be/politique-de-confidentialite/).
-
-Si tu ne souhaites pas publier ton adresse privée, les options habituelles sont
-une adresse de domiciliation d'entreprise ou l'adresse d'un espace de coworking.
-
-### 2. Adresse e-mail professionnelle publiable
-
-**Où :** `data/legal.yaml` → `email`
-
-Également obligatoire dans les mentions légales, et nécessaire pour l'exercice
-des droits RGPD (une demande d'accès ou d'effacement doit pouvoir t'être adressée
-directement, pas seulement via un formulaire tiers).
-
-Une adresse du type `contact@datanalyze.be` ou `antoine@datanalyze.be` serait
-cohérente avec le domaine. Je n'ai volontairement pas publié ton adresse
-personnelle.
-
-> Une fois ces deux champs remplis dans `data/legal.yaml`, ils apparaissent
-> automatiquement partout : mentions légales, politique de confidentialité, et
-> données structurées JSON-LD. **Il n'y a qu'un seul endroit à modifier.**
+> ### ⚠️ Un point à reconsidérer : l'adresse e-mail publiée
+>
+> `antoine.soetewey@uclouvain.be` est une **boîte appartenant à l'UCLouvain**,
+> publiée comme contact légal d'une **activité indépendante distincte**. Deux
+> risques concrets :
+>
+> - la plupart des règlements d'usage informatique universitaires n'autorisent
+>   pas l'usage d'une adresse institutionnelle pour une activité commerciale
+>   personnelle — à vérifier de ton côté ;
+> - l'adresse disparaît le jour où le contrat se termine, et c'est celle par
+>   laquelle des demandes RGPD doivent pouvoir t'atteindre.
+>
+> Une adresse sur ton propre domaine (`contact@datanalyze.be`) lève les deux
+> points et renforce la crédibilité commerciale. Un seul champ à changer dans
+> `data/legal.yaml`.
 
 ---
 
 ## 🟠 À compléter dès que possible
 
-### 3. Numéro d'entreprise (BCE) et numéro de TVA
+### 1. Numéro d'entreprise (BCE) et numéro de TVA
 
 **Où :** `data/legal.yaml` → `enterpriseNumber`, `vatNumber`
 
-Démarches prévues à partir du **1er octobre 2026**. Tant que ces champs sont
-vides :
+Démarches prévues à partir du **1er octobre 2026**. Ce sont désormais les
+**seuls** champs encore vides du fichier. Tant qu'ils le sont :
 
-- les mentions légales affichent `À COMPLÉTER` ;
+- les mentions légales affichent un marqueur jaune `À COMPLÉTER` ;
 - le JSON-LD **omet** les propriétés `identifier` et `vatID` plutôt que d'y mettre
   une valeur bidon.
 
-Dès que tu as les numéros, remplis-les dans `data/legal.yaml` : rien d'autre à
-faire.
+Ce n'est pas bloquant : tant que l'activité n'est pas enregistrée, il n'y a pas
+de numéro à mentionner. Dès que tu les as, remplis-les dans `data/legal.yaml` :
+rien d'autre à faire.
 
-### 4. Vérification Google Search Console et Bing Webmaster Tools
+### 2. Vérification Google Search Console et Bing Webmaster Tools
 
 **Où :** `config/_default/params.toml` → `[verification]` → `google`, `bing`
 
@@ -76,7 +72,7 @@ dans le README). Marche à suivre :
 
 La checklist post-déploiement complète est dans le README.
 
-### 5. Confirmer la publication des quatre études de cas
+### 3. Confirmer la publication des quatre études de cas
 
 Les pages [références](https://datanalyze.be/references/) nomment la
 **Clinique Saint-Jean** et la **Fondation Saint-Luc**. Ces textes existaient déjà
@@ -84,7 +80,7 @@ sur l'ancien site et n'ont pas été modifiés sur le fond, mais il vaut la pein
 vérifier que tu as bien l'accord de ces institutions pour les citer nommément —
 d'autant que le site va gagner en visibilité.
 
-### 6. Statut de la publication « Clinique Saint-Jean »
+### 4. Statut de la publication « Clinique Saint-Jean »
 
 **Où :** `content/references/cliniquesaintjean.fr.md` et `.en.md`
 
@@ -97,7 +93,7 @@ faute de pouvoir le vérifier.
 
 ## 🟡 Améliorations, non bloquantes
 
-### 7. Image de partage sur les réseaux sociaux
+### 5. Image de partage sur les réseaux sociaux
 
 Aujourd'hui, l'image Open Graph est un **recadrage automatique 1200×630 de ton
 portrait**. C'est correct et fonctionnel, mais une image dessinée (nom, titre
@@ -107,7 +103,7 @@ Pour la remplacer : dépose un fichier 1200×630 dans `assets/img/` et ajoute
 `image: "img/ton-fichier.png"` dans le front matter de la page concernée, ou
 modifie la valeur par défaut dans `layouts/partials/head.html`.
 
-### 8. Conditions générales — délibérément non rédigées
+### 6. Conditions générales — délibérément non rédigées
 
 Je ne les ai **pas** écrites, et c'est un choix argumenté :
 
@@ -124,7 +120,7 @@ formations), plafond de responsabilité, propriété intellectuelle des livrable
 (le site annonce déjà un transfert intégral au client), et droit applicable.
 Un comptable ou un guichet d'entreprises couvre généralement ce point.
 
-### 9. Témoignages, logos clients et grille tarifaire
+### 7. Témoignages, logos clients et grille tarifaire
 
 Les trois sections sont **construites et stylées** mais **non affichées**, faute
 de contenu réel. Chacune s'active en deux gestes, documentés en tête du partial
@@ -143,7 +139,7 @@ demandé. Si tu actives le bandeau plus tard, préfère des logos individuels da
 `assets/img/clients/` : ils restent nets, acceptent un texte alternatif et se
 retirent un par un.
 
-### 10. Activer la mesure d'audience (si tu en ressens le besoin)
+### 8. Activer la mesure d'audience (si tu en ressens le besoin)
 
 Le site part avec **zéro script de mesure et zéro cookie**, donc sans bandeau de
 consentement. Si tu veux plus tard le détail du trafic par page :
@@ -168,7 +164,7 @@ Alternative envisageable : le **palier gratuit d'Umami Cloud** (open source,
 sans cookie, hébergé en UE). Il demanderait un partial supplémentaire, non écrit.
 Je n'ai activé **aucun** des deux.
 
-### 11. Textes juridiques à faire relire
+### 9. Textes juridiques à faire relire
 
 Les mentions légales et la politique de confidentialité sont des **modèles
 génériques** adaptés à une activité d'indépendant en Belgique, pas un conseil
@@ -176,7 +172,7 @@ juridique. Une relecture par un professionnel du droit est recommandée avant la
 mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
 des données de santé pour tes clients hospitaliers).
 
-### 12. Points de contenu à vérifier
+### 10. Points de contenu à vérifier
 
 - **easystat.be** est toujours cité comme activité de cours particuliers, sur la
   page « À propos ». À confirmer.

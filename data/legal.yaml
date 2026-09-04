@@ -19,7 +19,7 @@ legalForm: "personne physique"
 # BLOCKING before going live: Belgian law requires a geographic address and a
 # contact email in the legal notice of a professional website.
 address:
-  street: "Rue Fond du Village"        # e.g. "Rue Exemple 1"
+  street: "Rue Fond du Village 6"        # e.g. "Rue Exemple 1"
   postalCode: "1315"    # e.g. "1000"
   city: "Incourt"          # e.g. "Bruxelles"
   country: "Belgique"
