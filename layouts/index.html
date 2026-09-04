@@ -19,17 +19,6 @@
     </div>
   </section>
 
-  {{/* ---------- Trust strip: verifiable facts only ---------- */}}
-  {{ with $p.trust }}
-    <div class="dz-trust">
-      <div class="dz-wrap">
-        <ul class="dz-trust__list">
-          {{ range . }}<li>{{ . }}</li>{{ end }}
-        </ul>
-      </div>
-    </div>
-  {{ end }}
-
   {{/* ---------- Services ---------- */}}
   <section class="dz-section" id="services">
     <div class="dz-wrap dz-wrap--page">

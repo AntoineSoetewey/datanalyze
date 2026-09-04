@@ -504,36 +504,6 @@ body.dz :focus-visible {
   to { opacity: 1; transform: none; }
 }
 
-/* Trust strip under the hero */
-.dz-trust {
-  border-top: 1px solid var(--line-soft);
-  background: var(--bg-subtle);
-  padding-block: 1.25rem;
-}
-.dz-trust__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem 2rem;
-  font-size: 0.875rem;
-  color: var(--ink-muted);
-}
-.dz-trust__list li { display: flex; align-items: flex-start; gap: 0.5rem; }
-/* Pin the dot to the first line: these items wrap to two lines on narrow
-   screens, and a vertically centred dot then floats away from the text. */
-.dz-trust__list li::before {
-  content: "";
-  width: 0.3125rem;
-  height: 0.3125rem;
-  margin-top: 0.6em;
-  border-radius: 50%;
-  background: var(--accent);
-  flex: none;
-}
-
 /* --------------------------------------------------------------------------
    9. Cards & grids
    -------------------------------------------------------------------------- */
