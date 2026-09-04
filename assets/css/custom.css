@@ -924,15 +924,6 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
   .dz-footer__top { grid-template-columns: 1.4fr 1fr 1fr; gap: 3rem; }
 }
 .dz-footer__blurb { max-width: 24rem; margin: 0.75rem 0 0; font-size: 0.9375rem; color: var(--ink-muted); line-height: 1.6; }
-.dz-footer h2 {
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-  margin: 0 0 0.9rem;
-}
 .dz-footer ul { list-style: none; margin: 0; padding: 0; }
 .dz-footer li { margin-bottom: 0.5rem; }
 .dz-footer a { color: var(--ink-body); text-decoration: none; font-size: 0.9375rem; }

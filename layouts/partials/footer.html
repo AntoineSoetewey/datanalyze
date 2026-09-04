@@ -15,8 +15,11 @@
         <p class="dz-footer__blurb">{{ i18n "footer.blurb" }}</p>
       </div>
 
-      <div>
-        <h2>{{ i18n "footer.site" }}</h2>
+      {{/* The column headings are not displayed: with only two link lists,
+           one internal and one external, they were visual noise. They survive
+           as the accessible name of each nav landmark, otherwise the two lists
+           are indistinguishable to a screen reader. */}}
+      <nav aria-label="{{ i18n "footer.site" }}">
         <ul>
           {{- range site.Menus.main }}
             {{- if and (ne .Identifier "locale") .URL }}
@@ -27,10 +30,9 @@
             {{- if .URL }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
           {{- end }}
         </ul>
-      </div>
+      </nav>
 
-      <div>
-        <h2>{{ i18n "footer.elsewhere" }}</h2>
+      <nav aria-label="{{ i18n "footer.elsewhere" }}">
         <ul>
           {{- range site.Menus.social }}
             <li>
@@ -38,7 +40,7 @@
             </li>
           {{- end }}
         </ul>
-      </div>
+      </nav>
     </div>
 
     <div class="dz-footer__bottom">
