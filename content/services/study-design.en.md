@@ -2,7 +2,7 @@
 title: "Study design and sample size"
 slug: "study-design"
 seoTitle: "Study design and sample size calculation | datanalyze"
-description: "Before you collect: statistical analysis plan, sample size and power calculation, choice of variables. For protocols, ethics committees and funding applications."
+description: "Before you collect: analysis plan, sample size and power calculation, choice of variables. For protocols, ethics committees and funders."
 order: 3
 icon: "target"
 serviceType: "Study design and sample size calculation"

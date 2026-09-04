@@ -2,7 +2,7 @@
 title: "Conception d'étude et taille d'échantillon"
 slug: "conception-d-etude"
 seoTitle: "Conception d'étude et calcul de taille d'échantillon | datanalyze"
-description: "Avant de collecter vos données : plan d'analyse statistique, calcul de la taille d'échantillon et de la puissance, choix des variables. Pour protocoles, comités d'éthique et demandes de financement."
+description: "Avant de collecter : plan d'analyse, calcul de la taille d'échantillon et de la puissance, choix des variables. Pour protocoles et comités d'éthique."
 order: 3
 icon: "target"
 serviceType: "Conception d'étude et calcul de taille d'échantillon"

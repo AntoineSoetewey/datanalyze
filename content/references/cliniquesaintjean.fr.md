@@ -1,7 +1,7 @@
 ---
 title: "Clinique Saint-Jean"
 slug: "clinique-saint-jean"
-description: "Analyse statistique de missions SMUR et PIT à partir de données récoltées auprès des hôpitaux bruxellois, dans le cadre de la réforme de l'aide médicale urgente."
+description: "Analyse statistique de missions SMUR et PIT, sur données des hôpitaux bruxellois, dans le cadre de la réforme de l'aide médicale urgente."
 tagline: "Comparaison de deux vecteurs d'intervention en médecine d'urgence, pour la Clinique Saint-Jean."
 eyebrow: "Référence"
 ---

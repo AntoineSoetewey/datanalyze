@@ -2,7 +2,7 @@
 title: "Analyse de données"
 slug: "analyse-de-donnees"
 seoTitle: "Analyse de données et statistiques sur mesure | datanalyze"
-description: "Vous avez des données, une question et pas le temps ou la méthode pour y répondre. Je réalise l'analyse statistique complète et vous livre des résultats interprétés et reproductibles."
+description: "Vous avez les données et la question, mais pas le temps ni la méthode. Je réalise l'analyse complète et vous livre des résultats interprétés."
 order: 1
 icon: "chart"
 serviceType: "Analyse statistique de données"

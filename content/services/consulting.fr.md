@@ -2,7 +2,7 @@
 title: "Consultance et aide à la décision"
 slug: "consultance"
 seoTitle: "Consultance statistique et aide à la décision | datanalyze"
-description: "Pour les entreprises et les institutions : transformer des données dormantes en indicateurs fiables et en décisions argumentées. Segmentation, scoring, tableaux de bord, modèles prédictifs."
+description: "Pour les entreprises et les institutions : transformer des données dormantes en indicateurs fiables et en décisions argumentées."
 order: 4
 icon: "compass"
 serviceType: "Consultance en statistique et aide à la décision"

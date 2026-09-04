@@ -2,7 +2,7 @@
 title: "Data analysis"
 slug: "data-analysis"
 seoTitle: "Bespoke data analysis and statistics | datanalyze"
-description: "You have the data and the question, but not the time or the method to answer it. I run the full statistical analysis and deliver interpreted, reproducible results."
+description: "You have the data and the question, but not the time or the method. I run the full statistical analysis and deliver interpreted results."
 order: 1
 icon: "chart"
 serviceType: "Statistical data analysis"

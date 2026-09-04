@@ -2,7 +2,7 @@
 title: "À propos"
 slug: "a-propos"
 seoTitle: "Antoine Soetewey, docteur en statistique et consultant | datanalyze"
-description: "Docteur en statistique (UCLouvain), chercheur postdoctoral à HEC Liège et à l'UCLouvain Saint-Louis Bruxelles, chargé de cours invité. Parcours et façon de travailler."
+description: "Docteur en statistique (UCLouvain), chercheur postdoctoral et chargé de cours invité. Mon parcours et ma façon de travailler."
 eyebrow: "À propos"
 lead: "datanalyze, c'est une seule personne : moi. Voici mon parcours, ce que je sais faire, et surtout comment je travaille."
 ---

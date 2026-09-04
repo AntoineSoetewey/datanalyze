@@ -10,7 +10,7 @@ title = "datanalyze"
 [params]
   dateFormat = "2 January 2006"
 
-  description = "Consultant en statistique et science des données. J'analyse vos données, je forme vos équipes et je vous aide à décider sur base de résultats solides. Basé en Belgique, à distance ailleurs."
+  description = "Consultant en statistique et science des données : analyse, formation et aide à la décision. Basé en Belgique, en présentiel ou à distance."
 
   # Commercial tagline, shown in the header and used across templates.
   tagline = "Consultant en statistique et science des données"

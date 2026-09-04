@@ -1,7 +1,7 @@
 ---
 title: "datanalyze"
 seoTitle: "Statistics & data science consultant | datanalyze"
-description: "Statistics and data science consultant. I analyse your data, validate your methods and train your teams — for researchers, hospitals and companies. Based in Belgium, working remotely elsewhere."
+description: "Data analysis, method validation and training, for researchers, hospitals and companies. Based in Belgium, on site or remotely."
 
 hero:
   badge: "Statistical consulting and training"

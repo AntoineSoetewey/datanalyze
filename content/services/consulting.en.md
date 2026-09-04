@@ -2,7 +2,7 @@
 title: "Consulting and decision support"
 slug: "consulting"
 seoTitle: "Statistical consulting and decision support | datanalyze"
-description: "For companies and institutions: turning dormant data into reliable indicators and evidence-based decisions. Segmentation, scoring, dashboards, predictive models."
+description: "For companies and institutions: turning dormant data into reliable indicators and evidence-based decisions. Segmentation, scoring, dashboards."
 order: 4
 icon: "compass"
 serviceType: "Statistical consulting and decision support"

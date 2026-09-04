@@ -2,7 +2,7 @@
 title: "Contact"
 slug: "contact"
 seoTitle: "Contacter un consultant en statistique | datanalyze"
-description: "Décrivez votre besoin en statistique ou en analyse de données, ou réservez un premier échange de 30 minutes sans engagement. Réponse sous quelques jours ouvrables."
+description: "Décrivez votre besoin, ou réservez un premier échange de 30 minutes sans engagement. Réponse sous quelques jours ouvrables."
 eyebrow: "Contact"
 lead: "Deux façons d'entrer en contact, selon que vous préférez écrire ou parler. Les deux sont sans engagement."
 ---
