@@ -16,16 +16,21 @@ name: "Antoine Soetewey"
 tradingName: "datanalyze"
 legalForm: "personne physique"
 
-# BLOCKING before going live: Belgian law requires a geographic address and a
-# contact email in the legal notice of a professional website.
+# Belgian law requires a geographic address and a contact email in the legal
+# notice of a professional website. Both are filled in.
 address:
-  street: "Rue Fond du Village 6"        # e.g. "Rue Exemple 1"
-  postalCode: "1315"    # e.g. "1000"
-  city: "Incourt"          # e.g. "Bruxelles"
+  street: "Rue Fond du Village 6"
+  postalCode: "1315"
+  city: "Incourt"
   country: "Belgique"
   countryCode: "BE"
 
-email: "antoine.soetewey@uclouvain.be"           # professional address to publish
+# Published as the legal and GDPR contact address.
+# NOTE: this is a UCLouvain mailbox used as the contact for a separate
+# independent activity. See TODO-CONTENU.md — worth moving to a datanalyze.be
+# address (university IT policies often forbid this, and the mailbox goes away
+# with the contract).
+email: "antoine.soetewey@uclouvain.be"
 
 # Registration — steps start on 1 October 2026. Leave empty until then.
 enterpriseNumber: ""  # numéro BCE / KBO
