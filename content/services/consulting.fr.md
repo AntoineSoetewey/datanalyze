@@ -3,7 +3,7 @@ title: "Consultance et aide à la décision"
 slug: "consultance"
 seoTitle: "Consultance statistique et aide à la décision en Belgique | datanalyze"
 description: "Pour les entreprises et les institutions : transformer des données dormantes en indicateurs fiables et en décisions argumentées. Segmentation, scoring, tableaux de bord, modèles prédictifs."
-order: 3
+order: 4
 icon: "compass"
 serviceType: "Consultance en statistique et aide à la décision"
 tagline: "Des données dormantes aux décisions argumentées"

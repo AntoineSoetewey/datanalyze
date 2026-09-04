@@ -28,16 +28,16 @@ problem:
     - "Your supervisor asks you to \"justify the model\""
     - "A reviewer demands a correction for multiple testing"
     - "You do not know how to handle your missing data"
-    - "You need a sample size calculation for an ethics committee"
+    - "Your results are significant but you doubt they hold"
     - "Your jury will ask about method and you want to be ready"
 
 deliverablesIntro: "The aim is not only to unblock the current point, but to make you self-sufficient on the next ones."
 deliverables:
-  - "A written statistical analysis plan, before collection where possible"
   - "Test justifications you can lift straight into your methods section"
-  - "Sample size and power calculations"
+  - "The model that fits the structure of your data"
   - "A critical review of your statistics section"
   - "Reasoned answers to reviewers' comments"
+  - "Your software output interpreted, line by line"
   - "Your R scripts reviewed, corrected and commented"
 
 process:
@@ -58,8 +58,8 @@ examples:
     text: "The same subjects measured at several time points. Standard tests become invalid; you need a model that accounts for the dependence."
   - title: "Answering a reviewer"
     text: "\"The statistical analysis is inadequate.\" A precise diagnosis of the objection, the correction, and the written response."
-  - title: "Sample size"
-    text: "How many patients to include to detect a clinically meaningful effect with 80% power? A calculation to attach to the protocol."
+  - title: "Correcting for multiple testing"
+    text: "Twenty comparisons, and one comes out \"significant\" by chance. Which correction to apply, and when it is not needed."
   - title: "Missing data"
     text: "Dropping incomplete rows often biases the results. Choosing between complete-case analysis, imputation, or a robust model."
   - title: "Preparing your defence"
@@ -68,11 +68,12 @@ examples:
 faq:
   - q: "When is the best time to contact you?"
     a: |
-      **Before collection**, if you possibly can. It is the only moment when
-      everything is still fixable: study design, variables to measure, sample size.
-      Once the data is collected, some questions simply have no answer left. That
-      said, most requests arrive mid-analysis or after a review, and there is almost
-      always something to be done.
+      This service covers the phase where you have your data and you are analysing
+      it. If collection has not started yet, what you want is
+      [study design](/en/services/study-design/): that is the only moment when the
+      design, the variables and the sample size are still fixable. Most requests do
+      arrive mid-analysis or after a review, though, and there is almost always
+      something to be done.
   - q: "Do you run the analysis for me?"
     a: |
       Not under this service: here you keep control and I secure the method. If you

@@ -3,7 +3,7 @@ title: "Développement R et automatisation"
 slug: "developpement-r"
 seoTitle: "Développement R, Shiny et automatisation de rapports | datanalyze"
 description: "Scripts R, applications Shiny, packages et rapports automatisés avec Quarto. Pour transformer une analyse manuelle et fragile en outil fiable et reproductible."
-order: 4
+order: 5
 icon: "code"
 serviceType: "Développement R et automatisation d'analyses"
 tagline: "Une analyse qui tourne toute seule, à l'identique"

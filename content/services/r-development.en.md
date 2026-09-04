@@ -3,7 +3,7 @@ title: "R development and automation"
 slug: "r-development"
 seoTitle: "R development, Shiny apps and automated reporting | datanalyze"
 description: "R scripts, Shiny applications, packages and automated reports with Quarto. Turning a manual, fragile analysis into a reliable, reproducible tool."
-order: 4
+order: 5
 icon: "code"
 serviceType: "R development and analysis automation"
 tagline: "An analysis that runs itself, identically"

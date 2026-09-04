@@ -28,16 +28,16 @@ problem:
     - "Votre promoteur vous demande de « justifier le modèle »"
     - "Un relecteur exige une correction pour tests multiples"
     - "Vous ne savez pas comment traiter vos données manquantes"
-    - "Vous devez calculer une taille d'échantillon pour un comité d'éthique"
+    - "Vos résultats sont significatifs mais vous doutez qu'ils tiennent"
     - "Votre jury va poser des questions de méthode et vous voulez être prêt"
 
 deliverablesIntro: "L'objectif n'est pas seulement de résoudre le point qui bloque, mais de vous rendre autonome sur les suivants."
 deliverables:
-  - "Un plan d'analyse statistique écrit, avant la collecte si possible"
   - "La justification des tests à reprendre telle quelle dans vos méthodes"
-  - "Le calcul de taille d'échantillon et de puissance"
+  - "Le choix du modèle adapté à la structure de vos données"
   - "Une relecture critique de votre section statistique"
   - "Des réponses argumentées aux commentaires des relecteurs"
+  - "L'interprétation de vos sorties de logiciel, ligne par ligne"
   - "Vos scripts R relus, corrigés et commentés"
 
 process:
@@ -58,8 +58,8 @@ examples:
     text: "Les mêmes sujets mesurés à plusieurs moments. Les tests classiques deviennent invalides ; il faut un modèle qui tienne compte de la dépendance."
   - title: "Répondre à un relecteur"
     text: "« The statistical analysis is inadequate. » Diagnostic précis du reproche, correction, et rédaction de la réponse."
-  - title: "Taille d'échantillon"
-    text: "Combien de patients inclure pour détecter un effet cliniquement pertinent, avec 80 % de puissance ? Calcul à joindre au protocole."
+  - title: "Corriger pour tests multiples"
+    text: "Vingt comparaisons, et l'une ressort « significative » par hasard. Quelle correction appliquer, et quand elle n'est pas nécessaire."
   - title: "Données manquantes"
     text: "Supprimer les lignes incomplètes biaise souvent les résultats. Choix entre analyse complète, imputation, ou modèle robuste."
   - title: "Préparer sa défense"
@@ -68,12 +68,13 @@ examples:
 faq:
   - q: "À quel moment vaut-il mieux vous contacter ?"
     a: |
-      **Avant la collecte**, si vous en avez la possibilité. C'est le seul moment où
-      tout est encore corrigeable : plan d'étude, variables à mesurer, taille
-      d'échantillon. Une fois les données récoltées, certaines questions n'ont
-      simplement plus de réponse possible. Cela dit, la majorité des demandes
-      arrivent en cours d'analyse ou après un retour de relecteurs, et il y a presque
-      toujours quelque chose à faire.
+      Ce service couvre la phase où vous avez vos données et vous les analysez. Si
+      la collecte n'a pas encore commencé, c'est la
+      [conception d'étude](/services/conception-d-etude/) qu'il vous faut : c'est le
+      seul moment où le plan d'étude, les variables et la taille d'échantillon sont
+      encore corrigeables. La majorité des demandes arrivent toutefois en cours
+      d'analyse ou après un retour de relecteurs, et il y a presque toujours quelque
+      chose à faire.
   - q: "Est-ce que vous faites l'analyse à ma place ?"
     a: |
       Pas dans ce cadre-ci : ici, vous gardez la main et je sécurise la méthode.
