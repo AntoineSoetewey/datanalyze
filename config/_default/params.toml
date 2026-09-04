@@ -6,6 +6,19 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "datanalyze"
+
+# -- Audience measurement --
+# The site ships with zero measurement script and zero cookie. See README.md and
+# layouts/partials/analytics.html.
+#
+# Cloudflare Web Analytics is prepared but NOT active: it is free, cookieless and
+# needs no consent banner. Paste the token here to switch it on; while this is an
+# empty string, no script whatsoever is emitted, and the "audience measurement"
+# paragraph of the privacy policy stays hidden.
+#
+# NOTE: this key must stay ABOVE every [table] header in this file, or TOML would
+# nest it inside the preceding table and the toggle would silently never fire.
+cloudflareAnalyticsToken = ""
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
@@ -76,16 +89,6 @@ fingerprintAlgorithm = "sha256"
 
 [taxonomy]
   showTermCount = true
-
-# -- Audience measurement --
-# The site ships with zero measurement script and zero cookie. See README.md and
-# layouts/partials/analytics.html.
-#
-# Cloudflare Web Analytics is prepared but NOT active: it is free, cookieless and
-# needs no consent banner. Paste the token here to switch it on; while this is an
-# empty string, no script whatsoever is emitted, and the "audience measurement"
-# paragraph of the privacy policy stays hidden.
-cloudflareAnalyticsToken = ""
 
 # -- Search engine verification --
 # Leave empty until the property is claimed, then paste the meta-tag value.

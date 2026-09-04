@@ -938,3 +938,20 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
 
 .dz-404 { text-align: center; padding-block: 6rem; }
 .dz-404 .dz-btn-row { justify-content: center; }
+
+/* --------------------------------------------------------------------------
+   17. "To be completed" marker on the legal pages
+   Deliberately loud: an empty enterprise or VAT number must be impossible to
+   mistake for a real one. See layouts/shortcodes/legal.html.
+   -------------------------------------------------------------------------- */
+
+.dz-todo {
+  background: #fef3c7;
+  color: #78350f;
+  border: 1px dashed #d97706;
+  border-radius: 4px;
+  padding: 0.05em 0.4em;
+  font-size: 0.9em;
+  font-weight: 600;
+  white-space: nowrap;
+}
