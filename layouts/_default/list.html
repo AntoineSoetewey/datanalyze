@@ -9,6 +9,12 @@
   <div class="dz-wrap dz-wrap--page dz-section dz-section--tight">
     {{ with .Content }}<div class="dz-prose">{{ . }}</div>{{ end }}
 
+    {{/* The services hub reuses the home page's card partial so both always
+         show the same set — including Training, which is a top-level page and
+         therefore not part of the /services/ section. */}}
+    {{ if eq .Section "services" }}
+      {{ partial "dz-service-cards.html" . }}
+    {{ else }}
     {{ $pages := .RegularPages }}
     {{ if .Params.orderByWeight }}{{ $pages = sort $pages "Params.order" }}{{ end }}
     {{ with $pages }}
@@ -24,6 +30,7 @@
           </a>
         {{ end }}
       </div>
+    {{ end }}
     {{ end }}
   </div>
 
