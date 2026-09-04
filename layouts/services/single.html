@@ -9,7 +9,7 @@
       <h1 class="dz-h1">{{ .Title }}</h1>
       <p class="dz-lead">{{ $p.lead | markdownify }}</p>
       <div class="dz-btn-row">
-        <a class="dz-btn dz-btn--primary" href="{{ "contact/" | relLangURL }}">{{ i18n "services.cta" }}</a>
+        <a class="dz-btn dz-btn--primary" href="{{ with site.GetPage "/contact" }}{{ .RelPermalink }}{{ end }}">{{ i18n "services.cta" }}</a>
       </div>
     </div>
   </section>

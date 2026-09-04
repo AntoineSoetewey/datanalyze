@@ -1,14 +1,9 @@
 ---
-title: "Portfolio"
-description: "See a description of the past and current projects."
-cascade:
-  showPagination: true
-  showSummary: true
-  showBreadcrumbs: false
+title: "References"
+seoTitle: "Statistical consulting assignments already delivered | datanalyze"
+description: "Descriptions of assignments carried out for hospitals, clinical researchers and companies: context, work performed and results obtained."
+eyebrow: "References"
+lead: "A few representative assignments, described with their context, the work performed and what came out of them. Two of them led to a scientific publication."
 ---
 
-This page contains all past and current projects.
-
-Feel free to click on any of them to see the context, the description of the task and the results.
-
----
+These descriptions are deliberately factual: they state what was asked and what was delivered, without embellishment. Clients are named where that was possible, and anonymised where it was not.

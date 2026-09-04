@@ -1,8 +1,9 @@
 ---
 title: "Professor in digestive surgery"
 slug: "professor-surgery"
-description: "Description of the work for a Professor in digestive surgery"
-layout: "simple"
+description: "Analysis of the impact of a food rebalancing programme on the biometric, behavioural and biological parameters of obese patients. Published."
+tagline: "Impact of a food rebalancing programme on obese patients, for a professor of digestive surgery."
+eyebrow: "Reference"
 ---
 
 ## Context
@@ -22,3 +23,7 @@ The Professor requested datanalyze for the following tasks:
 ## Results
 
 The work led to a [publication](https://www.mdpi.com/2559926).
+
+---
+
+This kind of assignment falls under [data analysis](/en/services/data-analysis/).

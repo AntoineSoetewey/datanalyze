@@ -1,8 +1,9 @@
 ---
 title: "A company in the health sector"
 slug: "company-in-health-sector"
-description: "Description of the work for a company specializing in dietary rebalancing"
-layout: "simple"
+description: "Descriptive and statistical analysis of customers, stores, revenue and closure risk for a company in the health sector."
+tagline: "Full exploitation of customer and store data for a company in the health sector."
+eyebrow: "Reference"
 ---
 
 ## Context
@@ -28,3 +29,7 @@ The company asked datanalyze to perform the following tasks:
 ## Results
 
 In addition to the results that were used to inform the decisions of the managers, the company is now putting data exploitation and analysis at the center of their reflections. This results in more relevant decisions and a better view of their business.
+
+---
+
+This kind of assignment falls under [consulting and decision support](/en/services/consulting/).

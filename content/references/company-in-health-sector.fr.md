@@ -1,8 +1,9 @@
 ---
 title: "Une entreprise du secteur de la santé"
 slug: "entreprise-secteur-sante"
-description: "Description du projet pour une société spécialisée dans le rééquilibrage alimentaire"
-layout: "simple"
+description: "Analyse descriptive et statistique des clients, boutiques, chiffre d'affaires et risques de fermeture d'une société du secteur de la santé."
+tagline: "Exploitation complète des données clients et boutiques d'une société du secteur de la santé."
+eyebrow: "Référence"
 ---
 
 ## Contexte
@@ -29,5 +30,6 @@ La société a sollicité datanalyze pour les tâches suivantes :
 
 Au delà des résultats qui ont servi à éclairer les décisions des dirigeants, l'entreprise met maintenant l'exploitation des données et les analyses au centre de leurs réflexions. Ceci a pour résultat d'aboutir à des décisions plus pertinentes et à une meilleure vue de leur business.
 
+---
 
-
+Ce type de mission relève du service [consultance et aide à la décision](/services/consultance/).

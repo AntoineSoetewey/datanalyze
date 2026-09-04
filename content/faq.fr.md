@@ -1,89 +1,162 @@
 ---
 title: "FAQ"
-description: "Réponses aux questions les plus fréquemment posées"
-showTableOfContents: true
+slug: "faq"
+seoTitle: "Questions fréquentes sur la consultance statistique | datanalyze"
+description: "Comment se passe une collaboration, ce qu'est R et pourquoi l'utiliser, à qui s'adressent les formations : les réponses aux questions les plus fréquentes."
+eyebrow: "FAQ"
+lead: "Les questions qui reviennent le plus souvent, regroupées en trois blocs : la collaboration, les statistiques et R, et les formations. Chaque page service a en plus sa propre section de questions."
+
+faq:
+  # --- La collaboration ---
+  - q: "Comment se passe une première prise de contact ?"
+    a: |
+      Vous décrivez votre besoin via le [formulaire de contact](/contact/), ou vous
+      réservez un entretien de 30 minutes. Nous cadrons ensemble la question, les
+      données disponibles et l'échéance. **Cette étape est gratuite et sans
+      engagement.** Je vous écris ensuite une proposition ; rien ne commence avant
+      votre accord.
+  - q: "Je ne sais pas formuler mon besoin en termes statistiques. Est-ce un problème ?"
+    a: |
+      Absolument pas, et c'est le cas de la majorité des demandes. Décrivez votre
+      question dans vos mots, avec le contexte de votre métier. Traduire cela en
+      question statistique fait précisément partie du travail — et c'est souvent
+      l'étape la plus déterminante de toute la mission.
+  - q: "Mes données sont-elles confidentielles ?"
+    a: |
+      Oui. Je travaille couramment avec des données de santé. Vos données ne quittent
+      pas mon poste de travail, ne servent à aucun autre usage, et sont supprimées à
+      votre demande en fin de mission. Un accord de confidentialité peut être signé
+      avant tout envoi. Pour des données de patients, transmettez-les de préférence
+      déjà pseudonymisées.
+  - q: "À qui appartiennent les résultats et le code ?"
+    a: |
+      À vous, intégralement et exclusivement. Tous les codes, programmes, documents
+      et résultats développés pendant notre collaboration vous sont transférés. Vous
+      êtes libre de les modifier, de les publier ou de les confier à quelqu'un
+      d'autre.
+  - q: "Combien coûte une prestation ?"
+    a: |
+      Cela dépend de l'ampleur du travail, de l'état des données et du délai
+      souhaité — trois choses que je ne peux pas deviner avant d'avoir compris votre
+      situation. Je préfère donc vous donner un montant ferme après le cadrage, qui
+      est gratuit, plutôt qu'une fourchette qui ne voudrait rien dire.
+      [Décrivez-moi votre besoin](/contact/) et vous aurez un chiffre précis.
+  - q: "Dans quelle langue et dans quelle région travaillez-vous ?"
+    a: |
+      En **français ou en anglais**, partout en **Belgique** — Bruxelles, Wallonie et
+      Flandre. L'analyse se fait à distance ; le cadrage, la restitution et les
+      formations gagnent à se faire en présentiel.
+  - q: "Et si vous ne pouvez pas m'aider ?"
+    a: |
+      Je vous le dis au cadrage, avant que vous ne vous engagiez. Cela arrive : le
+      besoin relève d'un autre métier, ou les données ne permettent pas de répondre à
+      la question posée. Vous préférez l'apprendre tout de suite, et je préfère vous
+      le dire plutôt que de livrer un résultat auquel je ne crois pas.
+
+  # --- Statistiques et R ---
+  - q: "Qu'est-ce que R ?"
+    a: |
+      R est un **logiciel de programmation open source** dédié à la manipulation, à
+      l'analyse statistique et à la visualisation de données.
+
+      Étant gratuit et ouvert, il évolue en permanence : de nouvelles fonctions sont
+      publiées quotidiennement par la communauté, là où un logiciel propriétaire
+      n'évolue qu'au rythme des versions de son éditeur. Sa très large communauté
+      rend aussi très probable que la réponse à votre problème existe déjà quelque
+      part.
+  - q: "Pourquoi utiliser R plutôt qu'un tableur ?"
+    a: |
+      Pour trois raisons, dans cet ordre d'importance :
+
+      - la **reproductibilité** : n'importe qui peut rejouer vos analyses et
+        retrouver exactement vos résultats, vous compris, six mois plus tard ;
+      - l'**automatisation** : les mêmes analyses se relancent sur des données
+        actualisées sans refaire le travail ;
+      - l'**extensibilité** : vous pouvez écrire vos propres fonctions au lieu
+        d'être limité à ce que l'outil prévoit.
+
+      Un tableur reste excellent pour explorer rapidement. Il devient risqué dès que
+      le même calcul doit être refait, vérifié ou transmis.
+  - q: "Faut-il analyser ses données quand on est une petite structure ?"
+    a: |
+      La taille compte moins que la répétition des décisions. Dès que vous prenez
+      régulièrement des décisions comparables — quels clients relancer, quel site
+      surveiller, quel traitement privilégier — il y a de la valeur à identifier des
+      **tendances**, des **relations** et des **opportunités** dans vos données
+      plutôt qu'à décider à l'intuition. Il n'est pas nécessaire d'avoir beaucoup de
+      données pour cela, il faut surtout qu'elles soient les bonnes.
+  - q: "Travaillez-vous uniquement avec R ?"
+    a: |
+      Pour le développement et l'analyse, oui : c'est l'outil que je maîtrise le
+      mieux et le plus adapté aux travaux à forte composante statistique. Pour le
+      **conseil méthodologique**, en revanche, le logiciel n'a pas d'importance : je
+      peux vous accompagner que vous travailliez sous SPSS, Stata, SAS, Python ou
+      Excel.
+  - q: "Faut-il de l'intelligence artificielle pour analyser mes données ?"
+    a: |
+      Le plus souvent, non. Sur des jeux de données de taille courante, un modèle
+      statistique classique donne des résultats équivalents, s'explique en une phrase
+      et se maintient sans infrastructure particulière. Je propose une méthode
+      complexe uniquement quand elle apporte quelque chose que les méthodes simples
+      n'apportent pas — et je vous dis laquelle des deux vous avez sous les yeux.
+
+  # --- Les formations ---
+  - q: "À qui s'adressent les formations en R ?"
+    a: |
+      À **toute personne qui a accès à des données et voudrait les analyser**.
+
+      Des bases en programmation ou en statistique aident, mais la plupart des
+      formations sont conçues pour des débutants et se suivent sans expérience
+      préalable. Les prérequis de chaque module sont indiqués dans le
+      [catalogue](/formations/).
+
+      Comme pour tout langage, l'essentiel est de continuer à pratiquer après la
+      formation : c'est ce qui fait la différence entre avoir vu et savoir faire.
+  - q: "Quel est l'intérêt d'une formation plutôt que d'apprendre seul ?"
+    a: |
+      Apprendre R en autodidacte est tout à fait possible — cours en ligne, livres,
+      forums — mais cela a ses limites. Une formation garantit de bénéficier de
+      l'**expertise du formateur** (technique et pédagogique), de pouvoir
+      **s'adapter aux questions** des participants en direct, de travailler avec les
+      **techniques actuelles**, et d'acquérir un **maximum de compétences en un
+      minimum de temps**.
+
+      Le gain principal n'est pas le contenu, qui existe partout : c'est le temps que
+      vous ne passez pas bloqué sur un problème que quelqu'un peut résoudre en deux
+      minutes.
+  - q: "Quelle est votre approche des formations ?"
+    a: |
+      Une formation doit faire deux choses : donner des compétences immédiatement
+      utilisables, et donner les moyens de continuer à apprendre seul ensuite.
+
+      Pour cela, j'estime qu'un formateur doit être trois choses à la fois.
+      **Compétent** dans la matière, jusque dans ses subtilités. **Pédagogue** :
+      savoir transmettre, s'adapter au niveau réel des participants, prendre du
+      recul, et reconnaître ce qu'on ne sait pas. Et **passionné**, parce qu'une
+      personne passionnée n'arrête jamais d'apprendre son sujet et rend la formation
+      nettement plus facile à suivre.
+
+      Mon doctorat et l'usage quotidien de R me donnent la première ; l'enseignement
+      universitaire à des publics très différents me donne la deuxième. Pour la
+      troisième, il faudra me croire sur parole — ou venir voir.
+
+      **Je donne moi-même toutes les formations ; aucune n'est sous-traitée.**
+  - q: "Les formations se donnent-elles à distance ?"
+    a: |
+      Non, elles ont lieu **en présentiel**. À distance, c'est plus simple à
+      organiser, mais l'interaction s'effondre : les participants posent moins de
+      questions et il est plus difficile de repérer qui décroche. Comme c'est
+      précisément ce qui fait la valeur d'une formation par rapport à un tutoriel en
+      ligne, je préfère m'en tenir au présentiel quand il est possible.
+
+      Vous pouvez proposer le lieu — vos bureaux conviennent très bien, pour autant
+      que le matériel nécessaire soit disponible.
+  - q: "Que reste-t-il après la formation ?"
+    a: |
+      Les diapositives, les codes, les exercices et les documents développés pendant
+      la formation vous sont envoyés, pour que vous puissiez y revenir autant que
+      vous le souhaitez. Les supports sont rédigés en anglais, mais la formation
+      elle-même se donne **en français ou en anglais** selon le public.
 ---
 
-## Qu'est-ce que R ?
-
-R est un **logiciel de programmation** open source dédié à la **manipulation**, l'**analyse statistique** et la **visualisation de données**.
-
-R est gratuit et open source, ce qui contribue à :
-
-- son amélioration continue (de nouvelles fonctions sont mises à disposition tous les jours par les utilisateurs), et
-- la richesse/réactivité de la communauté d'utilisateurs.
-
-Contrairement à certains programmes qui n'évoluent que lorsque la société qui l'a créé sort une mise à jour, R évolue tous les jours. De plus, grâce à sa grande communauté et la réactivité des utilisateurs, il est fort probable que vous trouvez la réponse à votre problème sur les forums d'aide en ligne.
-
-## Pourquoi utiliser R pour l'analyse de données ?
-
-Les données sont partout, et la plupart des entreprises (petites ou grandes) génèrent une grande quantité de données.
-
-En tant qu'entreprise, il est important d'analyser ses données pour :
-
-- prendre des **décisions informées**,
-- identifier les **tendances**, **relations**, et **opportunités**, et
-- maximiser les résultats.
-
-L'avantage d'utiliser un langage de programmation tel que R pour l'analyse de données est d'une part la **reproductibilité** et l'**automatisation** des résultats, et d'autre part la possibilité de définir soi-même de **nouvelles instructions**.
-
-La reproductibilité permet à n'importe quelle personne de reproduire vos analyses et à vous-même de garder une trace des étapes qui mènent aux résultats. L'automatisation fait gagner en efficacité en permettant de refaire tourner les mêmes analyses sur des données différentes ou à des moments différents. Enfin, la possibilité d'écrire soi-même de nouvelles fonctions permet d'enrichir le programme et ses fonctionnalités.
-
-## Quels sont les avantages de suivre une formation en R ?
-
-Apprendre R implique de comprendre les concepts de base et les meilleures pratiques pour l'analyse de données avec R, améliorer ses compétences en programmation, développer sa capacité à visualiser et à communiquer les résultats des analyses.
-
-Même s'il est possible d'apprendre R en suivant des cours en ligne, en lisant des livres, en participant à des forums et en pratiquant avec des jeux de données, la formation autodidacte a quelques limites et ne convient pas toujours à tout le monde.
-
-Une formation donne la garantie de :
-
-- bénéficier de l'**expertise du formateur** (tant au niveau technique que pédagogique),
-- pouvoir s'**adapter aux besoins** et demandes des participants,
-- se former avec les **techniques les plus récentes** et les plus avancées du moment, et
-- apporter un **maximum de compétences en un minimum de temps** (tout en préservant la qualité de l'enseignement).
-
-## A qui sont destinées les formations en R ?
-
-Les formations en R sont destinées à **toute personne qui a accès à des données et qui voudrait les analyser**.
-
-Des connaissances de base en programmation et en statistiques peuvent aider, mais la plupart des formations sont conçues pour les débutants et peuvent être suivies sans expérience préalable. Vérifiez les prérequis sur le [catalogue des formations](/formations/) pour plus de détails.
-
-Notez que comme tout langage de programmation, il est important de continuer à pratiquer après la formation pour ne pas perdre ses acquis.
-
-## Quelle est la vision concernant les formations ?
-
-Une formation permet :
-
-- aux participants d'acquérir des compétences (de bases ou avancées en fonction du niveau de la formation), et
-- de donner les outils nécessaires pour que les participants puissent continuer à apprendre de manière autonome après la formation.
-
-Pour qu'une formation soit réussie, j'ai la vision qu'elle doit être donnée par une personne **expérimentée, pédagogue et passionnée**.
-
-Cela va de soi que pour garantir la qualité des formations, il est important que le formateur soit **compétent** dans la matière et qu'il connaisse les moindres subtilités.
-
-Il est également essentiel que le formateur soit un bon **pédagogue**. Etre expert dans le domaine ne suffit pas ; il faut également :
-
-- être capable de transmettre ses connaissances,
-- être à l'aise avec la prise de parole en public,
-- être capable de s'adapter au niveau des participants,
-- être capable de prendre du recul et faire preuve d'humilité.
-
-Dernièrement, un formateur doit être **passionné**, et ce pour deux raisons. Premièrement, une personne passionnée sera plus encline à être compétente car elle n'arrêtera jamais d'apprendre sur le sujet. Deuxièmement, elle saura plus à même de rendre la formation engageante, interactive, dynamique, et donc facile à suivre pour les participants.
-
-Mon doctorat en statistique et l'utilisation quotidienne de R pour divers projets m'ont permis d'acquérir les compétences nécessaires pour garantir la qualité des formations. De plus, du fait d'être enseignant au niveau universitaire, j'ai appris à donner cours tant à des grands que des petits groupes d'étudiants. J'ai également la chance de donner cours à des étudiants et des professionnels de milieux et d'âges différents, ce qui m'a appris à m'adapter à toutes les audiences et tous les besoins.
-
-Enfin, et surtout, je suis passionné par l'application des statistiques (avec et sans R), ce qui se fait ressentir lors de mes formations car je fais tout ce qui est en ma possession pour transmettre cette passion aux participants. Je mets également tout en oeuvre pour rendre les statistiques et R accessibles à tout le monde, peu importe votre niveau. Il en ressort que les formations sont plus intéressantes, plus instructives et permettent d'atteindre plus rapidement les objectifs pédagogiques et professionnels des participants.
-
-{{< alert "circle-info">}}
-Pour garantir que cette vision soit respectée, je donne moi-même toutes les formations et aucune n'est sous-traitée.
-{{< /alert >}}
-
-## Combien coûte une formation ?
-
-Les tarifs des formations dépendent :
-
-- de la longueur,
-- de la complexité, et
-- du degré d'adaptation aux besoins des participants.
-
-Pour connaitre le prix d'une formation, veuillez me [contacter](/#contact) afin d'en discuter plus en détail.
+Vous ne trouvez pas votre réponse ici ? Les pages [services](/services/) contiennent chacune leur propre section de questions, plus précises. Sinon, [posez-la-moi directement](/contact/) : c'est gratuit et cela m'aide à compléter cette page.

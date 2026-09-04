@@ -1,8 +1,9 @@
 ---
 title: "Professeur en chirurgie digestive"
 slug: "professeur-chirurgie-digestive"
-description: "Description du travail pour un Professeur en chirurgie digestive"
-layout: "simple"
+description: "Analyse de l'impact d'un programme de rééquilibrage alimentaire sur les paramètres biométriques, comportementaux et biologiques de patients obèses. Publiée."
+tagline: "Impact d'un programme de rééquilibrage alimentaire chez des patients obèses, pour un professeur en chirurgie digestive."
+eyebrow: "Référence"
 ---
 
 ## Contexte
@@ -22,3 +23,7 @@ Le Professeur a sollicité datanalyze pour les tâches suivantes :
 ## Résultats
 
 Le travail a mené à une [publication](https://www.mdpi.com/2559926).
+
+---
+
+Ce type de mission relève du service [analyse de données](/services/analyse-de-donnees/).

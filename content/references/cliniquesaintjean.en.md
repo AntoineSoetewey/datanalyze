@@ -1,8 +1,9 @@
 ---
 title: "Clinique Saint-Jean"
 slug: "cliniquesaintjean"
-description: "Description of the work for Clinique Saint-Jean"
-layout: "simple"
+description: "Statistical analysis of SMUR and PIT emergency missions from data collected across Brussels hospitals, in the context of the emergency medical aid reform."
+tagline: "Comparison of two emergency-response vectors, for Clinique Saint-Jean."
+eyebrow: "Reference"
 ---
 
 ## Context
@@ -22,3 +23,7 @@ The doctor requested datanalyze for the following tasks:
 ## Results
 
 The work led to a publication (under review).
+
+---
+
+This kind of assignment falls under [data analysis](/en/services/data-analysis/) and [support for researchers](/en/services/research-support/).

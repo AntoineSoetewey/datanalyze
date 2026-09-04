@@ -1,8 +1,9 @@
 ---
 title: "Fondation Saint-Luc"
 slug: "fondation-saint-luc"
-description: "Description du travail pour la Fondation Saint-Luc (Cliniques universitaires Saint-Luc)"
-layout: "simple"
+description: "Analyse de l'efficacité d'un traitement dermatologique à 6 et 16 semaines, sur données de patients des Cliniques universitaires Saint-Luc. Publiée."
+tagline: "Efficacité d'un traitement dermatologique mesurée à plusieurs moments, pour la Fondation Saint-Luc."
+eyebrow: "Référence"
 ---
 
 ## Contexte
@@ -21,3 +22,7 @@ Le dermatologue a sollicité datanalyze pour les tâches suivantes :
 ## Résultats
 
 Le travail a mené à une [publication](https://link.springer.com/article/10.1007/s40261-023-01258-7).
+
+---
+
+Ce type de mission relève du service [analyse de données](/services/analyse-de-donnees/).

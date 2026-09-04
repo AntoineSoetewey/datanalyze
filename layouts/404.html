@@ -5,7 +5,7 @@
     <p class="dz-lead dz-lead--center">{{ i18n "error.body" }}</p>
     <div class="dz-btn-row">
       <a class="dz-btn dz-btn--primary" href="{{ "" | relLangURL }}">{{ i18n "error.home" }}</a>
-      <a class="dz-btn dz-btn--secondary" href="{{ "services/" | relLangURL }}">{{ i18n "error.services" }}</a>
+      <a class="dz-btn dz-btn--secondary" href="{{ with site.GetPage "/services" }}{{ .RelPermalink }}{{ end }}">{{ i18n "error.services" }}</a>
     </div>
   </div>
 {{ end }}

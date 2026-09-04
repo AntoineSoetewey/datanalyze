@@ -1,8 +1,9 @@
 ---
 title: "Clinique Saint-Jean"
 slug: "clinique-saint-jean"
-description: "Description du travail pour la Clinique Saint-Jean"
-layout: "simple"
+description: "Analyse statistique de missions SMUR et PIT à partir de données récoltées auprès des hôpitaux bruxellois, dans le cadre de la réforme de l'aide médicale urgente."
+tagline: "Comparaison de deux vecteurs d'intervention en médecine d'urgence, pour la Clinique Saint-Jean."
+eyebrow: "Référence"
 ---
 
 ## Contexte
@@ -22,3 +23,7 @@ L'urgentiste a sollicité datanalyze pour les tâches suivantes :
 ## Résultats
 
 Le travail a mené à une publication (en cours de révision).
+
+---
+
+Ce type de mission relève du service [analyse de données](/services/analyse-de-donnees/) et de l'[accompagnement des chercheurs](/services/accompagnement-recherche/).

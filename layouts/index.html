@@ -13,8 +13,8 @@
       </h1>
       <p class="dz-lead">{{ $p.hero.lead | markdownify }}</p>
       <div class="dz-btn-row dz-btn-row--center">
-        <a class="dz-btn dz-btn--primary" href="{{ "contact/" | relLangURL }}">{{ $p.hero.ctaPrimary }}</a>
-        <a class="dz-btn dz-btn--secondary" href="{{ "services/" | relLangURL }}">{{ $p.hero.ctaSecondary }}</a>
+        <a class="dz-btn dz-btn--primary" href="{{ with site.GetPage "/contact" }}{{ .RelPermalink }}{{ end }}">{{ $p.hero.ctaPrimary }}</a>
+        <a class="dz-btn dz-btn--secondary" href="{{ with site.GetPage "/services" }}{{ .RelPermalink }}{{ end }}">{{ $p.hero.ctaSecondary }}</a>
       </div>
     </div>
   </section>
@@ -40,7 +40,7 @@
       </div>
       {{ partial "dz-service-cards.html" . }}
       <p style="margin-top:2.5rem;text-align:center">
-        <a class="dz-arrow" href="{{ "services/" | relLangURL }}">{{ $p.services.more }}</a>
+        <a class="dz-arrow" href="{{ with site.GetPage "/services" }}{{ .RelPermalink }}{{ end }}">{{ $p.services.more }}</a>
       </p>
     </div>
   </section>
@@ -90,7 +90,7 @@
           <h2 class="dz-h2">{{ $p.about.title }}</h2>
           {{ range $p.about.paragraphs }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}
           <div class="dz-btn-row">
-            <a class="dz-btn dz-btn--secondary" href="{{ "about/" | relLangURL }}">{{ $p.about.cta }}</a>
+            <a class="dz-btn dz-btn--secondary" href="{{ with site.GetPage "/about" }}{{ .RelPermalink }}{{ end }}">{{ $p.about.cta }}</a>
           </div>
         </div>
       </div>

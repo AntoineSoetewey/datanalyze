@@ -1,11 +1,16 @@
 ---
-title: Trainings
+title: "Training"
 slug: "trainings"
-description: See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey.
-showTableOfContents: true
+seoTitle: "Training in statistics, R and data analysis | datanalyze"
+description: "Training in data analysis, visualisation, automated reporting and website creation with R. In French or English, in person, anywhere in Belgium."
+eyebrow: "Training"
+tagline: "Making your teams self-sufficient in R and data analysis"
+lead: "Four courses in the catalogue, plus bespoke formats. All are delivered by me, in person, alternating theory with exercises on real data."
 ---
 
-Below an overview of the trainings I give.
+All the courses below are **delivered by me**: none is subcontracted. They draw on my university teaching at UCLouvain and UNamur, and on the daily use of R in my own research.
+
+If your need does not fit any of these, see [custom training](#personalized-training) further down — it is a frequent request.
 
 ## Introduction to data analysis with R
 
@@ -142,7 +147,7 @@ The training takes place over 1 full day or 2 half days.
 
 ## Personalized training
 
-Feel free to [contact me](/en/#contact) if you wish to follow or organize a personalized training.
+Feel free to [contact me](/en/contact/) if you wish to follow or organise a custom training.
 
 It could be a mix of trainings mentioned on this page, or anything involving statistics and/or data analysis with R.
 
@@ -154,8 +159,8 @@ It could be a mix of trainings mentioned on this page, or anything involving sta
 - You are more than welcome to propose a venue (your offices for instance), as long as the necessary material (computers, projector, internet) is present.
 - Slides, codes, exercises and documents presented and developed during the training will be sent to you so that you can access them as much as you want after the training.
 - Although slides and exercises are written in English, I can give the training in **French or English** depending on the audience.
-- Learn more about my vision regarding trainings via the [FAQ](/en/faq/#what-is-the-vision-concerning-trainings).
+- Learn more about my approach to training in the [FAQ](/en/faq/).
 
 {{< alert "circle-info">}}
-Please [contact me](/en/#contact) if you want to have more information about the price, location, required materials, dates and registrations.
+[Contact me](/en/contact/) for practical details: price, location, required materials, dates and registration. Everything depends on the format and the number of participants, so I would rather discuss it than quote a rate out of context.
 {{< /alert >}}

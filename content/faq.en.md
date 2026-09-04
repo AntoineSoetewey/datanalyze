@@ -1,90 +1,152 @@
 ---
 title: "FAQ"
-description: "Answers to the most frequently asked questions"
-showTableOfContents: true
+slug: "faq"
+seoTitle: "Frequently asked questions about statistical consulting | datanalyze"
+description: "How working together goes, what R is and why use it, who the training is for: answers to the most frequent questions."
+eyebrow: "FAQ"
+lead: "The questions that come up most often, in three blocks: working together, statistics and R, and training. Each service page also has its own, more specific set of questions."
+
+faq:
+  # --- Working together ---
+  - q: "How does a first contact work?"
+    a: |
+      You describe your need through the [contact form](/en/contact/), or you book a
+      30-minute call. Together we scope the question, the data available and the
+      deadline. **This step is free and commits you to nothing.** I then write you a
+      proposal; nothing starts before you agree.
+  - q: "I cannot phrase my need in statistical terms. Is that a problem?"
+    a: |
+      Not at all, and it is true of most requests. Describe your question in your own
+      words, with the context of your work. Translating that into a statistical
+      question is precisely part of the job — and it is often the most decisive step
+      of the whole assignment.
+  - q: "Is my data confidential?"
+    a: |
+      Yes. I work with health data routinely. Your data never leaves my workstation,
+      is used for no other purpose, and is deleted at your request when the
+      assignment ends. A non-disclosure agreement can be signed before anything is
+      sent. For patient data, send it already pseudonymised where possible.
+  - q: "Who owns the results and the code?"
+    a: |
+      You do, entirely and exclusively. All code, programs, documents and results
+      developed during our collaboration are transferred to you. You are free to
+      modify them, publish them or hand them to someone else.
+  - q: "How much does an assignment cost?"
+    a: |
+      It depends on the scale of the work, the state of the data and the deadline —
+      three things I cannot guess before understanding your situation. So I would
+      rather give you a firm figure after scoping, which is free, than a range that
+      would mean nothing. [Describe your need](/en/contact/) and you will get a
+      precise number.
+  - q: "What language and region do you work in?"
+    a: |
+      In **French or English**, anywhere in **Belgium** — Brussels, Wallonia and
+      Flanders. Analysis is done remotely; scoping, debriefs and training benefit
+      from being in person.
+  - q: "What if you cannot help me?"
+    a: |
+      I will tell you at scoping, before you commit. It happens: the need belongs to
+      a different profession, or the data cannot answer the question asked. You would
+      rather know straight away, and I would rather say so than deliver a result I do
+      not believe in.
+
+  # --- Statistics and R ---
+  - q: "What is R?"
+    a: |
+      R is an **open-source programming language** dedicated to data manipulation,
+      statistical analysis and data visualisation.
+
+      Being free and open, it evolves continuously: new functions are published daily
+      by the community, whereas proprietary software only moves at the pace of its
+      vendor's releases. Its very large community also makes it likely that the
+      answer to your problem already exists somewhere.
+  - q: "Why use R rather than a spreadsheet?"
+    a: |
+      For three reasons, in this order of importance:
+
+      - **reproducibility**: anyone can rerun your analyses and get exactly your
+        results — including you, six months later;
+      - **automation**: the same analyses rerun on updated data without redoing the
+        work;
+      - **extensibility**: you can write your own functions instead of being limited
+        to what the tool anticipated.
+
+      A spreadsheet remains excellent for quick exploration. It becomes risky as soon
+      as the same calculation has to be redone, checked or handed over.
+  - q: "Is it worth analysing data as a small organisation?"
+    a: |
+      Size matters less than how often decisions repeat. As soon as you regularly
+      make comparable decisions — which customers to follow up, which site to watch,
+      which treatment to favour — there is value in identifying **trends**,
+      **relationships** and **opportunities** in your data rather than deciding on
+      intuition. You do not need a lot of data for that; you mostly need the right
+      data.
+  - q: "Do you only work with R?"
+    a: |
+      For development and analysis, yes: it is the tool I know best and the one best
+      suited to work with a heavy statistical component. For **methodological
+      advice**, though, the software is irrelevant: I can support you whether you
+      work in SPSS, Stata, SAS, Python or Excel.
+  - q: "Do I need artificial intelligence to analyse my data?"
+    a: |
+      Usually not. On datasets of typical size, a classical statistical model
+      performs just as well, explains itself in one sentence and needs no special
+      infrastructure to maintain. I propose a complex method only when it delivers
+      something simple methods do not — and I will tell you which of the two you are
+      looking at.
+
+  # --- Training ---
+  - q: "Who is the R training for?"
+    a: |
+      For **anyone who has access to data and would like to analyse it**.
+
+      Some background in programming or statistics helps, but most courses are
+      designed for beginners and can be followed with no prior experience. The
+      prerequisites for each module are listed in the [catalogue](/en/trainings/).
+
+      As with any language, the key is to keep practising afterwards: that is what
+      separates having seen it from being able to do it.
+  - q: "Why take a course rather than learn on my own?"
+    a: |
+      Learning R by yourself is entirely possible — online courses, books, forums —
+      but it has limits. A course guarantees the **trainer's expertise** (technical
+      and pedagogical), the ability to **adapt to participants' questions** live,
+      work with **current techniques**, and gain the **most skills in the least
+      time**.
+
+      The main gain is not the content, which exists everywhere: it is the time you
+      do not spend stuck on a problem someone can solve in two minutes.
+  - q: "What is your approach to training?"
+    a: |
+      A course has to do two things: give immediately usable skills, and give the
+      means to carry on learning alone afterwards.
+
+      For that, I believe a trainer has to be three things at once. **Competent** in
+      the subject, down to its subtleties. **A good teacher**: able to transmit, to
+      adapt to the participants' real level, to step back, and to admit what they do
+      not know. And **passionate**, because someone passionate never stops learning
+      their subject and makes a course markedly easier to follow.
+
+      My PhD and daily use of R give me the first; university teaching to very
+      different audiences gives me the second. For the third, you will have to take
+      my word for it — or come and see.
+
+      **I deliver every course myself; none is subcontracted.**
+  - q: "Is the training available remotely?"
+    a: |
+      No, it takes place **in person**. Remote is easier to organise, but interaction
+      collapses: participants ask fewer questions and it is harder to spot who is
+      falling behind. Since that is exactly what makes a course worth more than an
+      online tutorial, I prefer to stick to in-person delivery where it is possible.
+
+      You are welcome to propose the venue — your offices work well, provided the
+      necessary equipment is available.
+  - q: "What is left after the course?"
+    a: |
+      The slides, code, exercises and documents developed during the course are sent
+      to you, so you can go back to them as often as you like. The materials are
+      written in English, but the course itself is delivered **in French or English**
+      depending on the audience.
 ---
 
-## What is R?
-
-R is an open source **programming software** dedicated to **manipulation**, **statistical analysis** and **data visualization**.
-
-R is free and open source, which contributes to:
-
-- its continuous improvement (new features are made available every day by users), and
-- the richness/reactivity of the user community.
-
-Unlike some programs that only evolve when the company that created it releases an update, R evolves every day. Moreover, thanks to its large community and the reactivity of users, it is very likely that you will find the answer to your problem on the online forums.
-
-## Why use R for data analysis?
-
-Data is everywhere, and most businesses (large or small) generate a large amount of data.
-
-As a business, it is important to analyze your data to:
-
-- make **informed decisions**,
-- identify **trends**, **relationships**, and **opportunities**, and
-- maximize results.
-
-The advantage of using a programming language such as R for data analysis is the **reproducibility** and **automation** of the results, and the ability to define **new instructions** yourself.
-
-Reproducibility allows anyone to reproduce your analyses, and allows you to keep track of the steps that lead to the results. Automation increases efficiency by allowing you to run the same analyses on different data or at different times. Finally, the possibility of writing new functions yourself allows you to enrich the program and its functionalities.
-
-## What are the advantages of following a training in R?
-
-Learning R involves understanding the basic concepts and best practices for data analysis with R, improving programming skills, and developing the ability to visualize and communicate results.
-
-While it is possible to learn R by taking online courses, reading books, participating in forums, and practicing with datasets, self-study has some limitations and is not always suitable for everyone.
-
-A training has the advantages that:
-
-- you benefit from the **expertise of the trainer** (both technical and educational),
-- it is adapted to the **needs and requests** of the participants,
-- you are trained with the **most recent** and advanced techniques, and
-- it provides a **maximum of skills in a minimum of time** (while preserving the quality of the teaching).
-
-## Who are the R training courses for?
-
-Trainings in R are intended for **anyone who has access to data and would like to analyze it**.
-
-Basic programming and statistical knowledge can help, but most trainings are designed for beginners and can be taken without prior experience. Check the prerequisites on the [training catalog](/en/trainings/) for more details.
-
-Note that like any programming language, it is important to continue practicing after the training to not lose your skills.
-
-## What is the vision concerning trainings?
-
-A training allows:
-
-- participants to acquire skills (basic or advanced depending on the level of the training), and
-- to give the necessary tools so that participants can continue to learn independently after the training.
-
-In order for a training to be successful, I believe that it must be given by someone who is **experienced, educational and passionate**.
-
-It goes without saying that in order to guarantee the quality of the training, it is important that the trainer is **competent** in the subject matter and that he/she knows the finer points.
-
-It is also essential that the trainer is a good **teacher**. Being an expert in the field is not enough; you must also:
-
-- be able to pass on your knowledge,
-- be at ease with public speaking,
-- be able to adapt to the level of the participants,
-- be humble.
-
-Finally, a trainer must be **passionate** for two reasons. First, a passionate person is more likely to be competent because he or she will never stop learning about the subject. Secondly, he/she is more likely to make the training engaging, interactive, dynamic, and therefore easy to follow for the participants.
-
-My PhD in statistics and the daily use of R for various projects have given me the necessary skills to ensure the quality of the training. In addition, as a teacher at university level, I have learned to teach both large and small groups of students. I have also had the opportunity to teach students and professionals of different backgrounds and ages, which has taught me to adapt to all audiences and needs.
-
-Last but not least, I am passionate about the application of statistics (with and without R), which can be seen in my training sessions as I do everything to pass on this passion to the participants. I also make every effort to make statistics and R accessible to everyone, regardless of your level. The result is that the trainings are more interesting, more informative, and allow the participants to achieve their educational and professional goals more quickly.
-
-{{< alert "circle-info">}}
-To ensure that this vision is met, I conduct all trainings myself and none are outsourced.
-{{< /alert >}}
-
-## How much does a training cost?
-
-The cost of a training depends on:
-
-- the length,
-- the complexity, and
-- the degree of adaptation to the needs of the participants.
-
-To know the price of a training, please [contact me](/en/#contact) to discuss it in more details.
-
+Cannot find your answer here? Each [services](/en/services/) page has its own, more specific set of questions. Otherwise, [ask me directly](/en/contact/): it is free and it helps me improve this page.

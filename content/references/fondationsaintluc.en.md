@@ -1,8 +1,9 @@
 ---
 title: "Fondation Saint-Luc"
 slug: "fondationsaintluc"
-description: "Description of the work for the Fondation Saint-Luc (Cliniques universitaires Saint-Luc)"
-layout: "simple"
+description: "Analysis of the effectiveness of a dermatological treatment at 6 and 16 weeks, on patient data from Cliniques universitaires Saint-Luc. Published."
+tagline: "Effectiveness of a dermatological treatment measured over time, for Fondation Saint-Luc."
+eyebrow: "Reference"
 ---
 
 ## Context
@@ -21,3 +22,7 @@ The dermatologist requested datanalyze for the following tasks:
 ## Results
 
 The work led to a [publication](https://link.springer.com/article/10.1007/s40261-023-01258-7).
+
+---
+
+This kind of assignment falls under [data analysis](/en/services/data-analysis/).
