@@ -1,7 +1,7 @@
 ---
 title: "datanalyze"
-seoTitle: "Statistics & data science consultant in Belgium | datanalyze"
-description: "Statistics and data science consultant in Belgium. I analyse your data, validate your methods and train your teams — for researchers, hospitals and companies."
+seoTitle: "Statistics & data science consultant | datanalyze"
+description: "Statistics and data science consultant. I analyse your data, validate your methods and train your teams — for researchers, hospitals and companies. Based in Belgium, working remotely elsewhere."
 
 hero:
   badge: "Statistical consulting and training"
@@ -57,7 +57,7 @@ about:
   paragraphs:
     - "I hold a **PhD in statistics** (UCLouvain) and I am a **postdoctoral researcher in data science and statistics** at HEC Liège and UCLouvain Saint-Louis Brussels. I also teach statistics and probability as an **invited lecturer** at UCLouvain and UNamur."
     - "That combination is what makes the difference on an assignment: I know these methods closely, because I develop and publish them; and I am used to explaining them to people who are not statisticians, because I teach them every week."
-    - "Under the name **datanalyze**, I put that expertise to work for researchers, doctors and companies across Belgium."
+    - "Under the name **datanalyze**, I put that expertise to work for researchers, doctors and companies. Since the analysis is done remotely, I work just as easily in Belgium, where I am based, as abroad."
   cta: "More about my background"
 
 why:

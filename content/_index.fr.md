@@ -1,7 +1,7 @@
 ---
 title: "datanalyze"
-seoTitle: "Consultant en statistique et data science en Belgique | datanalyze"
-description: "Consultant en statistique et science des données en Belgique. J'analyse vos données, je valide vos méthodes et je forme vos équipes — pour les chercheurs, les hôpitaux et les entreprises."
+seoTitle: "Consultant en statistique et data science | datanalyze"
+description: "Consultant en statistique et science des données. J'analyse vos données, je valide vos méthodes et je forme vos équipes — pour les chercheurs, les hôpitaux et les entreprises. Basé en Belgique, à distance ailleurs."
 
 hero:
   badge: "Consultance et formation en statistique"
@@ -57,7 +57,7 @@ about:
   paragraphs:
     - "Je suis **docteur en statistique** (UCLouvain) et **chercheur postdoctoral en science des données et statistique** à HEC Liège et à l'UCLouvain Saint-Louis Bruxelles. J'enseigne aussi les statistiques et les probabilités comme **chargé de cours invité** à l'UCLouvain et à l'UNamur."
     - "Cette double casquette est ce qui fait la différence dans une mission : je connais les méthodes de près, parce que je les développe et les publie ; et j'ai l'habitude de les expliquer à des gens dont ce n'est pas le métier, parce que je les enseigne toutes les semaines."
-    - "Sous le nom **datanalyze**, je mets cette expertise au service de chercheurs, de médecins et d'entreprises, partout en Belgique."
+    - "Sous le nom **datanalyze**, je mets cette expertise au service de chercheurs, de médecins et d'entreprises. L'analyse se faisant à distance, je travaille aussi bien en Belgique, où je suis basé, qu'à l'étranger."
   cta: "En savoir plus sur mon parcours"
 
 why:

@@ -38,11 +38,14 @@ faq:
       rather give you a firm figure after scoping, which is free, than a range that
       would mean nothing. [Describe your need](/en/contact/) and you will get a
       precise number.
-  - q: "What language and region do you work in?"
+  - q: "What language do you work in, and where?"
     a: |
-      In **French or English**, anywhere in **Belgium** — Brussels, Wallonia and
-      Flanders. Analysis is done remotely; scoping, debriefs and training benefit
-      from being in person.
+      In **French or English**. The analysis is done **remotely**, so location does
+      not come into it: I work for clients in Belgium, where I am based, and abroad.
+
+      Only scoping, debriefs and training benefit from being in person — easy in
+      Belgium and neighbouring countries, and replaceable by a video call further
+      afield.
   - q: "What if you cannot help me?"
     a: |
       I will tell you at scoping, before you commit. It happens: the need belongs to

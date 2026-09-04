@@ -46,7 +46,7 @@ That teaching is not a side activity: it is what guarantees I can explain a meth
 
 ## Working together
 
-I work **in French or English**, anywhere in Belgium — Brussels, Wallonia and Flanders — remotely for the analysis, in person for scoping, debriefs and training.
+I work **in French or English**. The analysis is done remotely, so there is no geographic constraint, and I work for clients in Belgium and abroad alike. I am based in Belgium, which makes it easy to meet in person for scoping, debriefs and training.
 
 You will find what each engagement covers on the [services](/en/services/) page, my [training](/en/trainings/) catalogue, and assignments already delivered in the [references](/en/references/).
 

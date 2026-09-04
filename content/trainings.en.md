@@ -2,7 +2,7 @@
 title: "Training"
 slug: "trainings"
 seoTitle: "Training in statistics, R and data analysis | datanalyze"
-description: "Training in data analysis, visualisation, automated reporting and website creation with R. In French or English, in person, anywhere in Belgium."
+description: "Training in data analysis, visualisation, automated reporting and website creation with R. In French or English, in person."
 eyebrow: "Training"
 tagline: "Making your teams self-sufficient in R and data analysis"
 lead: "Four courses in the catalogue, plus bespoke formats. All are delivered by me, in person, alternating theory with exercises on real data."

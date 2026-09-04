@@ -1,7 +1,7 @@
 ---
 title: "Services"
 seoTitle: "Services de consultance statistique et data science | datanalyze"
-description: "Analyse de données, accompagnement des chercheurs, conception d'étude, consultance en aide à la décision, développement R et formations. En Belgique, en français ou en anglais."
+description: "Analyse de données, accompagnement des chercheurs, conception d'étude, consultance en aide à la décision, développement R et formations. En français ou en anglais, à distance ou sur place."
 eyebrow: "Services"
 # Pas de décompte dans ce texte : il se désynchronise dès qu'un service change.
 lead: "Que vous ayez besoin d'une aide ponctuelle sur une analyse bloquée ou d'un accompagnement de bout en bout, mes interventions s'articulent autour de services complémentaires, du cadrage de l'étude jusqu'à la formation de vos équipes."

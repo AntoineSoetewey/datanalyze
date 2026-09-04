@@ -1,7 +1,7 @@
 ---
 title: "Services"
 seoTitle: "Statistical consulting and data science services | datanalyze"
-description: "Data analysis, support for researchers, study design, decision-support consulting, R development and training. In Belgium, in French or English."
+description: "Data analysis, support for researchers, study design, decision-support consulting, R development and training. In French or English, remotely or on site."
 eyebrow: "Services"
 # No count in this text: it goes stale as soon as a service changes.
 lead: "Whether you need one-off help on an analysis that is stuck or end-to-end support, my work is organised around complementary services, from scoping the study through to training your teams."

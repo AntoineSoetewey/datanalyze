@@ -1,7 +1,7 @@
 ---
 title: "Consultance et aide à la décision"
 slug: "consultance"
-seoTitle: "Consultance statistique et aide à la décision en Belgique | datanalyze"
+seoTitle: "Consultance statistique et aide à la décision | datanalyze"
 description: "Pour les entreprises et les institutions : transformer des données dormantes en indicateurs fiables et en décisions argumentées. Segmentation, scoring, tableaux de bord, modèles prédictifs."
 order: 4
 icon: "compass"
@@ -87,8 +87,10 @@ faq:
       pas une dépendance subie.
   - q: "Intervenez-vous sur place ?"
     a: |
-      Oui, en Belgique. Les phases de cadrage et de restitution gagnent beaucoup à se
-      faire en présentiel ; le travail d'analyse lui-même se fait à distance.
+      Oui. Je suis basé en Belgique, le présentiel y est donc immédiat, et il reste
+      possible dans les pays voisins selon le projet. Les phases de cadrage et de
+      restitution y gagnent beaucoup ; le travail d'analyse lui-même se fait à
+      distance, ce qui rend l'éloignement sans conséquence sur le reste.
   - q: "Peut-on commencer petit ?"
     a: |
       C'est même ce que je recommande. Une première analyse ciblée sur une question

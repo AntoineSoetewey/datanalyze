@@ -2,7 +2,7 @@
 title: "Formations"
 slug: "formations"
 seoTitle: "Formations en statistique, R et analyse de données | datanalyze"
-description: "Formations en analyse de données, visualisation, rapports automatisés et création de sites web avec R. En français ou en anglais, en présentiel, partout en Belgique."
+description: "Formations en analyse de données, visualisation, rapports automatisés et création de sites web avec R. En français ou en anglais, en présentiel."
 eyebrow: "Formations"
 tagline: "Rendre vos équipes autonomes sur R et l'analyse de données"
 lead: "Quatre formations au catalogue, plus des formats sur mesure. Toutes sont données par moi-même, en présentiel, et alternent théorie et exercices sur des données réelles."

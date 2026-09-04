@@ -41,11 +41,15 @@ faq:
       situation. Je préfère donc vous donner un montant ferme après le cadrage, qui
       est gratuit, plutôt qu'une fourchette qui ne voudrait rien dire.
       [Décrivez-moi votre besoin](/contact/) et vous aurez un chiffre précis.
-  - q: "Dans quelle langue et dans quelle région travaillez-vous ?"
+  - q: "Dans quelle langue et où travaillez-vous ?"
     a: |
-      En **français ou en anglais**, partout en **Belgique** — Bruxelles, Wallonie et
-      Flandre. L'analyse se fait à distance ; le cadrage, la restitution et les
-      formations gagnent à se faire en présentiel.
+      En **français ou en anglais**. L'analyse se fait **à distance**, donc la
+      localisation n'entre pas en compte : je travaille pour des clients en Belgique,
+      où je suis basé, comme à l'étranger.
+
+      Seuls le cadrage, la restitution et les formations gagnent à se faire en
+      présentiel — simple en Belgique et dans les pays voisins, et remplaçable par
+      une visioconférence au-delà.
   - q: "Et si vous ne pouvez pas m'aider ?"
     a: |
       Je vous le dis au cadrage, avant que vous ne vous engagiez. Cela arrive : le

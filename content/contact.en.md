@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 slug: "contact"
-seoTitle: "Contact a statistics consultant in Belgium | datanalyze"
+seoTitle: "Contact a statistics consultant | datanalyze"
 description: "Describe your statistics or data analysis need, or book a first 30-minute call with no commitment. Reply within a few working days."
 eyebrow: "Contact"
 lead: "Two ways to get in touch, depending on whether you would rather write or talk. Neither commits you to anything."
@@ -32,7 +32,7 @@ If your request falls outside what I do, I will say so at step 2 rather than was
 
 ## Good to know
 
-- I work **in French or English**, anywhere in **Belgium**.
+- I work **in French or English**. Since the analysis is done remotely, location is not an obstacle: I am based in Belgium and also work abroad.
 - Your data stays confidential; a non-disclosure agreement can be signed before anything is sent.
 - For questions about rates, location or organising a training session, use the form: it depends too much on context to answer in advance.
 - Answers to the most common questions are in the [FAQ](/en/faq/).

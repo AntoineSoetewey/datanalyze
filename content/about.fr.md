@@ -46,7 +46,7 @@ Cette activité d'enseignement n'est pas un à-côté : c'est elle qui garantit 
 
 ## Travailler ensemble
 
-Je travaille **en français ou en anglais**, partout en Belgique — Bruxelles, Wallonie et Flandre — à distance pour l'analyse, en présentiel pour le cadrage, la restitution et les formations.
+Je travaille **en français ou en anglais**. L'analyse se fait à distance : il n'y a donc pas de contrainte géographique, et j'interviens pour des clients en Belgique comme à l'étranger. Je suis basé en Belgique, ce qui rend simple le présentiel pour le cadrage, la restitution et les formations.
 
 Vous trouverez le détail de mes interventions sur la page [services](/services/), le catalogue de mes [formations](/formations/), et des missions déjà menées dans les [références](/references/).
 

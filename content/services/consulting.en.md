@@ -1,7 +1,7 @@
 ---
 title: "Consulting and decision support"
 slug: "consulting"
-seoTitle: "Statistical consulting and decision support in Belgium | datanalyze"
+seoTitle: "Statistical consulting and decision support | datanalyze"
 description: "For companies and institutions: turning dormant data into reliable indicators and evidence-based decisions. Segmentation, scoring, dashboards, predictive models."
 order: 4
 icon: "compass"
@@ -86,8 +86,10 @@ faq:
       dependency you are stuck with.
   - q: "Do you work on site?"
     a: |
-      Yes, in Belgium. Scoping and debrief sessions benefit greatly from being in
-      person; the analysis work itself is done remotely.
+      Yes. I am based in Belgium, so meeting in person is immediate there, and it
+      remains possible in neighbouring countries depending on the project. Scoping
+      and debrief sessions benefit greatly from it; the analysis work itself is done
+      remotely, which makes distance irrelevant to the rest.
   - q: "Can we start small?"
     a: |
       That is what I recommend. A first focused analysis on one precise question

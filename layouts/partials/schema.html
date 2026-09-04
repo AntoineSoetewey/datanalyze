@@ -33,7 +33,10 @@
 -}}
 {{- with $legal.email }}{{ $person = merge $person (dict "email" .) }}{{ end -}}
 
-{{- /* ---- ProfessionalService ---- */ -}}
+{{- /* ---- ProfessionalService ----
+     The analysis itself is delivered remotely, so areaServed is not limited to
+     Belgium: it states the actual reach. The PostalAddress below still anchors
+     the business locally for search. */ -}}
 {{- $org := dict
   "@type" "ProfessionalService"
   "@id" $orgId
@@ -44,8 +47,8 @@
   "provider" (dict "@id" $personId)
   "areaServed" (slice
     (dict "@type" "Country" "name" "Belgique")
-    (dict "@type" "AdministrativeArea" "name" "Bruxelles")
-    (dict "@type" "AdministrativeArea" "name" "Wallonie"))
+    (dict "@type" "Country" "name" "France")
+    (dict "@type" "Place" "name" "Europe"))
   "availableLanguage" (slice
     (dict "@type" "Language" "name" "French" "alternateName" "fr")
     (dict "@type" "Language" "name" "English" "alternateName" "en"))
@@ -109,7 +112,10 @@
       "description" .Description
       "serviceType" (.Params.serviceType | default .Title)
       "provider" (dict "@id" $orgId)
-      "areaServed" (dict "@type" "Country" "name" "Belgique")
+      "areaServed" (slice
+        (dict "@type" "Country" "name" "Belgique")
+        (dict "@type" "Country" "name" "France")
+        (dict "@type" "Place" "name" "Europe"))
       "availableChannel" (dict
         "@type" "ServiceChannel"
         "serviceUrl" .Permalink
