@@ -18,7 +18,7 @@ Pour un besoin qui ne rentre dans aucune de ces cases, voyez la [formation perso
 
 Dans cette formation d'introduction, nous allons découvrir le langage R et apprendre à appliquer les analyses statistiques les plus courantes.
 
-A l'issue de la formation, vous serez capable de réaliser des analyses statistiques de manière autonome et avec vos propres données.
+À l'issue de la formation, vous serez capable de réaliser des analyses statistiques de manière autonome et avec vos propres données.
 
 ### Contenu
 
@@ -84,7 +84,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 Dans cette formation, nous allons apprendre à créer des rapports d'analyse/activité, des documents de recherche et d'enseignement avec le logiciel R.
 
-A la fin de la formation, vous serez capable de générer automatiquement des rapports d'analyse combinant de code R, des résultats, des tableaux, des graphiques, des interprétations, des images et des équations.
+À la fin de la formation, vous serez capable de générer automatiquement des rapports d'analyse combinant du code R, des résultats, des tableaux, des graphiques, des interprétations, des images et des équations.
 
 ### Contenu
 
@@ -119,7 +119,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 Dans cette formation, nous apprendrons à créer et à personnaliser un site web depuis l'interface RStudio avec R Markdown.
 
-A la fin de la formation, vous serez capable de créer et de publier votre site web, que ce soit votre site personnel, celui de votre entreprise, de votre laboratoire ou de votre association.
+À la fin de la formation, vous serez capable de créer et de publier votre site web, que ce soit votre site personnel, celui de votre entreprise, de votre laboratoire ou de votre association.
 
 ### Contenu
 
@@ -133,7 +133,7 @@ Plus précisément, nous couvrirons les sujets suivants :
 - Ressources supplémentaires
 - Réponses à vos questions
 
-Le cours commence par un aperçu du contexte et de la théorie, mais se concentre principalement sur la mise en oeuvre pratique d'un site de démonstration afin que vous puissiez construire le vôtre par la suite.
+Le cours commence par un aperçu du contexte et de la théorie, mais se concentre principalement sur la mise en œuvre pratique d'un site de démonstration afin que vous puissiez construire le vôtre par la suite.
 
 ### Public cible
 

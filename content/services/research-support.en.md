@@ -2,12 +2,12 @@
 title: "Support for researchers"
 slug: "research-support"
 seoTitle: "Statistical support for researchers and PhD students | datanalyze"
-description: "Methodological support for PhD students, postdocs and clinical researchers: choice of tests, analysis plans, statistical review and responses to reviewers."
+description: "Methodological support for PhD students, postdocs and clinical researchers: choice of tests and models, statistical review and responses to reviewers."
 order: 2
 icon: "microscope"
 serviceType: "Methodological support in statistics"
 tagline: "You run the analysis, I secure the method"
-lead: "You want to stay in control of your own analysis, but be certain the method holds. I support you at the moments that matter: the analysis plan, the difficult choices, and the response to reviewers."
+lead: "You want to stay in control of your own analysis, but be certain the method holds. I support you at the moments that matter: the choice of model, the difficult calls, and the response to reviewers."
 
 audienceIntro: "This service is for those who do the analysis themselves — by preference, by academic requirement or by budget — and who want a statistician beside them rather than instead of them."
 audience:

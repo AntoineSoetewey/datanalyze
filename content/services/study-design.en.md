@@ -9,7 +9,7 @@ serviceType: "Study design and sample size calculation"
 tagline: "Design it right before you collect"
 lead: "This is the only point at which everything is still fixable. I help you size your study, choose the right variables and write the analysis plan — before collection locks in your options."
 
-audienceIntro: "This service comes in **up front**, when the data does not exist yet. It is also the least requested and by far the most cost-effective: an under-sized study cannot be rescued afterwards."
+audienceIntro: "This service comes in **up front**, when the data does not exist yet. It is also the least requested, even though it is the one that prevents the most damage: an under-sized study cannot be rescued afterwards."
 audience:
   - "Clinical researchers submitting a protocol"
   - "PhD students at the start of their thesis"
@@ -96,6 +96,6 @@ faq:
   - q: "How long does it take?"
     a: |
       It is the shortest service in the catalogue: most requests are settled in one
-      or two working sessions, once the research question is clear. That is also
-      what makes it so cost-effective relative to what it prevents.
+      or two working sessions, once the research question is clear. Set against what
+      it prevents, it is the best time-to-benefit ratio in the catalogue.
 ---

@@ -23,7 +23,7 @@ problem:
     - "Un tableau de données ne répond à rien tout seul. Entre la collecte et une conclusion solide, il y a une série de choix — quel test, quelles variables, que faire des données manquantes, quelles hypothèses vérifier — et chacun peut invalider le résultat final s'il est mal tranché."
     - "Le risque n'est pas de ne pas obtenir de chiffre : un logiciel en produit toujours un. Le risque est d'obtenir un chiffre **faux**, ou juste mais impossible à défendre quand un relecteur, un comité ou un client demande pourquoi cette méthode-là."
   signals:
-    - "Vous avez un p-value mais vous ne sauriez pas justifier le test choisi"
+    - "Vous avez une p-valeur mais vous ne sauriez pas justifier le test choisi"
     - "Vos données ne remplissent visiblement pas les conditions du test utilisé"
     - "Un relecteur a rejeté votre analyse et vous ne savez pas par où reprendre"
     - "Vous refaites les mêmes calculs à la main à chaque mise à jour"

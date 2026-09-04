@@ -9,7 +9,7 @@ serviceType: "Conception d'étude et calcul de taille d'échantillon"
 tagline: "Bien concevoir avant de collecter"
 lead: "C'est le seul moment où tout est encore corrigeable. Je vous aide à dimensionner votre étude, à choisir les bonnes variables et à rédiger le plan d'analyse — avant que la collecte ne fige vos options."
 
-audienceIntro: "Ce service intervient **en amont**, quand les données n'existent pas encore. C'est aussi le moins demandé, et de loin le plus rentable : une étude mal dimensionnée ne se rattrape pas après coup."
+audienceIntro: "Ce service intervient **en amont**, quand les données n'existent pas encore. C'est aussi le moins sollicité, alors que c'est celui qui évite le plus de dégâts : une étude mal dimensionnée ne se rattrape pas après coup."
 audience:
   - "Chercheurs cliniques devant soumettre un protocole"
   - "Doctorants au début de leur thèse"
@@ -99,6 +99,6 @@ faq:
     a: |
       C'est le service le plus court du catalogue : la plupart des demandes se
       règlent en une à deux séances de travail, une fois la question de recherche
-      clarifiée. C'est aussi ce qui le rend particulièrement rentable par rapport à
-      ce qu'il évite.
+      clarifiée. Rapporté à ce qu'il permet d'éviter, c'est le meilleur rapport
+      temps/bénéfice du catalogue.
 ---

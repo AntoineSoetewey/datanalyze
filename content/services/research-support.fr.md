@@ -2,12 +2,12 @@
 title: "Accompagnement des chercheurs"
 slug: "accompagnement-recherche"
 seoTitle: "Accompagnement statistique des chercheurs et doctorants | datanalyze"
-description: "Aide méthodologique pour doctorants, post-doctorants et chercheurs cliniques : choix des tests, plan d'analyse, relecture statistique et réponse aux relecteurs."
+description: "Aide méthodologique pour doctorants, post-doctorants et chercheurs cliniques : choix des tests et du modèle, relecture statistique et réponse aux relecteurs."
 order: 2
 icon: "microscope"
 serviceType: "Accompagnement méthodologique en statistique"
 tagline: "Vous analysez vous-même, je sécurise la méthode"
-lead: "Vous voulez rester aux commandes de votre analyse, mais avoir la certitude que la méthode tient. Je vous accompagne aux moments qui comptent : le plan d'analyse, les choix délicats, et la réponse aux relecteurs."
+lead: "Vous voulez rester aux commandes de votre analyse, mais avoir la certitude que la méthode tient. Je vous accompagne aux moments qui comptent : le choix du modèle, les arbitrages délicats, et la réponse aux relecteurs."
 
 audienceIntro: "Ce service est fait pour ceux qui font l'analyse eux-mêmes — par goût, par obligation académique ou par contrainte budgétaire — et qui veulent un statisticien à leurs côtés plutôt qu'à leur place."
 audience:
