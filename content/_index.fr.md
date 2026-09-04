@@ -12,15 +12,20 @@ hero:
   ctaPrimary: "Discuter de votre projet"
   ctaSecondary: "Voir les services"
 
+# Bandeau de crédibilité, juste sous le hero. Volontairement limité à trois
+# titres vérifiables et courts : c'est là qu'un prospect sceptique décide de
+# continuer à lire. La langue de travail n'y figure pas — c'est une modalité
+# pratique, elle est sur la page contact et dans la FAQ.
 trust:
-  - "Docteur en statistique (UCLouvain)"
-  - "Chercheur postdoctoral, HEC Liège & UCLouvain Saint-Louis Bruxelles"
-  - "Chargé de cours invité à l'UCLouvain et à l'UNamur"
-  - "Analyses menées en français ou en anglais"
+  - "Docteur en statistique — UCLouvain"
+  - "Chercheur postdoctoral — HEC Liège & UCLouvain Saint-Louis"
+  - "Chargé de cours invité — UCLouvain & UNamur"
 
 services:
   eyebrow: "Services"
-  title: "Quatre façons de travailler ensemble"
+  # Pas de nombre dans ce titre : il se désynchronise dès qu'un service
+  # est ajouté ou retiré de la grille.
+  title: "Comment je peux vous aider"
   lead: "Une aide ponctuelle sur une analyse bloquée, ou un accompagnement de bout en bout. Dans les deux cas, vous repartez avec des résultats que vous comprenez et que vous pouvez justifier."
   more: "Voir le détail de chaque service"
 

@@ -12,15 +12,20 @@ hero:
   ctaPrimary: "Discuss your project"
   ctaSecondary: "See the services"
 
+# Credibility strip, right under the hero. Deliberately limited to three short,
+# verifiable credentials: this is where a sceptical prospect decides whether to
+# keep reading. Working language is left out — it is an operational detail and
+# already appears on the contact page and in the FAQ.
 trust:
-  - "PhD in statistics (UCLouvain)"
-  - "Postdoctoral researcher, HEC Liège & UCLouvain Saint-Louis Brussels"
-  - "Invited lecturer at UCLouvain and UNamur"
-  - "Analyses delivered in French or English"
+  - "PhD in statistics — UCLouvain"
+  - "Postdoctoral researcher — HEC Liège & UCLouvain Saint-Louis"
+  - "Invited lecturer — UCLouvain & UNamur"
 
 services:
   eyebrow: "Services"
-  title: "Four ways to work together"
+  # No count in this heading: it silently went stale as soon as a service
+  # was added to the grid.
+  title: "How I can help"
   lead: "One-off help on an analysis that is stuck, or end-to-end support. Either way, you leave with results you understand and can justify."
   more: "See what each service covers"
 

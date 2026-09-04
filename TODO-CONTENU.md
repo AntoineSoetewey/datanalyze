@@ -96,8 +96,10 @@ faute de pouvoir le vérifier.
 ### 5. Image de partage sur les réseaux sociaux
 
 Aujourd'hui, l'image Open Graph est un **recadrage automatique 1200×630 de ton
-portrait**. C'est correct et fonctionnel, mais une image dessinée (nom, titre
-commercial, URL) serait plus efficace lorsqu'un lien est partagé sur LinkedIn.
+portrait**, avec détection de contenu (`Smart`) : depuis le passage au nouveau
+portrait en paysage, le cadrage est correct et le visage bien placé. Une image
+dessinée (nom, titre commercial, URL) resterait plus efficace lorsqu'un lien est
+partagé sur LinkedIn, mais ce n'est plus un point faible.
 
 Pour la remplacer : dépose un fichier 1200×630 dans `assets/img/` et ajoute
 `image: "img/ton-fichier.png"` dans le front matter de la page concernée, ou
