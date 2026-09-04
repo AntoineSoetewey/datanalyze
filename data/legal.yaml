@@ -25,11 +25,11 @@ address:
   country: "Belgique"
   countryCode: "BE"
 
-# Published as the legal and GDPR contact address.
-# NOTE: this is a UCLouvain mailbox used as the contact for a separate
-# independent activity. See TODO-CONTENU.md — worth moving to a datanalyze.be
-# address (university IT policies often forbid this, and the mailbox goes away
-# with the contract).
+# Published as the legal and GDPR contact address. A personal mailbox is fine
+# legally and is not tied to any employer. An address on the domain
+# (contact@datanalyze.be) would read as more professional on a commercial site —
+# see TODO-CONTENU.md. Changing this one line updates the legal notice, the
+# privacy policy and the JSON-LD at once.
 email: "ant.soetewey@gmail.com"
 
 # Registration — steps start on 1 October 2026. Leave empty until then.

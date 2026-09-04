@@ -13,24 +13,20 @@ inventé : chaque champ manquant apparaît soit comme un marqueur jaune
 mentions légales, politique de confidentialité et données structurées JSON-LD.
 Les marqueurs jaunes « À COMPLÉTER » correspondants ont disparu du site.
 
-Le site est donc **publiable en l'état**, sous réserve du point 9 (relecture
+Le site est donc **publiable en l'état**, sous réserve du point 10 (relecture
 juridique), qui est recommandé mais pas bloquant.
 
-> ### ⚠️ Un point à reconsidérer : l'adresse e-mail publiée
+> ### L'adresse e-mail publiée
 >
-> `antoine.soetewey@uclouvain.be` est une **boîte appartenant à l'UCLouvain**,
-> publiée comme contact légal d'une **activité indépendante distincte**. Deux
-> risques concrets :
+> `ant.soetewey@gmail.com` est publiée comme contact légal et RGPD. C'est
+> parfaitement valable juridiquement, et le passage de l'adresse UCLouvain à une
+> adresse personnelle règle les deux risques précédents : plus de dépendance à un
+> règlement d'usage universitaire, plus de boîte qui disparaît avec le contrat.
 >
-> - la plupart des règlements d'usage informatique universitaires n'autorisent
->   pas l'usage d'une adresse institutionnelle pour une activité commerciale
->   personnelle — à vérifier de ton côté ;
-> - l'adresse disparaît le jour où le contrat se termine, et c'est celle par
->   laquelle des demandes RGPD doivent pouvoir t'atteindre.
->
-> Une adresse sur ton propre domaine (`contact@datanalyze.be`) lève les deux
-> points et renforce la crédibilité commerciale. Un seul champ à changer dans
-> `data/legal.yaml`.
+> Reste une question de perception, non bloquante : une adresse sur ton propre
+> domaine (`contact@datanalyze.be`) fait plus professionnel sur un site
+> commercial qu'un Gmail. Un seul champ à changer dans `data/legal.yaml`, le jour
+> où tu configures une boîte sur le domaine.
 
 ---
 
@@ -72,7 +68,37 @@ dans le README). Marche à suivre :
 
 La checklist post-déploiement complète est dans le README.
 
-### 3. Confirmer la publication des quatre études de cas
+### 3. Profil Google Business (visibilité locale)
+
+**Quand :** après l'inscription à la BCE, pas avant.
+
+Si tu veux apparaître dans le bloc local de Google et sur Maps — pour des
+requêtes du type « statisticien près de chez moi » ou « consultant statistique
+Brabant wallon » — c'est **un profil Google Business** qu'il faut, pas du
+balisage sur le site.
+
+C'est une confusion fréquente et elle a une conséquence concrète ici : j'ai
+retiré la propriété `areaServed` des données structurées parce qu'elle ne sert à
+rien en référencement (elle ne figure pas parmi les propriétés que Google
+documente pour les résultats enrichis d'établissement local, et n'est pas un
+signal de classement). L'équivalent qui compte réellement, c'est le champ
+« zone de service » du profil Google Business.
+
+Deux points à arbitrer avant de te lancer :
+
+- **Il faut une activité vérifiable.** Google demande de prouver l'existence de
+  l'entreprise, d'où l'attente de la BCE.
+- **Ton adresse est à ton domicile.** Deux options : la publier, ou configurer le
+  profil en *établissement de zone de service*, ce qui la masque sur la fiche et
+  n'affiche qu'un rayon d'intervention. À noter : ton adresse figure déjà dans
+  les mentions légales, l'arbitrage porte donc surtout sur son apparition sur une
+  carte.
+
+Non bloquant, et à évaluer selon l'importance réelle des clients de proximité
+pour toi : une bonne partie de ton marché (chercheurs, hôpitaux, entreprises)
+te trouvera par recherche classique plutôt que par la carte.
+
+### 4. Confirmer la publication des quatre études de cas
 
 Les pages [références](https://datanalyze.be/references/) nomment la
 **Clinique Saint-Jean** et la **Fondation Saint-Luc**. Ces textes existaient déjà
@@ -80,7 +106,7 @@ sur l'ancien site et n'ont pas été modifiés sur le fond, mais il vaut la pein
 vérifier que tu as bien l'accord de ces institutions pour les citer nommément —
 d'autant que le site va gagner en visibilité.
 
-### 4. Statut de la publication « Clinique Saint-Jean »
+### 5. Statut de la publication « Clinique Saint-Jean »
 
 **Où :** `content/references/cliniquesaintjean.fr.md` et `.en.md`
 
@@ -93,7 +119,7 @@ faute de pouvoir le vérifier.
 
 ## 🟡 Améliorations, non bloquantes
 
-### 5. Image de partage sur les réseaux sociaux
+### 6. Image de partage sur les réseaux sociaux
 
 Aujourd'hui, l'image Open Graph est un **recadrage automatique 1200×630 de ton
 portrait**, avec détection de contenu (`Smart`) : depuis le passage au nouveau
@@ -105,7 +131,7 @@ Pour la remplacer : dépose un fichier 1200×630 dans `assets/img/` et ajoute
 `image: "img/ton-fichier.png"` dans le front matter de la page concernée, ou
 modifie la valeur par défaut dans `layouts/partials/head.html`.
 
-### 6. Conditions générales — délibérément non rédigées
+### 7. Conditions générales — délibérément non rédigées
 
 Je ne les ai **pas** écrites, et c'est un choix argumenté :
 
@@ -122,7 +148,7 @@ formations), plafond de responsabilité, propriété intellectuelle des livrable
 (le site annonce déjà un transfert intégral au client), et droit applicable.
 Un comptable ou un guichet d'entreprises couvre généralement ce point.
 
-### 7. Témoignages, logos clients et grille tarifaire
+### 8. Témoignages, logos clients et grille tarifaire
 
 Les trois sections sont **construites et stylées** mais **non affichées**, faute
 de contenu réel. Chacune s'active en deux gestes, documentés en tête du partial
@@ -141,7 +167,7 @@ demandé. Si tu actives le bandeau plus tard, préfère des logos individuels da
 `assets/img/clients/` : ils restent nets, acceptent un texte alternatif et se
 retirent un par un.
 
-### 8. Activer la mesure d'audience (si tu en ressens le besoin)
+### 9. Activer la mesure d'audience (si tu en ressens le besoin)
 
 Le site part avec **zéro script de mesure et zéro cookie**, donc sans bandeau de
 consentement. Si tu veux plus tard le détail du trafic par page :
@@ -166,7 +192,7 @@ Alternative envisageable : le **palier gratuit d'Umami Cloud** (open source,
 sans cookie, hébergé en UE). Il demanderait un partial supplémentaire, non écrit.
 Je n'ai activé **aucun** des deux.
 
-### 9. Textes juridiques à faire relire
+### 10. Textes juridiques à faire relire
 
 Les mentions légales et la politique de confidentialité sont des **modèles
 génériques** adaptés à une activité d'indépendant en Belgique, pas un conseil
@@ -174,7 +200,7 @@ juridique. Une relecture par un professionnel du droit est recommandée avant la
 mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
 des données de santé pour tes clients hospitaliers).
 
-### 10. Points de contenu à vérifier
+### 11. Points de contenu à vérifier
 
 - **easystat.be** est toujours cité comme activité de cours particuliers, sur la
   page « À propos ». À confirmer.
