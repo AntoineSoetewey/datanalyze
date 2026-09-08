@@ -272,7 +272,11 @@ body.dz :focus-visible {
 .dz-btn--ghostOnDark {
   background: transparent;
   color: #fff;
-  border-color: rgb(255 255 255 / 0.28);
+  /* 0.35 et pas 0.28 : la bordure d'un contrôle doit atteindre 3:1 sur son
+     fond (WCAG 1.4.11). Sur --bg-inverse, 0.28 donnait 2,54:1 ; 0.35 donne
+     3,23:1, soit le seuil avec un peu de marge sans éclaircir la bordure
+     plus que nécessaire. */
+  border-color: rgb(255 255 255 / 0.35);
 }
 .dz-btn--ghostOnDark:hover { border-color: #fff; background: rgb(255 255 255 / 0.08); }
 
@@ -384,7 +388,28 @@ body.dz :focus-visible {
 .dz-lang__sep { color: var(--line-strong); }
 
 /* Mobile menu — CSS only, no JS */
-.dz-burger { display: none; }
+
+/* La case doit rester focalisable : display:none la sortirait de l'ordre de
+   tabulation, et le <label> qui la commande n'est pas focalisable non plus —
+   le menu n'était ouvrable qu'à la souris (WCAG 2.1.1). On la masque donc
+   visuellement, et on peint l'anneau de focus sur le label. En desktop le
+   label est masqué : on rétablit display:none pour ne pas laisser un arrêt de
+   tabulation sans effet visible. */
+.dz-burger {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (min-width: 56.0625rem) { .dz-burger { display: none; } }
+.dz-burger:focus-visible ~ .dz-header__bar .dz-burger__box {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
 .dz-burger__box {
   display: none;
   align-items: center;

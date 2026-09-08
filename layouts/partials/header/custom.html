@@ -8,13 +8,12 @@
 {{- $ctaItem := "" -}}
 {{- with site.Menus.cta }}{{ $ctaItem = index . 0 }}{{ end -}}
 <header class="dz-header">
-  <input
-    type="checkbox"
-    id="dz-menu"
-    class="dz-burger"
-    hidden
-    aria-hidden="true"
-  />
+  {{- /* Ni "hidden" ni aria-hidden : l'un comme l'autre retire la case de
+         l'ordre de tabulation, et le <label> plus bas n'est pas focalisable.
+         Le menu n'était alors ouvrable qu'à la souris — sous 56rem la
+         navigation devenait inatteignable au clavier (WCAG 2.1.1, niveau A).
+         Elle est masquée visuellement en CSS, pas retirée de l'arbre. */ -}}
+  <input type="checkbox" id="dz-menu" class="dz-burger" />
   <div class="dz-wrap dz-header__bar">
     <a class="dz-brand" href="{{ "" | relLangURL }}">
       <span class="dz-brand__mark" aria-hidden="true">d</span>
@@ -45,7 +44,11 @@
         <a class="dz-btn dz-btn--primary dz-btn--sm" href="{{ .URL }}">{{ .Name }}</a>
       {{- end }}
 
-      <label class="dz-burger__box" for="dz-menu" aria-label="{{ i18n "nav.menu" }}">
+      {{- /* Le nom accessible vient du texte du <label>, qui devient celui de
+             la case qu'il commande : un aria-label posé sur un <label> n'est
+             pas exposé de façon fiable. */ -}}
+      <label class="dz-burger__box" for="dz-menu">
+        <span class="dz-sr">{{ i18n "nav.menu" }}</span>
         <svg class="dz-burger__open" viewBox="0 0 24 24" fill="none" stroke="currentColor"
              stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
           <path d="M4 7h16M4 12h16M4 17h16" />

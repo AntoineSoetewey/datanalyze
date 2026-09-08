@@ -11,6 +11,18 @@
   partial usable as-is for "the other services" at the bottom of a service page:
   six cards everywhere else, five there.
 */ -}}
+{{- /* Heading level of the cards.
+
+       The home page and the service pages both put an <h2> immediately above
+       this grid, so the cards belong at h3 there. The /services/ hub has no
+       such heading — the grid IS its content — so h3 landed straight after the
+       page <h1> and skipped a level (WCAG 1.3.1).
+
+       The two branches are written out in full rather than interpolating the
+       tag name: html/template refuses to build a tag from an action and would
+       escape "<" into "&lt;". The cards are styled by .dz-card__title and never
+       by tag, so this changes no pixel. */ -}}
+{{- $hubHeading := and (eq .Kind "section") (eq .Section "services") -}}
 {{- $current := .Permalink -}}
 {{- /* Not piped: "X | sort k" passes X as the LAST argument, i.e. sort k X. */ -}}
 {{- $cards := sort (where site.RegularPages "Section" "services") "Params.order" -}}
@@ -26,7 +38,11 @@
         <span class="dz-card__icon">
           {{- partial "dz-icon.html" (.Params.icon | default (cond (eq .Section "services") "chart" "teach")) -}}
         </span>
+        {{- if $hubHeading }}
+        <h2 class="dz-card__title">{{ .Title }}</h2>
+        {{- else }}
         <h3 class="dz-card__title">{{ .Title }}</h3>
+        {{- end }}
         <p class="dz-card__text">{{ .Params.tagline }}</p>
         <span class="dz-card__more">{{ i18n "services.more" }}</span>
       </a>
