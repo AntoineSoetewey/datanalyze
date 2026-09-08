@@ -1,25 +1,53 @@
 {{- /*
   Language switcher.
 
-  It must link to the TRANSLATION OF THE CURRENT PAGE, never to the home page.
-  .AllTranslations includes the current page, so every entry resolves to the
-  matching URL in the other language. Pages are ordered by the language weights
-  set in config/_default/languages.*.toml (French first).
+  On a real page it must link to the TRANSLATION OF THE CURRENT PAGE, never to
+  the home page. .AllTranslations includes the current page, so every entry
+  resolves to the matching URL in the other language. Pages are ordered by the
+  language weights set in config/_default/languages.*.toml (French first).
+
+  The 404 page is the exception: Hugo builds it outside the content tree, so it
+  has no translations and .AllTranslations is empty. Without a fallback the
+  switcher simply vanished there — on the one page where a visitor who landed in
+  the wrong language most needs it. In that case we point at each language's
+  home, since the requested path exists in no language by definition.
 */ -}}
-{{- with .AllTranslations }}
-  {{- if gt (len .) 1 }}
-    <div class="dz-lang">
-      <span class="dz-sr">{{ i18n "nav.language" }}</span>
-      {{- range $i, $t := . }}
-        {{- if $i }}<span class="dz-lang__sep" aria-hidden="true">/</span>{{ end }}
-        <a
-          href="{{ $t.Permalink }}"
-          hreflang="{{ $t.Language.LanguageCode }}"
-          lang="{{ $t.Language.LanguageCode }}"
-          {{ if eq $t.Language.Lang $.Page.Lang }}aria-current="true"{{ end }}
-          >{{ $t.Language.Lang | upper }}</a
-        >
-      {{- end }}
-    </div>
-  {{- end }}
+
+{{- $current := .Page.Lang -}}
+{{- $items := slice -}}
+
+{{- with .AllTranslations -}}
+  {{- if gt (len .) 1 -}}
+    {{- range . -}}
+      {{- $items = $items | append (dict
+          "lang" .Language.Lang
+          "code" .Language.LanguageCode
+          "url" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $items -}}
+  {{- range site.Sites -}}
+    {{- $items = $items | append (dict
+        "lang" .Language.Lang
+        "code" .Language.LanguageCode
+        "url" .Home.Permalink) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $items) 1 }}
+  <div class="dz-lang">
+    <span class="dz-sr">{{ i18n "nav.language" }}</span>
+    {{- range $i, $t := $items }}
+      {{- if $i }}<span class="dz-lang__sep" aria-hidden="true">/</span>{{ end }}
+      <a
+        href="{{ $t.url }}"
+        hreflang="{{ $t.code }}"
+        lang="{{ $t.code }}"
+        {{ if eq $t.lang $current }}aria-current="true"{{ end }}
+        >{{ $t.lang | upper }}</a
+      >
+    {{- end }}
+  </div>
 {{- end }}

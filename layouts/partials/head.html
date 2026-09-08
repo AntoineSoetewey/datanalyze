@@ -18,6 +18,10 @@
 {{- else -}}
   {{- if .IsHome -}}
     {{- $title = printf "%s · %s" site.Title (site.Params.tagline | default "") -}}
+  {{- else if eq .Kind "404" -}}
+    {{- /* Hugo hard-codes "404 Page not found" as the title of this page, in
+           English, whatever the site language. Take the translated string. */ -}}
+    {{- $title = printf "%s · %s" (i18n "error.title") site.Title -}}
   {{- else -}}
     {{- $title = printf "%s · %s" .Title site.Title -}}
   {{- end -}}
@@ -40,7 +44,9 @@
 
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $description }}" />
-  <link rel="canonical" href="{{ .Permalink }}" />
+  {{- /* No canonical on the error page: it is noindex and its URL is not a
+         destination. */ -}}
+  {{ if ne .Kind "404" }}<link rel="canonical" href="{{ .Permalink }}" />{{ end }}
   {{- /* The 404 page must never be indexed; other pages opt in via front matter. */ -}}
   {{ if eq .Kind "404" }}<meta name="robots" content="noindex, follow" />
   {{ else }}{{ with .Params.robots }}<meta name="robots" content="{{ . }}" />{{ end }}{{ end }}

@@ -68,7 +68,26 @@
 
 
 # ---------------------------------------------------------------------------
-# Pre-existing rule — the only forced one
+# Domain — the only forced rule
 # ---------------------------------------------------------------------------
+#
+# Must stay ABOVE the /en/* rule below: Netlify applies rules in order and the
+# first match wins. The /en/* rule carries no host, so it would otherwise catch
+# https://datanalyze.netlify.app/en/... and serve a 404 instead of redirecting
+# to the real domain.
 
 https://datanalyze.netlify.app/*  https://datanalyze.be/:splat  301!
+
+
+# ---------------------------------------------------------------------------
+# Localised 404 — must stay LAST
+# ---------------------------------------------------------------------------
+#
+# Netlify serves /404.html — the French one — for every miss, including under
+# /en/. This rule makes an English miss land on the English error page.
+#
+# It is a wildcard, but not a redirect: the status is 404, so it sends nobody
+# anywhere. It only chooses which error page is rendered, and only when no file
+# matches. Valid English pages are served from their own files and never reach it.
+
+/en/*                                   /en/404.html                                404
