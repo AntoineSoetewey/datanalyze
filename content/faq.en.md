@@ -105,7 +105,7 @@ faq:
 
       Some background in programming or statistics helps, but most courses are
       designed for beginners and can be followed with no prior experience. The
-      prerequisites for each module are listed in the [catalogue](/en/trainings/).
+      prerequisites for each module are listed in the training [catalogue](/en/trainings/).
 
       As with any language, the key is to keep practising afterwards: that is what
       separates having seen it from being able to do it.

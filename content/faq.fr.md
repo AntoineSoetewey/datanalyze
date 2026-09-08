@@ -112,7 +112,7 @@ faq:
       Des bases en programmation ou en statistique aident, mais la plupart des
       formations sont conçues pour des débutants et se suivent sans expérience
       préalable. Les prérequis de chaque module sont indiqués dans le
-      [catalogue](/formations/).
+      [catalogue](/formations/) de formations.
 
       Comme pour tout langage, l'essentiel est de continuer à pratiquer après la
       formation : c'est ce qui fait la différence entre avoir vu et savoir faire.
