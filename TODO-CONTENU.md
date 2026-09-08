@@ -184,26 +184,13 @@ juridique. Une relecture par un professionnel du droit est recommandée avant la
 mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
 des données de santé pour tes clients hospitaliers).
 
-### 9. Statut de chargé de cours invité — à confirmer
+### 9. Points de contenu à vérifier
 
-Le postdoctorat est désormais présenté **au passé** partout sur le site, puisqu'il
-prend fin avec ton lancement en indépendant.
-
-En revanche, j'ai laissé la **charge de cours invité à l'UCLouvain et à l'UNamur
-au présent** : tu ne m'as parlé que du postdoc, et un mandat d'enseignement se
-poursuit couramment en parallèle d'une activité indépendante. Si ce n'est pas ton
-cas, dis-le-moi : il faudra repasser au passé quatre endroits — l'accueil, la
-page « À propos » (deux fois, dont la section « Recherche et enseignement » qui
-dit « je donne actuellement des cours ») et les deux `bio` de
-`config/_default/languages.*.toml`.
-
-Le même raisonnement vaut pour le blog **statsandr.com** et les cours particuliers
-**easystat.be**, cités au présent sur la page « À propos ».
-
-### 10. Points de contenu à vérifier
-
+- La **charge de cours invité** à l'UCLouvain et à l'UNamur est présentée au
+  présent, ce que tu as confirmé. Le postdoctorat, lui, est au passé partout.
 - **easystat.be** est toujours cité comme activité de cours particuliers, sur la
   page « À propos ». À confirmer.
+- Le **blog statsandr.com** est cité au présent sur la page « À propos ».
 - Le compte **Twitter/X** `@statsandr` a été retiré des liens (le réseau ne fait
   plus partie des canaux utiles pour ce type d'activité). Dis-moi si tu veux le
   remettre : `config/_default/menus.*.toml`, table `[[social]]`.

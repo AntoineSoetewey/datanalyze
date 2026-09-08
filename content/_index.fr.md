@@ -7,7 +7,6 @@ hero:
   badge: "Consultance et formation en statistique"
   title: "Vos données méritent "
   titleAccent: "une analyse solide"
-  titleEnd: "."
   lead: "Docteur en statistique, j'accompagne chercheurs, professionnels de la santé et entreprises dans l'analyse de leurs données — du choix de la méthode jusqu'aux résultats que vous pourrez défendre."
   ctaPrimary: "Discuter de votre projet"
   ctaSecondary: "Voir les services"

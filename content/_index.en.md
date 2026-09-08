@@ -7,7 +7,6 @@ hero:
   badge: "Statistical consulting and training"
   title: "Your data deserves "
   titleAccent: "a solid analysis"
-  titleEnd: "."
   lead: "I hold a PhD in statistics and support researchers, healthcare professionals and companies in analysing their data — from choosing the method through to results you can defend."
   ctaPrimary: "Discuss your project"
   ctaSecondary: "See the services"
