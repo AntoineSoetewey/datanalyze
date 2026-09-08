@@ -68,6 +68,8 @@
   {{- with .Fill "1200x630 Smart q85" -}}
     {{- $org = merge $org (dict "image" .Permalink) -}}
   {{- end -}}
+{{- else -}}
+  {{- errorf "Image du JSON-LD introuvable : assets/img/antoine-soetewey.jpeg. resources.Get échoue en silence : la casse du nom de fichier compte sur Linux (Netlify) même si macOS l'ignore." -}}
 {{- end -}}
 
 {{- $graph := slice -}}

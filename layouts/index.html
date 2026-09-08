@@ -72,6 +72,8 @@
                 alt="{{ $p.about.imageAlt }}"
               />
             {{ end }}
+          {{ else }}
+            {{ errorf "Portrait introuvable : assets/img/antoine-soetewey.jpeg. resources.Get échoue en silence : la casse du nom de fichier compte sur Linux (Netlify) même si macOS l'ignore." }}
           {{ end }}
         </div>
         <div>
