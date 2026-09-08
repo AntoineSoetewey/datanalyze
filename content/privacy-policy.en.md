@@ -101,7 +101,3 @@ The site is served exclusively over **HTTPS**. Assignment data is kept on an enc
 ## Changes
 
 This policy may be updated, in particular if an analytics tool is ever switched on — in which case the corresponding section above will appear automatically.
-
----
-
-*This text is a generic template adapted to a self-employed activity in Belgium. It does not constitute legal advice. Review by a legal professional is recommended before final publication.*

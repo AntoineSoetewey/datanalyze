@@ -101,7 +101,3 @@ Le site est servi exclusivement en **HTTPS**. Les données de mission sont conse
 ## Modifications
 
 Cette politique peut être mise à jour, notamment si un outil de mesure d'audience venait à être activé — auquel cas la section correspondante ci-dessus apparaîtra automatiquement.
-
----
-
-*Ce texte est un modèle générique adapté à une activité d'indépendant en Belgique. Il ne constitue pas un conseil juridique. Une relecture par un professionnel du droit est recommandée avant toute mise en ligne définitive.*
