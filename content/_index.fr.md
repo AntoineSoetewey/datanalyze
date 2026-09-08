@@ -56,7 +56,7 @@ about:
   paragraphs:
     - "Je suis **docteur en statistique** (UCLouvain). J'ai été **chercheur postdoctoral en science des données et statistique** à HEC Liège et à l'UCLouvain Saint-Louis Bruxelles, et j'enseigne les statistiques et les probabilités comme **chargé de cours invité** à l'UCLouvain et à l'UNamur."
     - "Cette double casquette est ce qui fait la différence dans une mission : je connais les méthodes de près, pour les avoir développées et publiées ; et j'ai l'habitude de les expliquer à des gens dont ce n'est pas le métier, parce que je les enseigne toutes les semaines."
-    - "Sous le nom **datanalyze**, je mets cette expertise au service de chercheurs, de médecins et d'entreprises. L'analyse se faisant à distance, je travaille aussi bien en Belgique, où je suis basé, qu'à l'étranger."
+    - "Sous le nom **datanalyze**, je mets cette expertise au service de chercheurs, de professionnels et d'entreprises. L'analyse se faisant à distance, je travaille aussi bien en Belgique, où je suis basé, qu'à l'étranger."
   cta: "En savoir plus sur mon parcours"
 
 why:
