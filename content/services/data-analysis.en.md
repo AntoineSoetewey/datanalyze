@@ -23,7 +23,7 @@ problem:
     - "A table of data answers nothing on its own. Between collection and a solid conclusion sits a series of choices — which test, which variables, what to do about missing data, which assumptions to check — and any one of them can invalidate the final result if it is settled badly."
     - "The risk is not failing to get a number: software always produces one. The risk is getting a **wrong** number, or a correct one you cannot defend when a reviewer, a committee or a client asks why that method."
   signals:
-    - "You have a p-value but could not justify the test you used"
+    - "You have a p-value but you cannot justify the test you used"
     - "Your data visibly fails the conditions of the test applied"
     - "A reviewer rejected your analysis and you do not know where to restart"
     - "You redo the same calculations by hand at every update"
@@ -80,8 +80,8 @@ faq:
   - q: "How long does an analysis take?"
     a: |
       It depends mostly on the state of the data and the number of questions. A
-      focused analysis on a clean dataset is a matter of days; a full study with
-      cleaning, modelling and writing is a matter of weeks. I give you a firm
+      focused analysis on a clean dataset will take less time than a full study with
+      cleaning, modelling and writing. I give you a firm
       estimate after scoping, before you commit.
   - q: "Can I list you as a co-author on a publication?"
     a: |

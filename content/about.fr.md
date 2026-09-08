@@ -15,7 +15,7 @@ Ma thèse portait sur la période d'attente en assurance solde restant dû pour 
 
 J'enseigne par ailleurs les statistiques et les probabilités comme **chargé de cours invité** à l'**UCLouvain** et à l'**UNamur**.
 
-Sous le nom **datanalyze**, je mets cette expertise à disposition des chercheurs, des professionnels de la santé et des entreprises qui ont des données à analyser et personne pour le faire.
+Sous le nom **datanalyze**, je mets cette expertise à disposition des chercheurs, des professionnels et des entreprises qui ont des données à analyser et personne pour le faire.
 
 ## Mon parcours
 

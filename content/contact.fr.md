@@ -32,7 +32,7 @@ Si votre demande ne relève pas de mes compétences, je vous le dis à l'étape 
 
 ## Bon à savoir
 
-- Je travaille **en français ou en anglais**. L'analyse se faisant à distance, la localisation n'est pas un obstacle : je suis basé en Belgique et j'interviens aussi à l'étranger.
+- Je travaille **en français ou en anglais**. L'analyse se faisant à distance, la localisation n'est pas un obstacle.
 - Vos données restent confidentielles ; un accord de confidentialité peut être signé avant tout envoi.
 - Pour les questions de tarif, de lieu ou d'organisation d'une formation, passez par le formulaire : cela dépend trop du contexte pour être répondu à l'avance.
 - Les réponses aux questions les plus fréquentes se trouvent dans la [FAQ](/faq/).

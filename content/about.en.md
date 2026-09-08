@@ -15,7 +15,7 @@ My thesis dealt with the waiting period in mortgage insurance for cancer survivo
 
 I also teach statistics and probability as an **invited lecturer** at **UCLouvain** and **UNamur**.
 
-Under the name **datanalyze**, I make that expertise available to researchers, healthcare professionals and companies who have data to analyse and nobody to do it.
+Under the name **datanalyze**, I make that expertise available to researchers, professionals and companies who have data to analyse and nobody to do it.
 
 ## Background
 
