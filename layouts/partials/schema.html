@@ -103,8 +103,11 @@
       "@id" (printf "%s#breadcrumb" .Permalink)
       "itemListElement" $items) -}}
 
-  {{- /* Service pages */ -}}
-  {{- if eq .Section "services" -}}
+  {{- /* Service pages. Guarded on Kind: the /services/ hub is also in the
+         "services" section, but it is a collection of offers, not an offer, and
+         typing it as a Service made the hub and one of its children claim to be
+         the same kind of thing. */ -}}
+  {{- if and (eq .Section "services") (eq .Kind "page") -}}
     {{- $svc := dict
       "@type" "Service"
       "@id" (printf "%s#service" .Permalink)

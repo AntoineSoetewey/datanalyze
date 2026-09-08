@@ -17,13 +17,13 @@
   {{- $title = . -}}
 {{- else -}}
   {{- if .IsHome -}}
-    {{- $title = printf "%s · %s" site.Title (site.Params.tagline | default "") -}}
+    {{- $title = printf "%s | %s" site.Title (site.Params.tagline | default "") -}}
   {{- else if eq .Kind "404" -}}
     {{- /* Hugo hard-codes "404 Page not found" as the title of this page, in
            English, whatever the site language. Take the translated string. */ -}}
-    {{- $title = printf "%s · %s" (i18n "error.title") site.Title -}}
+    {{- $title = printf "%s | %s" (i18n "error.title") site.Title -}}
   {{- else -}}
-    {{- $title = printf "%s · %s" .Title site.Title -}}
+    {{- $title = printf "%s | %s" .Title site.Title -}}
   {{- end -}}
 {{- end -}}
 
@@ -107,7 +107,10 @@
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}" />
 
   {{- /* Open Graph */ -}}
-  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+  {{- /* "website" partout : aucune page de ce site n'est un article — ni
+         auteur, ni date de publication, ni fil. Open Graph n'a pas de type
+         « page de service », et "article" promettait des métadonnées absentes. */ -}}
+  <meta property="og:type" content="website" />
   <meta property="og:site_name" content="{{ site.Title }}" />
   <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ $description }}" />
