@@ -118,23 +118,13 @@
 
     {{ partial "dz-faq-block.html" . }}
 
-    {{/* Related services */}}
-    {{ $others := where (where site.RegularPages "Section" "services") "Permalink" "!=" .Permalink }}
-    {{ with $others }}
-      <section class="dz-detail">
-        <h2 class="dz-h2">{{ i18n "services.related" }}</h2>
-        <div class="dz-grid dz-grid--3">
-          {{ range sort . "Params.order" }}
-            <a class="dz-card" href="{{ .RelPermalink }}">
-              <span class="dz-card__icon">{{ partial "dz-icon.html" (.Params.icon | default "chart") }}</span>
-              <h3 class="dz-card__title">{{ .Title }}</h3>
-              <p class="dz-card__text">{{ .Params.tagline }}</p>
-              <span class="dz-card__more">{{ i18n "services.more" }}</span>
-            </a>
-          {{ end }}
-        </div>
-      </section>
-    {{ end }}
+    {{/* The other services — same partial as the home page and the services hub,
+         which drops the current page from the grid. Rebuilding the list here is
+         what previously left Training out of it. */}}
+    <section class="dz-detail">
+      <h2 class="dz-h2">{{ i18n "services.related" }}</h2>
+      {{ partial "dz-service-cards.html" . }}
+    </section>
   </div>
 
   {{ partial "dz-cta.html" . }}
