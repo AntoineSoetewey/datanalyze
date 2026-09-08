@@ -33,15 +33,17 @@
 
 # -- Footer menu --
 
+# The footer lists the main menu first, then these. A weight below Contact's
+# puts the FAQ straight after "About", which closes the main-menu list.
+[[footer]]
+  name = "FAQ"
+  pageRef = "/faq"
+  weight = 5
+
 [[footer]]
   name = "Contact"
   pageRef = "/contact"
   weight = 10
-
-[[main]]
-  name = "FAQ"
-  pageRef = "/faq"
-  weight = 50
 
 [[footer]]
   name = "Legal notice"
