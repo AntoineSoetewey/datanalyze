@@ -191,7 +191,10 @@ de configuration ne peut réactiver un traceur par inadvertance.
 
 **Option préparée mais inactive :** Cloudflare Web Analytics (gratuit, sans
 cookie, sans bandeau). Tant que `cloudflareAnalyticsToken` est vide, **aucun octet
-n'est émis**. L'activer se fait en une ligne — TODO-CONTENU.md § 10.
+n'est émis**. L'activer demande **deux modifications** — le token dans
+`params.toml` et l'ouverture du `Content-Security-Policy` de `netlify.toml` aux
+deux hôtes de Cloudflare, sans quoi le beacon est bloqué en silence.
+Voir TODO-CONTENU.md § 7.
 
 ### Règle : aucune ressource externe
 

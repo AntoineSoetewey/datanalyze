@@ -29,9 +29,17 @@ HUGO_ENV = 'production'
 #
 # frame-ancestors remplace X-Frame-Options : inutile de servir les deux.
 #
-# Si Cloudflare Web Analytics est activé un jour (params.toml), il faudra
-# ajouter https://static.cloudflareinsights.com à script-src ET à connect-src,
-# sinon le script sera bloqué sans le moindre message.
+# Si Cloudflare Web Analytics est activé un jour, remplir le token dans
+# params.toml ne suffira PAS : il faut aussi ouvrir le CSP ci-dessous, sinon le
+# beacon est bloqué sans le moindre message visible. Deux hôtes DISTINCTS sont
+# nécessaires — le script est servi par l'un et rapporte à l'autre :
+#
+#   script-src  ... https://static.cloudflareinsights.com   (le beacon)
+#   connect-src ... https://cloudflareinsights.com          (/cdn-cgi/rum)
+#
+# La même mise en garde figure dans params.toml, dans analytics.html et dans
+# TODO-CONTENU.md § 7, pour qu'aucun de ces fichiers ne promette une activation
+# en une seule ligne.
 [[headers]]
   for = "/*"
   [headers.values]

@@ -13,8 +13,19 @@
   The block below is the one prepared opt-in: Cloudflare Web Analytics, which is
   free, cookieless and stores nothing on the visitor's device, so it needs no
   consent banner. It stays INERT while params.cloudflareAnalyticsToken is empty —
-  and it is empty. Setting that one value in config/_default/params.toml is all
-  it takes to turn it on. See TODO-CONTENU.md.
+  and it is empty.
+
+  TURNING IT ON TAKES TWO EDITS, NOT ONE. The token in
+  config/_default/params.toml is necessary but no longer sufficient: the
+  Content-Security-Policy served from netlify.toml allows no third-party script,
+  so the beacon would be blocked with nothing visible to show for it. The CSP
+  needs two DISTINCT hosts — the script is served by one and reports to the
+  other:
+
+      script-src  ... https://static.cloudflareinsights.com   (the beacon)
+      connect-src ... https://cloudflareinsights.com          (/cdn-cgi/rum)
+
+  See TODO-CONTENU.md § 7.
 */}}
 {{ if hugo.IsProduction }}
   {{ with site.Params.cloudflareAnalyticsToken }}
