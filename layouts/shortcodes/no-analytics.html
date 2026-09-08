@@ -1,0 +1,19 @@
+{{- /*
+  Mirror of analytics-notice.html: renders its inner content ONLY when
+  Cloudflare Web Analytics is switched OFF.
+
+  The privacy policy makes absolute claims — "no analytics", "no third-party
+  script", "no external resource". Those stop being true the day the tool is
+  enabled. Making only the *added* paragraph conditional was not enough: the
+  page would have asserted both at once, in a legal document.
+
+  Every claim that depends on the tool now lives in one of the two shortcodes,
+  both driven by the same config value, so the page can only ever tell one
+  story. Claims about cookies and consent stay outside: Cloudflare Web Analytics
+  is cookieless and consent-free, so those hold in both states.
+
+  Usage in content: wrap the paragraph in a "no-analytics" percent shortcode.
+*/ -}}
+{{- if not site.Params.cloudflareAnalyticsToken -}}
+  {{- $.Inner | markdownify -}}
+{{- end -}}

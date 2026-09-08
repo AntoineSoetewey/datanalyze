@@ -2,17 +2,25 @@
 title: "Politique de confidentialité"
 slug: "politique-de-confidentialite"
 seoTitle: "Politique de confidentialité | datanalyze"
-description: "Ce site n'utilise ni cookie, ni traceur, ni outil de mesure d'audience. Quelles données sont traitées, pourquoi, combien de temps et quels sont vos droits."
+description: "Ce site ne dépose aucun cookie et n'affiche aucun bandeau de consentement. Quelles données sont traitées, pourquoi, combien de temps et quels sont vos droits."
 eyebrow: "Vie privée"
-lead: "Ce site n'utilise ni cookie, ni traceur, ni outil de mesure d'audience. Voici, en clair, les seules données traitées et ce qu'il en advient."
+lead: "Ce site ne dépose aucun cookie et n'a donc besoin d'aucun bandeau de consentement. Voici, en clair, les données traitées et ce qu'il en advient."
 ---
 
 ## En résumé
 
+{{% no-analytics %}}
 - Le site **ne dépose aucun cookie** et **ne charge aucun script tiers**.
 - **Aucune mesure d'audience** n'est en place : ni Google Analytics, ni équivalent.
 - **Aucune ressource externe** n'est chargée : les polices, les icônes et les images sont hébergées sur ce site.
 - Les seules données personnelles traitées sont **celles que vous transmettez volontairement** via le formulaire de contact ou la prise de rendez-vous.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+- Le site **ne dépose aucun cookie**.
+- La mesure d'audience se limite à **Cloudflare Web Analytics**, sans cookie, sans stockage local et sans donnée permettant de vous identifier.
+- **Aucune autre ressource externe** n'est chargée : les polices, les icônes et les images sont hébergées sur ce site.
+- Les seules données personnelles traitées sont **celles que vous transmettez volontairement** via le formulaire de contact ou la prise de rendez-vous.
+{{% /analytics-notice %}}
 
 C'est aussi la raison pour laquelle vous ne voyez aucun bandeau de consentement : il n'y a rien à consentir.
 
@@ -27,22 +35,29 @@ C'est aussi la raison pour laquelle vous ne voyez aucun bandeau de consentement 
 
 **Ce site n'utilise aucun cookie.** Il ne dépose rien sur votre appareil : ni cookie, ni stockage local, ni identifiant de session, ni pixel de suivi.
 
-Il ne fait pas non plus appel à des ressources externes qui pourraient vous pister à votre insu : il n'y a ni police Google Fonts chargée depuis un CDN, ni bouton de réseau social, ni carte, ni vidéo intégrée. Le formulaire de contact et la prise de rendez-vous sont de **simples liens sortants** — précisément pour éviter que des cookies tiers ne soient déposés pendant votre visite.
+{{% no-analytics %}}
+Il ne fait pas non plus appel à des ressources externes qui pourraient vous pister à votre insu : il n'y a ni police Google Fonts chargée depuis un CDN, ni bouton de réseau social, ni carte, ni vidéo intégrée.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+La seule ressource externe chargée est le script de mesure d'audience décrit plus bas, qui ne dépose rien sur votre appareil. Pour le reste, il n'y a ni police Google Fonts chargée depuis un CDN, ni bouton de réseau social, ni carte, ni vidéo intégrée.
+{{% /analytics-notice %}}
+Le formulaire de contact et la prise de rendez-vous sont de **simples liens sortants** — précisément pour éviter que des cookies tiers ne soient déposés pendant votre visite.
 
 Aucune page dédiée aux cookies n'existe donc sur ce site : il n'y aurait rien à y écrire.
 
 ## Mesure d'audience
 
+{{% no-analytics %}}
 **Aucun outil de mesure d'audience n'est installé.** Ni Google Analytics, ni Plausible, ni Matomo, ni aucun autre. Je ne sais donc pas combien de personnes visitent ce site, ni quelles pages elles consultent.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+Ce site utilise **Cloudflare Web Analytics** pour mesurer la fréquentation de manière agrégée. Cet outil ne dépose aucun cookie, n'utilise aucun stockage local et ne collecte aucune donnée permettant de vous identifier ou de vous suivre d'un site à l'autre. Aucune donnée personnelle n'est traitée à ce titre, et aucun consentement n'est requis. Voir la [politique de confidentialité de Cloudflare](https://www.cloudflare.com/privacypolicy/).
+{{% /analytics-notice %}}
 
-Les seules informations dont je dispose sont :
+Je dispose par ailleurs des informations suivantes :
 
 - les **statistiques agrégées de Google Search Console** et de **Bing Webmaster Tools**, qui indiquent sur quelles requêtes le site apparaît dans les résultats de recherche — ces outils ne déposent rien sur votre appareil et ne me transmettent aucune donnée individuelle ;
 - les **journaux techniques de l'hébergeur** (Netlify), conservés brièvement pour des raisons de sécurité et de fonctionnement, et auxquels je n'ai accès que de manière agrégée.
-
-{{% analytics-notice %}}
-**Mise à jour :** ce site utilise désormais **Cloudflare Web Analytics** pour mesurer la fréquentation de manière agrégée. Cet outil ne dépose aucun cookie, n'utilise aucun stockage local et ne collecte aucune donnée permettant de vous identifier ou de vous suivre d'un site à l'autre. Aucune donnée personnelle n'est traitée à ce titre, et aucun consentement n'est requis. Voir la [politique de confidentialité de Cloudflare](https://www.cloudflare.com/privacypolicy/).
-{{% /analytics-notice %}}
 
 ## Données que vous me transmettez
 

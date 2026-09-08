@@ -2,17 +2,25 @@
 title: "Privacy policy"
 slug: "privacy-policy"
 seoTitle: "Privacy policy | datanalyze"
-description: "This site uses no cookies, no trackers and no analytics. What data is processed, why, for how long, and what your rights are."
+description: "This site sets no cookies and shows no consent banner. What data is processed, why, for how long, and what your rights are."
 eyebrow: "Privacy"
-lead: "This site uses no cookies, no trackers and no analytics. Here, plainly, is the only data processed and what happens to it."
+lead: "This site sets no cookies and therefore needs no consent banner. Here, plainly, is the data processed and what happens to it."
 ---
 
 ## In short
 
+{{% no-analytics %}}
 - The site **sets no cookies** and **loads no third-party scripts**.
 - **No analytics** is in place: no Google Analytics, no equivalent.
 - **No external resources** are loaded: fonts, icons and images are hosted on this site.
 - The only personal data processed is **what you send voluntarily** through the contact form or the booking link.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+- The site **sets no cookies**.
+- Analytics is limited to **Cloudflare Web Analytics**: no cookies, no local storage, no data that could identify you.
+- **No other external resource** is loaded: fonts, icons and images are hosted on this site.
+- The only personal data processed is **what you send voluntarily** through the contact form or the booking link.
+{{% /analytics-notice %}}
 
 That is also why you see no consent banner: there is nothing to consent to.
 
@@ -27,22 +35,29 @@ That is also why you see no consent banner: there is nothing to consent to.
 
 **This site uses no cookies.** It stores nothing on your device: no cookie, no local storage, no session identifier, no tracking pixel.
 
-Nor does it call external resources that could track you without your knowledge: there is no Google Fonts stylesheet loaded from a CDN, no social media button, no embedded map and no embedded video. The contact form and the booking link are **plain outbound links** — precisely so that no third-party cookie is set during your visit.
+{{% no-analytics %}}
+Nor does it call external resources that could track you without your knowledge: there is no Google Fonts stylesheet loaded from a CDN, no social media button, no embedded map and no embedded video.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+The only external resource loaded is the analytics script described below, which stores nothing on your device. Otherwise there is no Google Fonts stylesheet loaded from a CDN, no social media button, no embedded map and no embedded video.
+{{% /analytics-notice %}}
+The contact form and the booking link are **plain outbound links** — precisely so that no third-party cookie is set during your visit.
 
 There is therefore no separate cookie page on this site: there would be nothing to put on it.
 
 ## Analytics
 
+{{% no-analytics %}}
 **No analytics tool is installed.** No Google Analytics, no Plausible, no Matomo, none at all. I therefore do not know how many people visit this site, nor which pages they read.
+{{% /no-analytics %}}
+{{% analytics-notice %}}
+This site uses **Cloudflare Web Analytics** to measure traffic in aggregate. That tool sets no cookies, uses no local storage and collects no data that could identify you or follow you across sites. No personal data is processed on this basis and no consent is required. See the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
+{{% /analytics-notice %}}
 
-The only information available to me is:
+I also have access to the following:
 
 - the **aggregated statistics from Google Search Console** and **Bing Webmaster Tools**, which show which queries the site appears for in search results — these tools store nothing on your device and give me no individual data;
 - the **technical logs of the host** (Netlify), kept briefly for security and operational reasons, which I can only see in aggregate.
-
-{{% analytics-notice %}}
-**Update:** this site now uses **Cloudflare Web Analytics** to measure traffic in aggregate. That tool sets no cookies, uses no local storage and collects no data that could identify you or follow you across sites. No personal data is processed on this basis and no consent is required. See the [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/).
-{{% /analytics-notice %}}
 
 ## Data you send me
 
