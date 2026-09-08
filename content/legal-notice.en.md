@@ -47,7 +47,7 @@ For **client work**, the rule is deliberately the opposite and favours the clien
 
 ## External links
 
-This site contains links to third-party sites (notably Airtable, Calendly, LinkedIn, GitHub, Google Scholar and scientific journals). These links are provided for information; their content is the sole responsibility of their respective publishers.
+This site contains links to third-party sites (notably Airtable, Calendly, LinkedIn, GitHub and Google Scholar). These links are provided for information; their content is the sole responsibility of their respective publishers.
 
 ## Limitation of liability
 
@@ -62,7 +62,3 @@ This legal notice is governed by **Belgian law**. Any dispute relating to the us
 ## Contact
 
 For any question about this legal notice, use the [contact form](/en/contact/) or write to {{< legal "email" >}}.
-
----
-
-*This notice is a generic template adapted to a self-employed activity in Belgium. It does not constitute legal advice. Review by a legal professional is recommended before final publication.*

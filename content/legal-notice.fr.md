@@ -47,7 +47,7 @@ En ce qui concerne les **prestations**, la règle est inverse et volontairement 
 
 ## Liens externes
 
-Ce site contient des liens vers des sites tiers (notamment Airtable, Calendly, LinkedIn, GitHub, Google Scholar et des revues scientifiques). Ces liens sont fournis à titre d'information ; leur contenu n'engage que leurs éditeurs respectifs.
+Ce site contient des liens vers des sites tiers (notamment Airtable, Calendly, LinkedIn, GitHub et Google Scholar). Ces liens sont fournis à titre d'information ; leur contenu n'engage que leurs éditeurs respectifs.
 
 ## Limitation de responsabilité
 
@@ -62,7 +62,3 @@ Les présentes mentions légales sont soumises au **droit belge**. Tout litige r
 ## Contact
 
 Pour toute question relative à ces mentions légales, utilisez le [formulaire de contact](/contact/) ou écrivez à {{< legal "email" >}}.
-
----
-
-*Ces mentions sont un modèle générique adapté à une activité d'indépendant en Belgique. Elles ne constituent pas un conseil juridique. Une relecture par un professionnel du droit est recommandée avant toute mise en ligne définitive.*
