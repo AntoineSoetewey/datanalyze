@@ -48,7 +48,7 @@ process:
   - title: "Restitution"
     text: "Livraison du rapport et des scripts, puis un échange pour que vous puissiez défendre chaque résultat."
 
-examplesIntro: "Quelques exemples du type de questions traitées. Ce sont des illustrations méthodologiques génériques, pas des missions réelles — celles-ci sont décrites dans les [références](/references/)."
+examplesIntro: "Quelques exemples du type de questions traitées. Ce sont des illustrations méthodologiques génériques, pas des missions réelles."
 examples:
   - title: "Comparer deux traitements"
     text: "Un traitement fait-il mieux qu'un autre, à 6 et 16 semaines ? Mesures répétées sur les mêmes patients, donc modèle adapté à la dépendance entre les mesures."

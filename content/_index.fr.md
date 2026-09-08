@@ -77,9 +77,4 @@ why:
       title: "Confidentialité et transfert complet"
       text: "Codes, documents et résultats développés pendant la mission vous sont intégralement transférés, et à vous seul. Vos données ne servent à rien d'autre."
 
-references:
-  eyebrow: "Références"
-  title: "Des missions déjà menées"
-  lead: "Hôpitaux, chercheurs cliniques et entreprises : quelques missions représentatives, avec le contexte, le travail réalisé et ce qu'il en est sorti."
-  more: "Voir toutes les références"
 ---

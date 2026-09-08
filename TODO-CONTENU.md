@@ -13,7 +13,7 @@ inventé : chaque champ manquant apparaît soit comme un marqueur jaune
 mentions légales, politique de confidentialité et données structurées JSON-LD.
 Les marqueurs jaunes « À COMPLÉTER » correspondants ont disparu du site.
 
-Le site est donc **publiable en l'état**, sous réserve du point 10 (relecture
+Le site est donc **publiable en l'état**, sous réserve du point 8 (relecture
 juridique), qui est recommandé mais pas bloquant.
 
 > ### L'adresse e-mail publiée
@@ -47,7 +47,7 @@ Ce n'est pas bloquant : tant que l'activité n'est pas enregistrée, il n'y a pa
 de numéro à mentionner. Dès que tu les as, remplis-les dans `data/legal.yaml` :
 rien d'autre à faire.
 
-### 3. Profil Google Business (visibilité locale)
+### 2. Profil Google Business (visibilité locale)
 
 **Quand :** après l'inscription à la BCE, pas avant.
 
@@ -81,7 +81,29 @@ te trouvera par recherche classique plutôt que par la carte.
 
 ## 🟡 Améliorations, non bloquantes
 
-### 6. Image de partage sur les réseaux sociaux
+### 3. Références et études de cas — retirées à ta demande
+
+Les quatre études de cas (Clinique Saint-Jean, Fondation Saint-Luc, professeur en
+chirurgie digestive, entreprise du secteur de la santé) et toute la section
+« Références » ont été retirées : pages, entrée de menu, section de la page
+d'accueil et liens qui y menaient.
+
+Rien n'est perdu, les dix fichiers restent dans l'historique git. Pour les
+remettre en ligne :
+
+```
+git checkout 7dd6787 -- content/references
+```
+
+Il faudra aussi rétablir l'entrée de menu dans `config/_default/menus.*.toml`,
+la section de `layouts/index.html`, le bloc `references:` du front matter de
+`content/_index.*.md`, et retarger les dix règles `/portfolio/…` de
+`static/_redirects`.
+
+Ces anciennes URLs ne renvoient pas d'erreur : elles redirigent vers `/services/`
+(ou `/en/services/`), la page la plus proche en intention.
+
+### 4. Image de partage sur les réseaux sociaux
 
 Aujourd'hui, l'image Open Graph est un **recadrage automatique 1200×630 de ton
 portrait**, avec détection de contenu (`Smart`) : depuis le passage au nouveau
@@ -93,7 +115,7 @@ Pour la remplacer : dépose un fichier 1200×630 dans `assets/img/` et ajoute
 `image: "img/ton-fichier.png"` dans le front matter de la page concernée, ou
 modifie la valeur par défaut dans `layouts/partials/head.html`.
 
-### 7. Conditions générales — délibérément non rédigées
+### 5. Conditions générales — délibérément non rédigées
 
 Je ne les ai **pas** écrites, et c'est un choix argumenté :
 
@@ -110,7 +132,7 @@ formations), plafond de responsabilité, propriété intellectuelle des livrable
 (le site annonce déjà un transfert intégral au client), et droit applicable.
 Un comptable ou un guichet d'entreprises couvre généralement ce point.
 
-### 8. Témoignages, logos clients et grille tarifaire
+### 6. Témoignages, logos clients et grille tarifaire
 
 Les trois sections sont **construites et stylées** mais **non affichées**, faute
 de contenu réel. Chacune s'active en deux gestes, documentés en tête du partial
@@ -129,7 +151,7 @@ demandé. Si tu actives le bandeau plus tard, préfère des logos individuels da
 `assets/img/clients/` : ils restent nets, acceptent un texte alternatif et se
 retirent un par un.
 
-### 9. Activer la mesure d'audience (si tu en ressens le besoin)
+### 7. Activer la mesure d'audience (si tu en ressens le besoin)
 
 Le site part avec **zéro script de mesure et zéro cookie**, donc sans bandeau de
 consentement. Si tu veux plus tard le détail du trafic par page :
@@ -154,7 +176,7 @@ Alternative envisageable : le **palier gratuit d'Umami Cloud** (open source,
 sans cookie, hébergé en UE). Il demanderait un partial supplémentaire, non écrit.
 Je n'ai activé **aucun** des deux.
 
-### 10. Textes juridiques à faire relire
+### 8. Textes juridiques à faire relire
 
 Les mentions légales et la politique de confidentialité sont des **modèles
 génériques** adaptés à une activité d'indépendant en Belgique, pas un conseil
@@ -162,7 +184,7 @@ juridique. Une relecture par un professionnel du droit est recommandée avant la
 mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
 des données de santé pour tes clients hospitaliers).
 
-### 11. Points de contenu à vérifier
+### 9. Points de contenu à vérifier
 
 - **easystat.be** est toujours cité comme activité de cours particuliers, sur la
   page « À propos ». À confirmer.

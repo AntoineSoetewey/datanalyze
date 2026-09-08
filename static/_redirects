@@ -15,11 +15,14 @@
 # ---------------------------------------------------------------------------
 
 /trainings/                             /en/trainings/                              301
-/portfolio/                             /en/references/                             301
-/portfolio/cliniquesaintjean/           /en/references/cliniquesaintjean/           301
-/portfolio/fondationsaintluc/           /en/references/fondationsaintluc/           301
-/portfolio/professor-surgery/           /en/references/professor-surgery/           301
-/portfolio/company-in-health-sector/    /en/references/company-in-health-sector/    301
+# The case studies these URLs pointed to have been withdrawn, so they now land
+# on the services page — the closest remaining match in intent. If the case
+# studies come back, retarget these five rules to their new URLs.
+/portfolio/                             /en/services/                               301
+/portfolio/cliniquesaintjean/           /en/services/                               301
+/portfolio/fondationsaintluc/           /en/services/                               301
+/portfolio/professor-surgery/           /en/services/                               301
+/portfolio/company-in-health-sector/    /en/services/                               301
 
 # Tag taxonomy removed (it was never used by any content).
 /tags/                                  /                                           301
@@ -53,11 +56,13 @@
 
 /fr/trainings/                          /formations/                                301
 /fr/faq/                                /faq/                                       301
-/fr/portfolio/                          /references/                                301
-/fr/portfolio/cliniquesaintjean/        /references/clinique-saint-jean/            301
-/fr/portfolio/fondationsaintluc/        /references/fondation-saint-luc/            301
-/fr/portfolio/professor-surgery/        /references/professeur-chirurgie-digestive/ 301
-/fr/portfolio/company-in-health-sector/ /references/entreprise-secteur-sante/       301
+# Same as above: the case studies are withdrawn, so these land on the services
+# page rather than 404.
+/fr/portfolio/                          /services/                                  301
+/fr/portfolio/cliniquesaintjean/        /services/                                  301
+/fr/portfolio/fondationsaintluc/        /services/                                  301
+/fr/portfolio/professor-surgery/        /services/                                  301
+/fr/portfolio/company-in-health-sector/ /services/                                  301
 /fr/tags/                               /                                           301
 /fr/index.xml                           /index.xml                                  301
 

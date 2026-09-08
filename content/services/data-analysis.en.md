@@ -48,7 +48,7 @@ process:
   - title: "Handover"
     text: "Delivery of the report and scripts, then a session so you can defend every result."
 
-examplesIntro: "A few examples of the kind of questions handled. These are generic methodological illustrations, not real assignments — those are described in the [references](/en/references/)."
+examplesIntro: "A few examples of the kind of questions handled. These are generic methodological illustrations, not real assignments."
 examples:
   - title: "Comparing two treatments"
     text: "Does one treatment outperform another, at 6 and 16 weeks? Repeated measures on the same patients, so a model that accounts for the dependence between them."

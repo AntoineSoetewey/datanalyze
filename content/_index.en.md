@@ -77,9 +77,4 @@ why:
       title: "Confidentiality and full handover"
       text: "Code, documents and results produced during the assignment are transferred to you in full, and to you only. Your data is used for nothing else."
 
-references:
-  eyebrow: "References"
-  title: "Assignments already delivered"
-  lead: "Hospitals, clinical researchers and companies: a few representative assignments, with the context, the work carried out and what came out of it."
-  more: "See all references"
 ---

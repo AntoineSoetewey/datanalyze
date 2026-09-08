@@ -106,31 +106,6 @@
     </div>
   </section>
 
-  {{/* ---------- References ---------- */}}
-  {{ with site.GetPage "/references" }}
-    <section class="dz-section">
-      <div class="dz-wrap dz-wrap--page">
-        <div class="dz-section-head">
-          <p class="dz-eyebrow">{{ $p.references.eyebrow }}</p>
-          <h2 class="dz-h2">{{ $p.references.title }}</h2>
-          <p class="dz-lead">{{ $p.references.lead }}</p>
-        </div>
-        <div class="dz-grid dz-grid--2">
-          {{ range first 4 .RegularPages }}
-            <a class="dz-card" href="{{ .RelPermalink }}">
-              <h3 class="dz-card__title">{{ .Title }}</h3>
-              <p class="dz-card__text">{{ .Params.tagline | default .Description }}</p>
-              <span class="dz-card__more">{{ i18n "services.more" }}</span>
-            </a>
-          {{ end }}
-        </div>
-        <p style="margin-top:2rem">
-          <a class="dz-arrow" href="{{ .RelPermalink }}">{{ $p.references.more }}</a>
-        </p>
-      </div>
-    </section>
-  {{ end }}
-
   {{/* Deferred sections — see each partial's header comment. They render
        nothing until their flag and their data file both exist. */}}
   {{ partial "dz-client-logos.html" . }}
