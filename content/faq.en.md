@@ -89,7 +89,7 @@ faq:
       For development and analysis, yes: it is the tool I know best and the one best
       suited to work with a heavy statistical component. For **methodological
       advice**, though, the software is irrelevant: I can support you whether you
-      work in SPSS, Stata, SAS, Python or Excel.
+      work in SPSS, Stata, SAS, Python, Jamovi, JASP, JMP or Excel.
   - q: "Do I need artificial intelligence to analyse my data?"
     a: |
       Usually not. On datasets of typical size, a classical statistical model

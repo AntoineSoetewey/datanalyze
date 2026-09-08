@@ -72,7 +72,7 @@ faq:
     a: |
       Pour trois raisons, dans cet ordre d'importance :
 
-      - la **reproductibilité** : n'importe qui peut rejouer vos analyses et
+      - la **reproductibilité** : n'importe qui peut refaire vos analyses et
         retrouver exactement vos résultats, vous compris, six mois plus tard ;
       - l'**automatisation** : les mêmes analyses se relancent sur des données
         actualisées sans refaire le travail ;
@@ -94,7 +94,7 @@ faq:
       Pour le développement et l'analyse, oui : c'est l'outil que je maîtrise le
       mieux et le plus adapté aux travaux à forte composante statistique. Pour le
       **conseil méthodologique**, en revanche, le logiciel n'a pas d'importance : je
-      peux vous accompagner que vous travailliez sous SPSS, Stata, SAS, Python ou
+      peux vous accompagner que vous travailliez sous SPSS, Stata, SAS, Python, Jamovi, JASP, JMP ou
       Excel.
   - q: "Faut-il de l'intelligence artificielle pour analyser mes données ?"
     a: |

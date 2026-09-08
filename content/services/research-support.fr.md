@@ -88,7 +88,7 @@ faq:
   - q: "Travaillez-vous avec autre chose que R ?"
     a: |
       Le conseil méthodologique ne dépend pas du logiciel : je peux vous accompagner
-      que vous travailliez sous SPSS, Stata, SAS, Python, Jamovi, JASP ou Excel. En revanche,
+      que vous travailliez sous SPSS, Stata, SAS, Python, Jamovi, JASP, JMP ou Excel. En revanche,
       quand il s'agit d'écrire ou de relire du code, je le fais en R.
   - q: "Mon domaine n'est pas médical, est-ce un problème ?"
     a: |

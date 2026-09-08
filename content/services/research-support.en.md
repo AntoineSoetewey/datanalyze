@@ -87,7 +87,7 @@ faq:
   - q: "Do you work with software other than R?"
     a: |
       Methodological advice does not depend on the software: I can support you
-      whether you work in SPSS, Stata, SAS, Python, Jamovi, JASP or Excel. When it comes to writing
+      whether you work in SPSS, Stata, SAS, Python, Jamovi, JASP, JMP or Excel. When it comes to writing
       or reviewing code, though, I do that in R.
   - q: "My field is not medical. Is that a problem?"
     a: |
