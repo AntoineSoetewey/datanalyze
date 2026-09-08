@@ -1,0 +1,21 @@
+{{- /*
+  Prints one field from data/legal.yaml, or a visible "to be completed" marker
+  when the value is still empty.
+
+  This is what keeps the legal pages honest: a missing enterprise number shows
+  as an obvious placeholder that nobody could mistake for a real one, instead of
+  being invented or silently omitted.
+
+  Usage in content: the "legal" shortcode with the field path as first argument,
+  e.g. enterpriseNumber, email, or address.city
+*/ -}}
+{{- $path := .Get 0 -}}
+{{- $value := site.Data.legal -}}
+{{- range split $path "." -}}
+  {{- $value = index $value . -}}
+{{- end -}}
+{{- if $value -}}
+  {{- $value -}}
+{{- else -}}
+  <mark class="dz-todo">{{ i18n "legal.toComplete" }} : {{ $path }}</mark>
+{{- end -}}

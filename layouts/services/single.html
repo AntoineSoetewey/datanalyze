@@ -1,0 +1,131 @@
+{{ define "main" }}
+  {{- $p := .Params -}}
+
+  <section class="dz-hero">
+    <div class="dz-hero__grid" aria-hidden="true"></div>
+    <div class="dz-wrap dz-hero__inner" style="padding-block:3rem 3.5rem">
+      {{ partial "breadcrumbs.html" . }}
+      <p class="dz-eyebrow">{{ i18n "services.eyebrow" }}</p>
+      <h1 class="dz-h1">{{ .Title }}</h1>
+      <p class="dz-lead">{{ $p.lead | markdownify }}</p>
+      <div class="dz-btn-row">
+        <a class="dz-btn dz-btn--primary" href="{{ with site.GetPage "/contact" }}{{ .RelPermalink }}{{ end }}">{{ i18n "services.cta" }}</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="dz-wrap">
+    {{/* Who it is for */}}
+    {{ with $p.audience }}
+      <section class="dz-detail">
+        <div class="dz-detail__index">
+          <span class="dz-card__icon" style="margin-bottom:0">{{ partial "dz-icon.html" "users" }}</span>
+          <span class="dz-detail__num">01</span>
+        </div>
+        <h2 class="dz-h2">{{ i18n "services.audience" }}</h2>
+        <div class="dz-split">
+          <div>{{ with $p.audienceIntro }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}</div>
+          <ul class="dz-checks dz-checks--2">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* The problem */}}
+    {{ with $p.problem }}
+      <section class="dz-detail">
+        <div class="dz-detail__index">
+          <span class="dz-card__icon" style="margin-bottom:0">{{ partial "dz-icon.html" "compass" }}</span>
+          <span class="dz-detail__num">02</span>
+        </div>
+        <h2 class="dz-h2">{{ i18n "services.problem" }}</h2>
+        <div class="dz-split">
+          <div>
+            {{ range .paragraphs }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}
+          </div>
+          <div>
+            {{ with .signals }}
+              <ul class="dz-checks">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* Deliverables */}}
+    {{ with $p.deliverables }}
+      <section class="dz-detail">
+        <div class="dz-detail__index">
+          <span class="dz-card__icon" style="margin-bottom:0">{{ partial "dz-icon.html" "check" }}</span>
+          <span class="dz-detail__num">03</span>
+        </div>
+        <h2 class="dz-h2">{{ i18n "services.deliverables" }}</h2>
+        <div class="dz-split">
+          <div>{{ with $p.deliverablesIntro }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}</div>
+          <ul class="dz-checks dz-checks--2">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* How we work together */}}
+    {{ with $p.process }}
+      <section class="dz-detail">
+        <div class="dz-detail__index">
+          <span class="dz-card__icon" style="margin-bottom:0">{{ partial "dz-icon.html" "compass" }}</span>
+          <span class="dz-detail__num">04</span>
+        </div>
+        <h2 class="dz-h2">{{ i18n "services.process" }}</h2>
+        <ol class="dz-steps">
+          {{ range . }}
+            <li>
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+
+    {{/* Concrete examples */}}
+    {{ with $p.examples }}
+      <section class="dz-detail">
+        <div class="dz-detail__index">
+          <span class="dz-card__icon" style="margin-bottom:0">{{ partial "dz-icon.html" "spark" }}</span>
+          <span class="dz-detail__num">05</span>
+        </div>
+        <h2 class="dz-h2">{{ i18n "services.examples" }}</h2>
+        {{ with $p.examplesIntro }}<p class="dz-body">{{ . | markdownify }}</p>{{ end }}
+        <div class="dz-grid dz-grid--3">
+          {{ range . }}
+            <div class="dz-card">
+              <h3 class="dz-card__title">{{ .title }}</h3>
+              <p class="dz-card__text">{{ .text }}</p>
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* Free-form markdown body, if any */}}
+    {{ with .Content }}
+      <section class="dz-detail">
+        <div class="dz-prose">{{ . }}</div>
+      </section>
+    {{ end }}
+
+    {{ partial "dz-faq-block.html" . }}
+
+    {{/* The other services — same partial as the home page and the services hub,
+         which drops the current page from the grid. Rebuilding the list here is
+         what previously left Training out of it. */}}
+    <section class="dz-detail">
+      <h2 class="dz-h2">{{ i18n "services.related" }}</h2>
+      {{ partial "dz-service-cards.html" . }}
+    </section>
+  </div>
+
+  {{ partial "dz-cta.html" . }}
+{{ end }}

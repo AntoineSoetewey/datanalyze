@@ -1,0 +1,52 @@
+{{- /*
+  Project override of themes/congo/layouts/partials/footer.html (Congo 2.9.0).
+  Reason for shadowing: own layout, legal links, and no theme attribution or
+  appearance switcher. See README.md.
+*/ -}}
+{{- $legal := site.Data.legal -}}
+<footer class="dz-footer">
+  <div class="dz-wrap">
+    <div class="dz-footer__top">
+      <div>
+        <a class="dz-brand" href="{{ "" | relLangURL }}">
+          <span class="dz-brand__mark" aria-hidden="true">d</span>
+          datanalyze
+        </a>
+        <p class="dz-footer__blurb">{{ i18n "footer.blurb" }}</p>
+      </div>
+
+      {{/* The column headings are not displayed: with only two link lists,
+           one internal and one external, they were visual noise. They survive
+           as the accessible name of each nav landmark, otherwise the two lists
+           are indistinguishable to a screen reader. */}}
+      <nav aria-label="{{ i18n "footer.site" }}">
+        <ul>
+          {{- range site.Menus.main }}
+            {{- if and (ne .Identifier "locale") .URL }}
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{- end }}
+          {{- end }}
+          {{- range site.Menus.footer }}
+            {{- if .URL }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+          {{- end }}
+        </ul>
+      </nav>
+
+      <nav aria-label="{{ i18n "footer.elsewhere" }}">
+        <ul>
+          {{- range site.Menus.social }}
+            <li>
+              <a href="{{ .URL }}" rel="noopener me" target="_blank">{{ .Name }}</a>
+            </li>
+          {{- end }}
+        </ul>
+      </nav>
+    </div>
+
+    <div class="dz-footer__bottom">
+      <p>
+        &copy; {{ now.Format "2006" }} {{ $legal.name | default "datanalyze" }} &middot; datanalyze
+      </p>
+    </div>
+  </div>
+</footer>

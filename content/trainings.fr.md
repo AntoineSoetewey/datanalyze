@@ -1,10 +1,16 @@
 ---
 title: "Formations"
-description: "See all trainings in data analysis, data science, R and statistics, provided by Antoine Soetewey."
-showTableOfContents: true
+slug: "formations"
+seoTitle: "Formations en statistique, R et analyse de données | datanalyze"
+description: "Formations en analyse de données, visualisation, rapports automatisés et création de sites web avec R. En français ou en anglais, en présentiel."
+eyebrow: "Formations"
+tagline: "Rendre vos équipes autonomes sur R et l'analyse de données"
+lead: "Quatre formations au catalogue, plus des formats sur mesure. Toutes sont données par moi-même, en présentiel, et alternent théorie et exercices sur des données réelles."
 ---
 
-Ci-dessous un aperçu des formations que je donne.
+Toutes les formations ci-dessous sont **données par moi-même** : aucune n'est sous-traitée. Elles s'appuient sur mon expérience d'enseignement universitaire à l'UCLouvain et à l'UNamur, et sur l'usage quotidien de R dans mes propres travaux de recherche.
+
+Pour un besoin qui ne rentre dans aucune de ces cases, voyez la [formation personnalisée](#formation-personnalisée) plus bas — c'est une demande fréquente.
 
 ## Introduction à l'analyse de données avec R
 
@@ -12,7 +18,7 @@ Ci-dessous un aperçu des formations que je donne.
 
 Dans cette formation d'introduction, nous allons découvrir le langage R et apprendre à appliquer les analyses statistiques les plus courantes.
 
-A l'issue de la formation, vous serez capable de réaliser des analyses statistiques de manière autonome et avec vos propres données.
+À l'issue de la formation, vous serez capable de réaliser des analyses statistiques de manière autonome et avec vos propres données.
 
 ### Contenu
 
@@ -66,7 +72,7 @@ Le cours alterne entre théorie et exercices.
 
 La formation s'adresse à toute personne qui souhaite apprendre à créer des représentations visuelles impactantes et élégantes en R, que ce soit pour des rapports ou des publications.
 
-Une connaissance de base de R est requise : nous attendons des participants qu'ils sachent importer et manipuler des données dans R. Idéalement, le participant a suivi la première journée de cette [formation](/fr/trainings/#introduction-à-lanalyse-de-données-avec-r), ou a un niveau équivalent par la pratique.
+Une connaissance de base de R est requise : nous attendons des participants qu'ils sachent importer et manipuler des données dans R. Idéalement, le participant a suivi la première journée de cette [formation](/formations/#introduction-à-lanalyse-de-données-avec-r), ou a un niveau équivalent par la pratique.
 
 ### Durée
 
@@ -78,7 +84,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 Dans cette formation, nous allons apprendre à créer des rapports d'analyse/activité, des documents de recherche et d'enseignement avec le logiciel R.
 
-A la fin de la formation, vous serez capable de générer automatiquement des rapports d'analyse combinant de code R, des résultats, des tableaux, des graphiques, des interprétations, des images et des équations.
+À la fin de la formation, vous serez capable de générer automatiquement des rapports d'analyse combinant du code R, des résultats, des tableaux, des graphiques, des interprétations, des images et des équations.
 
 ### Contenu
 
@@ -113,7 +119,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 Dans cette formation, nous apprendrons à créer et à personnaliser un site web depuis l'interface RStudio avec R Markdown.
 
-A la fin de la formation, vous serez capable de créer et de publier votre site web, que ce soit votre site personnel, celui de votre entreprise, de votre laboratoire ou de votre association.
+À la fin de la formation, vous serez capable de créer et de publier votre site web, que ce soit votre site personnel, celui de votre entreprise, de votre laboratoire ou de votre association.
 
 ### Contenu
 
@@ -127,7 +133,7 @@ Plus précisément, nous couvrirons les sujets suivants :
 - Ressources supplémentaires
 - Réponses à vos questions
 
-Le cours commence par un aperçu du contexte et de la théorie, mais se concentre principalement sur la mise en oeuvre pratique d'un site de démonstration afin que vous puissiez construire le vôtre par la suite.
+Le cours commence par un aperçu du contexte et de la théorie, mais se concentre principalement sur la mise en œuvre pratique d'un site de démonstration afin que vous puissiez construire le vôtre par la suite.
 
 ### Public cible
 
@@ -141,7 +147,7 @@ La formation se déroule sur 1 journée complète ou 2 demi-journées.
 
 ## Formation personnalisée
 
-N'hésitez pas à me [contacter](/fr/#contact) si vous souhaitez suivre ou organiser une formation personnalisée.
+N'hésitez pas à me [contacter](/contact/) si vous souhaitez suivre ou organiser une formation personnalisée.
 
 Il peut s'agir d'un mélange des formations mentionnées sur cette page, ou de tout ce qui concerne les statistiques et/ou l'analyse de données avec R.
 
@@ -153,8 +159,8 @@ Il peut s'agir d'un mélange des formations mentionnées sur cette page, ou de t
 - Vous êtes les bienvenus pour proposer un lieu (vos bureaux par exemple), pour autant que le matériel nécessaire (ordinateurs, projecteur, internet) soit présent.
 - Les diapositives, codes, exercices et documents présentés et développés pendant la formation vous seront envoyés afin que vous puissiez y accéder autant que vous le souhaitez après la formation.
 - Bien que les diapositives et les exercices soient rédigés en anglais, je peux donner la formation en **français ou en anglais** en fonction du public.
-- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/fr/faq/#quelle-est-la-vision-concernant-les-formations-).
+- Apprenez-en plus sur ma vision concernant les formations via la [FAQ](/faq/).
 
 {{< alert "circle-info">}}
-Veuillez me [contacter](/fr/#contact) si vous souhaitez obtenir plus d'informations sur le prix, le lieu, le matériel requis, les dates et les inscriptions.
+[Contactez-moi](/contact/) pour connaître les modalités : prix, lieu, matériel requis, dates et inscriptions. Tout dépend du format et du nombre de participants, je préfère donc en discuter plutôt qu'annoncer un tarif hors contexte.
 {{< /alert >}}

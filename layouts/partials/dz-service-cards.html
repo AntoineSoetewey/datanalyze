@@ -1,0 +1,35 @@
+{{- /*
+  Grid of service cards, driven by the real service pages so no page can drift
+  out of sync with the actual offer.
+
+  Training is appended explicitly: it is a top-level page, not part of the
+  /services/ section, so "where site.RegularPages Section services" misses it.
+  That omission is exactly what made the home page, the services hub and the
+  service pages disagree on how many services exist.
+
+  The page the visitor is already on is dropped from the grid. That makes this
+  partial usable as-is for "the other services" at the bottom of a service page:
+  six cards everywhere else, five there.
+*/ -}}
+{{- $current := .Permalink -}}
+{{- /* Not piped: "X | sort k" passes X as the LAST argument, i.e. sort k X. */ -}}
+{{- $cards := sort (where site.RegularPages "Section" "services") "Params.order" -}}
+{{- with site.GetPage "/trainings" -}}
+  {{- $cards = $cards | append . -}}
+{{- end -}}
+{{- $cards = where $cards "Permalink" "!=" $current -}}
+
+{{- with $cards }}
+  <div class="dz-grid dz-grid--3">
+    {{- range . }}
+      <a class="dz-card" href="{{ .RelPermalink }}">
+        <span class="dz-card__icon">
+          {{- partial "dz-icon.html" (.Params.icon | default (cond (eq .Section "services") "chart" "teach")) -}}
+        </span>
+        <h3 class="dz-card__title">{{ .Title }}</h3>
+        <p class="dz-card__text">{{ .Params.tagline }}</p>
+        <span class="dz-card__more">{{ i18n "services.more" }}</span>
+      </a>
+    {{- end }}
+  </div>
+{{- end }}

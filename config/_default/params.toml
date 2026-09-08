@@ -5,9 +5,31 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "slate"
+colorScheme = "datanalyze"
+
+# -- Audience measurement --
+# The site ships with zero measurement script and zero cookie. See README.md and
+# layouts/partials/analytics.html.
+#
+# Cloudflare Web Analytics is prepared but NOT active: it is free, cookieless and
+# needs no consent banner. Paste the token here to switch it on; while this is an
+# empty string, no script whatsoever is emitted, and the "audience measurement"
+# paragraph of the privacy policy stays hidden.
+#
+# NOTE: this key must stay ABOVE every [table] header in this file, or TOML would
+# nest it inside the preceding table and the toggle would silently never fire.
+cloudflareAnalyticsToken = ""
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
+
+# -- Deferred sections --
+# Built and styled, but not displayed: there are no testimonials, no client
+# logos and no rate card yet, and none may be invented. Flip a flag to true AND
+# create the matching data file to switch one on. Each partial's header comment
+# has the exact steps.
+showTestimonials = false
+showClientLogos = false
+showPricing = false
 
 enableSearch = false
 enableCodeCopy = false
@@ -17,7 +39,9 @@ enableImageLazyLoading = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  # "custom" loads layouts/partials/header/custom.html — Congo's sanctioned
+  # extension point, so the header is NOT a shadowed theme file.
+  layout = "custom"
   # logo = "img/logo.jpg"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
@@ -66,17 +90,9 @@ fingerprintAlgorithm = "sha256"
 [taxonomy]
   showTermCount = true
 
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-  
-[plausibleAnalytics]
-  # domain = "blog.yoursite.com"
-  # event = ""
-  # script = ""
-
+# -- Search engine verification --
+# Leave empty until the property is claimed, then paste the meta-tag value.
+# Both are free. See TODO-CONTENU.md for the step-by-step.
 [verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
+  google = ""  # Google Search Console — the main source of traffic data
+  bing = ""    # Bing Webmaster Tools

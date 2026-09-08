@@ -1,0 +1,41 @@
+{{- /* ====================================================================
+     PRICING BLOCK — BUILT BUT DELIBERATELY NOT DISPLAYED.
+
+     There is no rate card yet. No price, no range and no "from X" appears
+     anywhere on the site, and none must be invented.
+
+     To switch it on:
+       1. create data/pricing.yaml:
+            - name: "…"
+              price: "…"
+              unit: "…"
+              includes: ["…", "…"]
+              lang: "fr"
+       2. set  showPricing = true  in config/_default/params.toml
+       3. call {{ partial "dz-pricing.html" . }} from the relevant layout
+       4. add "offers" to the Service JSON-LD in layouts/partials/schema.html,
+          which currently omits it on purpose
+     ==================================================================== */ -}}
+{{- if site.Params.showPricing }}
+  {{- $plans := where (site.Data.pricing | default slice) "lang" .Page.Lang }}
+  {{- with $plans }}
+    <section class="dz-section">
+      <div class="dz-wrap dz-wrap--page">
+        <div class="dz-section-head dz-section-head--center">
+          <h2 class="dz-h2">{{ i18n "pricing.title" }}</h2>
+        </div>
+        <div class="dz-grid dz-grid--3">
+          {{- range . }}
+            <div class="dz-card">
+              <h3 class="dz-card__title">{{ .name }}</h3>
+              <p class="dz-card__text">{{ .price }} {{ .unit }}</p>
+              <ul class="dz-checks">
+                {{- range .includes }}<li>{{ . }}</li>{{ end }}
+              </ul>
+            </div>
+          {{- end }}
+        </div>
+      </div>
+    </section>
+  {{- end }}
+{{- end }}

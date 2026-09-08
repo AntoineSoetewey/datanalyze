@@ -1,0 +1,57 @@
+# Project strings (merged over themes/congo/i18n/en.yaml).
+
+brand:
+  suffix: "Statistics & data science"
+
+nav:
+  main: "Main navigation"
+  menu: "Menu"
+  language: "Language"
+  skip_to_main: "Skip to content"
+
+footer:
+  site: "Site"
+  elsewhere: "Elsewhere"
+  blurb: "Statistics and data science consulting and training, for researchers, professionals and companies."
+
+page:
+  breadcrumb: "Breadcrumb"
+  home: "Home"
+
+cta:
+  title: "A dataset to analyse, a method to validate?"
+  body: "Describe your need in a few lines, or book a first no-commitment call. I will tell you straight if I am the right person for it."
+  form: "Describe my need"
+  call: "Book a call"
+
+error:
+  title: "Page not found"
+  body: "This page does not exist, or no longer does. The site has been restructured: what you were looking for may have moved."
+  home: "Back to home"
+  services: "See the services"
+
+services:
+  eyebrow: "Service"
+  more: "Learn more"
+  audience: "Who it is for"
+  problem: "The problem it solves"
+  deliverables: "What you get"
+  process: "How it works"
+  examples: "Concrete examples"
+  related: "Other services"
+  cta: "Discuss your project"
+
+faq:
+  title: "Frequently asked questions"
+
+testimonials:
+  title: "What my clients say"
+
+clients:
+  title: "Trusted by"
+
+pricing:
+  title: "Rates"
+
+legal:
+  toComplete: "TO BE COMPLETED"

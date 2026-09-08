@@ -1,0 +1,25 @@
+{{- /*
+  Renders the questions declared in a page's front matter `faq:` list.
+
+  The same list feeds the FAQPage JSON-LD in partials/schema.html, so the visible
+  questions and the structured data can never drift apart.
+
+  Front matter shape:
+    faq:
+      - q: "Question?"
+        a: |
+          Markdown answer.
+*/ -}}
+{{- with .Params.faq }}
+  <section class="dz-section dz-section--tight" id="faq">
+    <h2 class="dz-h2">{{ i18n "faq.title" }}</h2>
+    <div class="dz-faq">
+      {{- range . }}
+        <details>
+          <summary>{{ .q }}</summary>
+          <div class="dz-faq__body">{{ .a | markdownify }}</div>
+        </details>
+      {{- end }}
+    </div>
+  </section>
+{{- end }}

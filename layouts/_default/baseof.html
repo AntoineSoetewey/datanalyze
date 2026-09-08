@@ -1,0 +1,27 @@
+{{- /*
+  Project override of themes/congo/layouts/_default/baseof.html (Congo 2.9.0).
+
+  Reason for shadowing: Congo's <body> is constrained with
+  "m-auto max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 h-screen", which makes
+  full-bleed sections (the hero, the trust strip, the dark CTA panel) impossible.
+  The shell below is plain and lets each section decide its own width via
+  .dz-wrap. See README.md for the full list of shadowed theme files.
+*/ -}}
+{{- partial "functions/init.html" . -}}
+<!doctype html>
+<html
+  lang="{{ site.Language.LanguageCode | default "fr-BE" }}"
+  dir="{{ site.Language.LanguageDirection | default "ltr" }}"
+  data-default-appearance="light"
+  data-auto-appearance="false"
+>
+  {{- partial "head.html" . -}}
+  <body class="dz">
+    <a class="dz-skip" href="#main-content">{{ i18n "nav.skip_to_main" }}</a>
+    {{- partial "header/custom.html" . -}}
+    <main id="main-content">
+      {{- block "main" . }}{{ end -}}
+    </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

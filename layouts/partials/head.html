@@ -1,0 +1,147 @@
+{{- /*
+  Project override of themes/congo/layouts/partials/head.html (Congo 2.9.0).
+
+  Reason for shadowing: per-page <title> and description control, reciprocal
+  hreflang (which Congo does not emit at all and which is the linchpin of the
+  language inversion), self-hosted font preloads, a generated Open Graph image,
+  and no link to the unused search index. See README.md.
+
+  Everything referenced here is local: no font, script, stylesheet or image is
+  ever fetched from a third-party domain.
+*/ -}}
+{{- $algorithm := site.Params.fingerprintAlgorithm | default "sha256" -}}
+
+{{- /* Title: seoTitle wins, then title, then the site title. */ -}}
+{{- $title := "" -}}
+{{- with .Params.seoTitle -}}
+  {{- $title = . -}}
+{{- else -}}
+  {{- if .IsHome -}}
+    {{- $title = printf "%s · %s" site.Title (site.Params.tagline | default "") -}}
+  {{- else if eq .Kind "404" -}}
+    {{- /* Hugo hard-codes "404 Page not found" as the title of this page, in
+           English, whatever the site language. Take the translated string. */ -}}
+    {{- $title = printf "%s · %s" (i18n "error.title") site.Title -}}
+  {{- else -}}
+    {{- $title = printf "%s · %s" .Title site.Title -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $description := .Description | default site.Params.description -}}
+
+{{- /* Share image: an explicit page image, else a 1200x630 crop of the portrait. */ -}}
+{{- $ogImage := "" -}}
+{{- with resources.Get (.Params.image | default "img/antoine-soetewey.jpeg") -}}
+  {{- with .Fill "1200x630 Smart q85" -}}
+    {{- $ogImage = .Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}" />
+  {{- /* No canonical on the error page: it is noindex and its URL is not a
+         destination. */ -}}
+  {{ if ne .Kind "404" }}<link rel="canonical" href="{{ .Permalink }}" />{{ end }}
+  {{- /* The 404 page must never be indexed; other pages opt in via front matter. */ -}}
+  {{ if eq .Kind "404" }}<meta name="robots" content="noindex, follow" />
+  {{ else }}{{ with .Params.robots }}<meta name="robots" content="{{ . }}" />{{ end }}{{ end }}
+
+  {{- /* Reciprocal hreflang + x-default pointing at the French version.
+         This is what lets Google understand that "/" changed language and that
+         the English pages moved under /en/. */ -}}
+  {{- with .AllTranslations }}
+    {{- range . }}
+      <link
+        rel="alternate"
+        hreflang="{{ .Language.LanguageCode }}"
+        href="{{ .Permalink }}"
+      />
+    {{- end }}
+    {{- range . }}
+      {{- if eq .Language.Lang "fr" }}
+        <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Fonts: self-hosted, preloaded so the serif headings do not flash. */ -}}
+  {{- with resources.Get "fonts/inter-variable-latin.woff2" }}
+    <link rel="preload" as="font" type="font/woff2" href="{{ .RelPermalink }}" crossorigin />
+  {{- end }}
+  {{- with resources.Get "fonts/source-serif-4-subhead-semibold-latin.woff2" }}
+    <link rel="preload" as="font" type="font/woff2" href="{{ .RelPermalink }}" crossorigin />
+  {{- end }}
+
+  {{- /* CSS bundle: Congo's palette hook, Congo's compiled Tailwind (preflight +
+         .prose only), then the hand-written design system last so it wins. */ -}}
+  {{- $css := slice -}}
+  {{- with resources.Get (printf "css/schemes/%s.css" (site.Params.colorScheme | default "congo")) -}}
+    {{- $css = $css | append . -}}
+  {{- end -}}
+  {{- with resources.Get "css/compiled/main.css" -}}
+    {{- $css = $css | append . -}}
+  {{- end -}}
+  {{- with resources.Get "css/custom.css" -}}
+    {{- $css = $css | append . -}}
+  {{- end -}}
+  {{- $bundle := $css | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm -}}
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{ $bundle.RelPermalink }}"
+    integrity="{{ $bundle.Data.Integrity }}"
+  />
+
+  {{- /* Icons */ -}}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any" />
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}" />
+
+  {{- /* Open Graph */ -}}
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+  <meta property="og:site_name" content="{{ site.Title }}" />
+  <meta property="og:title" content="{{ $title }}" />
+  <meta property="og:description" content="{{ $description }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:locale" content="{{ replace (site.Language.LanguageCode | default "fr-BE") "-" "_" }}" />
+  {{- range .Translations }}
+    <meta property="og:locale:alternate" content="{{ replace .Language.LanguageCode "-" "_" }}" />
+  {{- end }}
+  {{- with $ogImage }}
+    <meta property="og:image" content="{{ . }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="{{ site.Title }} — {{ site.Params.tagline }}" />
+  {{- end }}
+
+  {{- /* Twitter */ -}}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ $title }}" />
+  <meta name="twitter:description" content="{{ $description }}" />
+  {{- with $ogImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
+
+  {{- /* Structured data — the single source of JSON-LD on the site. */ -}}
+  {{- partial "schema.html" . -}}
+
+  {{- /* Search engine verification (values are empty until the properties are claimed). */ -}}
+  {{- with site.Params.verification.google }}
+    <meta name="google-site-verification" content="{{ . }}" />
+  {{- end }}
+  {{- with site.Params.verification.bing }}
+    <meta name="msvalidate.01" content="{{ . }}" />
+  {{- end }}
+
+  <meta name="author" content="{{ site.Params.author.name }}" />
+  {{- range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{- end }}
+
+  {{- partial "analytics.html" . -}}
+</head>

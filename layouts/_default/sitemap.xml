@@ -1,0 +1,20 @@
+{{- /*
+  Project override of themes/congo/layouts/_default/sitemap.xml (Congo 2.9.0).
+
+  Hugo emits one sitemap per language at /fr/sitemap.xml and /en/sitemap.xml.
+  Neither is used here:
+
+    - the authoritative sitemap is the single flat bilingual one at
+      /sitemap.xml (see layouts/sitemapindex.xml), which is the only sitemap
+      advertised in robots.txt and the only one to submit to Search Console;
+    - /fr/sitemap.xml would otherwise list URLs served from the site root, which
+      a sitemap at that path is not allowed to cover, and /fr/ is the path being
+      301-redirected after the language switch.
+
+  Hugo gives no way to disable the per-language sitemaps in 0.119, so they are
+  rendered as an empty, valid urlset. Nothing links to them.
+*/ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<!-- Not used. The authoritative sitemap for this site is https://datanalyze.be/sitemap.xml -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>

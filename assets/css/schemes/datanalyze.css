@@ -1,0 +1,57 @@
+/* datanalyze colour scheme
+ *
+ * Project-level override. themes/congo/layouts/partials/head.html resolves the
+ * scheme with resources.Get "css/schemes/<colorScheme>.css", and project assets
+ * take precedence over theme assets, so setting colorScheme = "datanalyze" in
+ * params.toml loads this file instead of one of Congo's.
+ *
+ * These variables feed Congo's pre-compiled Tailwind build, so recolouring them
+ * recolours every Tailwind utility class the theme emits AND the .prose
+ * typography used for markdown page bodies — without touching themes/congo/.
+ *
+ * Neutral  = zinc (warm-cool grey, the page ground and all text)
+ * Primary  = the accent blue #1D4ED8 and its ramp (links, buttons, focus)
+ * Secondary = the same zinc ramp; the design deliberately uses ONE accent only.
+ *
+ * The named tokens the hand-written design system uses are further down, in
+ * assets/css/custom.css.
+ */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Zinc */
+  --color-neutral-50: 250, 250, 250;
+  --color-neutral-100: 244, 244, 245;
+  --color-neutral-200: 228, 228, 231;
+  --color-neutral-300: 212, 212, 216;
+  --color-neutral-400: 161, 161, 170;
+  --color-neutral-500: 113, 113, 122;
+  --color-neutral-600: 82, 82, 91;
+  --color-neutral-700: 63, 63, 70;
+  --color-neutral-800: 39, 39, 42;
+  --color-neutral-900: 24, 24, 27;
+  --color-neutral-950: 9, 9, 11;
+  /* Accent blue */
+  --color-primary-50: 239, 246, 255;
+  --color-primary-100: 219, 234, 254;
+  --color-primary-200: 191, 219, 254;
+  --color-primary-300: 147, 197, 253;
+  --color-primary-400: 96, 165, 250;
+  --color-primary-500: 59, 130, 246;
+  --color-primary-600: 37, 99, 235;
+  --color-primary-700: 29, 78, 216;
+  --color-primary-800: 30, 64, 175;
+  --color-primary-900: 30, 58, 138;
+  --color-primary-950: 23, 37, 84;
+  /* Zinc */
+  --color-secondary-50: 250, 250, 250;
+  --color-secondary-100: 244, 244, 245;
+  --color-secondary-200: 228, 228, 231;
+  --color-secondary-300: 212, 212, 216;
+  --color-secondary-400: 161, 161, 170;
+  --color-secondary-500: 113, 113, 122;
+  --color-secondary-600: 82, 82, 91;
+  --color-secondary-700: 63, 63, 70;
+  --color-secondary-800: 39, 39, 42;
+  --color-secondary-900: 24, 24, 27;
+  --color-secondary-950: 9, 9, 11;
+}
