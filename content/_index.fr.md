@@ -71,7 +71,7 @@ why:
       text: "L'enseignement est la moitié de mon métier. Vous ne recevez pas une sortie de logiciel brute, mais des résultats expliqués dans votre langage."
     - icon: "code"
       title: "Un travail reproductible"
-      text: "Scripts commentés, analyses rejouables à l'identique. Vos données changent ou un relecteur demande une variante : la mise à jour prend des minutes, pas des semaines."
+      text: "Scripts commentés, analyses reproductibles à l'identique. Vos données changent ou un relecteur demande une variante : la mise à jour prend des minutes, pas des semaines."
     - icon: "shield"
       title: "Confidentialité et transfert complet"
       text: "Codes, documents et résultats développés pendant la mission vous sont intégralement transférés, et à vous seul. Vos données ne servent à rien d'autre."

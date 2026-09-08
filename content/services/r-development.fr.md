@@ -22,7 +22,7 @@ problem:
   paragraphs:
     - "Une analyse faite à la main dans un tableur est juste une fois : le jour où on l'a faite. Le mois suivant, une colonne a bougé, une formule n'a pas été recopiée, et l'écart passe inaperçu. Le coût réel n'est pas le temps passé, c'est la confiance perdue dans les chiffres."
     - "Le symptôme inverse est le script hérité : il fonctionne, personne ne sait exactement comment, et chaque modification est un pari. À force, l'équipe préfère contourner l'outil plutôt que le corriger."
-    - "Dans les deux cas, la solution est la même : rendre le traitement explicite, testé et rejouable."
+    - "Dans les deux cas, la solution est la même : rendre le traitement explicite, testé et reproductible."
   signals:
     - "Le rapport mensuel prend deux jours de copier-coller"
     - "Personne ne sait reproduire les chiffres du trimestre passé"
