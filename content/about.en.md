@@ -41,7 +41,7 @@ That teaching is not a side activity: it is what guarantees I can explain a meth
 
 **Statistics should be accessible.** That is what led me to run a [blog on statistics and R](https://statsandr.com/) for years, read by tens of thousands of people each month, and to give [private lessons](https://easystat.be/) to students, alongside university teaching.
 
-**Work is judged by what remains of it.** You should leave with the scripts, the documentation and the understanding needed to carry on without me. A successful assignment is one you no longer need.
+**Work is judged by what remains of it.** You should leave with the scripts, the documentation and the understanding needed to carry on without me. A successful assignment is one where you no longer need me.
 
 **Saying no is part of the job.** If your data cannot answer your question, or if your need belongs to a different profession than mine, I will say so. That is more useful to you and more sustainable for me.
 

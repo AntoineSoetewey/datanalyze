@@ -41,7 +41,7 @@ Cette activité d'enseignement n'est pas un à-côté : c'est elle qui garantit 
 
 **Les statistiques doivent être accessibles.** C'est ce qui m'a poussé à tenir depuis des années un [blog sur les statistiques et R](https://statsandr.com/), lu par des dizaines de milliers de personnes chaque mois, et à donner des [cours particuliers](https://easystat.be/) à des étudiants, en parallèle de l'université.
 
-**Un travail se juge à ce qu'il en reste.** Vous devez repartir avec les scripts, la documentation et la compréhension nécessaires pour continuer sans moi. Une mission réussie est une mission dont vous n'avez plus besoin.
+**Un travail se juge à ce qu'il en reste.** Vous devez repartir avec les scripts, la documentation et la compréhension nécessaires pour continuer sans moi. Une mission réussie est une mission dont vous n'avez plus besoin de moi.
 
 **Dire non fait partie du travail.** Si vos données ne permettent pas de répondre à votre question, ou si votre besoin relève d'un autre métier que le mien, je vous le dis. C'est plus utile pour vous, et plus tenable pour moi.
 
