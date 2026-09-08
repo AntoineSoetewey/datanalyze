@@ -162,11 +162,20 @@ consentement. Si tu veux plus tard le détail du trafic par page :
 2. Ajoute le site, copie le token.
 3. Dans `config/_default/params.toml`, remplis :
    `cloudflareAnalyticsToken = "ton-token"`.
+4. Dans `netlify.toml`, ouvre le `Content-Security-Policy` aux **deux hôtes** de
+   Cloudflare — le script est servi par l'un et rapporte à l'autre :
+   - `script-src` : ajoute `https://static.cloudflareinsights.com` ;
+   - `connect-src` : ajoute `https://cloudflareinsights.com`.
 
-C'est tout. **Une seule ligne.** Le script s'ajoute et le paragraphe « mesure
-d'audience » apparaît automatiquement dans les deux politiques de confidentialité,
-puisque les deux sont pilotés par ce même paramètre. Le bascule a été testé dans
-les deux sens.
+**Deux fichiers, pas un.** L'étape 4 n'existait pas tant que le site ne servait
+aucun en-tête de sécurité ; depuis, le CSP n'autorise plus aucun script tiers, et
+sans elle le beacon est bloqué **sans rien de visible** — ni erreur à l'écran, ni
+statistique dans Cloudflare. La même mise en garde figure dans `params.toml`,
+dans `layouts/partials/analytics.html` et dans `netlify.toml`.
+
+Cela fait, le script s'ajoute et le paragraphe « mesure d'audience » apparaît
+automatiquement dans les deux politiques de confidentialité, puisque les deux
+sont pilotés par ce même paramètre. La bascule a été testée dans les deux sens.
 
 > ⚠️ Cette clé doit rester **au-dessus de tout en-tête `[table]`** dans
 > `params.toml`, sinon TOML l'imbrique dans la table précédente et le paramètre

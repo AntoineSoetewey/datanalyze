@@ -15,19 +15,27 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
-# When defaultContentLanguageInSubdir is false, Hugo emits an HTML meta-refresh
-# alias at /fr/. That file would shadow the "/fr/ -> / 301" rule in
-# static/_redirects (Netlify only applies an unforced rule when no file matches),
-# and a meta refresh passes far less signal than a 301. No content declares
-# aliases of its own, so disabling them is free.
+# Aucun contenu ne déclare d'alias, donc les désactiver est gratuit.
+#
+# ATTENTION — cette clé ne supprime PAS le stub meta-refresh que Hugo écrit à
+# /fr/ quand defaultContentLanguageInSubdir vaut false. Le fichier est toujours
+# produit : le build compte « Aliases | 1 | 0 » et public/fr/index.html existe.
+# C'est la règle forcée « /fr/ -> / 301! » de static/_redirects qui le
+# court-circuite, et elle seule — comme le dit le commentaire de ce fichier-là.
 disableAliases = true
+
+# Ne pas publier « <meta name="generator" content="Hugo x.y.z"> » : la version
+# exacte du générateur n'apporte rien au visiteur et renseigne un attaquant.
+disableHugoGeneratorInject = true
+
+# Le wrapper blogdown : ces fichiers ne sont pas du contenu Hugo.
+#
+# ATTENTION — cette clé doit rester AU-DESSUS de tout en-tête [table], comme
+# cloudflareAnalyticsToken dans params.toml. Elle vivait jusqu'ici en fin de
+# fichier, après [markup], donc TOML la rattachait à cette table : Hugo lisait
+# markup.goldmark.renderer.ignoreFiles, une clé inconnue qu'il ignorait en
+# silence. L'exclusion des .Rmd n'a donc jamais été active.
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 [outputs]
   home = ["HTML", "RSS"]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]

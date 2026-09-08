@@ -12,9 +12,15 @@ colorScheme = "datanalyze"
 # layouts/partials/analytics.html.
 #
 # Cloudflare Web Analytics is prepared but NOT active: it is free, cookieless and
-# needs no consent banner. Paste the token here to switch it on; while this is an
-# empty string, no script whatsoever is emitted, and the "audience measurement"
-# paragraph of the privacy policy stays hidden.
+# needs no consent banner. While this is an empty string, no script whatsoever is
+# emitted, and the "audience measurement" paragraph of the privacy policy stays
+# hidden.
+#
+# PASTING A TOKEN HERE IS NOT ENOUGH ON ITS OWN. The Content-Security-Policy in
+# netlify.toml allows no third-party script, so the beacon would be blocked
+# silently. Two DISTINCT hosts have to be added there as well:
+#   script-src  ... https://static.cloudflareinsights.com   (the beacon)
+#   connect-src ... https://cloudflareinsights.com          (/cdn-cgi/rum)
 #
 # NOTE: this key must stay ABOVE every [table] header in this file, or TOML would
 # nest it inside the preceding table and the toggle would silently never fire.
