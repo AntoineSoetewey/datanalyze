@@ -12,6 +12,16 @@
 
      Prefer individual files over the single composite JPEG: they stay sharp,
      can carry real alt text, and can be dropped one by one.
+
+     ALT TEXT: a client logo carries meaning — it says who trusted you — so it
+     is never decorative and never takes an empty alt. The name is read from
+     data/clients.yaml, keyed by file stem, which is the only way to get the
+     casing right ("uclouvain.svg" -> "UCLouvain"). Without that entry it falls
+     back to the humanised file name, which is imperfect but still spoken.
+
+         # data/clients.yaml
+         uclouvain: "UCLouvain"
+         hec-liege: "HEC Liège"
      ==================================================================== */ -}}
 {{- if site.Params.showClientLogos }}
   {{- $logos := resources.Match "img/clients/*" }}
@@ -19,11 +29,21 @@
     <section class="dz-section dz-section--tight dz-section--bordered">
       <div class="dz-wrap dz-wrap--page">
         <p class="dz-eyebrow" style="text-align:center">{{ i18n "clients.title" }}</p>
-        <div class="dz-trust__list">
+        <ul class="dz-logos">
           {{- range . }}
-            <img src="{{ .RelPermalink }}" alt="" width="120" height="40" loading="lazy" />
+            {{- $stem := path.BaseName .Name -}}
+            {{- $name := index (site.Data.clients | default dict) $stem | default (humanize $stem) -}}
+            <li>
+              <img
+                src="{{ .RelPermalink }}"
+                alt="{{ $name }}"
+                width="120"
+                height="40"
+                loading="lazy"
+              />
+            </li>
           {{- end }}
-        </div>
+        </ul>
       </div>
     </section>
   {{- end }}

@@ -964,3 +964,29 @@ a.dz-card:hover .dz-card__more::after { transform: translateX(3px); }
   font-weight: 600;
   white-space: nowrap;
 }
+
+/* Client logo strip (dz-client-logos.html, disabled by default).
+   It used to borrow .dz-trust__list, which was removed with the credentials
+   strip — the section would have rendered unstyled the day it was switched on. */
+.dz-logos {
+  list-style: none;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem 2.5rem;
+}
+.dz-logos img {
+  display: block;
+  height: 2.5rem;
+  width: auto;
+  max-width: 9rem;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.65;
+  transition: filter 0.15s ease, opacity 0.15s ease;
+}
+.dz-logos img:hover { filter: grayscale(0); opacity: 1; }
+

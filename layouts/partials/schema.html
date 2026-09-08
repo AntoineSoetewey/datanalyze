@@ -53,13 +53,16 @@
 {{- with $legal.email }}{{ $org = merge $org (dict "email" .) }}{{ end -}}
 {{- with $legal.enterpriseNumber }}{{ $org = merge $org (dict "identifier" .) }}{{ end -}}
 {{- with $legal.vatNumber }}{{ $org = merge $org (dict "vatID" .) }}{{ end -}}
+{{- /* Built field by field: the rule elsewhere in this file is that an empty
+       value is omitted, never emitted as an empty string. Listing the four
+       unconditionally would have broken that for postalCode and country. */ -}}
 {{- if and $legal.address.street $legal.address.city -}}
-  {{- $org = merge $org (dict "address" (dict
-      "@type" "PostalAddress"
-      "streetAddress" $legal.address.street
-      "postalCode" $legal.address.postalCode
-      "addressLocality" $legal.address.city
-      "addressCountry" $legal.address.countryCode)) -}}
+  {{- $addr := dict "@type" "PostalAddress" -}}
+  {{- with $legal.address.street }}{{ $addr = merge $addr (dict "streetAddress" .) }}{{ end -}}
+  {{- with $legal.address.postalCode }}{{ $addr = merge $addr (dict "postalCode" .) }}{{ end -}}
+  {{- with $legal.address.city }}{{ $addr = merge $addr (dict "addressLocality" .) }}{{ end -}}
+  {{- with $legal.address.countryCode }}{{ $addr = merge $addr (dict "addressCountry" .) }}{{ end -}}
+  {{- $org = merge $org (dict "address" $addr) -}}
 {{- end -}}
 {{- with resources.Get "img/antoine-soetewey.jpeg" -}}
   {{- with .Fill "1200x630 Smart q85" -}}
