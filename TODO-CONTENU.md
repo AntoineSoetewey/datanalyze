@@ -47,27 +47,6 @@ Ce n'est pas bloquant : tant que l'activité n'est pas enregistrée, il n'y a pa
 de numéro à mentionner. Dès que tu les as, remplis-les dans `data/legal.yaml` :
 rien d'autre à faire.
 
-### 2. Vérification Google Search Console et Bing Webmaster Tools
-
-**Où :** `config/_default/params.toml` → `[verification]` → `google`, `bing`
-
-C'est ta **principale source de données d'audience** (voir « Mesure d'audience »
-dans le README). Marche à suivre :
-
-1. Va sur [search.google.com/search-console](https://search.google.com/search-console/).
-2. Ajoute une propriété. Deux choix :
-   - **Domaine** (`datanalyze.be`) — le plus complet, mais demande un enregistrement
-     DNS TXT chez ton registrar. À privilégier.
-   - **Préfixe d'URL** (`https://datanalyze.be/`) — plus simple : choisis la méthode
-     « balise HTML », copie la valeur de l'attribut `content` (**pas** la balise
-     entière) et colle-la dans `params.toml` → `[verification] google = "..."`.
-3. Déploie, puis clique sur « Vérifier ».
-4. Soumets le sitemap : `https://datanalyze.be/sitemap.xml`.
-5. Répète sur [bing.com/webmasters](https://www.bing.com/webmasters/) (champ `bing`).
-   Bing permet d'importer directement la propriété depuis Search Console.
-
-La checklist post-déploiement complète est dans le README.
-
 ### 3. Profil Google Business (visibilité locale)
 
 **Quand :** après l'inscription à la BCE, pas avant.
@@ -97,23 +76,6 @@ Deux points à arbitrer avant de te lancer :
 Non bloquant, et à évaluer selon l'importance réelle des clients de proximité
 pour toi : une bonne partie de ton marché (chercheurs, hôpitaux, entreprises)
 te trouvera par recherche classique plutôt que par la carte.
-
-### 4. Confirmer la publication des quatre études de cas
-
-Les pages [références](https://datanalyze.be/references/) nomment la
-**Clinique Saint-Jean** et la **Fondation Saint-Luc**. Ces textes existaient déjà
-sur l'ancien site et n'ont pas été modifiés sur le fond, mais il vaut la peine de
-vérifier que tu as bien l'accord de ces institutions pour les citer nommément —
-d'autant que le site va gagner en visibilité.
-
-### 5. Statut de la publication « Clinique Saint-Jean »
-
-**Où :** `content/references/cliniquesaintjean.fr.md` et `.en.md`
-
-Le texte dit encore « publication (en cours de révision) », ce qui datait de
-septembre 2024. Si l'article est paru depuis, remplace la phrase par un lien vers
-la publication, comme pour les deux autres études de cas. Je ne l'ai pas modifié
-faute de pouvoir le vérifier.
 
 ---
 
