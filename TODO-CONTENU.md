@@ -186,11 +186,11 @@ des données de santé pour tes clients hospitaliers).
 
 ### 9. Points de contenu à vérifier
 
-- La **charge de cours invité** à l'UCLouvain et à l'UNamur est présentée au
-  présent, ce que tu as confirmé. Le postdoctorat, lui, est au passé partout.
-- **easystat.be** est toujours cité comme activité de cours particuliers, sur la
-  page « À propos ». À confirmer.
-- Le **blog statsandr.com** est cité au présent sur la page « À propos ».
+- **Confirmé et à jour** : la charge de cours invité à l'UCLouvain et à l'UNamur,
+  les cours particuliers **easystat.be** et le blog **statsandr.com** sont tous
+  présentés au présent, ce qui correspond à la réalité. Seul le postdoctorat est
+  au passé, partout. La page « À propos » précise désormais qu'easystat s'adresse
+  à des **étudiants**, pour ne pas le confondre avec les formations vendues ici.
 - Le compte **Twitter/X** `@statsandr` a été retiré des liens (le réseau ne fait
   plus partie des canaux utiles pour ce type d'activité). Dis-moi si tu veux le
   remettre : `config/_default/menus.*.toml`, table `[[social]]`.

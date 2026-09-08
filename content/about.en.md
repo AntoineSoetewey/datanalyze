@@ -38,7 +38,7 @@ That teaching is not a side activity: it is what guarantees I can explain a meth
 
 **A simple method you understand beats a sophisticated one you merely endure.** If you cannot explain why you used a given test, you will not be able to defend it — and an indefensible result is worth nothing, even when it is correct.
 
-**Statistics should be accessible.** That is what led me to run a [blog on statistics and R](https://statsandr.com/) for years, read by tens of thousands of people each month, and to give [private lessons](https://easystat.be/) alongside university teaching.
+**Statistics should be accessible.** That is what led me to run a [blog on statistics and R](https://statsandr.com/) for years, read by tens of thousands of people each month, and to give [private lessons](https://easystat.be/) to students, alongside university teaching.
 
 **Work is judged by what remains of it.** You should leave with the scripts, the documentation and the understanding needed to carry on without me. A successful assignment is one you no longer need.
 
