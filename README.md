@@ -266,7 +266,10 @@ quelques commandes :
 
 ```sh
 hugo --gc --minify                                        # ni ERROR ni WARNING
-grep -ri "gtag\|googletagmanager\|plausible\|umami" public/   # doit être vide
+# Les deux politiques de confidentialité CITENT ces outils pour dire qu'ils ne
+# sont pas utilisés : sans l'exclusion, ce contrôle remonte toujours deux pages.
+grep -ril "gtag\|googletagmanager\|plausible\|umami" public/ \
+  | grep -v "privacy-policy\|politique-de-confidentialite"   # doit être vide
 grep -roh 'https\?://[^"'"'"' ]*' public/ | sort -u           # liens de navigation seulement
 
 # Antoine ne doit jamais être décrit comme doctorant (il est docteur depuis 2024).

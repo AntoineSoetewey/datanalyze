@@ -1,5 +1,8 @@
 [build]
-command = 'hugo'
+# --gc purge le cache de ressources orphelines, --minify réduit le HTML d'environ
+# 18 % (22,9 Ko -> 18,7 Ko sur l'accueil). C'est la commande que documente le
+# README ; elle lançait « hugo » nu, donc la production n'était pas minifiée.
+command = 'hugo --gc --minify'
 publish = 'public'
 [build.environment]
 HUGO_VERSION = '0.119.0'
@@ -7,11 +10,33 @@ HUGO_VERSION = '0.119.0'
 
 [context]
 [context.branch-deploy]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
+command = 'hugo -F --gc --minify -b $DEPLOY_PRIME_URL'
 
 [context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
+command = 'hugo -F --gc --minify -b $DEPLOY_PRIME_URL'
 
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+
+# -- En-têtes de sécurité --
+#
+# Calibrés sur ce site précis : aucun script exécutable (les seuls <script> sont
+# des blocs application/ld+json, que le CSP ne bloque pas car ils ne sont pas
+# exécutés), aucun <form>, aucune ressource tierce, et huit attributs style= en
+# ligne dans les gabarits — d'où le 'unsafe-inline' sur style-src uniquement.
+#
+# frame-ancestors remplace X-Frame-Options : inutile de servir les deux.
+#
+# Si Cloudflare Web Analytics est activé un jour (params.toml), il faudra
+# ajouter https://static.cloudflareinsights.com à script-src ET à connect-src,
+# sinon le script sera bloqué sans le moindre message.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), camera=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
