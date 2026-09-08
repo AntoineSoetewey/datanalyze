@@ -2,18 +2,18 @@
 title: "About"
 slug: "about"
 seoTitle: "Antoine Soetewey, PhD in statistics and consultant | datanalyze"
-description: "PhD in statistics (UCLouvain), postdoctoral researcher at HEC Liège and UCLouvain Saint-Louis Brussels, invited lecturer. Background and way of working."
+description: "PhD in statistics (UCLouvain), former postdoctoral researcher, invited lecturer. My background and how I work."
 eyebrow: "About"
 lead: "datanalyze is one person: me. Here is my background, what I can do, and above all how I work."
 ---
 
 ## Who I am
 
-My name is **Antoine Soetewey**. I hold a **PhD in statistics** from UCLouvain and I am a **postdoctoral researcher in data science and statistics** at **HEC Liège** and **UCLouvain Saint-Louis Brussels**.
+My name is **Antoine Soetewey**. I hold a **PhD in statistics** from UCLouvain. I then worked as a **postdoctoral researcher in data science and statistics** at **HEC Liège** and **UCLouvain Saint-Louis Brussels**, before turning to datanalyze full time.
 
 My thesis dealt with the waiting period in mortgage insurance for cancer survivors — a subject at the intersection of biostatistics, multi-state modelling and a very concrete social issue: the right to be forgotten.
 
-Alongside research, I teach statistics and probability as an **invited lecturer** at **UCLouvain** and **UNamur**.
+I also teach statistics and probability as an **invited lecturer** at **UCLouvain** and **UNamur**.
 
 Under the name **datanalyze**, I make that expertise available to researchers, healthcare professionals and companies who have data to analyse and nobody to do it.
 
@@ -28,7 +28,7 @@ That path explains how I work: I came to statistics through applied economics. S
 
 ## Research and teaching
 
-My research covers **biostatistics**, **data science** and the development of methods for analysing complex datasets. I have published in journals including *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* and *SoftwareX*, and I take part in applied research projects in economic microsimulation and automated information processing.
+My research covered **biostatistics**, **data science** and the development of methods for analysing complex datasets. I have published in journals including *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* and *SoftwareX*, and taken part in applied research projects in economic microsimulation and automated information processing.
 
 On the teaching side, I currently give courses in **probability and statistical inference** at UNamur and **biostatistics** at UCLouvain, after supporting some fifteen different courses as a teaching assistant: descriptive and inferential statistics, data science with R, survival analysis, econometrics, generalised linear models.
 

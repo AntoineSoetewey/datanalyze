@@ -91,7 +91,7 @@ faq:
       or reviewing code, though, I do that in R.
   - q: "My field is not medical. Is that a problem?"
     a: |
-      No. My own work is mostly in biostatistics and actuarial science, but the
+      No. My own research was mostly in biostatistics and actuarial science, but the
       methods carry across: social sciences, economics, biology, engineering,
       marketing. What matters is the structure of your data and your question, not
       the label on the discipline.

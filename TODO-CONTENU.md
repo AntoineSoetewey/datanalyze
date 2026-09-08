@@ -184,7 +184,23 @@ juridique. Une relecture par un professionnel du droit est recommandée avant la
 mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
 des données de santé pour tes clients hospitaliers).
 
-### 9. Points de contenu à vérifier
+### 9. Statut de chargé de cours invité — à confirmer
+
+Le postdoctorat est désormais présenté **au passé** partout sur le site, puisqu'il
+prend fin avec ton lancement en indépendant.
+
+En revanche, j'ai laissé la **charge de cours invité à l'UCLouvain et à l'UNamur
+au présent** : tu ne m'as parlé que du postdoc, et un mandat d'enseignement se
+poursuit couramment en parallèle d'une activité indépendante. Si ce n'est pas ton
+cas, dis-le-moi : il faudra repasser au passé quatre endroits — l'accueil, la
+page « À propos » (deux fois, dont la section « Recherche et enseignement » qui
+dit « je donne actuellement des cours ») et les deux `bio` de
+`config/_default/languages.*.toml`.
+
+Le même raisonnement vaut pour le blog **statsandr.com** et les cours particuliers
+**easystat.be**, cités au présent sur la page « À propos ».
+
+### 10. Points de contenu à vérifier
 
 - **easystat.be** est toujours cité comme activité de cours particuliers, sur la
   page « À propos ». À confirmer.

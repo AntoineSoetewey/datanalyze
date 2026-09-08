@@ -2,18 +2,18 @@
 title: "À propos"
 slug: "a-propos"
 seoTitle: "Antoine Soetewey, docteur en statistique et consultant | datanalyze"
-description: "Docteur en statistique (UCLouvain), chercheur postdoctoral et chargé de cours invité. Mon parcours et ma façon de travailler."
+description: "Docteur en statistique (UCLouvain), ancien chercheur postdoctoral, chargé de cours invité. Mon parcours et ma façon de travailler."
 eyebrow: "À propos"
 lead: "datanalyze, c'est une seule personne : moi. Voici mon parcours, ce que je sais faire, et surtout comment je travaille."
 ---
 
 ## Qui je suis
 
-Je m'appelle **Antoine Soetewey**. Je suis **docteur en statistique**, diplômé de l'UCLouvain, et **chercheur postdoctoral en science des données et statistique** à **HEC Liège** et à l'**UCLouvain Saint-Louis Bruxelles**.
+Je m'appelle **Antoine Soetewey**. Je suis **docteur en statistique**, diplômé de l'UCLouvain. J'ai ensuite été **chercheur postdoctoral en science des données et statistique** à **HEC Liège** et à l'**UCLouvain Saint-Louis Bruxelles**, avant de me consacrer pleinement à datanalyze.
 
 Ma thèse portait sur la période d'attente en assurance solde restant dû pour les personnes ayant survécu à un cancer — un sujet à la croisée de la biostatistique, de la modélisation multi-états et d'un enjeu social très concret : le droit à l'oubli.
 
-En parallèle de la recherche, j'enseigne les statistiques et les probabilités comme **chargé de cours invité** à l'**UCLouvain** et à l'**UNamur**.
+J'enseigne par ailleurs les statistiques et les probabilités comme **chargé de cours invité** à l'**UCLouvain** et à l'**UNamur**.
 
 Sous le nom **datanalyze**, je mets cette expertise à disposition des chercheurs, des professionnels de la santé et des entreprises qui ont des données à analyser et personne pour le faire.
 
@@ -28,7 +28,7 @@ Ce chemin explique ma façon de travailler : je viens de l'économie appliquée 
 
 ## Recherche et enseignement
 
-Mes travaux de recherche portent sur la **biostatistique**, la **science des données** et le développement de méthodes pour analyser des jeux de données complexes. J'ai publié dans des revues telles que *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* et *SoftwareX*, et je participe à des projets de recherche appliquée en microsimulation économique et en traitement automatisé de l'information.
+Mes travaux de recherche ont porté sur la **biostatistique**, la **science des données** et le développement de méthodes pour analyser des jeux de données complexes. J'ai publié dans des revues telles que *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* et *SoftwareX*, et participé à des projets de recherche appliquée en microsimulation économique et en traitement automatisé de l'information.
 
 Côté enseignement, je donne actuellement des cours de **probabilités et inférence statistique** à l'UNamur et de **biostatistique** à l'UCLouvain, après avoir encadré une quinzaine de cours différents comme assistant : statistique descriptive et inférentielle, science des données avec R, analyse de survie, économétrie, modèles linéaires généralisés.
 

@@ -92,7 +92,7 @@ faq:
       quand il s'agit d'écrire ou de relire du code, je le fais en R.
   - q: "Mon domaine n'est pas médical, est-ce un problème ?"
     a: |
-      Non. Mes travaux portent surtout sur la biostatistique et l'actuariat, mais les
+      Non. Mes travaux de recherche ont surtout porté sur la biostatistique et l'actuariat, mais les
       méthodes se transposent : sciences sociales, économie, biologie, ingénierie,
       marketing. Ce qui compte est la structure de vos données et votre question, pas
       l'étiquette de la discipline.

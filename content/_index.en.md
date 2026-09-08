@@ -55,8 +55,8 @@ about:
   title: "Antoine Soetewey"
   imageAlt: "Portrait of Antoine Soetewey, statistics and data science consultant"
   paragraphs:
-    - "I hold a **PhD in statistics** (UCLouvain) and I am a **postdoctoral researcher in data science and statistics** at HEC Liège and UCLouvain Saint-Louis Brussels. I also teach statistics and probability as an **invited lecturer** at UCLouvain and UNamur."
-    - "That combination is what makes the difference on an assignment: I know these methods closely, because I develop and publish them; and I am used to explaining them to people who are not statisticians, because I teach them every week."
+    - "I hold a **PhD in statistics** (UCLouvain). I was a **postdoctoral researcher in data science and statistics** at HEC Liège and UCLouvain Saint-Louis Brussels, and I teach statistics and probability as an **invited lecturer** at UCLouvain and UNamur."
+    - "That combination is what makes the difference on an assignment: I know these methods closely, having developed and published them; and I am used to explaining them to people who are not statisticians, because I teach them every week."
     - "Under the name **datanalyze**, I put that expertise to work for researchers, doctors and companies. Since the analysis is done remotely, I work just as easily in Belgium, where I am based, as abroad."
   cta: "More about my background"
 
