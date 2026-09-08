@@ -8,8 +8,6 @@ science des données.
 Site statique **Hugo**, bilingue, **sans cookie, sans traceur et sans aucune
 ressource externe**. Déploiement continu sur Netlify.
 
-👉 Ce qui reste à compléter est listé dans **[TODO-CONTENU.md](TODO-CONTENU.md)**.
-
 ---
 
 ## Démarrer
@@ -184,7 +182,7 @@ de configuration ne peut réactiver un traceur par inadvertance.
 
 1. **Google Search Console** — requêtes, impressions, clics et positions par page.
    C'est le haut de l'entonnoir d'acquisition et la donnée la plus utile ici.
-   Voir aussi **Bing Webmaster Tools**. Mise en place : TODO-CONTENU.md § 4.
+   Voir aussi **Bing Webmaster Tools**.
 2. **Les soumissions Airtable et les réservations Calendly** — les conversions
    réelles, déjà comptées par les outils eux-mêmes.
 3. **Le tableau de bord Netlify** — déploiements et bande passante.

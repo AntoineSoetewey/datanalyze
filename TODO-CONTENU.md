@@ -1,35 +1,3 @@
-# TODO — contenu et informations à fournir
-
-Tout ce qui suit nécessite une information que moi seul peux fournir. Rien n'a été
-inventé : chaque champ manquant apparaît soit comme un marqueur jaune
-« À COMPLÉTER » sur le site, soit est purement omis des données structurées.
-
----
-
-## ✅ Plus rien ne bloque la mise en ligne
-
-**Adresse professionnelle et adresse e-mail sont renseignées** dans
-`data/legal.yaml`. Elles apparaissent désormais partout automatiquement :
-mentions légales, politique de confidentialité et données structurées JSON-LD.
-Les marqueurs jaunes « À COMPLÉTER » correspondants ont disparu du site.
-
-Le site est donc **publiable en l'état**, sous réserve du point 8 (relecture
-juridique), qui est recommandé mais pas bloquant.
-
-> ### L'adresse e-mail publiée
->
-> `ant.soetewey@gmail.com` est publiée comme contact légal et RGPD. C'est
-> parfaitement valable juridiquement, et le passage de l'adresse UCLouvain à une
-> adresse personnelle règle les deux risques précédents : plus de dépendance à un
-> règlement d'usage universitaire, plus de boîte qui disparaît avec le contrat.
->
-> Reste une question de perception, non bloquante : une adresse sur ton propre
-> domaine (`contact@datanalyze.be`) fait plus professionnel sur un site
-> commercial qu'un Gmail. Un seul champ à changer dans `data/legal.yaml`, le jour
-> où tu configures une boîte sur le domaine.
-
----
-
 ## 🟠 À compléter dès que possible
 
 ### 1. Numéro d'entreprise (BCE) et numéro de TVA
@@ -77,44 +45,6 @@ Non bloquant, et à évaluer selon l'importance réelle des clients de proximit�
 pour toi : une bonne partie de ton marché (chercheurs, hôpitaux, entreprises)
 te trouvera par recherche classique plutôt que par la carte.
 
----
-
-## 🟡 Améliorations, non bloquantes
-
-### 3. Références et études de cas — retirées à ta demande
-
-Les quatre études de cas (Clinique Saint-Jean, Fondation Saint-Luc, professeur en
-chirurgie digestive, entreprise du secteur de la santé) et toute la section
-« Références » ont été retirées : pages, entrée de menu, section de la page
-d'accueil et liens qui y menaient.
-
-Rien n'est perdu, les dix fichiers restent dans l'historique git. Pour les
-remettre en ligne :
-
-```
-git checkout 7dd6787 -- content/references
-```
-
-Il faudra aussi rétablir l'entrée de menu dans `config/_default/menus.*.toml`,
-la section de `layouts/index.html`, le bloc `references:` du front matter de
-`content/_index.*.md`, et retarger les dix règles `/portfolio/…` de
-`static/_redirects`.
-
-Ces anciennes URLs ne renvoient pas d'erreur : elles redirigent vers `/services/`
-(ou `/en/services/`), la page la plus proche en intention.
-
-### 4. Image de partage sur les réseaux sociaux
-
-Aujourd'hui, l'image Open Graph est un **recadrage automatique 1200×630 de ton
-portrait**, avec détection de contenu (`Smart`) : depuis le passage au nouveau
-portrait en paysage, le cadrage est correct et le visage bien placé. Une image
-dessinée (nom, titre commercial, URL) resterait plus efficace lorsqu'un lien est
-partagé sur LinkedIn, mais ce n'est plus un point faible.
-
-Pour la remplacer : dépose un fichier 1200×630 dans `assets/img/` et ajoute
-`image: "img/ton-fichier.png"` dans le front matter de la page concernée, ou
-modifie la valeur par défaut dans `layouts/partials/head.html`.
-
 ### 5. Conditions générales — délibérément non rédigées
 
 Je ne les ai **pas** écrites, et c'est un choix argumenté :
@@ -131,25 +61,6 @@ acompte éventuel, politique d'annulation et de report (surtout pour les
 formations), plafond de responsabilité, propriété intellectuelle des livrables
 (le site annonce déjà un transfert intégral au client), et droit applicable.
 Un comptable ou un guichet d'entreprises couvre généralement ce point.
-
-### 6. Témoignages, logos clients et grille tarifaire
-
-Les trois sections sont **construites et stylées** mais **non affichées**, faute
-de contenu réel. Chacune s'active en deux gestes, documentés en tête du partial
-correspondant :
-
-| Section | Partial | Drapeau dans `params.toml` | Données |
-| --- | --- | --- | --- |
-| Témoignages | `layouts/partials/dz-testimonials.html` | `showTestimonials = true` | `data/testimonials.yaml` |
-| Logos clients | `layouts/partials/dz-client-logos.html` | `showClientLogos = true` | fichiers dans `assets/img/clients/` |
-| Tarifs | `layouts/partials/dz-pricing.html` | `showPricing = true` | `data/pricing.yaml` |
-
-Rien n'est émis tant que le drapeau **et** les données ne sont pas présents.
-
-`static/_index_files/logos-clients-datanalyze.jpeg` reste **inutilisé**, comme
-demandé. Si tu actives le bandeau plus tard, préfère des logos individuels dans
-`assets/img/clients/` : ils restent nets, acceptent un texte alternatif et se
-retirent un par un.
 
 ### 7. Activer la mesure d'audience (si tu en ressens le besoin)
 
@@ -184,25 +95,3 @@ sont pilotés par ce même paramètre. La bascule a été testée dans les deux 
 Alternative envisageable : le **palier gratuit d'Umami Cloud** (open source,
 sans cookie, hébergé en UE). Il demanderait un partial supplémentaire, non écrit.
 Je n'ai activé **aucun** des deux.
-
-### 8. Textes juridiques à faire relire
-
-Les mentions légales et la politique de confidentialité sont des **modèles
-génériques** adaptés à une activité d'indépendant en Belgique, pas un conseil
-juridique. Une relecture par un professionnel du droit est recommandée avant la
-mise en ligne définitive, surtout pour la partie sous-traitance RGPD (tu traites
-des données de santé pour tes clients hospitaliers).
-
-### 9. Points de contenu à vérifier
-
-- **Confirmé et à jour** : la charge de cours invité à l'UCLouvain et à l'UNamur,
-  les cours particuliers **easystat.be** et le blog **statsandr.com** sont tous
-  présentés au présent, ce qui correspond à la réalité. Seul le postdoctorat est
-  au passé, partout. La page « À propos » précise désormais qu'easystat s'adresse
-  à des **étudiants**, pour ne pas le confondre avec les formations vendues ici.
-- Le compte **Twitter/X** `@statsandr` a été retiré des liens (le réseau ne fait
-  plus partie des canaux utiles pour ce type d'activité). Dis-moi si tu veux le
-  remettre : `config/_default/menus.*.toml`, table `[[social]]`.
-- La **liste des publications** citées sur « À propos » est volontairement une
-  sélection de revues, sans titres ni dates, pour éviter qu'elle ne se périme.
-  Le site académique reste la référence.

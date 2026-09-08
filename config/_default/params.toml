@@ -98,7 +98,7 @@ fingerprintAlgorithm = "sha256"
 
 # -- Search engine verification --
 # Leave empty until the property is claimed, then paste the meta-tag value.
-# Both are free. See TODO-CONTENU.md for the step-by-step.
+# Both are free.
 [verification]
   google = ""  # Google Search Console — the main source of traffic data
   bing = ""    # Bing Webmaster Tools
