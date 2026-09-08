@@ -20,17 +20,18 @@ Sous le nom **datanalyze**, je mets cette expertise à disposition des chercheur
 ## Mon parcours
 
 - **Doctorat en statistique** — UCLouvain, 2024
-- **Master en économétrie** — Maastricht University, Pays-Bas
-- **Master en sciences économiques** — KU Leuven
-- **Bachelier en sciences économiques** — UCLouvain, avec un échange à l'University of Illinois at Urbana-Champaign
+- **Master en économétrie** — Maastricht University, 2016
+- **Master en sciences économiques** — KU Leuven, 2015
+- **Échange universitaire** — University of Illinois at Urbana-Champaign, 2014
+- **Bachelier en sciences économiques** — UCLouvain, 2013
 
 Ce chemin explique ma façon de travailler : je viens de l'économie appliquée avant d'être statisticien. J'ai donc l'habitude de partir d'une question de terrain plutôt que d'un modèle, et de juger une méthode à ce qu'elle permet de conclure, pas à sa sophistication.
 
 ## Recherche et enseignement
 
-Mes travaux de recherche ont porté sur la **biostatistique**, la **science des données** et le développement de méthodes pour analyser des jeux de données complexes. J'ai publié dans des revues telles que *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* et *SoftwareX*, et participé à des projets de recherche appliquée en microsimulation économique et en traitement automatisé de l'information.
+Mes travaux de recherche ont porté sur la **biostatistique**, la **science des données** et le développement de méthodes pour analyser des jeux de données complexes. J'ai publié dans des revues telles que *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Open Forum Infectious Diseases*, *Nutrients* et *SoftwareX*, et participé à des projets de recherche appliquée en microsimulation économique et en traitement automatisé de l'information.
 
-Côté enseignement, je donne actuellement des cours de **probabilités et inférence statistique** à l'UNamur et de **biostatistique** à l'UCLouvain, après avoir encadré une quinzaine de cours différents comme assistant : statistique descriptive et inférentielle, science des données avec R, analyse de survie, économétrie, modèles linéaires généralisés.
+Côté enseignement, je donne actuellement des cours de **probabilités et inférence statistique** à l'UNamur et de **biostatistique** à l'UCLouvain, après avoir encadré une quinzaine de cours différents comme assistant : statistique descriptive et inférentielle, science des données avec R, analyse de survie, économétrie, modèles linéaires généralisés, etc.
 
 Cette activité d'enseignement n'est pas un à-côté : c'est elle qui garantit que je sais expliquer une méthode à quelqu'un dont ce n'est pas le métier. C'est très exactement ce qu'on attend d'un consultant en statistique.
 

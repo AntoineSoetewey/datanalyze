@@ -20,17 +20,18 @@ Under the name **datanalyze**, I make that expertise available to researchers, p
 ## Background
 
 - **PhD in statistics** — UCLouvain, 2024
-- **MSc in econometrics** — Maastricht University, Netherlands
-- **MSc in economics** — KU Leuven
-- **BSc in economics** — UCLouvain, with an exchange at the University of Illinois at Urbana-Champaign
+- **MSc in econometrics** — Maastricht University, 2016
+- **MSc in economics** — KU Leuven, 2015
+- **Exchange program** — University of Illinois at Urbana-Champaign, 2014
+- **BSc in economics** — UCLouvain, 2013
 
 That path explains how I work: I came to statistics through applied economics. So I am used to starting from a real-world question rather than a model, and to judging a method by what it lets you conclude rather than by its sophistication.
 
 ## Research and teaching
 
-My research covered **biostatistics**, **data science** and the development of methods for analysing complex datasets. I have published in journals including *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Nutrients* and *SoftwareX*, and taken part in applied research projects in economic microsimulation and automated information processing.
+My research covered **biostatistics**, **data science** and the development of methods for analysing complex datasets. I have published in journals including *European Actuarial Journal*, *Biostatistics & Epidemiology*, *Vaccine*, *Open Forum Infectious Diseases*, *Nutrients* and *SoftwareX*, and taken part in applied research projects in economic microsimulation and automated information processing.
 
-On the teaching side, I currently give courses in **probability and statistical inference** at UNamur and **biostatistics** at UCLouvain, after supporting some fifteen different courses as a teaching assistant: descriptive and inferential statistics, data science with R, survival analysis, econometrics, generalised linear models.
+On the teaching side, I currently give courses in **probability and statistical inference** at UNamur and **biostatistics** at UCLouvain, after supporting some fifteen different courses as a teaching assistant: descriptive and inferential statistics, data science with R, survival analysis, econometrics, generalised linear models, etc.
 
 That teaching is not a side activity: it is what guarantees I can explain a method to someone who is not a statistician. Which is precisely what a statistical consultant is for.
 
